@@ -1,0 +1,103 @@
+"*":
+  Hydrogen: {}
+  "activate-power-mode":
+    particles:
+      spawnCount:
+        max: 10
+        min: 3
+      totalCount:
+        max: 200
+    screenShake:
+      enabled: false
+  "atom-beautify":
+    general:
+      _analyticsUserId: "abbe13cf-b151-4b91-95d5-ed0ff386d848"
+    latex:
+      beautify_on_save: true
+  core:
+    disabledPackages: [
+      "language-gfm"
+      "autocomplete-clang"
+      "terminal-plus"
+    ]
+    packagesWithKeymapsDisabled: []
+    projectHome: "/home/rachael/projects"
+    themes: [
+      "atom-dark-ui"
+      "github-bright-and-dark-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    backUpBeforeSaving: true
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapHangingIndent: 2
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "80a7f633-d22b-5763-92fa-a6851ca732af"
+  linter:
+    showErrorPanel: false
+  "python-tools":
+    pythonPath: "/home/rachael/anaconda3/bin/python"
+  "terminal-fusion":
+    ansiColors:
+      normal:
+        green:
+          red: 19
+          green: 131
+          blue: 19
+          alpha: 1
+      zBright:
+        brightBlue:
+          red: 0
+          green: 0
+          blue: 207
+          alpha: 1
+        brightGreen:
+          red: 0
+          green: 203
+          blue: 0
+          alpha: 1
+    core: {}
+    style: {}
+  "terminal-plus":
+    core: {}
+    style:
+      theme: "homebrew"
+  welcome:
+    showOnStartup: false
+".beamer.latex.tex.text":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
+".bibtex.text":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
+".breakpoints.hydrogen":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
+".latex.log.text":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
+".latex.memoir.tex.text":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
+".latex.tex.text":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
+".plain.text":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
+".tex.text":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
