@@ -1,0 +1,304 @@
+Qatibiyc
+
+Level 1 of the Dungeon
+(0, 0, D:1)
+  a ring mail
+(4, 2, D:1)
+  a club
+(6, -2, D:1)
+  a ring mail
+(7, 0, D:1)
+  a whip
+(11, 20, D:1)
+  a ring mail
+(15, 0, D:1)
+  a club
+(27, 28, D:1)
+  a club
+(32, 9, D:1)
+  a dagger
+
+Level 2 of the Dungeon
+(0, 0, D:2)
+  a club
+(5, 0, D:2)
+  a mace
+(9, 1, D:2)
+  a spear
+(12, 19, D:2)
+  a club
+(14, 4, D:2)
+  a whip
+(17, 16, D:2)
+  a club
+
+Level 3 of the Dungeon
+(0, 0, D:3)
+  a leather armour
+(20, 2, D:3)
+  a leather armour
+(23, -1, D:3)
+  a club
+(40, 9, D:3)
+  a dagger
+  a leather armour
+(42, 14, D:3)
+  a club
+(52, 36, D:3)
+  a robe
+(58, 21, D:3)
+  a whip
+(58, 22, D:3)
+  a flail
+
+Level 4 of the Dungeon
+(0, 0, D:4)
+  a flail
+  a ring mail
+  a hand axe
+  a scale mail
+(1, -16, D:4)
+  a dagger
+(1, 0, D:4)
+  a dagger
+  a robe
+(12, -8, D:4)
+  a flail
+(12, -6, D:4)
+  a morningstar
+(13, -7, D:4)
+  a mace of protection
+(14, -7, D:4)
+  a scythe
+  a robe
+(20, -3, D:4)
+  a leather armour
+(36, -10, D:4)
+  a hand axe
+  a leather armour
+(40, -4, D:4)
+  a club
+(44, -22, D:4)
+  a dagger
+(44, -16, D:4)
+  a short sword
+  a ring mail
+(44, -14, D:4)
+  a short sword
+  a robe
+(46, -8, D:4)
+  a short sword
+
+Level 5 of the Dungeon
+(0, 0, D:5)
+  a ring mail
+(2, -29, D:5)
+  a spear
+(2, -28, D:5)
+  a whip
+  a robe
+(2, -27, D:5)
+  a halberd
+(3, -29, D:5)
+  a spear
+(10, -23, D:5)
+  a chain mail
+(14, -6, D:5)
+  a ring mail
+(18, -24, D:5)
+  a scroll of random uselessness
+(33, -17, D:5)
+  a giant club
+(44, -27, D:5)
+  a dagger
+  a robe
+(57, 5, D:5)
+  a short sword
+
+Level 6 of the Dungeon
+(3, 12, D:6)
+  a club
+  a club
+  a whip
+  a leather armour
+(5, -15, D:6)
+  a naga barding
+(6, -18, D:6)
+  a shortbow
+(8, 14, D:6)
+  a scroll of noise
+(10, 7, D:6)
+  a robe
+(17, -4, D:6)
+  a hunting sling
+  4 poisoned needles
+  a cursed +2 ring of dexterity
+  a wand of random effects
+  a short sword
+  a dagger
+  5 scrolls of noise
+(17, 10, D:6)
+  a robe
+(22, -23, D:6)
+  a giant club
+(22, -4, D:6)
+  a falchion
+(36, -25, D:6)
+  a halberd of venom
+  a robe
+
+Level 7 of the Dungeon
+[Shop] Poatagh's Magic Scroll Shoppe
+  a scroll of acquirement (unknown) (676 gold)
+  a scroll of summoning (unknown) (123 gold)
+  a scroll of acquirement (unknown) (676 gold)
+  a scroll of enchant weapon (97 gold)
+  a scroll of enchant armour (97 gold)
+  a scroll of acquirement (unknown) (676 gold)
+  a scroll of enchant weapon (97 gold)
+[Shop] Icwafoss's Book Shop
+  a book of Power (unknown) (630 gold)
+  a book of the Earth (910 gold)
+  a book of Misfortune (unknown) (280 gold)
+  the Handbook of Evil and Shape Shifting (1400 gold)
+    Spells                             Type                      Level
+     a - Excruciating Wounds          Charms/Necromancy             5
+     b - Death Channel                Necromancy                    6
+     c - Hydra Form                   Transmutation                 6
+  Paxziopo's Collected Works on Shifting Venom (700 gold)
+    Spells                             Type                      Level
+     a - Beastly Appendage            Transmutation                 1
+     b - Ice Form                     Ice/Transmutation             4
+     c - Petrify                      Transmutation/Earth           4
+     d - Irradiate                    Conjuration/Transmutation     5
+     e - Poisonous Cloud              Conjuration/Poison/Air        6
+  a Young Poisoner's Handbook (unknown) (560 gold)
+  a book of Burglary (unknown) (1050 gold)
+  a book of Flames (unknown) (490 gold)
+  a book of Geomancy (unknown) (490 gold)
+  a book of Party Tricks (unknown) (700 gold)
+  a book of Changes (unknown) (350 gold)
+[Shop] Goci's Book Emporium
+  a book of Spatial Translocations (unknown) (910 gold)
+  a book of Air (490 gold)
+  a book of Geomancy (unknown) (490 gold)
+  a book of Cantrips (unknown) (280 gold)
+  a book of Beasts (unknown) (770 gold)
+  a book of Minor Magic (unknown) (280 gold)
+  a book of Unlife (unknown) (910 gold)
+  the Collected Works on Dark Lightness (518 gold)
+    Spells                             Type                      Level
+     a - Shock                        Conjuration/Air               1
+     b - Animate Skeleton             Necromancy                    1
+     c - Pain                         Necromancy                    1
+     d - Animate Dead                 Necromancy                    4
+     e - Control Undead               Necromancy                    4
+  a book of Frost (unknown) (490 gold)
+  a book of Debilitation (unknown) (560 gold)
+  a book of Misfortune (unknown) (280 gold)
+[Shop] Wentysk's Magic Scroll Emporium
+  a scroll of immolation (52 gold)
+  a scroll of enchant weapon (112 gold)
+  a scroll of amnesia (52 gold)
+  a scroll of recharging (142 gold)
+  a scroll of identify (30 gold)
+  a scroll of magic mapping (52 gold)
+  a scroll of enchant armour (112 gold)
+  a scroll of amnesia (52 gold)
+  a scroll of enchant weapon (112 gold)
+(0, 0, D:7)
+  a dagger
+(8, 24, D:7)
+  a robe
+(9, 24, D:7)
+  a robe
+(9, 25, D:7)
+  a robe
+(11, 25, D:7)
+  a hunting sling
+(16, 15, D:7)
+  a quarterstaff
+(17, 12, D:7)
+  a cursed +4 long sword
+  a +1 scale mail
+  a +0 trident
+  a halberd
+(20, -2, D:7)
+  8 poisoned needles
+(24, 9, D:7)
+  a leather armour
+(25, 9, D:7)
+  a club
+(26, 9, D:7)
+  a dagger
+  a leather armour
+  a halberd of venom
+  a chain mail
+(27, 14, D:7)
+  a mace of draining
+  a plate armour
+(29, 14, D:7)
+  a chain mail
+(29, 33, D:7)
+  a club
+(30, 32, D:7)
+  a falchion
+  a leather armour
+(30, 33, D:7)
+  a club
+(36, 14, D:7)
+  a hunting sling
+(49, 8, D:7)
+  a shortbow
+(50, 1, D:7)
+  a scroll of random uselessness
+(50, 20, D:7)
+  a wand of random effects
+(53, 4, D:7)
+  17 poisoned needles
+
+Level 8 of the Dungeon
+(0, 0, D:8)
+  a trident
+  a plate armour
+  a dagger
+  a robe
+(2, 0, D:8)
+  a dagger
+  a robe
+(3, 0, D:8)
+  a dagger
+  a robe
+(10, 13, D:8)
+  a quarterstaff
+(15, 3, D:8)
+  4 potions of degeneration
+(22, 2, D:8)
+  2 potions of lignification
+  a wand of flame
+(22, 4, D:8)
+  40 bolts
+(24, 19, D:8)
+  a shortbow
+(30, 0, D:8)
+  a dagger
+  a robe
+(31, -1, D:8)
+  a war axe
+(31, 0, D:8)
+  a ring mail
+(35, 16, D:8)
+  a scale mail
+(37, 12, D:8)
+  a club
+(41, -10, D:8)
+  a spear
+(58, 16, D:8)
+  a hunting sling
+
+Level 9 of the Dungeon
+(0, 0, D:9)
+  a potion of curing
+
+the Ecumenical Temple
+

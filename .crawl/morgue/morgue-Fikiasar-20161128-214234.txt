@@ -1,0 +1,281 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+888 Fikiasar the Shield-Bearer (level 7, -9/61 HPs)
+             Began as a Minotaur Fighter on Nov 28, 2016.
+             Was an Initiate of the Shining One.
+             Killed by divine providence
+             ... invoked by an orc priest
+              (14 damage)
+             ... on level 5 of the Dungeon.
+             The game lasted 00:30:58 (5151 turns).
+
+Fikiasar the Shield-Bearer (Minotaur Fighter)       Turns: 5151, Time: 00:30:58
+
+Health: -9/61      AC:  9    Str: 21 (22) XL:     7   Next: 77%
+Magic:  6/6        EV:  9    Int:  3 (5)  God:    the Shining One [......]
+Gold:   158        SH: 10    Dex:  7 (10) Spells: 0 memorised, 6 levels left
+
+rFire  . . .      SeeInvis .    u - +1 mace (protect)
+rCold  . . .      Gourm    .    b - +0 scale mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    r - +1 cloak
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: about to teleport, glowing
+A: retaliatory headbutt, horns 2
+a: Renounce Religion
+
+
+You were on level 5 of the Dungeon.
+You worshipped the Shining One.
+The Shining One was noncommittal.
+You were hungry.
+
+You visited 2 branches of the dungeon, and saw 6 of its levels.
+
+You collected 158 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 war axe
+ d - a +0 hand axe
+ g - a +0 dagger
+ h - a +0 mace
+ i - a +0 dagger
+ o - a +2 dagger of venom
+ u - a +1 mace of protection (weapon)
+ x - a +0 hunting sling
+ y - a +0 short sword
+ E - a +0 mace
+ F - a +1 spear of freezing
+ G - a +0 scythe
+ N - a +0 long sword
+Missiles
+ e - 94 arrows
+ j - 93 stones (quivered)
+ n - 33 poisoned needles
+Armour
+ b - a +0 scale mail (worn)
+ c - a +0 shield (worn)
+ f - a +0 chain mail
+ r - a +1 cloak (worn)
+ C - a +0 cloak
+ H - a +2 robe of resistance
+Jewellery
+ I - an uncursed ring of magical power {unknown}
+Wands
+ B - a wand of acid (6/15)
+Scrolls
+ l - 2 scrolls of remove curse
+ q - a scroll of blinking {unknown}
+ s - a scroll of immolation {unknown}
+ t - a scroll of amnesia
+ v - a scroll of magic mapping {unknown}
+ w - a scroll of teleportation
+ J - a scroll of identify
+ K - a scroll of recharging {unknown}
+Potions
+ k - a potion of magic {unknown}
+ z - a potion of berserk rage {unknown}
+ A - a potion of mutation {unknown}
+ D - a potion of brilliance
+ L - a potion of degeneration
+Comestibles
+ m - 2 meat rations
+ p - 3 fruits
+ M - a bread ration
+
+
+   Skills:
+ + Level 5.5 Fighting
+ + Level 4.3(5.0) Axes
+ + Level 3.9(4.8) Maces & Flails
+ + Level 1.5 Throwing
+ + Level 5.9 Armour
+ + Level 2.8 Dodging
+ + Level 0.1 Stealth
+ + Level 5.9 Shields
+ + Level 0.5 Evocations
+
+
+You had 6 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (5/15)             Temple (1/1) D:4         
+
+Altars:
+Ashenzari
+Hepliaklqana
+Makhleb
+Nemelex Xobeh
+Qazlal
+Ru
+Trog
+Yredelemnul
+The Shining One
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You hit the adder zombie.
+You destroy the adder zombie!
+The Shining One accepts your kill.
+You start resting.
+You hit the orc wizard.
+Your weapon exudes an aura of protection.
+The orc wizard is severely wounded.
+You block the orc wizard's attack.
+The orc wizard casts a spell at you.
+The puff of flame misses you.
+The orc priest mumbles some strange prayers to Beogh against you.
+Beogh smites you!
+* * * LOW HITPOINT WARNING * * *
+As you read the scroll labeled LAYJ VOTTASM, it crumbles to dust.
+You feel strangely unstable. It was a scroll of teleportation.
+The orc priest calls upon Beogh to heal the orc wizard.
+The orc wizard is healed somewhat.
+The orc priest mumbles some strange prayers to Beogh against you.
+Beogh smites you!
+You die...
+
+#.
+ #.############
+ ##...........#
+ #......#####.#     #
+#.##.##.#   #.#    .#
+   #  #o# ###.#####.#
+      #.# #<........#
+      #.# #[#.####..#
+      #o# #.#.......####
+      #@# #)###........#
+   #.##.###Y###.##.###.#
+   #.....?o{##Y).#.#
+   ..#####....{....#
+         #.###...###
+         #.. .=..#
+         #.#####.#
+         #.#    .#
+         ..#    .#
+         ###    .#
+
+
+You could see an orc priest and an orc wizard.
+
+Vanquished Creatures
+  Grinder (D:3)
+  Sigmund (D:4)
+  The ghost of Fup Caes the Skirmisher, an amateur DrFi (D:3)
+  A scorpion (D:4)
+  2 howler monkeys (D:4)
+  Crazy Yiuf (D:3)
+  An orc priest (D:3)
+  An orc wizard (D:3)
+  2 worker ants
+  5 adders
+  A shadow imp (D:5)
+  An ooze (D:3)
+  An adder zombie (D:5)
+  3 worms (D:2)
+  2 dart slugs
+  2 leopard geckos
+  17 orcs
+  A ball python (D:2)
+  7 giant cockroaches
+  9 goblins
+  5 hobgoblins
+  2 jackals (D:2)
+  3 kobolds
+  2 bats
+  4 frilled lizards
+  A leopard gecko skeleton (D:4)
+  5 rats
+82 creatures vanquished.
+
+Vanquished Creatures (others)
+  An orc wizard (D:3)
+1 creature vanquished.
+
+Grand Total: 83 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Fikiasar the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   155 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   240 | D:1      | You fall through a shaft!
+   559 | D:2      | Reached XP level 3. HP: 30/33 MP: 2/2
+   653 | D:2      | Found a sparkling altar of Nemelex Xobeh.
+  1684 | D:2      | Reached XP level 4. HP: 31/41 MP: 3/3
+  2098 | D:3      | Noticed Fup Caes's ghost (amateur DrFi)
+  2112 | D:3      | Killed Fup Caes's ghost
+  2112 | D:3      | Reached skill level 1 in Dodging
+  2112 | D:3      | Reached XP level 5. HP: 17/47 MP: 4/4
+  2478 | D:3      | Noticed Grinder
+  2484 | D:3      | Paralysed by Grinder for 2 turns
+  2492 | D:3      | Paralysed by Grinder for 7 turns
+  2519 | D:3      | Killed Grinder
+  2519 | D:3      | Reached skill level 1 in Maces & Flails
+  2519 | D:3      | Reached skill level 1 in Throwing
+  2519 | D:3      | Reached skill level 5 in Armour
+  2519 | D:3      | Reached skill level 5 in Shields
+  2519 | D:3      | Reached XP level 6. HP: 30/55 MP: 5/5
+  2755 | D:3      | Reached skill level 5 in Fighting
+  3342 | D:3      | Found a runed door.
+  3346 | D:3      | Noticed Crazy Yiuf
+  3355 | D:3      | Killed Crazy Yiuf
+  3355 | D:3      | Reached XP level 7. HP: 52/61 MP: 6/6
+  3508 | D:4      | Noticed Sigmund
+  3535 | D:4      | Killed Sigmund
+  3771 | D:4      | Found a staircase to the Ecumenical Temple.
+  3996 | D:4      | Found a burning altar of Makhleb.
+  3996 | D:4      | Noticed a balrug
+  3999 | D:4      | Noticed a hellwing
+  3999 | D:4      | Noticed a ynoxinul
+  4118 | Temple   | Entered the Ecumenical Temple
+  4308 | Temple   | Became a worshipper of the Shining One
+  5024 | D:5      | Entered Level 5 of the Dungeon
+  5151 | D:5      | Killed from afar by an orc priest
+
+Skill      XL: |  1  2  3  4  5  6  7 |
+---------------+----------------------+-----
+Fighting       |  4              5    |  5.5
+Armour         |     4        5       |  5.9
+Axes           |        3  4          |  4.3
+Shields        |        4     5       |  5.9
+Dodging        |           1  2       |  2.8
+Maces & Flails |              1  2  3 |  3.9
+Throwing       |              1       |  1.5
+Stealth        |                      |  0.1
+Evocations     |                      |  0.5
+
+Action                   |  1- 3 |  4- 6 |  7- 9 || total
+-------------------------+-------+-------+-------++-------
+Melee: War axe           |    96 |       |       ||    96
+       Headbutt          |    12 |    12 |    12 ||    36
+       Mace              |       |   104 |    83 ||   187
+Throw: Stone             |    10 |    16 |     9 ||    35
+Evoke: Wand              |       |     1 |       ||     1
+  Use: Scroll            |     1 |     4 |     4 ||     9
+       Potion            |       |     2 |     3 ||     5
+  Eat: Chunk             |     2 |     2 |       ||     4
+       Bread ration      |       |     1 |     1 ||     2
+Armor: Scale mail        |    32 |    45 |    33 ||   110
+Dodge: Dodged            |    40 |    27 |    32 ||    99
+Block: Shield            |    57 |    73 |    44 ||   174
+

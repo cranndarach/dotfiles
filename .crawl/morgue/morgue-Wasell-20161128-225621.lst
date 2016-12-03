@@ -1,0 +1,332 @@
+Wasell
+
+Level 1 of the Dungeon
+(0, 0, D:1)
+  a +0 dagger
+(10, -19, D:1)
+  a +0 club
+(11, -13, D:1)
+  a +0 ring mail
+(13, -5, D:1)
+  a +0 club
+(14, -5, D:1)
+  a +0 dagger
+(19, -21, D:1)
+  a +0 robe
+(20, -11, D:1)
+  8 tomahawks
+(23, -22, D:1)
+  a +0 club
+(32, -24, D:1)
+  a +0 leather armour
+
+Level 2 of the Dungeon
+(0, 0, D:2)
+  5 large rocks
+(1, 13, D:2)
+  a +0 robe
+(9, 11, D:2)
+  a +0 mace
+(11, -1, D:2)
+  a +0 leather armour
+(12, 16, D:2)
+  a +0 short sword
+  a +0 halberd
+(13, 24, D:2)
+  a +0 mace
+(20, 39, D:2)
+  a +0 club
+(32, 9, D:2)
+  a cursed -3 dagger
+(33, -1, D:2)
+  a +0 dagger
+(34, -1, D:2)
+  a cursed -2 club
+  a +0 dagger
+(35, -1, D:2)
+  a +0 dagger
+  a +0 club
+(42, 0, D:2)
+  a +0 animal skin
+  a +0 helmet
+(51, 7, D:2)
+  a +0 dagger
+  a +0 club
+
+Level 3 of the Dungeon
+(0, 0, D:3)
+  a +0 club
+(3, -9, D:3)
+  a +0 chain mail
+(7, 7, D:3)
+  a +0 club
+(13, 14, D:3)
+  a +0 club
+  a +0 leather armour
+(18, 26, D:3)
+  a cursed -1 club
+(21, 3, D:3)
+  a +0 dagger
+(21, 4, D:3)
+  a +0 dagger
+  a +0 hand axe
+  a +0 flail
+(25, 27, D:3)
+  a +0 whip
+  a +0 whip
+  a +0 leather armour
+(25, 28, D:3)
+  a +0 dagger
+  a +0 robe
+(36, 26, D:3)
+  a +0 short sword
+  a +0 dagger
+  a +0 robe
+  a +0 dagger
+  a +0 ring mail
+  a +0 club
+  a +0 short sword
+
+Level 4 of the Dungeon
+(0, 0, D:4)
+  a +0 naga barding
+(2, 21, D:4)
+  a +0 falchion
+(3, 21, D:4)
+  a +0 ring mail
+(4, 21, D:4)
+  a +0 dagger
+  a +0 scale mail
+(4, 22, D:4)
+  a +0 dagger
+(6, -31, D:4)
+  a cursed -1 mace
+(6, -29, D:4)
+  a +0 trident
+(8, -31, D:4)
+  a +0 dagger
+  a +0 leather armour
+  a +0 leather armour
+(11, 13, D:4)
+  a +0 club
+(25, 14, D:4)
+  a cursed +0 club
+(45, -5, D:4)
+  a +0 chain mail
+
+Level 5 of the Dungeon
+(0, 0, D:5)
+  3 large rocks
+(6, 7, D:5)
+  a +0 giant spiked club
+(12, -37, D:5)
+  a +0 dagger
+(13, -37, D:5)
+  a cursed +0 club
+(22, 7, D:5)
+  a +0 dagger
+  a +0 robe
+(24, 12, D:5)
+  a +0 chain mail
+(25, -2, D:5)
+  a +0 club
+(25, -1, D:5)
+  a +0 flail
+(26, -3, D:5)
+  a +0 halberd
+(40, -41, D:5)
+  a +0 scale mail
+(40, 5, D:5)
+  a +0 club
+(51, 4, D:5)
+  2 scrolls of amnesia
+  a +0 falchion
+  a +0 scale mail
+  a +0 spear
+  a +0 dagger
+(52, -1, D:5)
+  a +0 ring mail
+(52, 0, D:5)
+  a +0 chain mail
+  a +0 dagger
+(56, -7, D:5)
+  a +0 dagger
+  a +0 robe
+  a +0 short sword
+(57, -6, D:5)
+  a +0 shortbow
+(59, -19, D:5)
+  a +0 short sword
+  a +0 dagger
+  a +0 robe
+(60, -21, D:5)
+  a +0 hand axe
+(63, -44, D:5)
+  a +0 dagger
+
+Level 6 of the Dungeon
+(0, 0, D:6)
+  a +0 flail
+  a +0 plate armour
+(2, -2, D:6)
+  a +0 hand axe
+  a +0 leather armour
+(2, -1, D:6)
+  a +0 flail
+  a +0 leather armour
+  a +0 leather armour
+(21, -5, D:6)
+  a +0 club
+  a +0 scale mail
+(22, -5, D:6)
+  a +0 dagger
+(22, -4, D:6)
+  a +0 dagger
+  a +0 scale mail
+(24, -5, D:6)
+  a +0 ring mail
+(25, -35, D:6)
+  a scroll of random uselessness
+  a cursed -2 ring mail
+  a +0 war axe
+(26, -20, D:6)
+  a +0 short sword
+(33, -49, D:6)
+  a +0 quarterstaff
+(40, -6, D:6)
+  a +0 troll leather armour
+(40, -4, D:6)
+  a +0 chain mail
+(41, -8, D:6)
+  a +0 trident
+  a +0 robe
+(43, -39, D:6)
+  a +0 shortbow
+(53, -54, D:6)
+  a +0 shortbow
+(55, -54, D:6)
+  a cursed -2 flail
+  a +0 dagger of venom
+  21 poisoned needles
+(58, -21, D:6)
+  a +0 leather armour
+
+Level 7 of the Dungeon
+(27, 2, D:7)
+  a +0 giant spiked club
+(39, -17, D:7)
+  a +0 chain mail
+
+Level 8 of the Dungeon
+(1, 10, D:8)
+  a +0 robe
+(2, 17, D:8)
+  a +0 shortbow
+(18, 24, D:8)
+  a +1 whip of venom
+(18, 25, D:8)
+  a +0 spear
+(34, -25, D:8)
+  a +0 giant club
+(37, 8, D:8)
+  a +0 flail
+  a +0 hand axe
+  a +0 club
+(38, 8, D:8)
+  a +0 flail
+  a +0 chain mail
+(42, -8, D:8)
+  a +0 flail
+(42, -6, D:8)
+  a +0 dagger
+  a +0 robe
+(43, -7, D:8)
+  a +0 club
+  a +0 leather armour
+(63, -14, D:8)
+  a +0 dagger
+  a +0 robe
+(63, -13, D:8)
+  a +0 club
+  a +0 hand axe
+  a +0 ring mail
+(63, -12, D:8)
+  a cursed -2 hand axe
+(65, -14, D:8)
+  a +0 dagger
+  a +0 robe
+  a +0 dagger
+  a +0 robe
+(65, -13, D:8)
+  a +0 dagger
+(66, -23, D:8)
+  a +0 scale mail
+
+Level 9 of the Dungeon
+(0, 0, D:9)
+  a +0 short sword
+  a +0 blowgun
+  15 poisoned needles
+(0, 2, D:9)
+  a poisoned needle
+  a +0 short sword
+  a kobold corpse (skeletalised by now)
+(0, 3, D:9)
+  a +0 dagger
+  a +0 short sword
+  a kobold corpse (skeletalised by now)
+  a big kobold corpse (skeletalised by now)
+(0, 4, D:9)
+  a +0 dagger
+  a kobold corpse (skeletalised by now)
+(11, -10, D:9)
+  16 bolts
+(19, 11, D:9)
+  a cursed +0 scale mail
+(26, 8, D:9)
+  a cursed ring of teleportation
+  an uncursed ring of teleportation
+  71 bolts
+(26, 17, D:9)
+  a cursed +0 shortbow
+(27, -1, D:9)
+  a scroll of random uselessness
+(28, -5, D:9)
+  an inedible chunk of flesh
+(29, -6, D:9)
+  a +0 flail
+(30, -5, D:9)
+  a killer bee corpse
+(30, 7, D:9)
+  a scroll of random uselessness
+(31, 6, D:9)
+  a +0 short sword
+(32, 6, D:9)
+  a +0 short sword
+  a +0 scale mail
+(37, -23, D:9)
+  a +0 dagger
+  a +0 robe
+  a +0 club
+  a +0 leather armour
+(37, -22, D:9)
+  a +0 whip
+  a +0 ring mail
+  a +0 trident
+  an orc skeleton
+
+the Ecumenical Temple
+
+Level 1 of the Orcish Mines
+(0, 0, Orc:1)
+  15 gold pieces
+(2, -1, Orc:1)
+  4 large rocks
+  (unseen)
+(3, -6, Orc:1)
+  13 gold pieces
+(3, -2, Orc:1)
+  3 large rocks
+(4, -7, Orc:1)
+  15 gold pieces
+

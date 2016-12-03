@@ -1,0 +1,182 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+27 Sesmisun the Gusty (level 2, -2/17 HPs)
+             Began as a High Elf Air Elementalist on Nov 24, 2016.
+             Slain by a jackal (3 damage)
+             ... on level 1 of the Dungeon.
+             The game lasted 00:14:45 (2013 turns).
+
+Sesmisun the Gusty (High Elf Air Elementalist)      Turns: 2013, Time: 00:14:46
+
+Health: -2/17      AC:  2    Str:  7    XL:     2   Next: 93%
+Magic:  0/6        EV: 13    Int: 18    God:    
+Gold:   46         SH:  0    Dex: 15    Spells: 2 memorised, 3 levels left
+
+rFire  . . .      SeeInvis .    (no weapon)
+rCold  . . .      Gourm    .    a - +0 robe
+rNeg   . . .      Faith    .    (no shield)
+rPois  .          Spirit   .    (no helmet)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ++........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: very slightly contaminated
+A: no striking features
+a: no special abilities
+
+
+You were on level 1 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 1 of its levels.
+
+You collected 46 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ i - a +0 club
+ o - a +0 whip
+Missiles
+ c - 7 stones (quivered)
+ n - 22 arrows
+Armour
+ a - a +0 robe (worn)
+ h - a cursed +0 pair of boots
+Jewellery
+ j - a cursed amulet of inaccuracy {unknown}
+Scrolls
+ d - a scroll of amnesia {unknown}
+ e - a scroll of teleportation {unknown}
+ g - a scroll of enchant weapon {unknown}
+ k - a scroll of identify {unknown}
+ l - a scroll of fog {unknown}
+Potions
+ m - a potion of lignification {unknown}
+Books
+ b - a book of Air   
+   
+    Spells                             Type                      Level
+    a - Shock                        Conjuration/Air               1
+    b - Swiftness                    Charms/Air                    2
+    c - Repel Missiles               Charms/Air                    2
+    d - Static Discharge             Conjuration/Air               3
+    e - Lightning Bolt               Conjuration/Air               5
+Comestibles
+ f - a chunk of flesh
+ p - a beef jerky
+
+
+   Skills:
+ + Level 2.4 Dodging
+ + Level 2.4 Stealth
+ + Level 2.8 Spellcasting
+ + Level 1.4 Conjurations
+ + Level 4.2 Air Magic
+
+
+You had 3 spell levels left.
+You knew the following spells:
+
+ Your Spells              Type           Power        Failure   Level  Hunger
+a - Shock                 Conj/Air       ##..         6%          1    None
+b - Repel Missiles        Chrm/Air       ##....       12%         2    ##.....
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (1/15)            
+
+Altars:
+
+Message History
+
+Press: ? - help, Shift-Dir - straight line, f/p - jackal
+Aim: a jackal
+You throw a stone. The stone hits the jackal.
+The jackal is moderately wounded.
+The jackal bites you.
+* * * LOW HITPOINT WARNING * * *
+The jackal bites you.
+* * * LOW HITPOINT WARNING * * *
+The jackal barely misses you.
+Casting: Shock
+Confirm with . or Enter, or press ? or * to list all spells.
+Aiming: Shock
+Press: ? - help, Shift-Dir - straight line, f/p - jackal
+Aim: a jackal
+The zap hits the jackal.
+The jackal is severely wounded.
+The zap hits the jackal.
+You kill the jackal!
+The jackal bites you.
+You die...
+
+       #.....#...####.#.#######.#
+       #.........##.[........##.#
+       #............#........##..
+  ######........(...#........###.
+ ##..........#......#..####'## #.
+ #.#...##...#.......####  #.#  #.
+ #..#..##..#........#     ###  ##
+ #...#....#....†....#           #
+ #....#..#.....#(####           #
+ #.##..##..##..#h#
+ #.##..##..##(.(@#
+ #....#..#.....###
+##...#....#...#########
+#...#..##..#..........#   #######
+#..#...##...#.........#   #......
+#.#..........#......g.#   #......
+#.#####...............#   #......
+#..........##.........#   #......
+#######............#+#    #......
+      #####...#....#.##   #.###.÷
+        #.....#....#..#   #.#.#..
+
+
+You could see a jackal.
+
+Vanquished Creatures
+  5 bats (D:1)
+  A giant cockroach (D:1)
+  3 goblins (D:1)
+  3 hobgoblins (D:1)
+  2 jackals (D:1)
+  3 frilled lizards (D:1)
+  2 kobolds (D:1)
+  8 rats (D:1)
+27 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Sesmisun the High Elf Air Elementalist began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 11/11 MP: 4/4
+   684 | D:1      | Reached skill level 4 in Air Magic
+   684 | D:1      | Reached XP level 2. HP: 17/17 MP: 2/6
+   826 | D:1      | Learned a level 2 spell: Repel Missiles
+  2013 | D:1      | Slain by a jackal
+
+Skill      XL: |  1 |
+---------------+----+-----
+Air Magic      |  4 |  4.2
+Dodging        |    |  2.4
+Stealth        |    |  2.4
+Spellcasting   |    |  2.8
+Conjurations   |    |  1.4
+
+Action                   || total
+-------------------------++-------
+Melee: Unarmed           ||     1
+Throw: Stone             ||    16
+ Cast: Shock             ||    55
+  Eat: Bread ration      ||     1
+       Chunk             ||     1
+Armor: Robe              ||    15
+Dodge: Dodged            ||    59
+

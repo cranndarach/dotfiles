@@ -1,0 +1,363 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+6757 Xiagg the Slicer (level 10, -4/88 HPs)
+             Began as a Minotaur Fighter on Nov 23, 2016.
+             Was a Believer of the Shining One.
+             Slain by a skeletal warrior
+             ... wielding a cursed -2 short sword
+              (6 damage)
+             ... on level 11 of the Dungeon.
+             The game lasted 01:55:19 (12178 turns).
+
+Xiagg the Slicer (Minotaur Fighter)                Turns: 12178, Time: 01:55:22
+
+Health: -4/88      AC: 17    Str: 28    XL:     10   Next: 75%
+Magic:  9/9        EV:  8    Int:  5    God:    the Shining One [**....]
+Gold:   490        SH: 12    Dex: 11    Spells: 0 memorised, 9 levels left
+
+rFire  + + .      SeeInvis .    y - +1 rapier
+rCold  . . .      Gourm    .    k - +0 plate armour
+rNeg   + . .      Faith    .    F - +0 shield
+rPois  +          Spirit   .    (helmet restricted)
+rElec  +          Reflect  .    H - +0 cloak {rPois}
+rCorr  +          Harm     .    t - +0 pair of gloves
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                w - ring of fire
+                                T - ring of stealth
+
+@: mighty, resistant, glowing
+A: retaliatory headbutt, horns 2
+a: Divine Shield, Renounce Religion
+
+
+You were on level 11 of the Dungeon.
+You worshipped the Shining One.
+The Shining One was pleased with you.
+You were hungry.
+
+You visited 1 branch of the dungeon, and saw 11 of its levels.
+
+You collected 490 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ c - a +0 long sword
+ q - a +0 shortbow
+ y - a +1 rapier (weapon)
+ C - a +0 dagger of speed
+ M - a +0 hand axe of flaming
+ W - a +0 long sword
+Missiles
+ e - 7 tomahawks (quivered)
+ j - 209 stones
+ D - 179 arrows
+Armour
+ k - a +0 plate armour (worn)
+ r - the +1 leather armour "Uhaemuti" {MR+ Stlth+, unknown}
+   (You found it on level 11 of the Dungeon)   
+   
+   It affects your resistance to hostile enchantments.
+   It makes you more stealthy.
+ t - a +0 pair of gloves (worn)
+ F - a +0 shield (worn)
+ H - a +0 cloak of poison resistance (worn)
+ N - a +3 ring mail
+Jewellery
+ a - an uncursed ring of protection from cold {unknown}
+ g - a +4 ring of slaying {unknown}
+ w - a ring of fire (right hand)
+ G - an uncursed ring of poison resistance {unknown}
+ T - a ring of stealth (left hand)
+Wands
+ l - a wand of lightning (8/15)
+ E - a wand of flame (20/48)
+ P - a wand of digging (7/24)
+Scrolls
+ f - 3 scrolls of remove curse
+ i - a scroll of noise {unknown}
+ m - a scroll of fog
+ p - a scroll of silence {unknown}
+ z - 4 scrolls of magic mapping
+ A - a scroll of enchant armour {unknown}
+ L - a scroll of fear {unknown}
+ O - a scroll of acquirement {unknown}
+ R - 3 scrolls of random uselessness {unknown}
+ U - a scroll of vulnerability {unknown}
+ V - 3 scrolls of amnesia {unknown}
+ Y - 2 scrolls of teleportation
+Potions
+ d - 3 potions of might
+ h - a potion of haste
+ v - 3 potions of mutation {unknown}
+ B - a potion of ambrosia {unknown}
+ I - 6 potions of curing {unknown}
+ S - a potion of magic {unknown}
+Books
+ b - a book of Air   
+   
+    Spells                             Type                      Level
+    a - Shock                        Conjuration/Air               1
+    b - Swiftness                    Charms/Air                    2
+    c - Repel Missiles               Charms/Air                    2
+    d - Static Discharge             Conjuration/Air               3
+    e - Lightning Bolt               Conjuration/Air               5
+ o - a book of Callings   
+   
+    Spells                             Type                      Level
+    a - Summon Small Mammal          Summoning                     1
+    b - Call Imp                     Summoning                     2
+    c - Call Canine Familiar         Summoning                     3
+    d - Summon Guardian Golem        Hexes/Summoning               3
+    e - Summon Lightning Spire       Summoning/Air                 4
+    f - Summon Ice Beast             Ice/Summoning                 4
+Comestibles
+ x - 6 fruits
+ J - 3 beef jerkies
+ K - 5 meat rations
+ Z - 7 bread rations
+
+
+   Skills:
+ + Level 8.2 Fighting
+ + Level 10.6(10.8) Short Blades
+ + Level 3.4(8.3) Long Blades
+ + Level 1.9 Throwing
+ + Level 9.9 Armour
+ + Level 3.0 Dodging
+ + Level 1.4 Stealth
+ + Level 9.7 Shields
+
+
+You had 9 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (11/15)            Temple (0/1) D:6            Lair (0/6) D:8
+   Orc: D:9-12      
+
+Altars:
+The Shining One
+Lugonu
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+* * * LOW HITPOINT WARNING * * *
+The skeletal warrior hits you with an enchanted short sword!
+* * * LOW HITPOINT WARNING * * *
+You feel very mighty all of a sudden.
+The skeletal warrior barely misses you.
+The skeletal warrior hits you with an enchanted short sword.
+* * * LOW HITPOINT WARNING * * *
+You hit the skeletal warrior.
+The skeletal warrior is moderately damaged.
+You hit the skeletal warrior.
+The skeletal warrior is heavily damaged.
+You block the skeletal warrior's attack.
+The skeletal warrior barely misses you. You furiously retaliate! You headbutt the skeletal warrior!
+You puncture the skeletal warrior!
+Your headbutt misses the skeletal warrior.
+The skeletal warrior is heavily damaged.
+You puncture the skeletal warrior! You headbutt the skeletal warrior!
+The skeletal warrior is almost destroyed.
+The skeletal warrior hits you with an enchanted short sword.
+You die...
+
+       ..........#..###.#
+    # ###.#...##.#.<....# ##
+    #.#..........#...#..###.
+    ........................
+    .....#..#....#.....)....
+    .............#..##......
+      .#.#.......#..........
+         ##.#.#.............
+          #z###..#.###..##..
+          #z###..#.##.......
+          #@#...............
+    #######z#.##.#.####..###
+    #.(c.cz##. #.#.#  #.....
+    #(...cz##  .(...  ######
+#####(((...#  ####.##      #
+#)...(.....#     #.#
+#....##'####     #.#
+#(...##.#        #.#
+#....##(#
+#....##.#
+#.....#c####
+
+
+You could see 5 skeletal warriors and a centaur.
+
+Vanquished Creatures
+  An unseen horror (D:11)
+  An ugly thing (D:11)
+  3 kobold demonologists (D:10)
+  Grinder (D:5)
+  A two-headed ogre (D:11)
+  A hippogriff (D:10)
+  A meliai zombie (D:10)
+  A wyvern (D:9)
+  A hungry ghost (D:7)
+  A steam dragon (D:10)
+  2 orc warriors (D:9)
+  An ice beast (D:7)
+  2 sky beasts (D:7)
+  An eye of draining (D:11)
+  4 ogres
+  A black bear (D:7)
+  2 centaurs
+  4 phantoms
+  2 big kobolds
+  6 bullfrogs
+  2 jellies
+  6 scorpions
+  3 crimson imps
+  A quasit (D:9)
+  A bullfrog zombie (D:5)
+  A centaur skeleton (D:4)
+  A centaur zombie (D:7)
+  2 hounds
+  7 orc priests
+  2 bullfrog skeletons
+  Crazy Yiuf (D:2)
+  3 iguanas
+  13 orc wizards
+  10 worker ants
+  A hound skeleton (D:7)
+  A hound zombie (D:10)
+  A mummy (D:4)
+  A worker ant zombie (D:8)
+  6 gnolls
+  6 adders
+  A shadow imp (D:7)
+  7 adder skeletons
+  2 worms (D:2)
+  A dart slug (D:1)
+  6 leopard geckos
+  43 orcs
+  5 giant cockroaches
+  A goblin (D:1)
+  7 hobgoblins
+  12 jackals
+  18 kobolds
+  3 quokkas
+  A ball python (D:3)
+  4 bats
+  3 frilled lizards
+  A jackal skeleton (D:4)
+  A leopard gecko zombie (D:6)
+  An orc zombie (D:4)
+  7 rats
+  3 demonic plants (D:10)
+  A fungus (D:8)
+234 creatures vanquished.
+
+Vanquished Creatures (others)
+  A demonic plant (D:10)
+1 creature vanquished.
+
+Grand Total: 235 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Xiagg the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   278 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   965 | D:2      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1369 | D:2      | Found a runed door.
+  1373 | D:2      | Noticed Crazy Yiuf
+  1380 | D:2      | Killed Crazy Yiuf
+  1380 | D:2      | Reached skill level 1 in Short Blades
+  1380 | D:2      | Reached XP level 4. HP: 29/40 MP: 3/3
+  2804 | D:4      | Reached XP level 5. HP: 34/46 MP: 4/4
+  2808 | D:4      | Reached skill level 2 in Short Blades
+  3229 | D:4      | Reached skill level 5 in Shields
+  3235 | D:4      | Reached XP level 6. HP: 27/53 MP: 5/5
+  3557 | D:4      | Reached skill level 3 in Short Blades
+  3705 | D:4      | Reached skill level 1 in Dodging
+  3854 | D:4      | Reached skill level 5 in Armour
+  3927 | D:4      | Reached skill level 1 in Stealth
+  3934 | D:4      | Reached XP level 7. HP: 59/60 MP: 6/6
+  4151 | D:4      | Reached skill level 1 in Throwing
+  4285 | D:5      | Entered Level 5 of the Dungeon
+  4346 | D:5      | Reached skill level 4 in Short Blades
+  4430 | D:5      | Reached skill level 5 in Fighting
+  4640 | D:5      | Noticed Grinder
+  4642 | D:5      | Found a glowing golden altar of the Shining One.
+  4917 | D:5      | Killed Grinder
+  4917 | D:5      | Reached XP level 8. HP: 68/69 MP: 7/7
+  5036 | D:5      | Became a worshipper of the Shining One
+  5208 | D:6      | Found a staircase to the Ecumenical Temple.
+  5216 | D:6      | Reached skill level 5 in Short Blades
+  6598 | D:7      | Reached skill level 6 in Short Blades
+  6796 | D:7      | Reached XP level 9. HP: 62/75 MP: 8/8
+  7233 | D:7      | Reached skill level 7 in Short Blades
+  7375 | D:8      | Reached * piety under the Shining One
+  7582 | D:8      | Found a staircase to the Lair.
+  8877 | D:9      | Reached skill level 8 in Short Blades
+ 10183 | D:10     | Entered Level 10 of the Dungeon
+ 10276 | D:10     | Reached XP level 10. HP: 67/86 MP: 9/9
+ 10577 | D:10     | Reached skill level 9 in Short Blades
+ 10625 | D:10     | Reached ** piety under the Shining One
+ 11040 | D:10     | Found a corrupted altar of Lugonu.
+ 11051 | D:10     | Noticed a soul eater
+ 11089 | D:10     | Noticed a sun demon
+ 11483 | D:11     | Reached skill level 10 in Short Blades
+ 11508 | D:11     | Got a spiked leather armour
+ 11652 | D:11     | Noticed an unseen horror
+ 11663 | D:11     | Killed an unseen horror
+ 11808 | D:11     | Noticed a cyan ugly thing
+ 11838 | D:11     | HP: 1/88 [cyan ugly thing (13)]
+ 11846 | D:11     | Killed a cyan ugly thing
+ 12138 | D:11     | Noticed a skeletal warrior
+ 12144 | D:11     | Noticed a skeletal warrior
+ 12147 | D:11     | Noticed a skeletal warrior
+ 12159 | D:11     | Noticed a skeletal warrior
+ 12160 | D:11     | Noticed a skeletal warrior
+ 12173 | D:11     | HP: 2/88 [skeletal warrior/enchanted short sword (7)]
+ 12178 | D:11     | Slain by a skeletal warrior
+
+Skill      XL: |  1  2  3  4  5  6  7  8  9 10 |
+---------------+-------------------------------+-----
+Shields        |     4        5     6  8  9    |  9.7
+Armour         |        4        5  6  7  8  9 |  9.9
+Long Blades    |        3                      |  3.4
+Fighting       |        4           5  6  7  8 |  8.2
+Short Blades   |        1     2  3  4  6  8 10 | 10.6
+Dodging        |                 1  2        3 |  3.0
+Stealth        |                 1             |  1.4
+Throwing       |                    1          |  1.9
+
+Action                   |  1- 3 |  4- 6 |  7- 9 | 10-12 || total
+-------------------------+-------+-------+-------+-------++-------
+Melee: Long sword        |    82 |       |       |       ||    82
+       Headbutt          |    22 |    26 |    96 |    52 ||   196
+       Short sword       |    53 |   138 |    98 |       ||   289
+       Rapier            |       |     6 |   378 |   206 ||   590
+Throw: Stone             |    16 |    12 |    10 |       ||    38
+       Tomahawk          |       |       |     6 |       ||     6
+Invok: Divine Shield     |       |       |       |     1 ||     1
+  Use: Scroll            |     7 |     7 |     7 |     1 ||    22
+       Potion            |       |     1 |     2 |     2 ||     5
+  Eat: Chunk             |     2 |       |    13 |     5 ||    20
+       Bread ration      |       |     2 |       |       ||     2
+       Fruit             |       |       |     2 |     1 ||     3
+       Meat ration       |       |       |     1 |       ||     1
+       Beef jerky        |       |       |     1 |       ||     1
+Armor: Scale mail        |    78 |    30 |       |       ||   108
+       Plate armour      |       |     2 |   187 |    56 ||   245
+Dodge: Dodged            |    36 |    23 |    96 |    37 ||   192
+Block: Shield            |    57 |    50 |   206 |    83 ||   396
+Rpst.: Long sword        |     7 |       |       |       ||     7
+

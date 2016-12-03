@@ -1,0 +1,396 @@
+Walidghawi
+
+Level 1 of the Dungeon
+(0, 0, D:1)
+  a +0 whip
+(1, -5, D:1)
+  a +0 ring mail
+(9, 2, D:1)
+  a +0 club
+(12, -11, D:1)
+  a +0 short sword
+(14, 13, D:1)
+  a +0 ring mail
+(23, 24, D:1)
+  a cursed +0 ring mail
+(26, -15, D:1)
+  a +0 club
+(31, 5, D:1)
+  a +0 hand axe
+(37, 11, D:1)
+  a +0 club
+(46, -16, D:1)
+  a +0 ring mail
+(48, -8, D:1)
+  a +0 whip
+(48, -7, D:1)
+  a +0 helmet
+
+Level 2 of the Dungeon
+(0, 0, D:2)
+  a +0 leather armour
+(4, 20, D:2)
+  a +0 club
+  a +0 club
+(4, 21, D:2)
+  a +0 hunting sling
+  a +0 animal skin
+  a +0 helmet
+(6, 11, D:2)
+  a +0 club
+(13, 13, D:2)
+  a +0 buckler
+(17, 20, D:2)
+  a +0 club
+  a scroll of random uselessness
+(25, 8, D:2)
+  a +0 helmet
+(28, 10, D:2)
+  a +0 club
+(31, 8, D:2)
+  a +0 club
+(32, 17, D:2)
+  a cursed -3 short sword
+(57, 55, D:2)
+  a +0 club
+
+Level 3 of the Dungeon
+(0, 0, D:3)
+  a +0 dagger
+(4, 4, D:3)
+  a +0 club
+  a +0 scale mail
+(5, 5, D:3)
+  a +0 dagger
+  a +0 leather armour
+(6, 6, D:3)
+  a +0 dagger
+  a +0 robe
+(7, 15, D:3)
+  a +0 flail
+(12, 10, D:3)
+  a +0 spear
+(13, 8, D:3)
+  a +0 whip
+(17, -19, D:3)
+  a +0 club
+(19, 11, D:3)
+  a +0 robe
+(27, -10, D:3)
+  a +0 short sword
+(27, 0, D:3)
+  a cursed -2 club
+  a +0 leather armour
+(30, -17, D:3)
+  a +0 dagger
+(33, 8, D:3)
+  a +0 dagger
+  a +0 dagger
+  a +0 robe
+(33, 9, D:3)
+  a +0 ring mail
+(33, 10, D:3)
+  a +0 hand axe
+  a +0 ring mail
+(33, 11, D:3)
+  a +0 leather armour
+
+Level 4 of the Dungeon
+(0, 0, D:4)
+  a +0 ring mail
+(1, -15, D:4)
+  a +0 club
+  a +0 dagger
+  a +0 scale mail
+(1, -14, D:4)
+  a +0 dagger
+  a +0 robe
+(6, -37, D:4)
+  a +0 chain mail
+
+Level 5 of the Dungeon
+[Shop] Zoism's Food Boutique
+  4 fruits (60 gold)
+  a meat ration (50 gold)
+  a slice of pizza (15 gold)
+  a beef jerky (15 gold)
+  a meat ration (50 gold)
+  a meat ration (50 gold)
+  3 fruits (45 gold)
+  a royal jelly (20 gold)
+  a fruit (15 gold)
+  a meat ration (50 gold)
+  a bread ration (50 gold)
+(0, 0, D:5)
+  a +0 short sword
+  a +0 hand axe
+  a +0 leather armour
+  a +0 club
+  a +0 leather armour
+(12, -49, D:5)
+  a +0 hand axe
+(13, -50, D:5)
+  a +0 short sword
+  a +0 dagger
+  a +0 robe
+(14, -12, D:5)
+  a cursed +0 ring mail
+(20, -20, D:5)
+  a +0 flail
+  a +0 scale mail
+(21, -21, D:5)
+  a +0 robe
+(26, -20, D:5)
+  a +0 ring mail
+
+Level 6 of the Dungeon
+[Shop] Quodocoe's Antique Armour Boutique
+  a +0 ring mail (72 gold)
+  a +0 shield (81 gold)
+  a +0 shield (81 gold)
+  the +6 lightning scales {run, rElec} (1656 gold)
+    It insulates you from electricity.
+  the +7 plate armour of Eclossy {rF+} (1296 gold)
+    It protects you from fire.
+  a +0 leather armour (36 gold)
+  a +0 leather armour (36 gold)
+  a +0 robe (12 gold)
+[Shop] Fuled's Food Emporium
+  3 fruits (63 gold)
+  a meat ration (70 gold)
+  a bread ration (70 gold)
+  a bread ration (70 gold)
+  a beef jerky (21 gold)
+  a slice of pizza (21 gold)
+  a royal jelly (28 gold)
+  a bread ration (70 gold)
+[Shop] Ycautula's Assorted Antiques
+  a scroll of amnesia (84 gold)
+  a box of beasts (480 gold)
+  a scroll of remove curse (72 gold)
+  a book of Minor Magic (480 gold)
+  a +0 blowgun (60 gold)
+  a +0 plate armour (552 gold)
+  a +3 ring of evasion (504 gold)
+  a potion of curing (72 gold)
+  a +0 quarterstaff (96 gold)
+  a +0 robe (16 gold)
+  a cursed -2 dagger (2 gold)
+  a scroll of fear (84 gold)
+[Shop] Gutous's Gadget Boutique
+  a wand of lightning (8/15) (180 gold)
+  a crystal ball of energy (300 gold)
+  a phantom mirror (450 gold)
+  a sack of spiders (300 gold)
+  a crystal ball of energy (300 gold)
+  a lamp of fire (600 gold)
+  a crystal ball of energy (300 gold)
+  a crystal ball of energy (300 gold)
+  a wand of lightning (4/15) (120 gold)
+  a wand of slowing (24/48) (292 gold)
+(0, 0, D:6)
+  a +0 scale mail
+(5, -1, D:6)
+  a +0 chain mail
+(8, 9, D:6)
+  a +0 ring mail
+(15, -13, D:6)
+  a +0 flail
+  a +0 plate armour
+  a +0 club
+  a cursed +0 leather armour
+(16, -13, D:6)
+  a +0 dagger
+  a +0 leather armour
+(18, 6, D:6)
+  a +0 leather armour
+(26, -19, D:6)
+  a +0 scale mail
+(27, -19, D:6)
+  a +0 chain mail
+(27, 11, D:6)
+  a +0 spear
+(29, 12, D:6)
+  a +0 club
+(30, -29, D:6)
+  a +0 dagger
+(33, -29, D:6)
+  an uncursed ring of see invisible
+  a +0 hand axe
+(34, -22, D:6)
+  a cursed -3 dagger
+  a +0 robe
+  a +0 shortbow
+  a +0 hand axe
+  a +0 leather armour
+(43, 22, D:6)
+  a +0 rapier
+(48, -26, D:6)
+  a +0 helmet
+(53, -11, D:6)
+  a +0 hand axe
+(58, 22, D:6)
+  a +0 mace
+  a +0 robe
+  a +0 robe
+(59, 22, D:6)
+  a +0 robe
+(61, 19, D:6)
+  a +0 robe
+(61, 20, D:6)
+  a +0 rapier
+  a +0 falchion
+  a +0 falchion
+  a +1 trident of flaming
+  a +0 dagger
+  a +0 long sword
+  a +2 hand axe of chopping
+  a +0 long sword
+  a +0 hunting sling
+  a +0 robe
+
+Level 7 of the Dungeon
+(0, 0, D:7)
+  a cursed +0 chain mail
+(14, 29, D:7)
+  a +0 giant club
+(29, 2, D:7)
+  a +0 mace
+  a +0 ring mail
+(29, 3, D:7)
+  a +0 whip
+(30, 4, D:7)
+  a +0 dagger
+  a +0 leather armour
+(31, 6, D:7)
+  a +0 hand axe
+(36, 9, D:7)
+  a +0 ring mail
+(36, 22, D:7)
+  a +1 leather armour of positive energy
+  a +0 chain mail
+  a +0 shield
+  a +0 scale mail
+  20 poisoned needles
+  5 curare-tipped needles
+(41, 15, D:7)
+  a +0 ring mail
+  a +0 quarterstaff
+  a +0 hunting sling
+  a +0 leather armour
+(46, 2, D:7)
+  a +0 hand axe
+(46, 3, D:7)
+  a +0 morningstar
+  a +0 chain mail
+(46, 6, D:7)
+  a +0 short sword
+  a +0 scale mail
+  a +0 war axe
+  a +0 chain mail
+(47, 4, D:7)
+  a +0 dagger of electrocution
+  a +2 halberd
+  a +3 mace
+(47, 13, D:7)
+  a +0 giant club
+(48, 32, D:7)
+  a +0 long sword
+
+Level 8 of the Dungeon
+(0, 0, D:8)
+  a +0 shortbow
+(1, -31, D:8)
+  a +0 shortbow
+(6, 2, D:8)
+  a +0 hand axe
+  a +0 leather armour
+(6, 3, D:8)
+  a +0 whip
+  a +0 ring mail
+(7, 3, D:8)
+  a +0 dagger
+  a +0 robe
+  a +0 short sword
+  a +0 scale mail
+(8, -29, D:8)
+  a +0 mace
+(8, 3, D:8)
+  a +0 war axe
+  a +0 plate armour
+(10, -21, D:8)
+  a +3 dagger of chaos
+  a +0 robe
+(15, -13, D:8)
+  a +0 giant spiked club
+(18, -32, D:8)
+  a +0 chain mail
+(21, -5, D:8)
+  a +0 giant club
+(25, -5, D:8)
+  a +0 war axe
+(30, -13, D:8)
+  17 poisoned needles
+(33, -14, D:8)
+  a cursed amulet of inaccuracy
+(38, -17, D:8)
+  a +0 robe
+(41, -12, D:8)
+  a +0 pair of boots
+  a +2 scale mail of fire resistance
+  2 potions of lignification
+  a tomahawk of returning
+  a +4 dagger
+
+Level 9 of the Dungeon
+(0, 0, D:9)
+  3 inedible chunks of flesh
+(1, 9, D:9)
+  a scroll of immolation
+(7, 12, D:9)
+  a +0 long sword
+(8, -16, D:9)
+  a +0 troll leather armour
+(10, -4, D:9)
+  a +0 shortbow
+(24, 10, D:9)
+  a +0 dagger
+(30, -18, D:9)
+  a scroll of noise
+(31, 10, D:9)
+  a +0 giant spiked club
+  a +0 giant club
+(38, -6, D:9)
+  a scroll of identify
+(41, -6, D:9)
+  15 stones
+(47, 8, D:9)
+  a +0 leather armour
+(53, 8, D:9)
+  a +1 whip of freezing
+  a +0 robe
+(56, 4, D:9)
+  a +0 shield
+(63, -2, D:9)
+  a +0 falchion
+
+Level 1 of the Lair of Beasts
+(0, 0, Lair:1)
+  a fruit
+(1, -8, Lair:1)
+  a fruit
+(1, -3, Lair:1)
+  a fruit
+(2, -6, Lair:1)
+  a fruit
+(2, 0, Lair:1)
+  a fruit
+(5, -10, Lair:1)
+  a fruit
+(5, -9, Lair:1)
+  a fruit
+(8, -3, Lair:1)
+  a black mamba corpse
+(9, -3, Lair:1)
+  a scroll of immolation
+

@@ -1,0 +1,149 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+6 Akeatupna the Chiller (level 1, 0/11 HPs)
+             Began as a High Elf Ice Elementalist on Nov 24, 2016.
+             Slain by a jackal (3 damage)
+             ... on level 1 of the Dungeon.
+             The game lasted 00:02:53 (554 turns).
+
+Akeatupna the Chiller (High Elf Ice Elementalist)    Turns: 554, Time: 00:02:54
+
+Health: 0/11       AC:  2    Str:  7    XL:     1   Next: 75%
+Magic:  0/5        EV: 13    Int: 18    God:    
+Gold:   0          SH:  0    Dex: 15    Spells: 1 memorised, 4 levels left
+
+rFire  . . .      SeeInvis .    (no weapon)
+rCold  . . .      Gourm    .    a - +0 robe
+rNeg   . . .      Faith    .    (no shield)
+rPois  .          Spirit   .    (no helmet)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ++........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: very slightly contaminated
+A: no striking features
+a: no special abilities
+
+
+You were on level 1 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 1 of its levels.
+
+Inventory:
+
+Hand Weapons
+ d - a +0 dagger
+Missiles
+ e - 65 stones (quivered)
+ i - 23 arrows
+Armour
+ a - a +0 robe (worn)
+ g - a +0 scale mail
+Books
+ b - a book of Frost   
+   
+    Spells                             Type                      Level
+    a - Freeze                       Ice                           1
+    b - Throw Frost                  Conjuration/Ice               2
+    c - Ozocubu's Armour             Charms/Ice                    3
+    d - Throw Icicle                 Conjuration/Ice               4
+    e - Summon Ice Beast             Ice/Summoning                 4
+Comestibles
+ c - a bread ration
+ f - 2 chunks of flesh
+ h - a beef jerky
+
+
+   Skills:
+ + Level 2.3 Dodging
+ + Level 2.2 Stealth
+ + Level 2.5 Spellcasting
+   Level 1.1 Conjurations
+ + Level 3.2 Ice Magic
+
+
+You had 4 spell levels left.
+You knew the following spells:
+
+ Your Spells              Type           Power        Failure   Level  Hunger
+a - Freeze                Ice            ##..         6%          1    #......
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (1/15)            
+
+Altars:
+
+Message History
+
+Aiming: Freeze
+Press: ? - help, Shift-Dir - straight line, f - jackal
+Aim: a jackal
+You freeze the jackal.
+The jackal is heavily wounded.
+The jackal misses you.
+Throwing (i - inventory): e - 67 stones (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - jackal
+Aim: a jackal (heavily wounded)
+You throw a stone. The stone hits the jackal.
+The jackal is severely wounded.
+The jackal bites you.
+* * * LOW HITPOINT WARNING * * *
+The giant cockroach bites you but does no damage.
+The jackal bites you but does no damage.
+Throwing (i - inventory): e - 66 stones (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - jackal
+Aim: a jackal (severely wounded)
+You throw a stone. The stone closely misses the jackal. The stone closely misses the bat. The jackal misses you. The giant cockroach barely misses you. The jackal bites you.
+You die...
+
+                  ...     #
+                  #.#     .
+        ###########.#    r#
+      #.#..(.......(#    .#
+      #.#...........###.#.##
+       .................... #.#
+        #........s..####.#.....
+  ....  #......(@hb.((.......#
+  ..... #........h.#####.###.#
+  ..... #..........#    ...
+ ......##..........#    .....
+##.................#    .......
+............#.######    .......
+............#...        .......
+............#.....      .......
+............#.....#
+............#......#
+............#.......
+
+
+You could see 2 jackals, a giant cockroach and a bat.
+
+Vanquished Creatures
+  2 giant cockroaches (D:1)
+  A jackal (D:1)
+  A bat (D:1)
+  A frilled lizard (D:1)
+  A kobold (D:1)
+6 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Akeatupna the High Elf Ice Elementalist began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 11/11 MP: 4/4
+   554 | D:1      | Slain by a jackal
+
+Action                   || total
+-------------------------++-------
+Throw: Stone             ||    10
+ Cast: Freeze            ||    11
+Armor: Robe              ||     8
+Dodge: Dodged            ||    21
+

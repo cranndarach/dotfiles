@@ -122,7 +122,7 @@ export ANDROID_HOME=/home/rachael/Android/Sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=~/.npm-global/bin:$PATH
 export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
-export EDITOR=/opt/micro/micro
+export EDITOR=vim
 
 ###-tns-completion-start-###
 if [ -f /home/rachael/.tnsrc ]; then
@@ -135,3 +135,6 @@ if [ -f ~/.extraterm/setup_extraterm_bash.sh ]; then
 fi
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export NVM_DIR="/home/rachael/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

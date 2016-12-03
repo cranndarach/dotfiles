@@ -1,0 +1,195 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+86 Osiunnoss the Covered (level 4, -39/40 HPs)
+             Began as a Minotaur Fighter on Nov 26, 2016.
+             Killed from afar by an orc wizard (43 damage)
+             ... with an exploding inner flame
+             ... hexed by the player character
+             ... on level 4 of the Dungeon.
+             The game lasted 00:09:55 (2027 turns).
+
+Osiunnoss the Covered (Minotaur Fighter)            Turns: 2027, Time: 00:09:55
+
+Health: -39/40     AC:  7    Str: 27    XL:     4   Next: 27%
+Magic:  3/3        EV:  8    Int:  5    God:    
+Gold:   142        SH: 10    Dex:  9    Spells: 0 memorised, 3 levels left
+
+rFire  . . .      SeeInvis .    a - +0 long sword
+rCold  . . .      Gourm    .    b - +0 scale mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: mighty, very slightly contaminated, invisible
+A: retaliatory headbutt, horns 2
+a: no special abilities
+
+
+You were on level 4 of the Dungeon.
+You were hungry.
+
+You visited 1 branch of the dungeon, and saw 3 of its levels.
+
+You collected 184 gold pieces.
+You spent 42 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 long sword (weapon)
+ e - a +0 hand axe
+ h - a +0 dagger
+Missiles
+ i - 48 stones (quivered)
+ m - 8 sling bullets
+Armour
+ b - a +0 scale mail (worn)
+ c - a +0 shield (worn)
+ l - a +0 pair of gloves
+ s - a +0 chain mail
+Scrolls
+ v - a scroll of remove curse
+Comestibles
+ f - 2 bread rations
+ n - a chunk of flesh
+ p - 2 beef jerkies
+ q - 2 slices of pizza
+
+
+   Skills:
+ + Level 4.1 Fighting
+ + Level 3.3 Long Blades
+ + Level 4.3 Armour
+ + Level 1.4 Dodging
+ + Level 4.3 Shields
+
+
+You had 3 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (2/15)            
+
+Altars:
+
+Shops:
+D:4 %
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You throw a stone. The stone barely misses the orc. You block something's attack.
+Throwing (i - inventory): i - 51 stones (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - orc
+Aim: an orc, wielding a club (moderately wounded, inner flame)
+You throw a stone. The stone closely misses the orc. Something hits you but does no damage.
+Throwing (i - inventory): i - 50 stones (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - orc
+Aim: an orc, wielding a club (moderately wounded, inner flame)
+You throw a stone. The stone completely misses the orc.
+Throwing (i - inventory): i - 49 stones (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - orc
+Aim: an orc, wielding a club (moderately wounded, inner flame)
+You throw a stone.
+The stone hits the orc but does no damage.
+The orc is moderately wounded.
+Something hits you but does no damage.
+You closely miss something. Something hits you but does no damage. x2
+You slash something! The fiery explosion engulfs you!
+Ouch! That really hurt!
+You die...
+
+(......((...........<.........#
+..............................#
+(.............................#
+.))###..##.##...##...####'#####
+...#*#..##.##(..##...####....##
+............#(...#......#.....#
+............#....#......#.....#
+............#..o.#......'.....#
+.........,,,#..§§#......#.....#
+........,,,,#..§§#......#.....#
+,,,,,,,,,,,>#..§@#......#.....#
+*,,,********######...########%#
+#,,,****,,,*#...##.).#***,,**+#**
+.,,,,,,,,,,,#....#...#,,,,,,,,,,,
+..,,,,,,,,,,#....#...#,,,,,,,,,,,
+..,,,,,,,,,,#....#...#,,,,,,,,,,,
+..,,,,,,,,,,#....#...#,,,,,,,,,,,
+.,,,,,>,,,,,#....#...#,,,,,,,,,,,
+#,,,,,*######'######÷#*******,***
+########...##...####.####,,**<***
+.......................>#,,,,,,,,
+
+
+You could see an orc (inner flame).
+
+Vanquished Creatures
+  An orc wizard (D:4)
+  2 adders (D:4)
+  An ooze (D:2)
+  A dart slug (D:1)
+  A leopard gecko (D:4)
+  2 orcs (D:4)
+  3 giant cockroaches
+  4 goblins (D:1)
+  3 hobgoblins (D:1)
+  2 jackals (D:1)
+  A quokka (D:4)
+  2 bats
+  3 frilled lizards (D:1)
+  3 kobolds
+  2 rats
+31 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Osiunnoss the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   201 | D:1      | Reached XP level 2. HP: 18/27 MP: 1/1
+  1195 | D:2      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1420 | D:2      | You fall through a shaft for 2 floors!
+  1651 | D:4      | Reached skill level 1 in Dodging
+  1801 | D:4      | Found Jucsaryx's Food Shop.
+  1808 | D:4      | Bought a beef jerky for 21 gold pieces
+  1808 | D:4      | Bought a beef jerky for 21 gold pieces
+  1973 | D:4      | Reached XP level 4. HP: 31/40 MP: 3/3
+  1999 | D:4      | HP: 2/40 [something/puff of flame (9)]
+  2027 | D:4      | Killed from afar by an orc wizard
+
+Skill      XL: |  1  2  3 |
+---------------+----------+-----
+Fighting       |     4    |  4.1
+Armour         |     4    |  4.3
+Shields        |     4    |  4.3
+Long Blades    |        3 |  3.3
+Dodging        |        1 |  1.4
+
+Action                   |  1- 3 |  4- 6 || total
+-------------------------+-------+-------++-------
+Melee: Long sword        |    68 |    14 ||    82
+       Headbutt          |    13 |     2 ||    15
+Throw: Stone             |       |     5 ||     5
+  Use: Scroll            |     3 |     3 ||     6
+       Potion            |       |     5 ||     5
+  Eat: Chunk             |     3 |       ||     3
+Armor: Scale mail        |    58 |    17 ||    75
+       Skin              |       |     5 ||     5
+Dodge: Dodged            |    28 |     4 ||    32
+Block: Shield            |    53 |    11 ||    64
+Rpst.: Long sword        |     5 |       ||     5
+

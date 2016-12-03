@@ -1,0 +1,396 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+5929 Georaori the Blocker (level 10, -4/88 HPs)
+             Began as a Minotaur Fighter on Nov 26, 2016.
+             Was a Believer of the Shining One.
+             Slain by a two-headed ogre
+             ... wielding a +0 giant club
+              (13 damage)
+             ... on level 9 of the Dungeon on Nov 28, 2016.
+             The game lasted 01:06:09 (12988 turns).
+
+Georaori the Blocker (Minotaur Fighter)            Turns: 12988, Time: 01:06:09
+
+Health: -4/88      AC: 12    Str: 23    XL:     10   Next: 54%
+Magic:  9/9        EV:  9    Int:  5    God:    the Shining One [**....]
+Gold:   354        SH: 12    Dex: 11    Spells: 0 memorised, 9 levels left
+
+rFire  . . .      SeeInvis .    R - +0 rapier (flame)
+rCold  . . .      Gourm    .    F - +0 chain mail
+rNeg   + + .      Faith    .    c - +0 shield
+rPois  +          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    K - +0 cloak
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                A - ring of poison resistance
+                                m - ring of positive energy
+
+@: about to teleport, glowing
+A: retaliatory headbutt, horns 2
+a: Divine Shield, Renounce Religion
+
+
+You were on level 9 of the Dungeon.
+You worshipped the Shining One.
+The Shining One was pleased with you.
+You were not hungry.
+
+You visited 2 branches of the dungeon, and saw 12 of its levels.
+You also visited: Sewer.
+
+You collected 554 gold pieces.
+You spent 200 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ a - a +1 long sword
+ b - the +1 dagger "Tavyugheodiu" {protect, rC+ Int+4}
+   (You found it on level 7 of the Dungeon)   
+   
+   It protects the one who uses it against injury (+AC on strike).
+   
+   It affects your intelligence (+4).
+   It protects you from cold.
+ x - a +0 falchion
+ M - a +0 shortbow
+ R - a +0 rapier of flaming (weapon)
+ T - a +0 rapier of electrocution
+ U - the +3 hunting sling of Gluttony {venom, rElec Int+9 SInv Stlth-, unknown}
+   (You found it on level 8 of the Dungeon)   
+   
+   It poisons the ammo it fires.
+   
+   It affects your intelligence (+9).
+   It insulates you from electricity.
+   It lets you see invisible.
+   It makes you less stealthy.
+   
+   The Shining One disapproves of the use of such an item.
+Missiles
+ g - 5 tomahawks (quivered)
+ h - 244 stones
+ j - 19 sling bullets
+ t - 98 arrows
+Armour
+ c - a +0 shield (worn)
+ l - a +0 troll leather armour {Purgy}
+ E - a +0 ring mail of cold resistance
+ F - a +0 chain mail (worn)
+ K - a +0 cloak (worn)
+ X - the cursed +1 leather armour "Uxoas" {rPois, unknown}
+   (You found it on level 7 of the Dungeon)   
+   
+   It protects you from poison.
+   It has a curse placed upon it.
+Magical Staves
+ w - an uncursed staff of wizardry {unknown}
+Jewellery
+ m - a ring of positive energy (left hand)
+ A - a ring of poison resistance (right hand)
+ J - an uncursed ring of poison resistance
+Wands
+ z - a wand of iceblast (10/15)
+ O - a wand of teleportation (1/9)
+ Q - a wand of digging (9/24)
+Scrolls
+ e - 2 scrolls of immolation {unknown}
+ k - 9 scrolls of remove curse
+ p - a scroll of enchant armour {unknown}
+ r - 2 scrolls of enchant weapon
+ y - a scroll of amnesia {unknown}
+ I - a scroll of magic mapping {unknown}
+ N - 3 scrolls of teleportation
+Potions
+ d - 2 potions of might
+ f - 2 potions of flight
+ i - 3 potions of heal wounds {unknown}
+ n - 9 potions of curing
+ o - a potion of degeneration {unknown}
+ q - a potion of mutation {unknown}
+ s - a potion of berserk rage {unknown}
+ C - a potion of brilliance {unknown}
+Books
+ v - a book of Cantrips   
+   
+    Spells                             Type                      Level
+    a - Confusing Touch              Hexes                         1
+    b - Animate Skeleton             Necromancy                    1
+    c - Summon Small Mammal          Summoning                     1
+    d - Apportation                  Translocation                 1
+ Z - a book of Callings   
+   
+    Spells                             Type                      Level
+    a - Summon Small Mammal          Summoning                     1
+    b - Call Imp                     Summoning                     2
+    c - Call Canine Familiar         Summoning                     3
+    d - Summon Guardian Golem        Hexes/Summoning               3
+    e - Summon Lightning Spire       Summoning/Air                 4
+    f - Summon Ice Beast             Ice/Summoning                 4
+Comestibles
+ u - 22 chunks of flesh
+ B - 8 bread rations
+ D - 3 slices of pizza
+ G - 2 meat rations
+ S - 2 beef jerkies
+ W - 6 fruits
+ Y - a royal jelly
+
+
+   Skills:
+ + Level 8.1 Fighting
+ + Level 7.1(8.8) Short Blades
+ + Level 8.6(10.0) Long Blades
+ + Level 0.7(1.3) Slings
+ + Level 1.6(1.7) Throwing
+ + Level 9.0 Armour
+ + Level 4.2 Dodging
+ + Level 1.5 Stealth
+ + Level 9.4 Shields
+
+
+You had 9 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (11/15)            Temple (1/1) D:7            Lair (0/6) D:8
+    Orc (0/2) D:9         
+
+Altars:
+Ashenzari
+Cheibriados
+Dithmenos
+Elyvilon
+Fedhas
+Gozag
+Hepliaklqana
+Kikubaaqudgha
+Makhleb
+Nemelex Xobeh
+Okawaru
+Qazlal
+Ru
+Sif Muna
+Trog
+Uskayaw
+Vehumet
+Xom
+Yredelemnul
+Zin
+The Shining One
+
+Shops:
+D:4 =
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You feel a little less mighty now.
+Found a scroll of teleportation.
+Found a rapier.
+Some of the chunks of flesh in your inventory have rotted away.
+You see here a scroll of teleportation.
+You puncture the two-headed ogre! You burn the two-headed ogre.
+The two-headed ogre is heavily wounded.
+The two-headed ogre hits you with a giant club!
+* * * LOW HITPOINT WARNING * * *
+You block the two-headed ogre's attack.
+You see here a scroll of teleportation.
+N - 3 scrolls of teleportation (gained 1)
+You block the two-headed ogre's attack. x2
+You see here a rapier.
+Zapping: O - a wand of teleportation (will waste charges)
+Press: ? - help, Shift-Dir - straight line, f - you
+You feel strangely unstable.
+Evoking this partially-identified wand wasted a few charges.
+The two-headed ogre hits you with a giant club!
+You die...
+
+ #.##.##8}/8##.####.#
+ #. ... #####.....#.#
+ .. ##+         #...#
+#.#             ##..#
+                 #..#
+                 #..#
+                 #..#
+                 #..#
+        ####    ##..#
+ ..######..######...#
+ #......@O..........#
+ #.................##
+ ###################
+
+
+You could see a two-headed ogre.
+
+Vanquished Creatures
+  A centaur zombie (D:11)
+  2 trolls
+  A hippogriff (D:8)
+  Grinder (D:6)
+  A spriggan (D:7)
+  4 yaks (D:9)
+  Duvessa (D:6)
+  2 ice beasts
+  Purgy (D:4)
+  A hornet zombie (D:11)
+  3 orc warriors
+  A phantom (D:6)
+  2 centaurs
+  8 ogres
+  6 big kobolds
+  7 bullfrogs
+  Dowan (D:6)
+  A gnoll sergeant (D:9)
+  3 scorpions
+  2 howler monkeys
+  5 crimson imps
+  Crazy Yiuf (D:3)
+  2 jellies
+  3 orc priests
+  3 hounds
+  2 iguanas
+  Ijyb (D:2)
+  6 orc wizards
+  7 worker ants
+  A hound skeleton (D:8)
+  A worker ant zombie (D:6)
+  11 adders
+  2 gnolls (D:9)
+  2 river rats (Sewer)
+  2 shadow imps
+  An ooze (D:3)
+  An adder zombie (D:6)
+  2 adder skeletons (D:7)
+  3 worms (D:3)
+  4 dart slugs
+  10 leopard geckos
+  35 orcs
+  4 giant cockroaches
+  4 hobgoblins
+  13 jackals
+  5 quokkas
+  8 bats
+  10 frilled lizards
+  5 goblins
+  10 kobolds
+  A quokka zombie (D:7)
+  10 rats
+224 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Georaori the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   490 | D:1      | Reached XP level 2. HP: 25/27 MP: 1/1
+  1510 | D:1      | Reached XP level 3. HP: 32/33 MP: 2/2
+  1785 | D:2      | Noticed Ijyb
+  1794 | D:2      | Killed Ijyb
+  1824 | D:2      | Reached XP level 4. HP: 40/40 MP: 3/3
+  3333 | D:3      | Reached XP level 5. HP: 47/47 MP: 4/4
+  3438 | D:3      | Reached skill level 5 in Armour
+  3539 | D:3      | Found a glowing drain.
+  3545 | Sewer    | Entered a sewer
+  3558 | Sewer    | Reached skill level 1 in Dodging
+  3710 | Sewer    | Reached skill level 1 in Throwing
+  3710 | Sewer    | Reached XP level 6. HP: 46/53 MP: 5/5
+  3796 | Sewer    | Found a white marble altar of Elyvilon.
+  4196 | D:3      | Found a shadowy altar of Dithmenos.
+  4402 | D:3      | Found a runed door.
+  4406 | D:3      | Noticed Crazy Yiuf
+  4414 | D:3      | Killed Crazy Yiuf
+  5303 | D:4      | Reached skill level 5 in Fighting
+  5303 | D:4      | Reached skill level 5 in Shields
+  5527 | D:4      | Noticed Purgy
+  5531 | D:4      | Reached skill level 5 in Long Blades
+  5539 | D:4      | Killed Purgy
+  5539 | D:4      | Reached XP level 7. HP: 28/61 MP: 6/6
+  5762 | D:4      | Found Seraij's Jewellery Shop.
+  5771 | D:4      | Bought an uncursed ring of poison resistance for 200 gold pieces
+  5940 | D:4      | Found a hazy altar of Hepliaklqana.
+  5940 | D:4      | Found a shattered altar of Ashenzari.
+  5947 | D:4      | Found a shimmering altar of Xom.
+  5951 | D:4      | Found an opulent altar of Gozag.
+  5953 | D:4      | Found a burning altar of Makhleb.
+  6640 | D:5      | Entered Level 5 of the Dungeon
+  6743 | D:5      | Found a glowing golden altar of the Shining One.
+  6750 | D:5      | Became a worshipper of the Shining One
+  7519 | D:5      | Reached XP level 8. HP: 40/69 MP: 7/7
+  8784 | D:6      | Found a glowing silver altar of Zin.
+  8820 | D:6      | Found an ancient bone altar of Kikubaaqudgha.
+  8945 | D:6      | Noticed Grinder
+  8953 | D:6      | Killed Grinder
+  9287 | D:6      | Noticed Duvessa
+  9288 | D:6      | Noticed Dowan
+  9298 | D:6      | Killed Duvessa
+  9307 | D:6      | Killed Dowan
+  9512 | D:7      | Reached * piety under the Shining One
+  9513 | D:7      | Found a staircase to the Ecumenical Temple.
+  9524 | Temple   | Entered the Ecumenical Temple
+  9714 | D:7      | Reached XP level 9. HP: 65/78 MP: 8/8
+  9872 | D:7      | Noticed a troll
+  9883 | D:7      | Killed a troll
+  9883 | D:7      | Reached skill level 1 in Stealth
+ 10082 | D:7      | Reached skill level 1 in Short Blades
+ 10245 | D:7      | Got a bronze leather armour
+ 10482 | D:7      | Identified the +1 dagger "Tavyugheodiu" {protect, rC+ Int+4} (You found it on level 7 of the Dungeon)
+ 11948 | D:8      | Found a staircase to the Lair.
+ 11972 | D:8      | Got a scorched hunting sling
+ 12009 | D:8      | You fall through a shaft for 3 floors!
+ 12148 | D:11     | Noticed a white ugly thing
+ 12153 | D:11     | Reached ** piety under the Shining One
+ 12386 | D:11     | Reached skill level 5 in Short Blades
+ 12386 | D:11     | Reached XP level 10. HP: 86/86 MP: 9/9
+ 12695 | D:10     | Entered Level 10 of the Dungeon
+ 12746 | D:9      | Found a large runed door.
+ 12814 | D:9      | Found a large runed door.
+ 12842 | D:9      | Found a staircase to the Orcish Mines.
+ 12914 | D:9      | HP: 2/88 [vampire mosquito (6)]
+ 12988 | D:9      | Slain by a two-headed ogre
+
+Skill      XL: |  1  2  3  4  5  6  7  8  9 10 |
+---------------+-------------------------------+-----
+Fighting       |  4              5     6  7  8 |  8.1
+Armour         |     4        5     6  8     9 |  9.0
+Long Blades    |        3     4  5  6  8       |  8.6
+Shields        |           4     5  6  7  8  9 |  9.4
+Dodging        |              1        2  4    |  4.2
+Throwing       |              1                |  1.6
+Stealth        |                          1    |  1.5
+Short Blades   |                          5  7 |  7.1
+Slings         |                               |  0.7
+
+Action                   |  1- 3 |  4- 6 |  7- 9 | 10-12 || total
+-------------------------+-------+-------+-------+-------++-------
+Melee: Long sword        |    79 |   210 |   183 |       ||   472
+       Headbutt          |    16 |    34 |   116 |    28 ||   194
+       Dagger            |       |    15 |   238 |       ||   253
+       Rapier            |       |       |    84 |    99 ||   183
+ Fire: Hunting sling     |       |     3 |       |       ||     3
+Throw: Stone             |       |    32 |     5 |       ||    37
+       Tomahawk          |       |       |       |     2 ||     2
+Evoke: Wand              |       |       |       |     1 ||     1
+  Use: Scroll            |     1 |     7 |     9 |     4 ||    21
+       Potion            |       |     1 |       |     3 ||     4
+  Eat: Bread ration      |     1 |       |     1 |     1 ||     3
+       Chunk             |       |     4 |     6 |       ||    10
+       Beef jerky        |       |     1 |       |       ||     1
+       Meat ration       |       |     1 |     2 |       ||     3
+       Pizza             |       |       |     1 |       ||     1
+Armor: Scale mail        |    36 |    94 |       |       ||   130
+       Chain mail        |       |    31 |   149 |    29 ||   209
+       Robe              |       |       |    13 |       ||    13
+Dodge: Dodged            |    27 |    96 |   102 |    23 ||   248
+Block: Shield            |    44 |   135 |   237 |    59 ||   475
+Rpst.: Long sword        |     4 |    30 |    10 |       ||    44
+

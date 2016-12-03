@@ -1,0 +1,209 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+107 Qar Lyg the Covered (level 4, -1/40 HPs)
+             Began as a Minotaur Fighter on Dec 2, 2016.
+             Slain by Dowan
+             ... wielding a +0 dagger
+              (2 damage)
+             ... on level 4 of the Dungeon.
+             The game lasted 00:12:48 (2863 turns).
+
+Qar Lyg the Covered (Minotaur Fighter)              Turns: 2863, Time: 00:12:49
+
+Health: -1/40      AC:  5    Str: 21    XL:     4   Next: 57%
+Magic:  3/3        EV:  8    Int:  5    God:    
+Gold:   235        SH: 10    Dex: 12    Spells: 0 memorised, 3 levels left
+
+rFire  . . .      SeeInvis .    a - +1 long sword
+rCold  . . .      Gourm    .    y - +0 scale mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    h - +0 pair of gloves
+MR     .....      Rnd*Tele +    (no boots)
+Stlth  ..........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2, agile 1, deformed body, teleportitis 1
+a: no special abilities
+
+
+You were on level 4 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 4 of its levels.
+
+You collected 235 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +1 long sword (weapon)
+ b - a +0 blowgun
+ g - a cursed -1 short sword
+ o - a +0 hunting sling
+ p - a +0 hunting sling
+Missiles
+ k - 82 stones (quivered)
+ l - 25 arrows
+ r - 47 sling bullets
+ w - 16 poisoned needles
+Armour
+ c - a +0 shield (worn)
+ h - a +0 pair of gloves (worn)
+ u - a +0 chain mail
+ y - a +0 scale mail (worn)
+Jewellery
+ m - an uncursed amulet of regeneration {unknown}
+Scrolls
+ q - 3 scrolls of teleportation
+ t - a scroll of amnesia
+ x - a scroll of enchant armour {unknown}
+Potions
+ d - 3 potions of might
+ e - a potion of mutation
+ f - a potion of degeneration {unknown}
+ j - 2 potions of cancellation {unknown}
+ s - a potion of brilliance {unknown}
+ v - a potion of heal wounds {unknown}
+Comestibles
+ i - a bread ration
+ n - 5 meat rations
+ z - 2 fruits
+ A - a beef jerky
+
+
+   Skills:
+ + Level 4.1 Fighting
+ + Level 3.7 Long Blades
+ + Level 4.6 Armour
+ + Level 0.7 Dodging
+ + Level 4.4 Shields
+
+
+You had 3 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (4/15)            
+Temple: D:4-7       
+
+Altars:
+
+Annotations:
+D:4 Dowan, Duvessa
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You are agile. (Dex +2)
+Armour fits poorly on your strangely shaped body.
+You are occasionally teleported next to monsters.
+
+
+Message History
+
+Duvessa is moderately wounded.
+Duvessa hits you with a short sword. You block Dowan's attack. Duvessa hits you with a short sword! Dowan hits you but does no damage.
+You barely miss Duvessa.
+Duvessa is moderately wounded.
+Duvessa barely misses you. Dowan barely misses you.
+You barely miss Duvessa. You headbutt Duvessa, but do no damage.
+Duvessa is moderately wounded.
+Duvessa hits you with a short sword. Dowan hits you but does no damage.
+Your shield and scale mail prevent you from hitting Duvessa.
+Duvessa is moderately wounded.
+Duvessa hits you with a short sword. You block Dowan's attack. Duvessa hits you with a short sword!
+* * * LOW HITPOINT WARNING * * *
+Dowan hits you with a dagger.
+* * * LOW HITPOINT WARNING * * *
+You hit Duvessa but do no damage.
+Duvessa is moderately wounded.
+Duvessa hits you with a short sword.
+* * * LOW HITPOINT WARNING * * *
+Dowan hits you with a dagger.
+You die...
+
+   ....##
+  # ....#
+  #.#.#.#
+  #(#.#.###
+.##.......
+.........
+).....ee#
+     #.@#
+   #.#..##
+   #...<.#
+.........#
+.........#
+.........#
+.........#
+####.....#
+   #.....#
+   #.#.###
+
+
+You could see Duvessa and Dowan.
+
+Vanquished Creatures
+  2 adders (D:2)
+  An ooze (D:3)
+  2 worms (D:2)
+  2 dart slugs
+  4 leopard geckos
+  3 orcs (D:3)
+  4 ball pythons
+  8 bats
+  2 giant cockroaches
+  6 goblins
+  9 hobgoblins
+  3 jackals (D:1)
+  6 kobolds
+  2 quokkas (D:3)
+  6 frilled lizards
+  3 rats
+63 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Qar Lyg the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   371 | D:1      | Reached XP level 2. HP: 26/27 MP: 1/1
+   903 | D:1      | Gained mutation: You are agile. (Dex +2) [potion of mutation]
+   903 | D:1      | Gained mutation: You are occasionally teleported next to monsters. [potion of mutation]
+   903 | D:1      | Gained mutation: Armour fits poorly on your strangely shaped body. [potion of mutation]
+  1017 | D:1      | Reached XP level 3. HP: 32/33 MP: 2/2
+  1761 | D:2      | Reached XP level 4. HP: 32/40 MP: 3/3
+  2850 | D:4      | Noticed Duvessa
+  2851 | D:4      | Noticed Dowan
+  2863 | D:4      | HP: 1/40 [Duvessa/short sword (4)]
+  2863 | D:4      | Slain by Dowan
+
+Skill      XL: |  1  2  3 |
+---------------+----------+-----
+Armour         |     4    |  4.6
+Shields        |     4    |  4.4
+Fighting       |        4 |  4.1
+Long Blades    |        3 |  3.7
+Dodging        |          |  0.7
+
+Action                   |  1- 3 |  4- 6 || total
+-------------------------+-------+-------++-------
+Melee: Long sword        |   101 |    43 ||   144
+       Headbutt          |    16 |     8 ||    24
+  Use: Scroll            |     4 |     3 ||     7
+       Potion            |     1 |     1 ||     2
+  Eat: Chunk             |     3 |     1 ||     4
+       Bread ration      |       |     1 ||     1
+Armor: Scale mail        |    43 |    19 ||    62
+Dodge: Dodged            |    31 |    21 ||    52
+Block: Shield            |    54 |    30 ||    84
+Rpst.: Long sword        |     8 |     5 ||    13
+

@@ -18,6 +18,7 @@ alias nom='npm'
 alias hyper='Hyper'
 alias extraterm='/opt/extraterm/extraterm'
 alias ghost='gs'	# I am used to 'gs' as 'git status'
+alias vimrc='$EDITOR ~/.vimrc'
 
 alias lifetracker='cd ~/projects/lifetracker/electron && npm start'
 alias passbox='cd ~/projects/passbox && npm start'
@@ -29,6 +30,7 @@ alias gca='git commit -am'
 alias gpl='git pull'
 alias gp='git push -u origin master'
 alias gpb='git push'	# for when you don't want to push to origin/master
+alias gsub='git submodule add'
 
 # from original ~/.bashrc
 # Add an "alert" alias for long running commands.  Use like so:

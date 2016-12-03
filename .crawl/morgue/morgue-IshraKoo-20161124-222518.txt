@@ -1,0 +1,189 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+28 Ishra Koo the Skirmisher (level 2, -3/27 HPs)
+             Began as a Minotaur Fighter on Nov 24, 2016.
+             Slain by Ijyb
+             ... wielding a +0 dagger
+              (4 damage)
+             ... on level 2 of the Dungeon.
+             The game lasted 00:09:25 (1603 turns).
+
+Ishra Koo the Skirmisher (Minotaur Fighter)         Turns: 1603, Time: 00:09:25
+
+Health: -3/27      AC:  0    Str: 25    XL:     2   Next: 96%
+Magic:  1/1        EV: 13    Int:  5    God:    
+Gold:   167        SH:  0    Dex:  9    Spells: 0 memorised, 1 level left
+
+rFire  . . .      SeeInvis .    (weapon currently unavailable)
+rCold  . . .      Gourm    .    (armour currently unavailable)
+rNeg   . . .      Faith    .    (shield currently unavailable)
+rPois  .          Spirit   .    (helmet currently unavailable)
+rElec  .          Reflect  .    (cloak currently unavailable)
+rCorr  .          Harm     .    (gloves currently unavailable)
+MR     .....                    (boots currently unavailable)
+Stlth  +.........               (no amulet)
+                                (ring currently unavailable)
+                                (ring currently unavailable)
+
+@: mighty, pig-form (expiring), very quick
+A: (retaliatory headbutt), (horns 0)
+a: no special abilities
+
+
+You were on level 2 of the Dungeon.
+You were not hungry.
+
+You were a filthy swine.
+
+You visited 1 branch of the dungeon, and saw 2 of its levels.
+
+You collected 167 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 war axe
+ m - a +0 dagger
+ q - a +0 short sword
+ s - a +0 mace
+ u - a +3 short sword (melded)
+ v - a +0 mace
+Missiles
+ l - 28 sling bullets
+ p - 46 stones (quivered)
+Armour
+ b - a +0 scale mail (melded)
+ c - a +0 shield
+ i - a +0 large shield (melded)
+Jewellery
+ e - an uncursed amulet of guardian spirit {unknown}
+Scrolls
+ o - 2 scrolls of remove curse {unknown}
+Potions
+ k - 2 potions of curing
+Comestibles
+ f - a bread ration
+ t - 2 fruits
+ w - a meat ration
+
+
+   Skills:
+ + Level 4.2 Fighting
+ + Level 2.8 Axes
+ + Level 4.0 Armour
+ + Level 0.1 Stealth
+ + Level 3.9 Shields
+
+
+You had one spell level left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (2/15)            
+
+Altars:
+
+Annotations:
+D:1 1 runed door
+D:2 Ijyb
+
+
+Innate Abilities, Weirdness & Mutations
+
+((You reflexively headbutt those who attack you in melee.))
+((You have a pair of horns on your head.))
+
+
+Message History
+
+You barely miss Ijyb.
+Ijyb is heavily wounded.
+Ijyb hits you with a dagger.
+* * * LOW HITPOINT WARNING * * *
+The goblin closely misses you.
+You completely miss Ijyb.
+Ijyb is heavily wounded.
+Ijyb hits you with a dagger.
+* * * LOW HITPOINT WARNING * * *
+The goblin misses you.
+You barely miss Ijyb.
+Ijyb is heavily wounded.
+Ijyb misses you. The goblin hits you with a club.
+* * * LOW HITPOINT WARNING * * *
+You bite the goblin!
+You kill the goblin!
+Your Armour skill increases to level 4!
+Ijyb screams, "Me stronger than you!"
+Ijyb hits you with a dagger.
+You die...
+
+        .) #######......
+        #. #............
+        #J##.####.......
+         ...............
+         #.#<...#.......
+      ####.##.......#.#.
+      #.............#.#.
+  #   #.##..#..[....#.#.
+..#.# #.###.#.......#.#.
+......#g# #.........#.#.
+#.....)h# ##........#.#.
+#....####  #..###.###
+#...      ....# #.#
+#..       ..... ..#
+..       ###.##  ##
+#          #.
+
+
+You could see Ijyb.
+
+Vanquished Creatures
+  An adder (D:2)
+  An ooze (D:2)
+  2 leopard geckos (D:1)
+  A giant cockroach (D:1)
+  A goblin (D:2)
+  2 hobgoblins (D:1)
+  A bat (D:1)
+  2 kobolds (D:1)
+  2 rats (D:1)
+  2 fungi (D:1)
+15 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Ishra Koo the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+     1 | D:1      | Found a runed door.
+    11 | D:1      | Noticed a jelly
+   725 | D:1      | Reached XP level 2. HP: 25/27 MP: 1/1
+  1580 | D:2      | Noticed Ijyb
+  1602 | D:2      | HP: 1/27 [goblin/club (2)]
+  1603 | D:2      | Slain by Ijyb
+
+Skill      XL: |  1  2 |
+---------------+-------+-----
+Fighting       |     4 |  4.2
+Armour         |     4 |  4.0
+Axes           |       |  2.8
+Stealth        |       |  0.1
+Shields        |       |  3.9
+
+Action                   || total
+-------------------------++-------
+Melee: War axe           ||    31
+       Headbutt          ||     7
+       Unarmed           ||    16
+       Short sword       ||     3
+  Use: Scroll            ||     2
+       Potion            ||     1
+  Eat: Bread ration      ||     1
+       Chunk             ||     1
+Armor: Scale mail        ||     8
+Dodge: Dodged            ||    21
+Block: Shield            ||    11
+       Large shield      ||     2
+

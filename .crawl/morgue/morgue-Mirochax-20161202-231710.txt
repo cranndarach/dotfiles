@@ -1,0 +1,178 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+24 Mirochax the Firebug (level 3, 0/26 HPs)
+             Began as a Hill Orc Fire Elementalist on Dec 2, 2016.
+             Slain by an ooze (2 damage)
+             ... on level 2 of the Dungeon.
+             The game lasted 00:06:22 (1229 turns).
+
+Mirochax the Firebug (Hill Orc Fire Elementalist)   Turns: 1229, Time: 00:06:22
+
+Health: 0/26       AC:  2    Str: 10    XL:     3   Next: 2%
+Magic:  2/5        EV: 12    Int: 16    God:    
+Gold:   33         SH:  0    Dex: 11    Spells: 2 memorised, 2 levels left
+
+rFire  . . .      SeeInvis .    h - +0 club
+rCold  . . .      Gourm    .    a - +0 robe
+rNeg   . . .      Faith    .    (no shield)
+rPois  .          Spirit   .    (no helmet)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ++........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: very slightly contaminated
+A: no striking features
+a: no special abilities
+
+
+You were on level 2 of the Dungeon.
+You were hungry.
+
+You visited 1 branch of the dungeon, and saw 2 of its levels.
+
+You collected 33 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ h - a +0 club (weapon)
+Missiles
+ j - 20 poisoned needles
+Armour
+ a - a +0 robe (worn)
+Jewellery
+ e - a cursed amulet of the gourmand {unknown}
+Scrolls
+ l - 2 scrolls of remove curse
+Books
+ b - a book of Flames   
+   
+    Spells                             Type                      Level
+    a - Flame Tongue                 Conjuration/Fire              1
+    b - Throw Flame                  Conjuration/Fire              2
+    c - Conjure Flame                Conjuration/Fire              3
+    d - Inner Flame                  Hexes/Fire                    3
+    e - Sticky Flame                 Conjuration/Fire              4
+    f - Fireball                     Conjuration/Fire              5
+Comestibles
+ c - 2 bread rations
+ i - a royal jelly
+ k - 5 fruits
+ m - a chunk of flesh
+
+
+   Skills:
+ + Level 0.2 Maces & Flails
+ + Level 1.7 Dodging
+ + Level 1.9 Stealth
+ + Level 1.8 Spellcasting
+ + Level 1.0 Conjurations
+ + Level 4.0 Fire Magic
+
+
+You had 2 spell levels left.
+You knew the following spells:
+
+ Your Spells              Type           Power        Failure   Level  Hunger
+a - Flame Tongue          Conj/Fire      #....        10%         1    ##.....
+b - Throw Flame           Conj/Fire      #.....       14%         2    ###....
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (2/15)            
+
+Altars:
+
+Message History
+
+Aim: a worm (moderately wounded)
+You miscast Flame Tongue. Nothing appears to happen.
+You are feeling hungry.
+You feel a little less agile now.
+You hit the worm.
+The worm is heavily wounded.
+The worm bites you! The quokka barely misses you.
+You hit the worm.
+The worm is heavily wounded.
+The quokka bites you. The worm bites you!
+* * * LOW HITPOINT WARNING * * *
+The ooze closely misses you.
+The quokka bites you but does no damage.
+Casting: Flame Tongue
+Confirm with . or Enter, or press ? or * to list all spells.
+Aiming: Flame Tongue
+Press: ? - help, Shift-Dir - straight line, f/p - worm
+Aim: a worm (heavily wounded)
+The flame tongue hits the ooze. The ooze appears unharmed. The rat bites you but does no damage. The ooze hits you.
+You die...
+
+         #...
+         ...#      .
+          ..###  .<.
+##.#######....# ....
+#.........#...#.....
+#.w.......#...#.....
+...$........#..>....
+..........@r?.......
+..........rJw.......
+....................
+.......<............
+....................
+....................
+....................
+.................(..
+....#.............g
+.##..............##
+  #.#......####.##
+
+
+You could see a worm, an ooze, a quokka and a rat.
+
+Vanquished Creatures
+  An ooze (D:1)
+  A dart slug (D:1)
+  4 bats (D:1)
+  5 hobgoblins (D:1)
+  2 kobolds (D:1)
+  A frilled lizard (D:1)
+  A goblin (D:1)
+  A rat (D:1)
+16 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Mirochax the Hill Orc Fire Elementalist began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 14/14 MP: 3/3
+   251 | D:1      | Reached XP level 2. HP: 20/20 MP: 2/4
+  1022 | D:1      | Reached XP level 3. HP: 26/26 MP: 3/5
+  1149 | D:1      | Reached skill level 4 in Fire Magic
+  1160 | D:1      | Learned a level 2 spell: Throw Flame
+  1229 | D:2      | Slain by an ooze
+
+Skill      XL: |  1  2  3 |
+---------------+----------+-----
+Fire Magic     |        4 |  4.0
+Maces & Flails |          |  0.2
+Dodging        |          |  1.7
+Stealth        |          |  1.9
+Spellcasting   |          |  1.8
+Conjurations   |          |  1.0
+
+Action                   || total
+-------------------------++-------
+Melee: Unarmed           ||     2
+       Club              ||    15
+ Cast: Flame Tongue      ||    19
+  Use: Potion            ||     3
+       Scroll            ||     2
+ Stab: Sleeping          ||     1
+  Eat: Chunk             ||     1
+Armor: Robe              ||     5
+Dodge: Dodged            ||    14
+

@@ -1,0 +1,440 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+8420 Piusazur the Blocker (level 11, -4/92 HPs)
+             Began as a Minotaur Fighter on Dec 3, 2016.
+             Was a High Priest of Okawaru.
+             Slain by a nine-headed hydra (10 damage)
+             ... on level 1 of the Lair of Beasts.
+             The game lasted 01:25:32 (12703 turns).
+
+Piusazur the Blocker (Minotaur Fighter)            Turns: 12703, Time: 01:25:34
+
+Health: -4/92      AC: 23    Str: 27    XL:     11   Next: 9%
+Magic:  10/10      EV: 10    Int:  5    God:    Okawaru [*****.]
+Gold:   367        SH:  4    Dex: 11    Spells: 2 memorised, 7 levels left
+
+rFire  + . .      SeeInvis .    Y - +2 triple sword (protect)
+rCold  x . .      Gourm    .    W - +1 chain mail {MR+}
+rNeg   . . .      Faith    .    (shield currently unavailable)
+rPois  +          Spirit   .    (helmet restricted)
+rElec  .          Reflect  +    r - +0 cloak
+rCorr  .          Harm     .    (no gloves)
+MR     +....                    e - +1 pair of boots
+Stlth  ..........               Z - +4 amulet of reflection
+                                G - ring of poison resistance
+                                o - ring of fire
+
+@: protection aura
+A: retaliatory headbutt, horns 2, shaggy fur 1, strong 2
+a: Heroism, Finesse, Renounce Religion
+
+
+You were on level 1 of the Lair of Beasts.
+You worshipped Okawaru.
+Okawaru was extremely pleased with you.
+You were not hungry.
+
+You visited 2 branches of the dungeon, and saw 11 of its levels.
+
+You collected 610 gold pieces.
+You spent 243 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ a - the cursed +1 trident of the Two Names {venom, rElec rF+ MR+, unknown}
+   (You took it off a gnoll on level 10 of the Dungeon)   
+   
+   It poisons the flesh of those it strikes.
+   
+   It protects you from fire.
+   It insulates you from electricity.
+   It affects your resistance to hostile enchantments.
+   It has a curse placed upon it.
+ b - a +3 long sword of freezing
+ h - a +0 morningstar
+ v - the +6 war axe of the Mouth {freeze, +Rage rF- Str+7}
+   (You found it on level 9 of the Dungeon)   
+   
+   It has been specially enchanted to freeze those struck by it, causing extra
+   injury to most foes and up to half again as much damage against particularly
+   susceptible opponents. It can also slow down cold-blooded creatures.
+   
+   It affects your strength (+7).
+   It makes you vulnerable to fire.
+   It lets you go berserk.
+ B - a +3 falchion of protection
+ K - a +4 scimitar of flaming
+ O - a +0 shortbow
+ U - a +4 hand axe of venom
+ X - the +3 mace of the Assorted Mice {crush, Dex+6}
+   (You found it on level 8 of the Dungeon)   
+   
+   It inflicts extra damage upon your enemies.
+   
+   It affects your dexterity (+6).
+ Y - a +2 triple sword of protection (weapon)
+Missiles
+ g - 332 stones
+ i - 56 poisoned needles
+ k - 2 throwing nets
+ m - 225 arrows
+ E - 9 tomahawks (quivered)
+ R - 7 javelins
+Armour
+ c - a +0 shield
+ e - a +1 pair of boots (worn)
+ r - a +0 cloak (worn)
+ W - a +1 chain mail of magic resistance (worn)
+Jewellery
+ l - an uncursed ring of see invisible
+ o - a ring of fire (left hand)
+ D - an uncursed ring of flight
+ G - a ring of poison resistance (right hand)
+ Z - a +4 amulet of reflection (around neck)
+Wands
+ u - a wand of lightning (6/15)
+Scrolls
+ t - 2 scrolls of identify
+ w - a scroll of blinking {unknown}
+ x - 2 scrolls of remove curse
+ A - a scroll of teleportation
+ V - 2 scrolls of immolation
+Potions
+ d - 3 potions of might
+ p - 3 potions of flight
+ z - 3 potions of curing
+ F - a potion of cancellation {unknown}
+ H - 2 potions of haste
+ L - a potion of brilliance
+Books
+ I - a book of Battle   
+   
+    Spells                             Type                      Level
+    a - Infusion                     Charms                        1
+    b - Shroud of Golubria           Charms/Translocation          2
+    c - Song of Slaying              Charms                        2
+    d - Spectral Weapon              Hexes/Charms                  3
+    e - Regeneration                 Charms/Necromancy             3
+Comestibles
+ f - 5 bread rations
+ s - 4 chunks of flesh
+ M - 4 meat rations
+ Q - 9 beef jerkies
+ S - 2 fruits
+
+
+   Skills:
+ + Level 7.3 Fighting
+   Level 4.9(7.7) Short Blades
+ + Level 10.0(10.6) Long Blades
+ + Level 2.5(5.9) Axes
+ * Level 8.4(8.6) Maces & Flails
+ + Level 0.8 Throwing
+ + Level 8.3 Armour
+ + Level 3.8 Dodging
+ + Level 2.2 Stealth
+ + Level 10.2 Shields
+
+
+You had 7 spell levels left.
+You knew the following spells:
+
+ Your Spells              Type           Power        Failure   Level  Hunger
+a - Infusion              Chrm           #...         99%         1    ##.....
+b - Song of Slaying       Chrm           #.......     100%        2    ###....
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (10/15)            Temple (0/1) D:4            Lair (1/6) D:10
+   Orc: D:9-12      
+
+Altars:
+Gozag
+Okawaru
+Uskayaw
+Yredelemnul
+
+Shops:
+D:10 *
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You are covered in fur. (AC +1)
+Your muscles are very strong. (Str +4)
+
+
+Message History
+
+The nine-headed hydra bites you but does no damage.
+The nine-headed hydra bites you.
+The nine-headed hydra bites you but does no damage. x2
+The nine-headed hydra bites you.
+The nine-headed hydra bites you but does no damage.
+The nine-headed hydra bites you!
+* * * LOW HITPOINT WARNING * * *
+The nine-headed hydra closely misses you.
+Unknown command.
+You hit the nine-headed hydra but do no damage.
+The nine-headed hydra is heavily wounded.
+The nine-headed hydra bites you!
+* * * LOW HITPOINT WARNING * * *
+The nine-headed hydra bites you but does no damage. x3
+The nine-headed hydra bites you!
+* * * LOW HITPOINT WARNING * * *
+The nine-headed hydra bites you but does no damage. x2
+The nine-headed hydra barely misses you.
+The nine-headed hydra bites you!
+You die...
+
+         ###...
+       ###....##
+     ###.......#
+ #####........#
+ ..#..........#
+##............#
+#............#
+#..........<#
+#.........@##
+#........D##
+#........##
+#.......##
+#......P#
+#P......#
+###.P##..#
+  ### #....
+      #.....
+      #.......
+      ........
+
+
+You could see a nine-headed hydra.
+
+Vanquished Creatures
+  The ghost of Osisee the Blocker, a journeyman MiFi of Sif Muna (D:9)
+  Erica (D:9)
+  Pikel (D:6)
+  The ghost of Mesitooc the Shield-Bearer, a novice MiFi (D:5)
+  A komodo dragon (D:7)
+  Prince Ribbit (D:5)
+  2 two-headed ogres
+  2 yaks (D:10)
+  4 orc warriors
+  A slave (D:6)
+  A black bear (D:8)
+  3 ice beasts
+  A necrophage (D:7)
+  4 ogres
+  2 sky beasts (D:5)
+  3 phantoms
+  5 centaurs
+  3 crocodiles (D:10)
+  2 big kobolds (D:8)
+  8 bullfrogs
+  A wyvern skeleton (D:5)
+  6 scorpions
+  5 killer bees (D:7)
+  4 wights (D:8)
+  A howler monkey (D:5)
+  4 crimson imps
+  A hound (D:5)
+  A centaur zombie (D:8)
+  2 jellies
+  2 orc priests
+  Crazy Yiuf (D:2)
+  2 bullfrog skeletons
+  6 iguanas
+  3 worker ants
+  8 orc wizards
+  A killer bee zombie (D:5)
+  A hound skeleton (D:7)
+  A worker ant zombie (D:6)
+  14 gnolls
+  4 river rats (D:10)
+  19 adders
+  5 shadow imps
+  2 oozes
+  2 worms (D:4)
+  3 dart slugs
+  3 leopard geckos
+  31 orcs
+  8 giant cockroaches
+  16 goblins
+  10 hobgoblins
+  A jackal (D:1)
+  15 kobolds
+  9 quokkas
+  3 ball pythons
+  19 bats
+  7 frilled lizards
+  A jackal zombie (D:6)
+  3 leopard gecko skeletons
+  A quokka zombie (D:9)
+  33 rats
+  4 fungi
+310 creatures vanquished.
+
+Vanquished Creatures (others)
+  A minotaur (D:1)
+  2 gargoyles (D:1)
+  2 elves (D:1)
+  A formicid (D:1)
+  A vampire (D:1)
+  A naga (D:1)
+  2 dwarves (D:1)
+  2 centaurs (D:1)
+  An orc (D:1)
+  2 kobolds (D:1)
+  4 fungi
+  4 tentacles (D:1)
+23 creatures vanquished.
+
+Grand Total: 333 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Piusazur the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+     2 | D:1      | Killed a centaur
+     3 | D:1      | Killed a centaur
+     6 | D:1      | Killed a gargoyle
+     8 | D:1      | Noticed a dwarf
+     8 | D:1      | Noticed a dwarf
+     8 | D:1      | Noticed a naga
+     8 | D:1      | Noticed an elf
+     8 | D:1      | Noticed a kraken
+     8 | D:1      | Noticed a minotaur
+     8 | D:1      | Noticed an elf
+     8 | D:1      | Noticed a formicid
+     8 | D:1      | Noticed a gargoyle
+     8 | D:1      | Noticed a vampire
+     8 | D:1      | Killed a dwarf
+     9 | D:1      | Killed a gargoyle
+    10 | D:1      | Killed an elf
+    10 | D:1      | Killed a formicid
+    11 | D:1      | Killed a vampire
+    12 | D:1      | Killed a minotaur
+    12 | D:1      | Killed a dwarf
+    13 | D:1      | Killed a naga
+    14 | D:1      | Killed an elf
+   156 | D:1      | Reached XP level 2. HP: 23/27 MP: 1/1
+   876 | D:1      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1162 | D:2      | Reached XP level 4. HP: 40/40 MP: 3/3
+  1321 | D:2      | Reached skill level 1 in Dodging
+  2066 | D:2      | Found a runed door.
+  2070 | D:2      | Noticed Crazy Yiuf
+  2076 | D:2      | Killed Crazy Yiuf
+  2219 | D:3      | Reached XP level 5. HP: 46/46 MP: 4/4
+  2273 | D:3      | Found an iron altar of Okawaru.
+  2276 | D:3      | Found a faded altar of an unknown god.
+  2303 | D:3      | Became a worshipper of Warmaster Okawaru
+  2951 | D:4      | Reached skill level 5 in Shields
+  3361 | D:4      | Reached XP level 6. HP: 53/53 MP: 5/5
+  3372 | D:4      | Reached skill level 5 in Armour
+  3437 | D:4      | Reached * piety under Okawaru
+  3443 | D:4      | Reached skill level 5 in Long Blades
+  3646 | D:4      | Reached XP level 7. HP: 60/60 MP: 6/6
+  3657 | D:4      | Found a staircase to the Ecumenical Temple.
+  4288 | D:4      | Reached skill level 1 in Maces & Flails
+  4288 | D:4      | Reached skill level 1 in Stealth
+  4330 | D:4      | Gained mutation: Your muscles are strong. (Str +2) [potion of mutation]
+  4330 | D:4      | Gained mutation: You are covered in fur. (AC +1) [potion of mutation]
+  4330 | D:4      | Gained mutation: Your muscles are very strong. (Str +4) [potion of mutation]
+  4534 | D:4      | Reached skill level 5 in Fighting
+  4572 | D:5      | Entered Level 5 of the Dungeon
+  4584 | D:5      | Noticed Mesitooc's ghost (novice MiFi)
+  4609 | D:5      | Killed Mesitooc's ghost
+  4609 | D:5      | Reached ** piety under Okawaru
+  4609 | D:5      | Reached XP level 8. HP: 20/68 MP: 7/7
+  5056 | D:5      | Noticed Prince Ribbit
+  5091 | D:5      | Killed Prince Ribbit
+  5449 | D:5      | Reached *** piety under Okawaru
+  5748 | D:5      | Found a hide-covered altar of Uskayaw.
+  5751 | D:5      | Found a basalt altar of Yredelemnul.
+  6324 | D:6      | Reached XP level 9. HP: 72/75 MP: 8/8
+  6766 | D:6      | Noticed Pikel
+  6785 | D:6      | Killed Pikel
+  6785 | D:6      | Reached skill level 1 in Short Blades
+  6785 | D:6      | Reached skill level 5 in Maces & Flails
+  7250 | D:6      | Reached **** piety under Okawaru
+  8059 | D:7      | Found an opulent altar of Gozag.
+  8120 | D:7      | Noticed a komodo dragon
+  8137 | D:7      | Killed a komodo dragon
+  8175 | D:7      | You fall through a shaft!
+  8541 | D:7      | Reached XP level 10. HP: 79/84 MP: 9/9
+  9575 | D:8      | Got a bloodstained mace
+  9576 | D:8      | Identified the +3 mace of the Assorted Mice {crush, Dex+6} (You found it on level 8 of the Dungeon)
+ 10730 | D:9      | Noticed Osisee's ghost (journeyman MiFi)
+ 10776 | D:9      | Killed Osisee's ghost
+ 10776 | D:9      | Reached ***** piety under Okawaru
+ 11098 | D:9      | Got an ichor-stained war axe
+ 11148 | D:9      | Identified the +6 war axe of the Mouth {freeze, +Rage rF- Str+7} (You found it on level 9 of the Dungeon)
+ 11281 | D:9      | Reached skill level 1 in Axes
+ 11607 | D:9      | Noticed Erica
+ 11626 | D:9      | Killed Erica
+ 11626 | D:9      | Received a gift from Okawaru
+ 11626 | D:9      | Reached skill level 10 in Shields
+ 11764 | D:9      | Learned a level 1 spell: Infusion
+ 11767 | D:9      | Learned a level 2 spell: Song of Slaying
+ 11840 | D:10     | Entered Level 10 of the Dungeon
+ 12131 | D:10     | Reached XP level 11. HP: 92/92 MP: 10/10
+ 12198 | D:10     | Found Vonejoil's Assorted Antiques.
+ 12207 | D:10     | Bought a potion of might for 108 gold pieces
+ 12207 | D:10     | Bought an encrusted brass wand for 108 gold pieces
+ 12207 | D:10     | Bought a scroll labeled YCYPYA HIUNOIM for 27 gold pieces
+ 12387 | D:10     | Got a warped trident {venom}
+ 12414 | D:10     | Found a staircase to the Lair.
+ 12421 | D:10     | Reached skill level 10 in Long Blades
+ 12685 | Lair:1   | Entered Level 1 of the Lair of Beasts
+ 12691 | Lair:1   | Noticed a five-headed hydra
+ 12703 | Lair:1   | Slain by a nine-headed hydra
+
+Skill      XL: |  1  2  3  4  5  6  7  8  9 10 11 |
+---------------+----------------------------------+-----
+Shields        |     4        5     6  7  9 10    | 10.2
+Long Blades    |     3        4  5  6  7  8  9 10 | 10.0
+Fighting       |        4           5     6  7    |  7.3
+Armour         |        4        5     6  7  8    |  8.3
+Dodging        |           1     2     3          |  3.8
+Maces & Flails |                    3  4  6  8    |  8.4
+Stealth        |                    1     2       |  2.2
+Short Blades   |                          3  4    |  4.9
+Axes           |                             2    |  2.5
+Throwing       |                                  |  0.8
+
+Action                   |  1- 3 |  4- 6 |  7- 9 | 10-12 || total
+-------------------------+-------+-------+-------+-------++-------
+Melee: Long sword        |    82 |    64 |       |    57 ||   203
+       Headbutt          |    12 |    47 |    67 |    72 ||   198
+       Falchion          |       |   139 |   177 |       ||   316
+       Rapier            |       |       |   121 |    50 ||   171
+       Mace              |       |       |       |    66 ||    66
+       Triple sword      |       |       |       |   120 ||   120
+       War axe           |       |       |       |    20 ||    20
+       Hand axe          |       |       |       |     5 ||     5
+Throw: Stone             |     4 |       |       |       ||     4
+       Tomahawk          |       |       |     7 |     1 ||     8
+Invok: Heroism           |       |       |       |     1 ||     1
+  Use: Potion            |     4 |     2 |     5 |     3 ||    14
+       Scroll            |     3 |     6 |     7 |    11 ||    27
+ Stab: Held in net/web   |       |     1 |       |       ||     1
+  Eat: Chunk             |     1 |     6 |     2 |     5 ||    14
+       Bread ration      |       |     1 |     1 |     1 ||     3
+       Meat ration       |       |       |     2 |       ||     2
+       Beef jerky        |       |       |     1 |       ||     1
+Armor: Scale mail        |    38 |    92 |    65 |       ||   195
+       Plate armour      |       |       |    44 |    52 ||    96
+       Chain mail        |       |       |       |   117 ||   117
+Dodge: Dodged            |    36 |    70 |   106 |   100 ||   312
+Block: Shield            |    50 |   112 |   202 |   131 ||   495
+       Other             |       |       |       |    17 ||    17
+Rpst.: Long sword        |     8 |     8 |       |       ||    16
+       Falchion          |       |    10 |    17 |       ||    27
+       Triple sword      |       |       |       |    23 ||    23
+

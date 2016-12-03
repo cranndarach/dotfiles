@@ -1,0 +1,384 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+11120 Osisee the Blocker (level 11, -5/93 (94) HPs)
+             Began as a Minotaur Fighter on Dec 2, 2016.
+             Was a Believer of Sif Muna.
+             Slain by a yak (8 damage)
+             ... on level 9 of the Dungeon.
+             The game lasted 01:14:44 (12989 turns).
+
+Osisee the Blocker (Minotaur Fighter)              Turns: 12989, Time: 01:14:45
+
+HP:   -5/93 (94)    AC: 15    Str: 20 (21) XL:     11   Next: 45%
+MP:   0/15          EV:  8    Int:  5 (7)  God:    Sif Muna [**....]
+Gold: 526           SH: 12    Dex:  9 (11) Spells: 2 memorised, 15 levels left
+
+rFire  . . .      SeeInvis .    a - +2 mace (venom)
+rCold  . . .      Gourm    .    y - +0 chain mail
+rNeg   . . .      Faith    .    c - +1 shield
+rPois  .          Spirit   +    (helmet restricted)
+rElec  .          Reflect  .    w - +0 cloak
+rCorr  .          Harm     .    f - +1 pair of gloves
+MR     +....                    (no boots)
+Stlth  ..........               I - amulet of guardian spirit
+                                (no ring)
+                                x - ring of protection from magic
+
+@: very slightly contaminated
+A: retaliatory headbutt, horns 2
+a: Divine Energy, Renounce Religion
+
+
+You were on level 9 of the Dungeon.
+You worshipped Sif Muna.
+Sif Muna was pleased with you.
+You were not hungry.
+
+You visited 2 branches of the dungeon, and saw 10 of its levels.
+
+You collected 526 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +2 mace of venom (weapon)
+ b - a +0 blowgun
+ e - a +0 hunting sling
+ o - a +0 long sword
+ r - a +0 shortbow
+ v - a +1 long sword
+ B - a +1 mace of holy wrath
+ F - a +0 mace of crushing
+ L - a +1 shortbow of freezing
+ P - a +0 rapier
+ Q - a cursed -2 great sword
+ S - a +0 falchion
+ U - a +4 short sword of speed
+ W - a +0 quick blade
+Missiles
+ j - 206 stones
+ k - 177 arrows
+ l - 42 poisoned needles
+ m - 12 needles of sleeping
+ n - 6 tomahawks
+ A - 24 sling bullets
+ D - 3 tomahawks of returning (quivered)
+Armour
+ c - a +1 shield (worn)
+ f - a +1 pair of gloves (worn)
+ w - a +0 cloak (worn)
+ y - a +0 chain mail (worn)
+Magical Staves
+ J - an uncursed staff of earth
+Jewellery
+ x - a ring of protection from magic (left hand)
+ I - an amulet of guardian spirit (around neck)
+ M - an uncursed amulet of the gourmand
+Wands
+ i - a wand of lightning (14/15)
+ p - a wand of slowing (29/48)
+ R - a wand of confusion (25/48)
+Scrolls
+ g - 3 scrolls of enchant armour
+ h - 2 scrolls of recharging
+ q - a scroll of immolation
+ s - 2 scrolls of remove curse
+ G - 2 scrolls of magic mapping
+ O - 2 scrolls of fog
+Potions
+ C - 3 potions of brilliance
+Books
+ E - a book of Cantrips   
+   
+    Spells                             Type                      Level
+    a - Confusing Touch              Hexes                         1
+    b - Animate Skeleton             Necromancy                    1
+    c - Summon Small Mammal          Summoning                     1
+    d - Apportation                  Translocation                 1
+Comestibles
+ d - 4 slices of pizza
+ z - 5 bread rations
+ H - 4 beef jerkies
+ N - 2 fruits
+
+
+   Skills:
+ + Level 7.8 Fighting
+ + Level 1.9(5.0) Short Blades
+ + Level 8.1(8.3) Long Blades
+ + Level 7.3(7.5) Maces & Flails
+ + Level 2.0(5.0) Staves
+ + Level 1.8(2.2) Slings
+ + Level 1.9 Bows
+ + Level 1.7(2.0) Throwing
+ + Level 9.4 Armour
+ + Level 4.2 Dodging
+ + Level 2.1 Stealth
+ + Level 9.9 Shields
+ + Level 1.8 Unarmed Combat
+ * Level 3.9 Spellcasting
+ + Level 1.6 Hexes
+ + Level 1.1 Necromancy
+ + Level 2.6 Invocations
+ + Level 2.2 Evocations
+
+
+You had 15 spell levels left.
+You knew the following spells:
+
+ Your Spells              Type           Power        Failure   Level  Hunger
+a - Confusing Touch       Hex            #.....       100%        1    ##.....
+b - Animate Skeleton      Necr           N/A          100%        1    ##.....
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (9/15)             Temple (1/1) D:5         
+  Lair: D:8-11         Orc: D:9-12      
+
+Altars:
+Ashenzari
+Cheibriados
+Dithmenos
+Elyvilon
+Fedhas
+Gozag
+Hepliaklqana
+Kikubaaqudgha
+Makhleb
+Nemelex Xobeh
+Okawaru
+Qazlal
+Ru
+Sif Muna
+Trog
+Uskayaw
+Vehumet
+Xom
+Yredelemnul
+Zin
+The Shining One
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+The tomahawk of returning closely misses the yak.
+The tomahawk of returning hits the yak.
+The yak is lightly wounded.
+The tomahawk of returning returns to your pack!
+You block the yak's attack.
+The yak barely misses you. You furiously retaliate! You headbutt the yak! The yak gores you!
+* * * LOW HITPOINT WARNING * * *
+Throwing (i - inventory. (,) - cycle): D - 3 tomahawks of returning (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - yak
+Aim: a yak (heavily wounded)
+You throw a tomahawk of returning.
+The tomahawk of returning barely misses the yak.
+The tomahawk of returning hits the yak.
+You kill the yak!
+Sif Muna accepts your kill.
+You feel your strength returning.
+The tomahawk of returning returns to your pack!
+You block the yak's attack. The yak gores you but does no damage.
+The yak gores you!
+You die...
+
+#.........(..####.#.##.#.........
+..........>..#  #.#.##...........
+............Y#  #................
+#............####.#.#...8.8.8.###
+#............##...#.#.........##
+#.........>..#......#...#......#
+...............................#
+..................#..8...8..#..#
+.......#.......YY.#..#...#..#..#
+.......###.....Y..#  #...#..#..#
+................@.#  #...#..#..#
+..........#.......#  #...#..#..#
+............).....#  #...#..#..#
+.......##.###.....#  #+++#..#..#
+.#.#.#.##.........#         #..#
+##................#         #.##
+##..........#.....#         #.#
+##..........#.....###########.#
+##..........#.................#
+#..#...>....######.........####
+#..##########    #...#...#.#
+
+
+You could see 3 yaks.
+
+Vanquished Creatures
+  A queen bee (D:9)
+  A two-headed ogre (D:9)
+  3 yaks (D:9)
+  A human (D:7)
+  Eustachio (D:8)
+  4 hogs (D:7)
+  4 orc warriors
+  2 ice beasts
+  The ghost of Salel the Skirmisher, an amateur MiFi (D:3)
+  3 sky beasts
+  A necrophage (D:7)
+  An ogre (D:4)
+  5 centaurs
+  2 bullfrogs (D:6)
+  A big kobold (D:8)
+  A wyvern zombie (D:9)
+  3 scorpions
+  A water moccasin skeleton (D:6)
+  16 killer bees
+  2 wights (D:8)
+  A howler monkey (D:8)
+  2 bullfrog zombies
+  10 crimson imps
+  4 hounds
+  A jelly (D:7)
+  2 bullfrog skeletons
+  5 orc priests
+  Crazy Yiuf (D:6)
+  5 orc wizards
+  An iguana (D:6)
+  5 worker ants
+  A hound skeleton (D:6)
+  2 worker ant zombies
+  13 adders
+  A howler monkey skeleton (D:5)
+  A shadow imp (D:8)
+  2 adder zombies (D:5)
+  3 worms (D:2)
+  3 dart slugs (D:1)
+  4 leopard geckos
+  37 orcs
+  2 ball pythons
+  8 giant cockroaches
+  17 goblins
+  8 hobgoblins
+  20 jackals
+  14 kobolds
+  3 quokkas
+  7 bats
+  5 frilled lizards
+  A jackal skeleton (D:5)
+  A jackal zombie (D:6)
+  2 leopard gecko skeletons
+  4 rats
+  A spectral orc (D:6)
+251 creatures vanquished.
+
+Vanquished Creatures (others)
+  An orc wizard (D:6)
+1 creature vanquished.
+
+Grand Total: 252 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Osisee the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   229 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   578 | D:1      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1072 | D:1      | Found an ancient bone altar of Kikubaaqudgha.
+  2210 | D:2      | Reached XP level 4. HP: 41/41 MP: 3/3
+  2734 | D:2      | Found a deep blue altar of Sif Muna.
+  2740 | D:2      | Became a worshipper of Sif Muna the Loreminder
+  3368 | D:3      | Noticed Salel's ghost (amateur MiFi)
+  3384 | D:3      | Killed Salel's ghost
+  3384 | D:3      | Reached skill level 5 in Shields
+  3384 | D:3      | Reached XP level 5. HP: 35/47 MP: 4/4
+  3525 | D:3      | Reached skill level 5 in Armour
+  3921 | D:3      | Reached XP level 6. HP: 39/55 MP: 5/5
+  3959 | D:3      | Reached skill level 1 in Dodging
+  4258 | D:3      | Reached skill level 5 in Fighting
+  4576 | D:4      | Found a shadowy altar of Dithmenos.
+  4603 | D:4      | Reached skill level 5 in Long Blades
+  4743 | D:4      | Learned a level 1 spell: Confusing Touch
+  5419 | D:5      | Entered Level 5 of the Dungeon
+  5437 | D:5      | Found an opulent altar of Gozag.
+  5447 | D:5      | Reached XP level 7. HP: 50/61 MP: 6/6
+  5925 | D:5      | Found a staircase to the Ecumenical Temple.
+  5942 | Temple   | Entered the Ecumenical Temple
+  7205 | D:6      | Reached skill level 1 in Stealth
+  7253 | D:6      | Found a basalt altar of Yredelemnul.
+  7294 | D:6      | Reached XP level 8. HP: 65/70 MP: 5/7
+  7366 | D:6      | Reached * piety under Sif Muna
+  7471 | D:6      | Reached skill level 1 in Spellcasting
+  7552 | D:6      | Learned a level 1 spell: Animate Skeleton
+  7831 | D:6      | Found a runed door.
+  7835 | D:6      | Noticed Crazy Yiuf
+  7841 | D:6      | Killed Crazy Yiuf
+  7938 | D:6      | Found a hazy altar of Hepliaklqana.
+  7940 | D:6      | Found a shimmering altar of Xom.
+  7941 | D:6      | Noticed a spectral ugly thing
+  8467 | D:6      | Reached skill level 1 in Maces & Flails
+  9035 | D:7      | Reached XP level 9. HP: 77/78 MP: 11/11
+  9239 | D:7      | Found a stormy altar of Qazlal.
+ 10375 | D:8      | Reached skill level 5 in Maces & Flails
+ 10401 | D:8      | Reached ** piety under Sif Muna
+ 10456 | D:8      | Noticed Eustachio
+ 10484 | D:8      | Killed Eustachio
+ 10872 | D:8      | Reached XP level 10. HP: 85/85 MP: 11/13
+ 12650 | D:9      | Found a hide-covered altar of Uskayaw.
+ 12874 | D:9      | Reached skill level 1 in Short Blades
+ 12874 | D:9      | Reached skill level 1 in Slings
+ 12874 | D:9      | Reached skill level 1 in Bows
+ 12874 | D:9      | Reached skill level 1 in Throwing
+ 12874 | D:9      | Reached skill level 1 in Unarmed Combat
+ 12874 | D:9      | Reached skill level 1 in Hexes
+ 12874 | D:9      | Reached skill level 1 in Necromancy
+ 12874 | D:9      | Reached XP level 11. HP: 93/93 MP: 13/15
+ 12986 | D:9      | HP: 2/93 [yak (8)]
+ 12989 | D:9      | Slain by a yak
+
+Skill      XL: |  1  2  3  4  5  6  7  8  9 10 |
+---------------+-------------------------------+-----
+Fighting       |  4              5     6  7    |  7.8
+Shields        |     4     5        6  7  9    |  9.9
+Armour         |     4        5     6     8  9 |  9.4
+Long Blades    |           4     5  6  7     8 |  8.1
+Dodging        |                 1     2  3  4 |  4.2
+Stealth        |                    1        2 |  2.1
+Spellcasting   |                       2     3 |  3.9
+Maces & Flails |                       1  5  7 |  7.3
+Short Blades   |                             1 |  1.9
+Staves         |                             2 |  2.0
+Slings         |                             1 |  1.8
+Bows           |                             1 |  1.9
+Throwing       |                             1 |  1.7
+Unarmed Combat |                             1 |  1.8
+Hexes          |                             1 |  1.6
+Necromancy     |                             1 |  1.1
+Invocations    |                             2 |  2.6
+Evocations     |                             2 |  2.2
+
+Action                   |  1- 3 |  4- 6 |  7- 9 | 10-12 || total
+-------------------------+-------+-------+-------+-------++-------
+Melee: Long sword        |   114 |   191 |   195 |       ||   500
+       Headbutt          |    12 |    33 |    85 |    36 ||   166
+       Mace              |       |       |   240 |   126 ||   366
+       Quick blade       |       |       |       |    40 ||    40
+Throw: Stone             |     4 |       |       |       ||     4
+       Tomahawk          |       |       |     2 |     5 ||     7
+Evoke: Wand              |       |       |       |     1 ||     1
+  Use: Scroll            |       |    13 |    12 |     2 ||    27
+       Potion            |       |     6 |     1 |     3 ||    10
+ Stab: Fleeing           |       |       |     1 |       ||     1
+  Eat: Bread ration      |     1 |       |     2 |     1 ||     4
+       Chunk             |       |     4 |     4 |     3 ||    11
+       Meat ration       |       |     1 |       |       ||     1
+       Beef jerky        |       |     1 |       |       ||     1
+       Pizza             |       |       |     3 |       ||     3
+Armor: Scale mail        |    46 |    70 |       |       ||   116
+       Chain mail        |       |    10 |   235 |    98 ||   343
+Dodge: Dodged            |    39 |    47 |   111 |    62 ||   259
+Block: Shield            |    66 |   106 |   299 |   125 ||   596
+Rpst.: Long sword        |    10 |    17 |    12 |       ||    39
+

@@ -1,0 +1,139 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+2 Dadelom the Magician (level 1, 0/11 HPs)
+             Began as a High Elf Wizard on Dec 2, 2016.
+             Slain by a gnoll (6 damage)
+             ... on level 1 of the Dungeon.
+             The game lasted 00:01:21 (101 turns).
+
+Dadelom the Magician (High Elf Wizard)               Turns: 101, Time: 00:01:22
+
+Health: 0/11       AC:  2    Str:  6    XL:     1   Next: 25%
+Magic:  0/6        EV: 12    Int: 21    God:    
+Gold:   25         SH:  0    Dex: 13    Spells: 1 memorised, 6 levels left
+
+rFire  . . .      SeeInvis .    (no weapon)
+rCold  . . .      Gourm    .    a - +0 robe
+rNeg   . . .      Faith    .    (no shield)
+rPois  .          Spirit   .    b - +0 hat
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ++........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: no status effects
+A: no striking features
+a: no special abilities
+
+
+You were on level 1 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 1 of its levels.
+
+You collected 25 gold pieces.
+
+Inventory:
+
+Armour
+ a - a +0 robe (worn)
+ b - a +0 hat (worn)
+Scrolls
+ e - a scroll of identify {unknown}
+Books
+ c - a book of Minor Magic   
+   
+    Spells                             Type                      Level
+    a - Magic Dart                   Conjuration                   1
+    b - Blink                        Translocation                 2
+    c - Call Imp                     Summoning                     2
+    d - Repel Missiles               Charms/Air                    2
+    e - Slow                         Hexes                         2
+    f - Conjure Flame                Conjuration/Fire              3
+    g - Mephitic Cloud               Conjuration/Poison/Air        3
+Comestibles
+ d - a bread ration
+
+
+   Skills:
+ + Level 2.1 Dodging
+ + Level 2.2 Stealth
+ + Level 3.7 Spellcasting
+ + Level 1.1 Conjurations
+   Level 0.8 Summonings
+   Level 1.1 Translocations
+
+
+You had 6 spell levels left.
+You knew the following spells:
+
+ Your Spells              Type           Power        Failure   Level  Hunger
+a - Magic Dart            Conj           #...         10%         1    None
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (1/15)            
+
+Altars:
+
+Message History
+
+The gnoll is moderately wounded.
+The gnoll hits you.
+Casting: Magic Dart
+Confirm with . or Enter, or press ? or * to list all spells.
+Aiming: Magic Dart
+Press: ? - help, Shift-Dir - straight line, f/p - gnoll
+Aim: a gnoll (moderately wounded)
+The magic dart hits the gnoll.
+The gnoll is moderately wounded.
+The gnoll hits you.
+Casting: Magic Dart
+Confirm with . or Enter, or press ? or * to list all spells.
+Aiming: Magic Dart
+Press: ? - help, Shift-Dir - straight line, f/p - gnoll
+Aim: a gnoll (moderately wounded)
+The magic dart hits the gnoll.
+The gnoll is severely wounded.
+The gnoll hits you.
+Ouch! That really hurt!
+You die...
+
+##.#   ##.....##
+#..#    ##...##
+#.##     ##+##
+#.#
+#.#
+#.#
+#.#
+#.#
+#.#     #
+#.#####.###.#
+#@gg........#
+#######......
+        ###.#
+
+
+You could see a gnoll and a hobgoblin.
+
+Vanquished Creatures
+  A goblin (D:1)
+  A frilled lizard (D:1)
+2 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Dadelom the High Elf Wizard began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 11/11 MP: 6/6
+   101 | D:1      | Slain by a gnoll
+
+Action                   || total
+-------------------------++-------
+ Cast: Magic Dart        ||     9
+Dodge: Dodged            ||     4
+
