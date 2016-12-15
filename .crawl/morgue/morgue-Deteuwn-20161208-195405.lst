@@ -1,0 +1,268 @@
+Deteuwn
+
+Level 1 of the Dungeon
+(0, 0, D:1)
+  a +0 club
+(1, 10, D:1)
+  a +0 short sword
+(15, -8, D:1)
+  a +0 club
+(16, 9, D:1)
+  a cursed -2 club
+(29, -32, D:1)
+  a +0 whip
+(32, 15, D:1)
+  a +0 dagger
+(44, -1, D:1)
+  a +0 dagger
+(62, -12, D:1)
+  a cursed +0 scale mail
+
+Level 2 of the Dungeon
+(0, 0, D:2)
+  a +0 club
+(16, 3, D:2)
+  a +0 dagger
+(18, -13, D:2)
+  a +0 hunting sling
+(23, 5, D:2)
+  a +0 dagger
+(35, 1, D:2)
+  a +0 robe
+(38, -31, D:2)
+  a cursed -1 club
+(42, 2, D:2)
+  a +0 club
+(54, -5, D:2)
+  a cursed -2 ring of strength
+
+Level 3 of the Dungeon
+(0, 0, D:3)
+  a +0 club
+(4, 43, D:3)
+  a +0 club
+(9, 12, D:3)
+  a +0 short sword
+(18, 26, D:3)
+  a +0 ring mail
+(26, 6, D:3)
+  a +0 club
+(36, 36, D:3)
+  a +0 dagger
+(44, 24, D:3)
+  a +0 club
+
+Level 4 of the Dungeon
+[Shop] Leill's Gadget Shoppe
+  a phantom mirror (300 gold)
+  a wand of digging (7/24) (220 gold)
+  a +2 rod of ignition (13/13) (1000 gold)
+  a disc of storms (200 gold)
+  a wand of flame (26/48) (140 gold)
+  a lamp of fire (400 gold)
+  a wand of flame (24/48) (130 gold)
+  a disc of storms (200 gold)
+  a phial of floods (400 gold)
+(0, 0, D:4)
+  a +0 dagger
+(1, 0, D:4)
+  a +0 club
+(1, 2, D:4)
+  a +0 leather armour
+(2, 0, D:4)
+  a +0 scale mail
+(10, 48, D:4)
+  a +0 robe
+(28, 38, D:4)
+  a cursed +0 leather armour
+(59, -1, D:4)
+  a +0 leather armour
+(59, 2, D:4)
+  a +0 dagger
+  a +0 robe
+(59, 3, D:4)
+  a +0 trident
+(60, 3, D:4)
+  a +0 flail
+(60, 25, D:4)
+  a +0 whip
+
+Level 5 of the Dungeon
+(0, 0, D:5)
+  a +0 long sword
+(9, 12, D:5)
+  a +0 robe
+(10, 27, D:5)
+  a +0 ring mail
+(17, -3, D:5)
+  a +0 scale mail
+  a +0 mace
+(18, -3, D:5)
+  a +0 shortbow
+(19, 1, D:5)
+  a +0 buckler
+(20, 11, D:5)
+  a +0 leather armour
+(27, 17, D:5)
+  a +0 leather armour
+
+Level 6 of the Dungeon
+(0, 0, D:6)
+  a +0 hand axe
+  a +0 hand axe
+(16, 4, D:6)
+  a cursed +0 hand axe
+  a +0 chain mail
+(17, -8, D:6)
+  a cursed -3 flail
+(18, -5, D:6)
+  a +0 robe
+(19, -10, D:6)
+  a +0 hand axe
+  a +0 robe
+(19, -3, D:6)
+  a -3 rapier
+  a +0 long sword
+(22, -5, D:6)
+  a +0 great mace
+(23, 16, D:6)
+  a +0 shortbow
+(23, 17, D:6)
+  a +0 short sword
+  a +0 leather armour
+(23, 24, D:6)
+  a +0 scale mail
+(31, 7, D:6)
+  a +0 giant spiked club
+(34, 8, D:6)
+  a +0 plate armour
+(35, 10, D:6)
+  a +0 ring mail
+(36, -5, D:6)
+  a +0 giant spiked club
+(41, 3, D:6)
+  a +0 robe
+(42, 3, D:6)
+  a cursed -1 robe
+(46, -2, D:6)
+  a cursed -2 great sword
+
+Level 7 of the Dungeon
+(0, 0, D:7)
+  a +0 short sword
+(3, 0, D:7)
+  a +0 dagger
+  a +0 robe
+(7, -5, D:7)
+  a +0 short sword
+  a +0 leather armour
+(7, 0, D:7)
+  a +0 short sword
+(8, 36, D:7)
+  a +0 trident
+  a +0 hand axe
+  a +0 falchion
+  a +0 scythe
+  a +0 hand axe
+(10, 4, D:7)
+  a +0 club
+  a +0 leather armour
+  a +0 plate armour
+  a +0 flail
+(10, 18, D:7)
+  a +0 shortbow
+(16, -6, D:7)
+  a +0 robe
+(16, 5, D:7)
+  a +0 scale mail
+(19, 24, D:7)
+  a +0 dire flail
+(21, -8, D:7)
+  a +0 leather armour
+(24, 4, D:7)
+  a +0 chain mail
+(32, 3, D:7)
+  a +0 hand axe
+  a +0 ring mail
+(33, 4, D:7)
+  a +0 dagger
+  a +0 robe
+(39, -7, D:7)
+  a +0 hand axe
+  a +0 club
+  a +0 mace
+(39, -6, D:7)
+  a +0 robe
+  a cursed -3 dagger
+  a +0 scimitar
+  a +0 plate armour
+(42, 0, D:7)
+  a cursed +0 helmet
+
+Level 8 of the Dungeon
+[Shop] Juvich's Antique Weapon Boutique
+  a +0 spear (105 gold)
+  a +0 spear of venom (196 gold)
+  a +0 bardiche (315 gold)
+  a +0 rapier (140 gold)
+  a +0 giant spiked club (66 gold)
+  a +0 hunting sling (52 gold)
+[Shop] Diehio's Gadget Boutique
+  a wand of flame (24/48) (169 gold)
+  a phial of floods (520 gold)
+  a lamp of fire (520 gold)
+  a lamp of fire (520 gold)
+  a +0 iron rod (11/11) (1040 gold)
+  a wand of iceblast (7/15) (143 gold)
+  a wand of paralysis (12/24) (182 gold)
+  a wand of teleportation (4/9) (312 gold)
+(0, 0, D:8)
+  a +0 halberd
+(0, 1, D:8)
+  a +0 spear
+(3, -3, D:8)
+  a +0 spear
+  a +0 scale mail
+(4, -4, D:8)
+  a +0 spear
+(4, -3, D:8)
+  a +0 club
+(13, -6, D:8)
+  a +0 short sword
+  a +0 leather armour
+  a +0 club
+  a cursed +0 leather armour
+  a +0 short sword
+(13, -5, D:8)
+  a +0 dagger
+  a +0 robe
+(15, -8, D:8)
+  a +0 dagger
+(24, -5, D:8)
+  a +0 dagger
+  a kobold corpse (skeletalised by now)
+(24, -4, D:8)
+  a +0 short sword
+  a big kobold corpse (skeletalised by now)
+(24, -3, D:8)
+  a +0 short sword
+  a +0 whip
+  a kobold corpse (skeletalised by now)
+  a kobold corpse (skeletalised by now)
+(31, 30, D:8)
+  a +0 ring mail
+(36, 11, D:8)
+  a +0 giant club
+(44, 29, D:8)
+  a +0 short sword
+(45, 29, D:8)
+  a +0 ring mail
+(47, 30, D:8)
+  a +0 flail
+(55, 13, D:8)
+  a +0 dagger
+(59, 21, D:8)
+  a +0 whip
+
+the Ecumenical Temple
+

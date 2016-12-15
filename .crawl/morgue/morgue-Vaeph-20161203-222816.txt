@@ -1,0 +1,221 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+263 Vaeph the Shield-Bearer (level 5, -1/47 HPs)
+             Began as a Minotaur Fighter on Dec 3, 2016.
+             Killed from afar by an orc wizard (6 damage)
+             ... with a puff of frost
+             ... on level 4 of the Dungeon.
+             The game lasted 00:19:32 (4409 turns).
+
+Vaeph the Shield-Bearer (Minotaur Fighter)          Turns: 4409, Time: 00:19:32
+
+Health: -1/47      AC:  8    Str: 20 (22) XL:     5   Next: 98%
+Magic:  4/4        EV:  8    Int:  3 (5)  God:    
+Gold:   97         SH:  9    Dex:  6 (9)  Spells: 0 memorised, 4 levels left
+
+rFire  . . .      SeeInvis .    g - +0 falchion (flame)
+rCold  . . .      Gourm    .    t - +0 scale mail
+rNeg   . . .      Faith    +    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     +....                    r - +0 pair of boots
+Stlth  ..........               o - amulet of faith
+                                w - ring of protection from magic
+                                A - ring of flight
+
+@: about to teleport
+A: retaliatory headbutt, horns 2
+a: Evoke Flight
+
+
+You were on level 4 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 4 of its levels.
+
+You collected 97 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +1 long sword
+ b - a +4 hunting sling
+ g - a +0 falchion of flaming (weapon)
+ h - a +0 spear
+ n - a +1 hunting sling of freezing
+ q - a +0 short sword
+ x - a +0 dagger of speed
+Missiles
+ e - 77 arrows
+ k - 7 curare-tipped needles
+ l - 235 stones (quivered)
+ s - 13 bolts
+ y - 7 needles of sleeping
+ B - 14 poisoned needles
+Armour
+ c - a +0 shield (worn)
+ m - a +0 pair of gloves
+ r - a +0 pair of boots (worn)
+ t - a +0 scale mail (worn)
+Jewellery
+ o - an amulet of faith (around neck)
+ w - a ring of protection from magic (right hand)
+ A - a ring of flight (left hand)
+Scrolls
+ i - 3 scrolls of teleportation
+ p - a scroll of recharging
+ u - a scroll of remove curse
+ v - a scroll of enchant weapon
+Potions
+ d - a potion of might
+ j - 2 potions of curing
+ z - a potion of agility
+Comestibles
+ f - 5 bread rations
+
+
+   Skills:
+ + Level 4.6 Fighting
+ + Level 4.9 Long Blades
+ + Level 4.7 Armour
+ + Level 1.2 Dodging
+ + Level 0.1 Stealth
+ + Level 5.0 Shields
+
+
+You had 4 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (4/15)            
+Temple: D:4-7       
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You closely miss something.
+You hear some strange, mumbled words.
+A puff of flame appears from out of thin air!
+The puff of flame hits something.
+You hear some strange, mumbled words.
+A puff of frost appears from out of thin air!
+The puff of frost misses you.
+You hit something but do no damage. Your headbutt misses something.
+You hear some strange, mumbled words.
+A puff of flame appears from out of thin air!
+The puff of flame hits you!
+* * * LOW HITPOINT WARNING * * *
+A magic dart appears from out of thin air!
+The magic dart hits something.
+As you read the scroll of teleportation, it crumbles to dust.
+You feel strangely unstable.
+You hear some strange, mumbled words.
+A puff of frost appears from out of thin air!
+The puff of frost hits you!
+You die...
+
+   #...................
+..##...................
+............##.#####...
+.......<..............
+............#.........
+....#+#.....#.........
+...   #.....#.........
+##    #.#...##'#......
+###   #.#...##.#......
+....  #.#.............
+..... #.@...........#.
+......####............
+......o........####.#.
+.....########.........
+...         ........ .
+#          #.........
+           #.........
+           ..........
+           ##........
+             ......<
+
+
+There were no monsters in sight!
+
+Vanquished Creatures
+  Natasha (thrice) (D:2)
+  A worker ant (D:4)
+  Robin (D:3)
+  5 adders
+  An ooze (D:1)
+  2 worms (D:2)
+  3 leopard geckos
+  An orc (D:3)
+  5 giant cockroaches
+  10 hobgoblins
+  7 jackals
+  A quokka (D:2)
+  2 ball pythons
+  10 bats
+  6 frilled lizards
+  23 goblins
+  10 kobolds
+  7 rats
+98 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Vaeph the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   306 | D:1      | Reached XP level 2. HP: 21/27 MP: 1/1
+   944 | D:2      | Noticed Natasha
+   947 | D:2      | Reached XP level 3. HP: 19/33 MP: 2/2
+   966 | D:2      | Killed Natasha
+  1055 | D:2      | Reached skill level 4 in Shields
+  1226 | D:2      | Reached XP level 4. HP: 41/41 MP: 3/3
+  1445 | D:2      | Noticed Natasha
+  1450 | D:2      | Killed Natasha
+  1784 | D:2      | Reached XP level 5. HP: 47/47 MP: 4/4
+  2126 | D:2      | Noticed Natasha
+  2128 | D:2      | Killed Natasha
+  3604 | D:3      | Noticed Robin
+  3628 | D:3      | Reached skill level 1 in Dodging
+  3642 | D:3      | Killed Robin
+  4269 | D:4      | Reached skill level 5 in Shields
+  4409 | D:4      | Killed from afar by an orc wizard
+
+Skill      XL: |  1  2  3  4  5 |
+---------------+----------------+-----
+Fighting       |     4          |  4.6
+Armour         |     4          |  4.7
+Long Blades    |        3  4    |  4.9
+Shields        |        4     5 |  5.0
+Dodging        |              1 |  1.2
+Stealth        |                |  0.1
+
+Action                   |  1- 3 |  4- 6 || total
+-------------------------+-------+-------++-------
+Melee: Long sword        |    90 |   124 ||   214
+       Headbutt          |    11 |    24 ||    35
+       Falchion          |       |    21 ||    21
+ Fire: Hunting sling     |       |     7 ||     7
+Throw: Stone             |       |     2 ||     2
+  Use: Scroll            |     1 |    11 ||    12
+       Potion            |       |     5 ||     5
+  Eat: Chunk             |     1 |     4 ||     5
+       Bread ration      |       |     1 ||     1
+       Beef jerky        |       |     1 ||     1
+Armor: Scale mail        |    50 |    67 ||   117
+Dodge: Dodged            |    39 |    57 ||    96
+Block: Shield            |    59 |    91 ||   150
+Rpst.: Long sword        |     9 |    17 ||    26
+       Falchion          |       |     1 ||     1
+

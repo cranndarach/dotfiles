@@ -2,8 +2,12 @@
 # created by user
 
 alias ll='ls -alF'
-alias la='ls -A --color=auto'
+alias la='ls -a --color=auto'
 alias l='ls -CF'
+alias wcl='wc -l'
+alias wcw='wc -w'
+alias wcc='wc -m'  # -m is characters 
+alias wcb='wc -c'  # -c is bytes
 # alias python=/usr/bin/python3.5
 alias rustic=rustc
 alias qmake='/usr/bin/qmake'
@@ -22,15 +26,18 @@ alias vimrc='$EDITOR ~/.vimrc'
 
 alias lifetracker='cd ~/projects/lifetracker/electron && npm start'
 alias passbox='cd ~/projects/passbox && npm start'
+alias tarot='python ~/projects/tarot/main.py'
 
 # git aliases
 alias gs='git status'
 alias gc='git commit -m'
 alias gca='git commit -am'
 alias gpl='git pull'
-alias gp='git push -u origin master'
-alias gpb='git push'	# for when you don't want to push to origin/master
+alias gp='git push'
+alias gpi='git push -u origin master'
 alias gsub='git submodule add'
+alias gco='git checkout'
+
 
 # from original ~/.bashrc
 # Add an "alert" alias for long running commands.  Use like so:

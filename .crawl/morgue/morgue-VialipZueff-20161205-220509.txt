@@ -1,0 +1,393 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+13650 Vialip Zueff the Blocker (level 11, -2/99 HPs)
+             Began as a Minotaur Fighter on Dec 5, 2016.
+             Slain by a wolf (4 damage)
+             ... on level 2 of the Lair of Beasts.
+             The game lasted 01:15:22 (16170 turns).
+
+Vialip Zueff the Blocker (Minotaur Fighter)        Turns: 16170, Time: 01:15:23
+
+Health: -2/99      AC: 12    Str: 23    XL:     11   Next: 78%
+Magic:  10/10      EV:  7    Int:  6    God:    
+Gold:   571        SH:  5    Dex: 10    Spells: 1 memorised, 8 levels left
+
+rFire  . . .      SeeInvis .    i - +4 lajatang (distort)
+rCold  + . .      Gourm    .    h - +3 chain mail
+rNeg   . . .      Faith    .    (shield currently unavailable)
+rPois  +          Spirit   .    (helmet restricted)
+rElec  .          Reflect  +    L - +0 cloak {rPois}
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               b - +5 amulet of reflection
+                                (no ring)
+                                T - ring of protection from cold
+
+@: very heavily drained
+A: retaliatory headbutt, horns 2
+a: no special abilities
+
+
+You were on level 2 of the Lair of Beasts.
+You were not hungry.
+
+You visited 2 branches of the dungeon, and saw 12 of its levels.
+You also visited: Sewer and Ossuary.
+
+You collected 673 gold pieces.
+You spent 102 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 flail
+ f - a +0 quarterstaff
+ i - a +4 lajatang of distortion (weapon)
+ l - a +1 demon trident of venom
+ s - a +0 short sword of draining
+ C - a +1 vampiric broad axe
+ H - a +2 dagger of venom
+ I - a +0 blowgun
+ N - a +0 shortbow
+ O - a +5 spear of freezing
+ P - a +2 flail of venom
+ S - a +1 hand axe of flaming
+Missiles
+ g - 314 stones
+ j - 64 poisoned needles
+ k - 3 curare-tipped needles
+ n - 4 tomahawks of returning
+ o - 116 arrows
+ p - 7 javelins (quivered)
+ E - 36 sling bullets
+ M - 7 javelins of penetration
+Armour
+ c - a +0 shield
+ h - a +3 chain mail (worn)
+ L - a +0 cloak of poison resistance (worn)
+Jewellery
+ b - a +5 amulet of reflection (around neck)
+ T - a ring of protection from cold (left hand)
+Wands
+ d - a wand of iceblast (7/15)
+ t - a wand of slowing (23/48)
+ B - a wand of lightning (2/15)
+ X - a wand of paralysis (15/24)
+ Y - a wand of flame (47/48)
+Scrolls
+ e - a scroll of enchant armour
+ y - 4 scrolls of remove curse
+ F - 4 scrolls of immolation
+Potions
+ u - a potion of magic
+ x - 2 potions of agility
+ A - 2 potions of invisibility
+ D - 2 potions of flight
+ G - 6 potions of curing
+ K - 3 potions of haste
+Books
+ m - a book of Spatial Translocations   
+   
+    Spells                             Type                      Level
+    a - Blink                        Translocation                 2
+    b - Shroud of Golubria           Charms/Translocation          2
+    c - Lesser Beckoning             Translocation                 3
+    d - Portal Projectile            Translocation                 3
+    e - Teleport Other               Translocation                 3
+    f - Passage of Golubria          Translocation                 4
+Comestibles
+ q - 6 chunks of flesh
+ v - 4 bread rations
+ w - 6 slices of pizza
+ z - 12 fruits
+ V - a meat ration
+
+
+   Skills:
+ + Level 9.7(0.0) Fighting
+ + Level 1.4(0.0) Short Blades
+ + Level 7.4(0.0) Axes
+ + Level 5.2(0.0) Maces & Flails
+ + Level 10.2(0.0) Polearms
+ + Level 0.8(0.0) Staves
+ + Level 2.7(0.0) Throwing
+ + Level 10.5(0.0) Armour
+ + Level 4.3(0.0) Dodging
+ + Level 1.5(0.0) Stealth
+ + Level 11.2(0.0) Shields
+
+
+You had 8 spell levels left.
+You knew the following spells:
+
+ Your Spells              Type           Power        Failure   Level  Hunger
+a - Blink                 Tloc           N/A          100%        2    ###....
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (10/15)              Lair (2/6) D:10        
+Temple: D:4-7        Swamp: Lair:2-4    Shoals: Lair:2-4     Snake: Lair:2-4
+Spider: Lair:2-4       Orc: D:9-12      
+
+Altars:
+Elyvilon
+
+Shops:
+D:6 [
+
+Annotations:
+D:7 4 runed doors
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You slash the wolf! Space bends around the wolf.
+You kill the wolf!
+The wolf closely misses you. The wolf barely misses you. You block the wolf's attack. The wolf bites you.
+* * * LOW HITPOINT WARNING * * *
+The wolf barely misses you.
+You miss the wolf. Your headbutt misses the wolf. The wolf bites you but does no damage. x2; The wolf bites you.
+* * * LOW HITPOINT WARNING * * *
+The wolf barely misses you. The wolf bites you.
+* * * LOW HITPOINT WARNING * * *
+You closely miss the wolf. The wolf bites you but does no damage. x2; The wolf barely misses you. The wolf bites you but does no damage. You block the wolf's attack.
+You closely miss the wolf. The wolf bites you but does no damage. The wolf bites you.
+* * * LOW HITPOINT WARNING * * *
+The wolf closely misses you. The wolf bites you.
+* * * LOW HITPOINT WARNING * * *
+You completely miss the wolf. The wolf bites you but does no damage. The wolf bites you.
+* * * LOW HITPOINT WARNING * * *
+The wolf bites you.
+* * * LOW HITPOINT WARNING * * *
+You block the wolf's attack. The wolf bites you.
+You die...
+
+              .....#
+              #.PP..
+             ##....#
+              .....
+              #....
+              #...##
+               #...#
+.            ####.#
+..#          #....#
+..#         ##.h.h#
+#.##        #..%@.##
+...         ####...#
+.#             ##..#
+.######    #..# #..##
+.#....##   #..# ##.÷####
+.......#####..# #....#.## ###  ##
+......###....####.P#....###P####.
+>......#..#..#..........##....#..
+...........P.##(.......#.........
+.........................##.##...
+......#.........P#..#......###P#.
+
+
+You could see 2 wolves.
+
+Vanquished Creatures
+  A hydra (D:8)
+  Sonja (Lair:2)
+  A black mamba (Lair:2)
+  5 spiny frogs
+  3 komodo dragons
+  A troll (D:9)
+  A hornet (D:8)
+  2 dream sheep (D:8)
+  5 hippogriffs
+  12 yaks
+  A wraith (D:10)
+  3 hungry ghosts
+  2 hell hounds (D:10)
+  9 porcupines
+  4 water moccasins
+  3 orc warriors
+  A phantom (D:6)
+  An ice beast (D:6)
+  2 sky beasts (D:9)
+  A black bear (D:8)
+  4 ogres
+  3 wolves (Lair:2)
+  A centaur (D:6)
+  5 crocodiles
+  5 big kobolds
+  6 bullfrogs
+  3 elf zombies (Ossuary)
+  2 scorpions
+  6 killer bees (D:8)
+  4 wights
+  A howler monkey (D:8)
+  A crimson imp (D:7)
+  A centaur zombie (Ossuary)
+  A quasit (D:9)
+  2 human zombies (Ossuary)
+  5 hounds
+  A jelly (D:7)
+  3 orc priests
+  3 centaur skeletons
+  3 iguanas
+  4 worker ants
+  6 orc wizards
+  2 big kobold zombies (Ossuary)
+  2 hound zombies (Ossuary)
+  3 mummies (Ossuary)
+  2 worker ant zombies
+  3 gnolls (D:5)
+  2 river rats (Sewer)
+  11 adders
+  2 shadow imps
+  An ooze (D:1)
+  2 adder zombies (Ossuary)
+  A worm (D:3)
+  3 dart slugs
+  5 leopard geckos
+  28 orcs
+  9 giant cockroaches
+  2 gnoll zombies (Ossuary)
+  5 goblins
+  12 hobgoblins
+  2 jackals (Sewer)
+  8 quokkas
+  6 bats
+  2 frilled lizards
+  3 goblin zombies (Ossuary)
+  A hobgoblin zombie (Ossuary)
+  6 jackal zombies (Ossuary)
+  16 kobolds
+  5 kobold zombies (Ossuary)
+  A leopard gecko skeleton (D:5)
+  2 leopard gecko zombies
+  An orc zombie (Ossuary)
+  4 quokka zombies (Ossuary)
+  12 rats
+  A rat zombie (Ossuary)
+  2 fungi
+296 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Vialip Zueff the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   198 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   526 | D:1      | Reached XP level 3. HP: 31/33 MP: 2/2
+  1360 | D:2      | Reached skill level 4 in Shields
+  1856 | D:2      | Reached XP level 4. HP: 34/40 MP: 3/3
+  2566 | D:3      | Gained mutation: Scrolls take you a little longer to read. [potion of mutation]
+  2566 | D:3      | Gained mutation: You are covered in fur. (AC +1) [potion of mutation]
+  2566 | D:3      | Gained mutation: You are weak. (Str -2) [potion of mutation]
+  2840 | D:3      | Learned a level 2 spell: Blink
+  2867 | D:3      | Found a faded altar of an unknown god.
+  3504 | D:4      | Noticed an ogre
+  3513 | D:4      | Reached XP level 5. HP: 47/47 MP: 4/4
+  3520 | D:4      | Killed an ogre
+  3520 | D:4      | Reached skill level 5 in Maces & Flails
+  3731 | D:4      | Reached skill level 5 in Fighting
+  3903 | D:4      | Reached XP level 6. HP: 56/56 MP: 5/5
+  4320 | D:5      | Entered Level 5 of the Dungeon
+  4726 | D:5      | Reached skill level 1 in Dodging
+  4854 | D:5      | Reached skill level 5 in Armour
+  4855 | D:5      | Reached skill level 1 in Axes
+  5130 | D:5      | Reached skill level 5 in Shields
+  5130 | D:5      | Reached XP level 7. HP: 55/61 MP: 6/6
+  5618 | D:6      | Found a glowing drain.
+  5644 | Sewer    | Entered a sewer
+  5970 | Sewer    | Found a glowing silver altar of Zin.
+  6049 | D:6      | Found a sand-covered staircase.
+  6053 | Ossuary  | Entered an ossuary
+  6412 | Ossuary  | Reached skill level 5 in Axes
+  6415 | Ossuary  | Reached skill level 6 in Shields
+  6496 | Ossuary  | Reached XP level 8. HP: 64/70 MP: 7/7
+  6729 | D:6      | Lost mutation: Scrolls take you a little longer to read. [potion of cure mutation]
+  6729 | D:6      | Lost mutation: You are weak. (Str -2) [potion of cure mutation]
+  6729 | D:6      | Lost mutation: You are covered in fur. (AC +1) [potion of cure mutation]
+  6953 | D:6      | Found Efeun's Armour Shoppe.
+  7131 | D:6      | Bought a +0 cloak of poison resistance for 102 gold pieces
+  7430 | D:7      | Reached skill level 1 in Polearms
+  7672 | D:7      | Reached skill level 7 in Shields
+  7805 | D:7      | Reached skill level 1 in Short Blades
+  7907 | D:7      | Reached XP level 9. HP: 78/78 MP: 8/8
+  8190 | D:7      | Found a huge runed gate.
+  8191 | D:7      | Noticed a manticore
+  8192 | D:7      | Noticed a polar bear
+  8192 | D:7      | Found a huge runed gate.
+  8192 | D:7      | Found a huge runed gate.
+  8192 | D:7      | Found a huge runed gate.
+  8193 | D:7      | Noticed a polar bear
+  8193 | D:7      | Noticed a death yak
+  8201 | D:7      | Noticed a polar bear
+  9524 | D:8      | Reached skill level 8 in Shields
+  9528 | D:8      | Reached skill level 1 in Stealth
+  9574 | D:8      | Reached skill level 5 in Polearms
+ 10186 | D:8      | Noticed a three-headed hydra
+ 10198 | D:8      | Killed a three-headed hydra
+ 10198 | D:8      | Reached XP level 10. HP: 74/86 MP: 9/9
+ 10317 | D:8      | Reached skill level 9 in Shields
+ 10666 | D:9      | Found a white marble altar of Elyvilon.
+ 10951 | D:9      | Reached skill level 1 in Throwing
+ 11821 | D:10     | Entered Level 10 of the Dungeon
+ 11921 | D:10     | Found a staircase to the Lair.
+ 12332 | D:10     | Reached XP level 11. HP: 35/95 MP: 10/10
+ 12920 | Lair:1   | Entered Level 1 of the Lair of Beasts
+ 12989 | Lair:1   | Reached skill level 10 in Shields
+ 14060 | Lair:1   | Reached skill level 10 in Armour
+ 14286 | Lair:2   | Reached skill level 10 in Polearms
+ 14471 | Lair:2   | Noticed Sonja
+ 14951 | Lair:2   | Killed Sonja
+ 14951 | Lair:2   | Reached skill level 11 in Shields
+ 15233 | Lair:2   | Identified 3 scrolls of acquirement
+ 15559 | Lair:2   | HP: 4/97 [poisoned by a spiny frog]
+ 16170 | Lair:2   | HP: 2/99 [wolf (5)]
+ 16170 | Lair:2   | Slain by a wolf
+
+Skill      XL: |  1  2  3  4  5  6  7  8  9 10 11 |
+---------------+----------------------------------+-----
+Fighting       |     4        5        6  7  8  9 |  9.7
+Armour         |     4           5     7  8  9 10 | 10.5
+Maces & Flails |        3  4  5                   |  5.2
+Shields        |        4        5  6  7  8  9 11 | 11.2
+Dodging        |                 1        2  3  4 |  4.3
+Axes           |                 2  5  7          |  7.4
+Polearms       |                       2  7  9 10 | 10.2
+Short Blades   |                       1          |  1.4
+Stealth        |                          1       |  1.5
+Throwing       |                             1  2 |  2.7
+Staves         |                                  |  0.8
+
+Action                   |  1- 3 |  4- 6 |  7- 9 | 10-12 || total
+-------------------------+-------+-------+-------+-------++-------
+Melee: Flail             |   126 |   150 |       |       ||   276
+       Headbutt          |    15 |    26 |    91 |    86 ||   218
+       War axe           |       |    68 |   263 |       ||   331
+       Spear             |       |       |   210 |   423 ||   633
+       Rapier            |       |       |     9 |       ||     9
+       Lajatang          |       |       |       |    33 ||    33
+       Demon trident     |       |       |       |    15 ||    15
+Throw: Javelin           |       |       |     8 |    35 ||    43
+       Stone             |       |       |       |    10 ||    10
+       Tomahawk          |       |       |       |     5 ||     5
+  Use: Potion            |     2 |     7 |     8 |     8 ||    25
+       Scroll            |     1 |    14 |     4 |    10 ||    29
+  Eat: Bread ration      |     1 |     1 |     2 |     1 ||     5
+       Chunk             |       |     5 |    11 |     7 ||    23
+       Meat ration       |       |       |     1 |     1 ||     2
+       Pizza             |       |       |     1 |     1 ||     2
+       Beef jerky        |       |       |     1 |       ||     1
+       Fruit             |       |       |       |     2 ||     2
+Armor: Scale mail        |    83 |     9 |       |       ||    92
+       Chain mail        |       |   109 |   220 |   338 ||   667
+Dodge: Dodged            |    42 |    38 |   112 |   136 ||   328
+Block: Shield            |    84 |   108 |   217 |   334 ||   743
+       Other             |       |       |       |    19 ||    19
+       Reflection        |       |       |       |    10 ||    10
+

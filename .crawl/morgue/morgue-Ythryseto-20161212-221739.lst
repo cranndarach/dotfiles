@@ -1,0 +1,245 @@
+Ythryseto
+
+Level 1 of the Dungeon
+(0, 0, D:1)
+  a +0 short sword
+(3, 36, D:1)
+  a +0 leather armour
+(7, 46, D:1)
+  a +0 dagger
+(15, 2, D:1)
+  a +0 club
+(15, 25, D:1)
+  a +0 club
+(17, 8, D:1)
+  a cursed -2 club
+(17, 11, D:1)
+  a +0 ring mail
+(39, 26, D:1)
+  a +0 ring mail
+
+Level 2 of the Dungeon
+(0, 0, D:2)
+  a +0 whip
+(9, -14, D:2)
+  a +0 ring mail
+(11, -37, D:2)
+  a +0 scale mail
+(13, -29, D:2)
+  a cursed -2 short sword
+(25, -9, D:2)
+  a cursed +0 ring mail
+(27, -45, D:2)
+  a +0 dagger
+(44, -46, D:2)
+  a cursed -1 club
+(50, -26, D:2)
+  a +0 dagger
+
+Level 3 of the Dungeon
+(0, 0, D:3)
+  a needle of frenzy
+(1, 0, D:3)
+  a +0 dagger (still there?)
+  4 stones (still there?)
+(7, -32, D:3)
+  a +0 short sword
+(11, -23, D:3)
+  18 arrows
+(14, 0, D:3)
+  a +0 club
+(17, 0, D:3)
+  a +0 dagger
+(18, 0, D:3)
+  a cursed -2 club
+(30, -25, D:3)
+  a +0 club
+(34, -26, D:3)
+  a +0 dagger
+(35, -16, D:3)
+  a +0 hunting sling
+  a +0 dagger
+  a +0 dagger of protection
+(37, -1, D:3)
+  a +0 spear
+(37, 5, D:3)
+  a +0 dagger
+(38, 5, D:3)
+  a +0 flail
+(39, -32, D:3)
+  a +0 dagger
+(40, -2, D:3)
+  a +0 whip
+(42, -33, D:3)
+  a +0 robe
+(44, 1, D:3)
+  a +0 leather armour
+
+Level 4 of the Dungeon
+[Shop] Mutuf's Book Shoppe
+  a book of Cantrips (220 gold)
+  a book of Minor Magic (220 gold)
+  Kuha's Reference Book on Dark Secrets (825 gold)
+    Spells                             Type                      Level
+     a - Sublimation of Blood         Necromancy                    2
+     b - Regeneration                 Charms/Necromancy             3
+     c - Control Undead               Necromancy                    4
+     d - Agony                        Necromancy                    5
+     e - Death Channel                Necromancy                    6
+  a Young Poisoner's Handbook (440 gold)
+  a book of Changes (275 gold)
+  a book of Conjurations (330 gold)
+  a book of Misfortune (220 gold)
+  a book of Battle (440 gold)
+  a book of Unlife (715 gold)
+  a book of Summonings (770 gold)
+  a manual of Armour (1214 gold)
+(0, 0, D:4)
+  a +0 spear
+(0, 36, D:4)
+  a +0 trident
+(1, 0, D:4)
+  a +0 whip
+  a +0 spear
+(6, 42, D:4)
+  a +0 scale mail
+(9, 41, D:4)
+  a +0 whip
+(10, 41, D:4)
+  a +0 whip
+  a +0 leather armour
+(19, 36, D:4)
+  a +0 dagger
+
+Level 5 of the Dungeon
+(0, 0, D:5)
+  a +0 flail
+  a +0 leather armour
+(1, 0, D:5)
+  a +0 leather armour
+(1, 1, D:5)
+  a +0 dagger
+  a +0 robe
+(19, 23, D:5)
+  a +0 ring mail
+(45, 14, D:5)
+  a +0 giant spiked club
+(50, 0, D:5)
+  a +0 trident
+(51, -1, D:5)
+  a +0 dagger
+(51, 0, D:5)
+  a +0 dagger
+  a +0 robe
+(51, 1, D:5)
+  a +0 flail
+(53, -21, D:5)
+  a +0 animal skin
+(53, -19, D:5)
+  a +0 animal skin
+(54, -21, D:5)
+  a +0 animal skin
+(54, -20, D:5)
+  a +0 animal skin
+(54, -19, D:5)
+  a +0 whip of flaming
+  a +0 robe
+(55, -3, D:5)
+  a +0 short sword
+  a +0 leather armour
+
+Level 6 of the Dungeon
+[Shop] Camufugo's Food Shoppe
+  a bread ration (60 gold)
+  a bread ration (60 gold)
+  a meat ration (60 gold)
+  a meat ration (60 gold)
+  a meat ration (60 gold)
+  a meat ration (60 gold)
+  a bread ration (60 gold)
+  a meat ration (60 gold)
+  a meat ration (60 gold)
+(0, 0, D:6)
+  a +0 chain mail
+(16, -6, D:6)
+  a +0 dagger
+(16, -4, D:6)
+  a +0 giant spiked club
+(26, 1, D:6)
+  a cursed +0 robe
+(30, 0, D:6)
+  a +0 robe
+  a +0 long sword
+(30, 1, D:6)
+  a +0 robe
+  a +0 mace
+  a +0 robe
+(56, 21, D:6)
+  a +0 robe
+
+Level 7 of the Dungeon
+(0, 0, D:7)
+  a +0 dagger
+  a +0 robe
+  a +0 short sword
+(2, -1, D:7)
+  a -2 ring of protection
+(4, 7, D:7)
+  a +0 ring mail
+(7, 17, D:7)
+  a cursed -1 rapier
+(21, -3, D:7)
+  a cursed -3 halberd
+  a +0 robe
+(21, -2, D:7)
+  a +0 robe
+(28, -10, D:7)
+  a +0 hand axe
+  a +0 falchion
+  a +0 trident
+  a +0 hand axe
+  a +0 hand axe
+(29, 0, D:7)
+  a cursed +0 robe
+(29, 17, D:7)
+  a +0 dagger
+  a +0 robe
+  a +0 flail
+  a +0 dagger
+  a +0 robe
+(30, 1, D:7)
+  a +0 spear
+  a +0 robe
+(31, 4, D:7)
+  a +0 spear
+(39, 20, D:7)
+  a +0 leather armour
+
+Level 8 of the Dungeon
+(0, 0, D:8)
+  a +0 flail
+(4, -8, D:8)
+  a +0 spear
+(10, 27, D:8)
+  a +0 flail
+(33, 10, D:8)
+  an uncursed amulet of inaccuracy
+  a +0 dagger
+(39, 15, D:8)
+  a +0 giant spiked club
+  a +0 giant club
+(45, 19, D:8)
+  a +0 hunting sling
+
+the Ecumenical Temple
+
+Level 1 of the Lair of Beasts
+(0, 0, Lair:1)
+  a +0 plate armour
+(17, -2, Lair:1)
+  3 inedible chunks of flesh
+  a water moccasin skeleton
+(23, 8, Lair:1)
+  a +0 leather armour
+  (unseen)
+

@@ -1,0 +1,390 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+4818 Deteuwn the Cleaver (level 10, -13/84 HPs)
+             Began as a Minotaur Fighter on Dec 7, 2016.
+             Was a Follower of Dithmenos.
+             Mangled by Fiebrir's ghost (14 damage)
+             ... on level 8 of the Dungeon on Dec 8, 2016.
+             The game lasted 00:58:06 (10023 turns).
+
+Deteuwn the Cleaver (Minotaur Fighter)             Turns: 10023, Time: 00:58:07
+
+Health: -13/84     AC: 15    Str: 23    XL:     10   Next: 24%
+Magic:  9/9        EV:  8    Int:  6    God:    Dithmenos [*.....]
+Gold:   61         SH: 12    Dex: 10    Spells: 1 memorised, 8 levels left
+
+rFire  . . .      SeeInvis .    T - +2 spear (venom)
+rCold  + . .      Gourm    .    F - +0 chain mail
+rNeg   . . .      Faith    .    c - +1 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    m - +2 cloak
+rCorr  .          Harm     .    (no gloves)
+MR     +....                    P - +0 pair of boots
+Stlth  ..........               (no amulet)
+                                u - ring of protection from magic
+                                H - ring of protection from cold
+
+@: about to teleport, wreathed by umbra
+A: retaliatory headbutt, horns 2
+a: Renounce Religion
+
+
+You were on level 8 of the Dungeon.
+You worshipped Dithmenos.
+Dithmenos was aware of your devotion.
+You were not hungry.
+
+You visited 2 branches of the dungeon, and saw 9 of its levels.
+
+You collected 526 gold pieces.
+You spent 465 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ a - the +0 great sword of Death's Door {freeze, +Inv rF- Int+4 Dex+4}
+   (You found it on level 4 of the Dungeon)   
+   
+   It has been specially enchanted to freeze those struck by it, causing extra
+   injury to most foes and up to half again as much damage against particularly
+   susceptible opponents. It can also slow down cold-blooded creatures.
+   
+   It affects your intelligence (+4).
+   It affects your dexterity (+4).
+   It makes you vulnerable to fire.
+   It lets you turn invisible.
+ j - a +0 glaive
+ n - a +0 blowgun
+ y - a +1 war axe
+ L - a +0 shortbow
+ M - a +2 mace of protection
+ N - a +1 long sword of slicing
+ O - a +2 spear of piercing
+ Q - a +4 long sword
+ S - a +0 rapier
+ T - a +2 spear of venom (weapon)
+Missiles
+ e - 109 sling bullets
+ g - 214 arrows
+ h - 313 stones
+ t - 77 bolts
+ w - 58 poisoned needles
+ x - 22 tomahawks (quivered)
+Armour
+ b - a +0 scale mail
+ c - a +1 shield (worn)
+ f - a +0 cloak
+ m - a +2 cloak (worn)
+ r - a cursed +0 ring mail
+ v - a +0 plate armour
+ F - a +0 chain mail (worn)
+ P - a +0 pair of boots (worn)
+Jewellery
+ p - an uncursed ring of magical power
+ u - a ring of protection from magic (right hand)
+ H - a ring of protection from cold (left hand)
+ R - an uncursed ring of ice
+Wands
+ C - a wand of lightning (11/15)
+ I - a wand of lightning (8/15)
+Scrolls
+ i - a scroll of enchant weapon
+ k - 2 scrolls of teleportation
+ o - 3 scrolls of amnesia
+ G - a scroll of remove curse
+Potions
+ l - a potion of cancellation
+ q - 3 potions of brilliance
+ z - a potion of flight
+ E - a potion of curing
+ J - a potion of haste
+Books
+ A - a book of Minor Magic   
+   
+    Spells                             Type                      Level
+    a - Magic Dart                   Conjuration                   1
+    b - Blink                        Translocation                 2
+    c - Call Imp                     Summoning                     2
+    d - Repel Missiles               Charms/Air                    2
+    e - Slow                         Hexes                         2
+    f - Conjure Flame                Conjuration/Fire              3
+    g - Mephitic Cloud               Conjuration/Poison/Air        3
+Comestibles
+ d - a meat ration
+ s - 3 fruits
+ B - 5 chunks of flesh
+ D - 4 beef jerkies
+ K - a bread ration
+
+
+   Skills:
+ + Level 6.5 Fighting
+ * Level 8.5 Long Blades
+ * Level 10.8 Axes
+ + Level 1.0 Throwing
+ + Level 7.2 Armour
+ + Level 3.5 Dodging
+ + Level 0.6 Stealth
+ + Level 7.8 Shields
+ + Level 0.3 Spellcasting
+ + Level 0.2 Conjurations
+
+
+You had 8 spell levels left.
+You knew the following spells:
+
+ Your Spells              Type           Power        Failure   Level  Hunger
+a - Magic Dart            Conj           #...         100%        1    ##.....
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (8/15)             Temple (1/1) D:7         
+  Lair: D:8-11      
+
+Altars:
+Ashenzari
+Cheibriados
+Dithmenos
+Elyvilon
+Fedhas
+Gozag
+Kikubaaqudgha
+Makhleb
+Nemelex Xobeh
+Okawaru
+Qazlal
+Ru
+Sif Muna
+Trog
+Uskayaw
+Vehumet
+Xom
+The Shining One
+
+Shops:
+D:4 }   D:8 (}
+
+Annotations:
+D:8 Fiebrir's ghost, novice MiFi
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You hit Fiebrir's ghost but do no damage.
+You headbutt Fiebrir's ghost, but do no damage.
+Fiebrir's ghost is heavily damaged.
+Fiebrir's ghost hits you but does no damage.
+You hit Fiebrir's ghost but do no damage.
+Your headbutt misses Fiebrir's ghost.
+Fiebrir's ghost is heavily damaged.
+You barely miss Fiebrir's ghost.
+Fiebrir's ghost is heavily damaged.
+Fiebrir's ghost hits you!
+* * * LOW HITPOINT WARNING * * *
+You hit Fiebrir's ghost but do no damage.
+You headbutt Fiebrir's ghost.
+Fiebrir's ghost is heavily damaged.
+Fiebrir's ghost hits you.
+* * * LOW HITPOINT WARNING * * *
+Unknown command.
+As you read the scroll of teleportation, it crumbles to dust.
+You feel strangely unstable. Fiebrir's ghost hits you!
+You die...
+
+                 #
+       ###      #.
+   #####..      .
+   #...#.#   ###.###
+   #...#.#####..#..#
+####...#....###.@..#
+#..#'#.......##W#..#  ###
+#..'∩'........).#.......##
+...#'#...>......#.....#..
+###.........)#######.##.#
+# #....##.#.)...#.. .##)#
+###)...##.#.###.#.#  ##)#
+..))#.###.#.###.#8#   #)#
+#####.# #.#.##....#####.#
+......# #.#.##.8.∩.8.##.#
+.###### #.#.####..##....#
+
+
+You could see Fiebrir's ghost.
+
+Vanquished Creatures
+  The ghost of Rohatan the Shield-Bearer, a novice MiFi of the Shining One (D:7)
+  Grinder (D:3)
+  2 hippogriffs (D:7)
+  Sigmund (D:4)
+  Eustachio (D:4)
+  The ghost of Waolin the Shield-Bearer, an amateur MiFi (D:3)
+  Duvessa (D:7)
+  3 orc warriors (D:7)
+  A black bear (D:8)
+  4 phantoms
+  3 ogres
+  4 centaurs
+  A big kobold (D:8)
+  Blork the orc (D:6)
+  3 bullfrogs
+  A gnoll sergeant (D:8)
+  Dowan (D:7)
+  2 scorpions
+  A water moccasin skeleton (D:5)
+  3 wights (D:6)
+  3 howler monkeys
+  3 crimson imps
+  4 hounds
+  3 orc priests
+  3 orc wizards
+  A bullfrog skeleton (D:8)
+  A centaur skeleton (D:7)
+  An iguana (D:6)
+  11 worker ants
+  A hound skeleton (D:8)
+  5 gnolls (D:8)
+  9 adders
+  4 shadow imps
+  3 oozes
+  2 adder zombies
+  2 adder skeletons
+  6 worms
+  5 dart slugs
+  5 leopard geckos
+  25 orcs
+  7 giant cockroaches
+  6 goblins
+  6 hobgoblins
+  11 jackals
+  15 kobolds
+  2 quokkas
+  A ball python (D:2)
+  13 bats
+  3 frilled lizards
+  6 rats
+203 creatures vanquished.
+
+Vanquished Creatures (others)
+  An orc wizard (D:7)
+1 creature vanquished.
+
+Grand Total: 204 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Deteuwn the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   637 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+  1628 | D:2      | Found a bloodstained altar of Trog.
+  1724 | D:2      | Reached skill level 3 in Axes
+  1748 | D:2      | Found a faded altar of an unknown god.
+  1757 | D:2      | Reached XP level 3. HP: 33/33 MP: 2/2
+  2805 | D:2      | Reached XP level 4. HP: 39/40 MP: 3/3
+  3102 | D:3      | Found a shattered altar of Ashenzari.
+  3111 | D:3      | Noticed Waolin's ghost (amateur MiFi)
+  3116 | D:3      | Killed Waolin's ghost
+  3116 | D:3      | Reached skill level 4 in Axes
+  3116 | D:3      | Reached skill level 1 in Dodging
+  3116 | D:3      | Reached skill level 5 in Shields
+  3116 | D:3      | Reached XP level 5. HP: 46/46 MP: 4/4
+  3414 | D:3      | Noticed a water elemental
+  3414 | D:3      | Noticed Grinder
+  3416 | D:3      | Found a stormy altar of Qazlal.
+  3416 | D:3      | Paralysed by Grinder for 3 turns
+  3428 | D:3      | Killed Grinder
+  3428 | D:3      | Reached skill level 5 in Axes
+  3428 | D:3      | Reached skill level 5 in Armour
+  3428 | D:3      | Reached XP level 6. HP: 34/52 MP: 5/5
+  3432 | D:3      | Noticed an air elemental
+  3432 | D:3      | Noticed a fire elemental
+  4123 | D:3      | Found an opulent altar of Gozag.
+  4183 | D:4      | Got a steaming great sword
+  4192 | D:4      | Found a white marble altar of Elyvilon.
+  4253 | D:4      | Identified the cursed +0 great sword of Death's Door {freeze, +Inv rF- Int+4 Dex+4} (You found it on level 4 of the Dungeon)
+  4263 | D:4      | Noticed Sigmund
+  4275 | D:4      | Killed Sigmund
+  4275 | D:4      | Reached skill level 6 in Axes
+  4275 | D:4      | Reached XP level 7. HP: 39/60 MP: 6/6
+  4711 | D:4      | Found Leill's Gadget Shoppe.
+  4714 | D:4      | Bought a wand of lightning (11/15) for 150 gold pieces
+  5073 | D:4      | Noticed Eustachio
+  5079 | D:4      | Reached skill level 7 in Axes
+  5106 | D:4      | Killed Eustachio
+  5132 | D:4      | Learned a level 1 spell: Magic Dart
+  5502 | D:5      | Entered Level 5 of the Dungeon
+  5515 | D:5      | Reached skill level 5 in Fighting
+  5560 | D:5      | Reached XP level 8. HP: 56/68 MP: 7/7
+  5702 | D:5      | Reached skill level 8 in Axes
+  6050 | D:5      | Reached skill level 1 in Long Blades
+  6365 | D:6      | Reached skill level 9 in Axes
+  6545 | D:6      | Noticed Blork the orc
+  6558 | D:6      | Killed Blork the orc
+  6574 | D:6      | Found a sacrificial altar of Ru.
+  6580 | D:6      | Reached XP level 9. HP: 58/74 MP: 8/8
+  6665 | D:6      | Reached skill level 10 in Axes
+  7186 | D:7      | Noticed Rohatan's ghost (novice MiFi)
+  7217 | D:7      | Killed Rohatan's ghost
+  7217 | D:7      | Reached skill level 5 in Long Blades
+  7471 | D:7      | Found a staircase to the Ecumenical Temple.
+  7490 | Temple   | Entered the Ecumenical Temple
+  7550 | Temple   | Became a worshipper of Dithmenos the Shadowed
+  7678 | D:7      | Reached skill level 1 in Throwing
+  8914 | D:7      | Noticed Duvessa
+  8915 | D:7      | Noticed Dowan
+  8922 | D:7      | Killed Duvessa
+  8934 | D:7      | Killed Dowan
+  8934 | D:7      | Reached XP level 10. HP: 77/83 MP: 9/9
+  9358 | D:8      | Reached * piety under Dithmenos
+  9520 | D:8      | Found Juvich's Antique Weapon Boutique.
+  9687 | D:8      | Found Diehio's Gadget Boutique.
+  9959 | D:8      | Bought a runed spear for 315 gold pieces
+  9976 | D:8      | Noticed Fiebrir's ghost (novice MiFi)
+ 10022 | D:8      | HP: 1/84 [Fiebrir's ghost (6)]
+ 10023 | D:8      | Mangled by Fiebrir's ghost
+
+Skill      XL: |  1  2  3  4  5  6  7  8  9 10 |
+---------------+-------------------------------+-----
+Armour         |     4        5        6  7    |  7.2
+Axes           |     3     4  5  6  7  9 10    | 10.8
+Shields        |        4  5        6     7    |  7.8
+Fighting       |           4        5     6    |  6.5
+Dodging        |           1        2     3    |  3.5
+Long Blades    |                       3  7  8 |  8.5
+Throwing       |                          1    |  1.0
+Stealth        |                               |  0.6
+Spellcasting   |                               |  0.3
+Conjurations   |                               |  0.2
+
+Action                   |  1- 3 |  4- 6 |  7- 9 | 10-12 || total
+-------------------------+-------+-------+-------+-------++-------
+Melee: War axe           |   113 |    54 |   181 |       ||   348
+       Headbutt          |    17 |    12 |    59 |    33 ||   121
+       Long sword        |       |       |   209 |       ||   209
+       Great sword       |       |       |    13 |    80 ||    93
+       Spear             |       |       |       |    37 ||    37
+Throw: Tomahawk          |       |       |    16 |       ||    16
+       Stone             |       |       |     3 |       ||     3
+  Use: Potion            |     5 |     2 |     3 |       ||    10
+       Scroll            |     6 |     5 |    10 |     3 ||    24
+  Eat: Chunk             |     5 |     2 |       |       ||     7
+       Pizza             |     1 |       |       |       ||     1
+       Beef jerky        |       |     1 |       |       ||     1
+       Fruit             |       |     1 |     1 |       ||     2
+       Bread ration      |       |       |     3 |       ||     3
+       Meat ration       |       |       |     1 |       ||     1
+Armor: Scale mail        |    65 |    22 |   162 |       ||   249
+       Chain mail        |       |       |       |    74 ||    74
+Dodge: Dodged            |    42 |    12 |   146 |    46 ||   246
+Block: Shield            |    94 |    40 |   263 |     6 ||   403
+Rpst.: Long sword        |       |       |    22 |       ||    22
+       Great sword       |       |       |     2 |     7 ||     9
+

@@ -1,0 +1,483 @@
+ Dungeon Crawl Stone Soup version 0.19.1 (console) character file.
+
+19543 Hanyijic the Blocker (level 12, -4/103 HPs)
+             Began as a Minotaur Fighter on Dec 11, 2016.
+             Was a Believer of Uskayaw.
+             Slain by a merfolk
+             ... wielding a +0 trident
+              (17 damage)
+             ... on level 1 of the Shoals.
+             The game lasted 01:25:02 (15039 turns).
+
+Hanyijic the Blocker (Minotaur Fighter)            Turns: 15039, Time: 01:25:03
+
+Health: -4/103     AC: 17    Str: 23    XL:     12   Next: 37%
+Magic:  0/11       EV: 10    Int:  6    God:    Uskayaw [**....]
+Gold:   515        SH: 13    Dex: 15    Spells: 0 memorised, 11 levels left
+
+rFire  + . .      SeeInvis +    u - +3 long sword (elec)
+rCold  x . .      Gourm    .    I - +1 chain mail "Isiowkut" {MR+ Regen+ rCorr Dex+3}
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   +    H - +0 hat
+rElec  .          Reflect  .    k - +0 cloak
+rCorr  +          Harm     .    Y - +0 pair of gloves
+MR     +....                    X - +0 pair of boots
+Stlth  ..........               A - amulet of guardian spirit
+                                W - ring of see invisible
+                                q - ring of fire
+
+@: lethally poisoned (-4 -> -5)
+A: retaliatory headbutt, horns 2
+a: Stomp, Line Pass, Renounce Religion
+
+
+You were on level 1 of the Shoals.
+You worshipped Uskayaw.
+Uskayaw was noncommittal.
+You were not hungry.
+
+You visited 3 branches of the dungeon, and saw 14 of its levels.
+You visited the Abyss 1 time.
+
+You collected 860 gold pieces.
+You spent 345 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ a - a +1 long sword
+ h - a +2 short sword of venom
+ l - a +0 hunting sling of velocity
+ u - a +3 long sword of electrocution (weapon)
+ P - a +0 great sword of freezing
+Missiles
+ e - 350 stones
+ v - a throwing net
+ O - 4 tomahawks (quivered)
+Armour
+ c - a +0 shield (worn)
+ d - a +1 robe of magic resistance
+ k - a +0 cloak (worn)
+ H - a +0 hat (worn)
+ I - the +1 chain mail "Isiowkut" (worn) {MR+ Regen+ rCorr Dex+3}
+   (You found it on level 1 of the Lair of Beasts)   
+   
+   It affects your dexterity (+3).
+   It affects your resistance to hostile enchantments.
+   It increases your rate of regeneration.
+   It protects you from acid and corrosion.
+ X - a +0 pair of boots (worn)
+ Y - a +0 pair of gloves (worn)
+Magical Staves
+ b - an uncursed staff of wizardry
+ y - an uncursed staff of cold
+ Z - an uncursed staff of summoning
+Jewellery
+ q - a ring of fire (left hand)
+ A - an amulet of guardian spirit (around neck)
+ W - a ring of see invisible (right hand)
+Wands
+ s - a wand of confusion (25/48)
+ t - a wand of digging (11/24)
+ E - a wand of teleportation (6/9)
+ K - a wand of paralysis (8/24)
+ L - a wand of disintegration (8/24)
+ N - a wand of flame (34/48)
+ U - a wand of lightning (14/15)
+Scrolls
+ g - 2 scrolls of remove curse
+ D - 2 scrolls of blinking
+ T - 4 scrolls of teleportation
+ V - 3 scrolls of magic mapping
+Potions
+ j - a potion of berserk rage
+ m - a potion of flight
+ p - 3 potions of curing
+ r - a potion of brilliance
+ B - 4 potions of heal wounds
+ G - a potion of haste
+ Q - 2 potions of cancellation
+Books
+ n - a book of Changes   
+   
+    Spells                             Type                      Level
+    a - Beastly Appendage            Transmutation                 1
+    b - Sticks to Snakes             Transmutation                 2
+    c - Spider Form                  Transmutation/Poison          3
+    d - Ice Form                     Ice/Transmutation             4
+    e - Blade Hands                  Transmutation                 5
+ z - a book of Callings   
+   
+    Spells                             Type                      Level
+    a - Summon Small Mammal          Summoning                     1
+    b - Call Imp                     Summoning                     2
+    c - Call Canine Familiar         Summoning                     3
+    d - Summon Guardian Golem        Hexes/Summoning               3
+    e - Summon Lightning Spire       Summoning/Air                 4
+    f - Summon Ice Beast             Ice/Summoning                 4
+ C - a book of Maledictions   
+   
+    Spells                             Type                      Level
+    a - Corona                       Hexes                         1
+    b - Ensorcelled Hibernation      Hexes/Ice                     2
+    c - Confuse                      Hexes                         3
+    d - Tukima's Dance               Hexes                         3
+    e - Dazzling Spray               Conjuration/Hexes             3
+ R - a book of Conjurations   
+   
+    Spells                             Type                      Level
+    a - Magic Dart                   Conjuration                   1
+    b - Searing Ray                  Conjuration                   2
+    c - Dazzling Spray               Conjuration/Hexes             3
+    d - Fulminant Prism              Conjuration/Hexes             4
+    e - Iskenderun's Mystic Blast    Conjuration                   4
+    f - Iskenderun's Battlesphere    Conjuration/Charms            5
+Comestibles
+ f - 6 bread rations
+ i - 9 meat rations
+ o - a beef jerky
+ w - 4 chunks of flesh
+ J - 8 slices of pizza
+ S - 8 fruits
+
+
+   Skills:
+ + Level 8.8 Fighting
+ + Level 9.3(10.7) Short Blades
+ + Level 9.5(11.3) Long Blades
+   Level 3.4 Axes
+ + Level 3.9 Throwing
+ + Level 11.0 Armour
+ + Level 4.9 Dodging
+ + Level 4.6 Stealth
+ + Level 12.2 Shields
+ + Level 1.1 Evocations
+
+
+You had 11 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (11/15)            Temple (0/1) D:6            Lair (2/6) D:11
+ Shoals (1/4) Lair:2        Snake (0/4) Lair:2      
+   Orc: D:9-12      
+
+Altars:
+Ashenzari
+Cheibriados
+Elyvilon
+Fedhas
+Hepliaklqana
+Qazlal
+Trog
+Uskayaw
+Vehumet
+Xom
+Zin
+
+Shops:
+D:5 **   D:6 :!
+
+Portals:
+Ice Cave: Shoals:1
+
+Annotations:
+D:7 exclusion: statue
+Lair:2 Vialip Zueff's ghost, journeyman MiFi
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+The wind drake exhales a fierce blast of wind!
+You are blown backwards! The merfolk throws a tomahawk. You block the tomahawk.
+Throwing (i - inventory. (,) - cycle): O - 5 tomahawks (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - wind drake
+Aim: a wind drake (heavily wounded, catching its breath)
+You throw a tomahawk. The tomahawk hits the wind drake!
+The wind drake is severely wounded.
+You feel sick.
+The wind drake flaps its wings at you.
+The air twists around and strikes you! You block the merfolk's attack.
+You feel sick.
+The wind drake flaps its wings at you.
+The air twists around and strikes you!
+The wind drake flaps its wings at you.
+The air twists around and strikes you! The merfolk hits you with a trident!!
+* * * LOW HITPOINT WARNING * * *
+You closely miss the merfolk. You feel sick.
+The faun gestures at you while chanting.
+You resist with almost no effort. The merfolk hits you with a trident!!
+You die...
+
+≈≈.≈≈≈≈≈≈
+≈≈≈≈≈≈≈≈≈
+≈≈≈≈≈≈≈≈≈
+.≈≈≈≈≈≈≈≈   ...≈≈≈≈≈≈≈≈≈
+.≈≈≈≈≈≈≈≈    ..≈≈≈≈≈≈≈≈≈
+≈≈≈≈≈≈≈≈..   #.$≈≈≈≈≈≈≈≈
+≈≈≈≈≈≈≈≈.#####..≈≈≈≈≈≈≈≈
+≈≈≈≈≈≈≈≈.........≈≈≈≈≈≈≈
+≈≈≈≈≈............≈≈≈≈≈≈≈
+≈≈.##.............≈≈≈≈≈≈
+≈.##...........(@m≈≈≈≈..
+≈.............k...≈≈≈..#
+≈≈.......(...(....≈≈..##
+≈≈..≈..............≈..#
+≈≈.......#mkc.........#
+≈≈≈....##.(.#.....≈≈≈..#
+≈≈.....##∩##.....≈≈≈≈...
+≈≈....#...##(....≈≈≈≈≈..
+≈≈..P....#.....PP≈≈≈≈
+≈≈....(........P≈≈≈≈≈
+≈≈P..........P  P≈
+
+
+You could see 2 wind drakes, 2 merfolk and a faun.
+
+Vanquished Creatures
+  Gastronok (D:9)
+  Josephine (Shoals:1)
+  A merfolk impaler (Shoals:1)
+  A hydra (Lair:1)
+  The ghost of Cynur the Cleaver, a novice MiMo of Uskayaw (D:11)
+  3 sea snakes (Shoals:1)
+  Pikel (D:7)
+  2 manticores
+  A faun (Shoals:1)
+  An elephant (D:11)
+  A siren (Shoals:1)
+  A gargoyle (D:9)
+  3 spiny frogs
+  A komodo dragon (Lair:2)
+  A troll (D:11)
+  A merfolk (Shoals:1)
+  A snapping turtle (Shoals:1)
+  6 hippogriffs
+  4 wraiths (Shoals:1)
+  2 wyverns
+  Sigmund (D:4)
+  11 yaks
+  A human (D:10)
+  A basilisk (Lair:1)
+  The ghost of Kafemoh the Covered, an amateur MiFi (D:3)
+  6 water moccasins
+  4 ice beasts
+  2 porcupines
+  2 sky beasts
+  A black bear (D:8)
+  A necrophage (D:7)
+  5 wolves (Lair:2)
+  4 centaurs
+  7 ogres
+  A phantom (D:7)
+  7 crocodiles
+  7 bullfrogs
+  2 scorpions (D:9)
+  An electric eel (Lair:2)
+  A howler monkey (D:4)
+  A bullfrog zombie (D:9)
+  2 bullfrog skeletons
+  A gnoll shaman (D:5)
+  Jessica (D:3)
+  10 orc wizards
+  13 worker ants
+  5 iguanas
+  A hound zombie (D:7)
+  11 adders
+  13 gnolls
+  3 shadow imps
+  An adder skeleton (D:8)
+  2 adder zombies
+  4 worms
+  2 dart slugs (D:4)
+  5 leopard geckos
+  21 orcs
+  8 bats
+  4 giant cockroaches
+  8 goblins
+  6 hobgoblins
+  6 jackals
+  3 quokkas
+  2 ball pythons
+  9 frilled lizards
+  A giant cockroach zombie (D:6)
+  8 kobolds
+  A quokka skeleton (D:5)
+  3 rats
+  A bush (D:10)
+256 creatures vanquished.
+
+Vanquished Creatures (others)
+  A quasit (D:7)
+  A jelly (D:7)
+  An orc priest (D:7)
+  A hound (D:7)
+  An orc wizard (D:7)
+  A hound skeleton (D:7)
+  A leopard gecko (D:7)
+  2 orcs (D:7)
+  A jackal (D:7)
+  A quokka zombie (D:7)
+11 creatures vanquished.
+
+Grand Total: 267 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Hanyijic the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   331 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   382 | D:1      | Reached skill level 4 in Shields
+   813 | D:2      | Reached XP level 3. HP: 32/33 MP: 2/2
+   928 | D:2      | Found a white marble altar of Elyvilon.
+   963 | D:2      | Found a hide-covered altar of Uskayaw.
+   963 | D:2      | Found a shattered altar of Ashenzari.
+   987 | D:2      | Became a worshipper of Uskayaw the Reveler
+  1074 | D:2      | Reached * piety under Uskayaw
+  1107 | D:2      | Reached ** piety under Uskayaw
+  1195 | D:2      | Found a glowing silver altar of Zin.
+  1196 | D:2      | Found a snail-covered altar of Cheibriados.
+  1210 | D:2      | Found a bloodstained altar of Trog.
+  1580 | D:3      | Noticed Jessica
+  1587 | D:3      | Killed Jessica
+  1587 | D:3      | Reached XP level 4. HP: 40/40 MP: 3/3
+  1596 | D:3      | Gained mutation: You have a pair of large horns on your head. [potion of mutation]
+  1596 | D:3      | Gained mutation: You are partially covered in large bone plates. (SH +4) [potion of mutation]
+  1596 | D:3      | Gained mutation: Your body sometimes deteriorates upon taking damage. [potion of mutation]
+  1619 | D:3      | Noticed an ice beast
+  1627 | D:3      | Killed an ice beast
+  1627 | D:3      | Reached skill level 5 in Shields
+  1627 | D:3      | Reached XP level 5. HP: 47/47 MP: 4/4
+  1627 | D:3      | Reached *** piety under Uskayaw
+  1860 | D:3      | Noticed Kafemoh's ghost (amateur MiFi)
+  1872 | D:3      | Killed Kafemoh's ghost
+  1872 | D:3      | Reached skill level 1 in Dodging
+  1872 | D:3      | Reached XP level 6. HP: 42/55 MP: 5/5
+  1873 | D:3      | Reached **** piety under Uskayaw
+  1875 | D:3      | Reached skill level 5 in Fighting
+  2314 | D:3      | Reached skill level 6 in Shields
+  3059 | D:4      | Reached skill level 5 in Long Blades
+  3169 | D:4      | Reached skill level 1 in Short Blades
+  3281 | D:4      | Reached XP level 7. HP: 52/61 MP: 6/6
+  3649 | D:4      | Reached skill level 5 in Armour
+  3649 | D:4      | Reached skill level 1 in Stealth
+  4126 | D:4      | Got an opalescent robe
+  4198 | D:4      | Noticed Sigmund
+  4209 | D:4      | Killed Sigmund
+  4505 | D:5      | Entered Level 5 of the Dungeon
+  4613 | D:5      | Found Zekoza Gyng's Elemental Accessories.
+  4663 | D:5      | Bought a wand of disintegration (9/24) for 195 gold pieces
+  4674 | D:5      | Found Ylata's General Store.
+  4832 | D:5      | Reached XP level 8. HP: 58/69 MP: 5/7
+  5019 | D:5      | Identified the +1 robe "Miczutas" {-Cast rElec rF+ Int+3} (You found it on level 4 of the Dungeon)
+  5427 | D:6      | Reached skill level 5 in Short Blades
+  5620 | D:6      | Found a stormy altar of Qazlal.
+  5725 | D:6      | Found a staircase to the Ecumenical Temple.
+  5750 | D:6      | Found a shimmering altar of Xom.
+  5782 | D:6      | Reached skill level 7 in Shields
+  5916 | D:6      | Found a hazy altar of Hepliaklqana.
+  6073 | D:6      | Found Utilyka's Distillery.
+  6076 | D:6      | Bought a potion of heal wounds for 50 gold pieces
+  6076 | D:6      | Bought a potion of heal wounds for 50 gold pieces
+  6076 | D:6      | Bought a potion of heal wounds for 50 gold pieces
+  6098 | D:6      | Found Xaumaefa's Book Boutique.
+  6179 | D:7      | Noticed Pikel
+  6194 | D:7      | Killed Pikel
+  6465 | D:7      | Found a radiant altar of Vehumet.
+  6465 | D:7      | Noticed a hippogriff
+  6479 | D:7      | Killed a hippogriff
+  6479 | D:7      | Reached XP level 9. HP: 71/75 MP: 6/8
+  6636 | D:7      | Reached skill level 8 in Shields
+  7095 | D:7      | Found a blossoming altar of Fedhas.
+  8215 | D:9      | Reached skill level 9 in Shields
+  8350 | D:9      | Noticed Gastronok
+  8366 | D:9      | Killed Gastronok
+  8366 | D:9      | Reached XP level 10. HP: 74/85 MP: 7/9
+  8439 | D:9      | Reached skill level 1 in Throwing
+  9068 | D:9      | Reached skill level 10 in Shields
+  9499 | D:9      | Reached skill level 1 in Axes
+  9533 | D:9      | Noticed a gargoyle
+  9543 | D:9      | Killed a gargoyle
+  9833 | D:10     | Entered Level 10 of the Dungeon
+ 10389 | D:10     | Reached ***** piety under Uskayaw
+ 10890 | D:11     | Noticed Cynur's ghost (novice MiMo)
+ 10907 | D:11     | Killed Cynur's ghost
+ 10907 | D:11     | Reached XP level 11. HP: 43/91 MP: 3/10
+ 11332 | D:11     | Found a staircase to the Lair.
+ 11910 | Lair:1   | Entered Level 1 of the Lair of Beasts
+ 11924 | Lair:1   | Reached skill level 11 in Shields
+ 12551 | Lair:1   | Lost mutation: You have a pair of large horns on your head. [potion of cure mutation]
+ 12551 | Lair:1   | Lost mutation: Your body sometimes deteriorates upon taking damage. [potion of cure mutation]
+ 12551 | Lair:1   | Lost mutation: You are partially covered in large bone plates. (SH +4) [potion of cure mutation]
+ 13120 | Lair:1   | Noticed a four-headed hydra
+ 13133 | Lair:1   | Killed a 12-headed hydra
+ 13133 | Lair:1   | Reached skill level 10 in Armour
+ 13496 | Lair:1   | Got a heavily runed chain mail
+ 13507 | Lair:1   | Identified the cursed +1 chain mail "Isiowkut" {MR+ Regen+ rCorr Dex+3} (You found it on level 1 of the Lair of Beasts)
+ 13903 | Lair:2   | Noticed Vialip Zueff's ghost (journeyman MiFi)
+ 14060 | Lair:2   | Cast into level 2 of the Abyss (Vialip Zueff's ghost)
+ 14148 | Lair:2   | Escaped the Abyss
+ 14507 | Lair:2   | Found a staircase to the Shoals.
+ 14510 | Lair:2   | Found a staircase to the Snake Pit.
+ 14566 | Shoals:1 | Entered Level 1 of the Shoals
+ 14660 | Shoals:1 | Noticed a sea snake
+ 14680 | Shoals:1 | Killed a sea snake
+ 14680 | Shoals:1 | Reached XP level 12. HP: 52/101 MP: 8/11
+ 14944 | Shoals:1 | Noticed Josephine
+ 14954 | Shoals:1 | Reached skill level 12 in Shields
+ 14956 | Shoals:1 | Reached skill level 1 in Evocations
+ 14958 | Shoals:1 | Killed Josephine
+ 14974 | Shoals:1 | Noticed a merfolk impaler
+ 14981 | Shoals:1 | Killed a merfolk impaler
+ 15019 | Shoals:1 | Found a frozen archway.
+ 15039 | Shoals:1 | Slain by a merfolk
+
+Skill      XL: |  1  2  3  4  5  6  7  8  9 10 11 12 |
+---------------+-------------------------------------+-----
+Shields        |     4     5     6     7  9 10 11 12 | 12.2
+Armour         |     4              5  6  8  9 10 11 | 11.0
+Fighting       |     4           5        7     8    |  8.8
+Long Blades    |        3     4  5              8  9 |  9.5
+Dodging        |              1     2     3     4    |  4.9
+Short Blades   |                 1  4  6  8  9       |  9.3
+Stealth        |                    1  2  3  4       |  4.6
+Throwing       |                             1  3    |  3.9
+Axes           |                             3       |  3.4
+Evocations     |                                   1 |  1.1
+
+Action                   |  1- 3 |  4- 6 |  7- 9 | 10-12 || total
+-------------------------+-------+-------+-------+-------++-------
+Melee: Long sword        |    99 |    42 |       |   374 ||   515
+       Headbutt          |    12 |    28 |    63 |   100 ||   203
+       Short sword       |       |    38 |   299 |    26 ||   363
+       Rapier            |       |    26 |       |       ||    26
+       War axe           |       |       |       |    40 ||    40
+       Great sword       |       |       |       |     4 ||     4
+Throw: Stone             |       |       |     7 |    64 ||    71
+       Tomahawk          |       |       |       |    38 ||    38
+Evoke: Wand              |       |       |     1 |     5 ||     6
+  Use: Scroll            |    11 |     6 |     6 |    10 ||    33
+       Potion            |       |     6 |     3 |    12 ||    21
+ Stab: Paralysed         |       |     2 |     8 |    15 ||    25
+  Eat: Chunk             |     1 |     3 |     8 |    12 ||    24
+       Beef jerky        |     1 |       |       |       ||     1
+       Meat ration       |       |     1 |       |     1 ||     2
+       Bread ration      |       |       |     1 |       ||     1
+       Fruit             |       |       |     1 |     3 ||     4
+       Royal jelly       |       |       |       |     1 ||     1
+Armor: Scale mail        |    37 |       |       |       ||    37
+       Chain mail        |    12 |    54 |    75 |   152 ||   293
+Dodge: Dodged            |    32 |    23 |    47 |   121 ||   223
+Block: Shield            |    54 |    63 |   154 |   344 ||   615
+       Other             |       |     4 |     3 |       ||     7
+Rpst.: Long sword        |     9 |     2 |       |    18 ||    29
+

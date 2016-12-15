@@ -1,0 +1,367 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+7977 Nehaaleng the Carver (level 11, -6/94 HPs)
+             Began as a Minotaur Fighter on Dec 3, 2016.
+             Was a High Priest of Okawaru.
+             Killed by divine providence
+             ... invoked by an orc priest
+              (13 damage)
+             ... on level 2 of the Orcish Mines on Dec 4, 2016.
+             The game lasted 00:51:16 (10116 turns).
+
+Nehaaleng the Carver (Minotaur Fighter)            Turns: 10116, Time: 00:51:17
+
+Health: -6/94      AC: 20    Str: 22    XL:     11   Next: 3%
+Magic:  10/10      EV: 10    Int:  6    God:    Okawaru [*****.]
+Gold:   310        SH: 12    Dex: 11    Spells: 0 memorised, 10 levels left
+
+rFire  . . .      SeeInvis .    a - +4 long sword (slice)
+rCold  + . .      Gourm    .    K - +4 chain mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     +....                    P - +2 pair of boots
+Stlth  ..........               (no amulet)
+                                k - +2 ring of evasion
+                                C - ring of protection from magic
+
+@: drained
+A: retaliatory headbutt, horns 2, slimy green scales 1, cold resistance 1
+a: Heroism, Finesse, Renounce Religion
+
+
+You were on level 2 of the Orcish Mines.
+You worshipped Okawaru.
+Okawaru was extremely pleased with you.
+You were not hungry.
+
+You visited 3 branches of the dungeon, and saw 12 of its levels.
+
+You collected 505 gold pieces.
+You spent 195 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ a - a +4 long sword of slicing (weapon)
+ b - a +0 hunting sling
+ d - a +0 falchion
+ o - a +0 short sword of protection
+ B - a +0 morningstar
+ G - a +0 glaive
+ R - a +0 shortbow
+ T - a +0 broad axe
+ W - a +4 dire flail
+ X - a +2 hand axe of freezing
+Missiles
+ e - 9 curare-tipped needles
+ i - 248 stones
+ n - 43 sling bullets
+ v - 111 bolts
+ A - 43 poisoned needles
+ F - 14 tomahawks (quivered)
+ I - 107 arrows
+Armour
+ c - a +0 shield (worn)
+ q - a +0 chain mail
+ K - a +4 chain mail (worn)
+ P - a +2 pair of boots (worn)
+ S - a +0 pair of boots
+ U - a +0 plate armour
+Jewellery
+ k - a +2 ring of evasion (right hand)
+ C - a ring of protection from magic (left hand)
+ E - an uncursed ring of fire
+ M - an uncursed ring of ice
+ N - a +3 ring of intelligence
+Scrolls
+ h - 3 scrolls of remove curse
+ t - 3 scrolls of teleportation
+ D - 2 scrolls of magic mapping
+ H - a scroll of fog
+Potions
+ j - 2 potions of agility
+ p - 4 potions of curing
+ u - a potion of haste
+ w - 4 potions of brilliance
+ z - 2 potions of heal wounds
+ J - 2 potions of flight
+Comestibles
+ f - 9 bread rations
+ g - a royal jelly
+ l - 2 chunks of flesh
+ m - 4 meat rations
+ r - 4 beef jerkies
+ s - 5 fruits
+ L - 10 slices of pizza
+
+
+   Skills:
+ + Level 7.8(7.5) Fighting
+ + Level 4.3(7.9) Short Blades
+ + Level 11.7 Long Blades
+ + Level 1.0(0.7) Throwing
+ + Level 10.0(9.7) Armour
+ + Level 3.7(3.4) Dodging
+ + Level 2.0(1.7) Stealth
+ + Level 10.1(9.8) Shields
+
+
+You had 10 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (9/15)             Temple (1/1) D:4             Orc (2/2) D:9
+  Lair: D:8-11         Elf: Orc:2       
+
+Altars:
+Ashenzari
+Cheibriados
+Fedhas
+Gozag
+Hepliaklqana
+Kikubaaqudgha
+Makhleb
+Nemelex Xobeh
+Okawaru
+Qazlal
+Ru
+Sif Muna
+Trog
+Uskayaw
+Xom
+
+Shops:
+D:5 ?   Orc:1 !   Orc:2 :
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You are partially covered in slimy green scales. (AC +2)
+Your flesh is cold resistant. (rC+)
+
+
+Message History
+
+The orc barely misses you. You furiously retaliate! You headbutt the orc!
+You kill the orc!
+Okawaru accepts your kill.
+The orc sorcerer gestures at you while chanting.
+The bolt of fire hits you!
+* * * LOW HITPOINT WARNING * * *
+The orc wizard barely misses you. You riposte. You slash the orc wizard!
+You kill the orc wizard!
+Okawaru accepts your kill.
+You hit the orc sorcerer.
+The orc sorcerer is severely wounded.
+The orc priest mumbles some strange prayers to Beogh against you.
+Beogh smites you!
+* * * LOW HITPOINT WARNING * * *
+The orc sorcerer hits you but does no damage.
+You hit the orc sorcerer.
+The orc sorcerer is almost dead.
+The orc priest invokes the aid of Beogh against you.
+Beogh smites you!
+You die...
+
+...........#.  ...
+.....#......# ....
+............##....
+.......#..........
+..................
+..................
+...∩...o..........
+.......@).<(.(.(.(
+........).........
+.#......o.........
+................$.
+.......#..........
+......#...........
+...........##.....
+#.......#... .....
+
+
+You could see an orc sorcerer and an orc priest.
+
+Vanquished Creatures
+  The ghost of Xolina the Shield-Bearer, a novice MiFi of Okawaru (D:6)
+  The ghost of Pihad the Slasher, a novice MiFi of Okawaru (D:5)
+  An orc sorcerer (Orc:2)
+  A two-headed ogre (D:7)
+  Grinder (D:3)
+  A troll (D:9)
+  A hippogriff (D:7)
+  A wyvern (D:9)
+  4 hogs (D:8)
+  Eustachio (D:6)
+  A human (D:8)
+  9 orc warriors
+  3 phantoms
+  3 sky beasts
+  3 ice beasts
+  A black bear (D:5)
+  5 ogres (D:9)
+  3 centaurs (D:7)
+  3 big kobolds
+  3 bullfrogs (D:8)
+  2 gnoll sergeants (D:9)
+  A water moccasin zombie (D:5)
+  A wyvern skeleton (D:9)
+  4 scorpions
+  A water moccasin skeleton (D:9)
+  5 wights (D:9)
+  2 howler monkeys
+  5 crimson imps
+  A quasit (D:8)
+  3 hounds
+  A centaur zombie (D:6)
+  7 orc priests
+  2 jellies
+  A bullfrog skeleton (D:5)
+  6 orc wizards
+  3 iguanas
+  8 worker ants
+  A hound zombie (D:6)
+  3 hound skeletons
+  A howler monkey skeleton (D:7)
+  8 adders
+  A shadow imp (D:7)
+  2 oozes
+  An adder zombie (D:9)
+  3 worms
+  4 dart slugs
+  5 leopard geckos
+  44 orcs
+  7 giant cockroaches
+  7 goblins
+  11 hobgoblins
+  8 jackals
+  8 kobolds
+  4 quokkas
+  6 bats
+  6 frilled lizards
+  A jackal zombie (D:7)
+  A leopard gecko skeleton (D:4)
+  A quokka skeleton (D:4)
+  3 rats
+236 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Nehaaleng the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   207 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   484 | D:1      | Gained mutation: You are partially covered in slimy green scales. (AC +2) [potion of mutation]
+   484 | D:1      | Gained mutation: Your flesh is cold resistant. (rC+) [potion of mutation]
+   542 | D:1      | Reached XP level 3. HP: 29/33 MP: 2/2
+   992 | D:2      | Found a deep blue altar of Sif Muna.
+  1146 | D:2      | Reached XP level 4. HP: 37/40 MP: 3/3
+  1254 | D:2      | Reached skill level 1 in Short Blades
+  1990 | D:3      | Reached skill level 1 in Dodging
+  2001 | D:3      | Reached XP level 5. HP: 40/46 MP: 4/4
+  2399 | D:3      | Noticed Grinder
+  2408 | D:3      | Paralysed by Grinder for 5 turns
+  2428 | D:3      | Killed Grinder
+  2428 | D:3      | Reached skill level 5 in Armour
+  2428 | D:3      | Reached skill level 5 in Shields
+  2428 | D:3      | Reached XP level 6. HP: 20/52 MP: 5/5
+  2718 | D:3      | Found a shimmering altar of Xom.
+  2720 | D:3      | Found an opulent altar of Gozag.
+  2720 | D:3      | Found a burning altar of Makhleb.
+  2722 | D:3      | Found a hazy altar of Hepliaklqana.
+  2722 | D:3      | Found an iron altar of Okawaru.
+  2722 | D:3      | Found an iron altar of Okawaru.
+  3412 | D:4      | Noticed an orc warrior
+  3426 | D:4      | Killed an orc warrior
+  3426 | D:4      | Reached skill level 3 in Long Blades
+  3426 | D:4      | Reached XP level 7. HP: 32/60 MP: 6/6
+  3711 | D:4      | Reached skill level 4 in Long Blades
+  3855 | D:4      | Found a staircase to the Ecumenical Temple.
+  3894 | Temple   | Entered the Ecumenical Temple
+  3994 | Temple   | Became a worshipper of Warmaster Okawaru
+  4357 | D:4      | Reached skill level 5 in Long Blades
+  4433 | D:5      | Entered Level 5 of the Dungeon
+  4585 | D:5      | Found a snail-covered altar of Cheibriados.
+  4661 | D:5      | Noticed Pihad's ghost (novice MiFi)
+  4673 | D:5      | Killed Pihad's ghost
+  4673 | D:5      | Reached * piety under Okawaru
+  4673 | D:5      | Reached skill level 5 in Fighting
+  4673 | D:5      | Reached skill level 6 in Long Blades
+  4673 | D:5      | Reached XP level 8. HP: 34/69 MP: 7/7
+  4872 | D:5      | Reached ** piety under Okawaru
+  4872 | D:5      | Reached skill level 7 in Long Blades
+  5118 | D:5      | Found Ireqi's Magic Scroll Emporium.
+  5125 | D:5      | Bought a scroll of remove curse for 33 gold pieces
+  5125 | D:5      | Bought a scroll of remove curse for 33 gold pieces
+  5125 | D:5      | Bought a scroll of identify for 22 gold pieces
+  5125 | D:5      | Bought a scroll of identify for 22 gold pieces
+  5415 | D:6      | Noticed Xolina's ghost (novice MiFi)
+  5434 | D:6      | Killed Xolina's ghost
+  5434 | D:6      | Reached *** piety under Okawaru
+  5434 | D:6      | Reached skill level 8 in Long Blades
+  5434 | D:6      | Reached skill level 1 in Stealth
+  5434 | D:6      | Reached XP level 9. HP: 51/75 MP: 8/8
+  5559 | D:6      | Noticed Eustachio
+  5592 | D:6      | Killed Eustachio
+  5708 | D:6      | Found a bloodstained altar of Trog.
+  5972 | D:6      | Reached skill level 9 in Long Blades
+  6759 | D:7      | Reached **** piety under Okawaru
+  6969 | D:7      | Found a burning altar of Makhleb.
+  7693 | D:8      | Reached skill level 10 in Long Blades
+  7693 | D:8      | Reached XP level 10. HP: 83/84 MP: 9/9
+  7726 | D:8      | Noticed a dagger
+  7727 | D:8      | Noticed a dagger
+  7730 | D:8      | Found a hide-covered altar of Uskayaw.
+  9236 | D:9      | Reached ***** piety under Okawaru
+  9236 | D:9      | Reached skill level 11 in Long Blades
+  9514 | D:9      | Found a staircase to the Orcish Mines.
+  9587 | D:9      | Reached skill level 10 in Armour
+  9589 | D:9      | Reached skill level 10 in Shields
+  9975 | Orc:1    | Entered Level 1 of the Orcish Mines
+  9975 | Orc:1    | Found Xary's Distillery.
+ 10061 | Orc:1    | Bought a potion of heal wounds for 85 gold pieces
+ 10093 | Orc:2    | Entered Level 2 of the Orcish Mines
+ 10093 | Orc:2    | Found Zutug's Book Shop.
+ 10093 | Orc:2    | Noticed an orc sorcerer
+ 10096 | Orc:2    | Noticed an orc sorcerer
+ 10113 | Orc:2    | Killed an orc sorcerer
+ 10113 | Orc:2    | Reached skill level 1 in Throwing
+ 10113 | Orc:2    | Reached XP level 11. HP: 36/94 MP: 10/10
+ 10116 | Orc:2    | Killed from afar by an orc priest
+
+Skill      XL: |  1  2  3  4  5  6  7  8  9 10 |
+---------------+-------------------------------+-----
+Shields        |  4           5     6  7  8 10 | 10.1
+Armour         |     4        5     6  7  9 10 | 10.0
+Short Blades   |           1  3  4             |  4.3
+Fighting       |           4        5  6     7 |  7.8
+Dodging        |           1           2     3 |  3.7
+Long Blades    |                 3  6  8 10 11 | 11.7
+Stealth        |                       1     2 |  2.0
+Throwing       |                             1 |  1.0
+
+Action                   |  1- 3 |  4- 6 |  7- 9 | 10-12 || total
+-------------------------+-------+-------+-------+-------++-------
+Melee: Long sword        |    12 |    32 |   280 |   219 ||   543
+       Headbutt          |    13 |    25 |    49 |    41 ||   128
+       Short sword       |    79 |   120 |       |       ||   199
+Throw: Tomahawk          |       |       |     3 |     9 ||    12
+  Use: Scroll            |     3 |    11 |    12 |     7 ||    33
+       Potion            |     3 |     3 |     4 |     4 ||    14
+  Eat: Chunk             |     1 |     3 |     6 |     4 ||    14
+       Bread ration      |       |     1 |     1 |     1 ||     3
+       Fruit             |       |       |     2 |       ||     2
+       Pizza             |       |       |     1 |       ||     1
+Armor: Scale mail        |    38 |    54 |       |       ||    92
+       Chain mail        |       |    12 |   116 |    71 ||   199
+       Plate armour      |       |       |       |    54 ||    54
+Dodge: Dodged            |    22 |    43 |    83 |    82 ||   230
+Block: Shield            |    55 |    81 |   136 |   148 ||   420
+Rpst.: Long sword        |     1 |     4 |    24 |    22 ||    51
+

@@ -1,0 +1,278 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+742 Roiz the Cudgeler (level 7, -1/62 HPs)
+             Began as a Minotaur Monk on Dec 8, 2016.
+             Killed from afar by an orc wizard (7 damage)
+             ... with a magic dart
+             ... on level 4 of the Dungeon.
+             The game lasted 00:18:47 (5457 turns).
+
+Roiz the Cudgeler (Minotaur Monk)                   Turns: 5457, Time: 00:18:48
+
+Health: -1/62      AC:  7    Str: 19 (20) XL:     7   Next: 47%
+Magic:  6/6        EV:  7    Int:  4 (5)  God:    
+Gold:   439        SH: 16    Dex:  9 (12) Spells: 0 memorised, 6 levels left
+
+rFire  . . .      SeeInvis .    a - +0 mace
+rCold  . . .      Gourm    .    i - +0 scale mail
+rNeg   . . .      Faith    .    w - +0 large shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               l - amulet of magic regeneration
+                                (no ring)
+                                (no ring)
+
+@: hasted, drained, very quick
+A: retaliatory headbutt, horns 2, large bone plates 1, dopey 1, strong 1,
+subdued magic 1
+a: no special abilities
+
+
+You were on level 4 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 4 of its levels.
+You also visited: Ossuary.
+
+You collected 439 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 mace (weapon)
+ t - a +0 halberd
+ u - a +0 hunting sling
+ A - a +0 morningstar
+ C - a +1 short sword of draining
+Missiles
+ d - 84 bolts
+ e - 155 stones (quivered)
+ g - 28 sling bullets
+Armour
+ b - a +0 robe
+ h - a +0 pair of boots
+ i - a +0 scale mail (worn)
+ j - +0 swamp dragon scales
+ r - a +0 cloak
+ v - a cursed +0 chain mail
+ w - a +0 large shield (worn)
+ x - a +0 cloak
+Rods
+ f - a +0 rod of ignition (11/11)
+   (You took it off a gnoll on level 2 of the Dungeon)
+Jewellery
+ l - an amulet of magic regeneration (around neck)
+ z - a +4 ring of protection {unknown}
+Wands
+ o - a wand of polymorph (7/24)
+ B - a wand of flame (8/48)
+Scrolls
+ k - 2 scrolls of remove curse
+ m - 2 scrolls of blinking
+ y - 2 scrolls of identify
+Potions
+ n - 3 potions of curing
+Books
+ p - a book of Misfortune   
+   
+    Spells                             Type                      Level
+    a - Confusing Touch              Hexes                         1
+    b - Confuse                      Hexes                         3
+    c - Gell's Gravitas              Hexes/Translocation           3
+    d - Petrify                      Transmutation/Earth           4
+    e - Metabolic Englaciation       Hexes/Ice                     5
+    f - Yara's Violent Unravelling   Hexes/Transmutation           5
+Comestibles
+ c - 2 bread rations
+
+
+   Skills:
+ + Level 5.7(5.5) Fighting
+ + Level 6.8(6.5) Maces & Flails
+ + Level 0.6(0.3) Throwing
+ + Level 4.2(4.0) Armour
+ + Level 4.7(4.4) Dodging
+ + Level 1.8(1.6) Stealth
+ + Level 2.6(2.3) Shields
+
+
+You had 6 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (4/15)            
+Temple: D:4-7       
+
+Altars:
+Gozag
+Hepliaklqana
+Uskayaw
+Xom
+The Shining One
+
+Annotations:
+D:4 Menkaure
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You are partially covered in large bone plates. (SH +4)
+You are dopey. (Int -2)
+Your muscles are strong. (Str +2)
+Your spells are a little easier to cast, but a little less powerful.
+
+
+Message History
+
+The orc convulses! Your body is wracked with pain!
+* * * LOW HITPOINT WARNING * * *
+The orc convulses! You block something's attack.
+Your shield prevents you from hitting something.
+You hear some strange, mumbled words.
+A puff of flame appears from out of thin air!
+The puff of flame hits you!
+* * * LOW HITPOINT WARNING * * *
+Something hits you but does no damage.
+Menkaure calls on the powers of darkness!
+The orc convulses! Your body is wracked with pain!
+* * * LOW HITPOINT WARNING * * *
+The orc convulses!
+Okay, then.
+Okay, then.
+You feel yourself speed up.
+You hear some strange, mumbled words.
+A magic dart appears from out of thin air!
+The magic dart hits you!
+You die...
+
+     #.###.#    #.##§#####.#    #
+     #.....#    #.##§§.....#    #
+     #####.#    #.§§§§...#  #####
+         #.#    #######..#  #....
+         #.#          #.##  #.###
+         #.#          #.#   #.#
+##########.####       #.#   #.#
+..............#       #.#   #.#
+.####.####..#.#       #.#   #.#
+.#  #.####..#o######  #.#   #!#
+.## #........Mo{@..#  #.#   #.#
+..###..######.####.# ##.##  #<#
+.......<    #.#  #.###...#  #.#
+..###..##   #>#  #.#.....#  #.#
+#.# #..# #.##.####.#<#...#  #.#
+#.# #..###.........#.#####  #.#
+#.## ..(......##..##.##     #.#
+...###.#########..#...#######.#
+#.#.##.######  #....#.........#
+............####.##...#########
+#.#.#######..........##
+
+
+You could see Menkaure and 2 orcs.
+
+Vanquished Creatures
+  A phantom (D:4)
+  The ghost of Cocun the Shield-Bearer, an amateur MiFi (D:3)
+  An elf skeleton (D:4)
+  3 human zombies
+  An orc priest (D:4)
+  3 human skeletons (D:4)
+  An iguana (D:4)
+  2 worker ants (D:4)
+  A big kobold zombie (Ossuary)
+  A hound skeleton (D:4)
+  2 mummies (Ossuary)
+  5 adders
+  3 gnolls (D:2)
+  A howler monkey skeleton (D:4)
+  4 worms
+  A dart slug (D:3)
+  A leopard gecko (D:2)
+  8 orcs
+  2 ball pythons (D:3)
+  3 giant cockroaches
+  2 gnoll zombies (Ossuary)
+  5 goblins
+  6 hobgoblins
+  8 jackals
+  3 kobolds
+  12 bats
+  3 frilled lizards
+  3 goblin zombies (Ossuary)
+  4 hobgoblin zombies (Ossuary)
+  An orc skeleton (D:4)
+  2 orc zombies (Ossuary)
+  A rat (D:1)
+95 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Roiz the Minotaur Monk began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   219 | D:1      | Reached XP level 2. HP: 25/27 MP: 1/1
+   288 | D:1      | Reached skill level 4 in Maces & Flails
+   565 | D:1      | You fall through a shaft!
+   568 | D:2      | Found a hide-covered altar of Uskayaw.
+   694 | D:2      | Reached XP level 3. HP: 28/33 MP: 2/2
+   818 | D:2      | Found a hazy altar of Hepliaklqana.
+  1416 | D:2      | Reached XP level 4. HP: 10/41 MP: 3/3
+  2497 | D:3      | Noticed Cocun's ghost (amateur MiFi)
+  2509 | D:3      | HP: 2/41 [Cocun's ghost (8)]
+  2511 | D:3      | Killed Cocun's ghost
+  2511 | D:3      | Reached skill level 5 in Maces & Flails
+  2511 | D:3      | Reached XP level 5. HP: 2/47 MP: 4/4
+  2516 | D:3      | HP: 2/47 [orc/dagger (1)]
+  2519 | D:3      | Reached skill level 5 in Fighting
+  2881 | D:3      | Found an opulent altar of Gozag.
+  2881 | D:3      | Found a shimmering altar of Xom.
+  2896 | D:3      | Found a faded altar of an unknown god.
+  2900 | D:3      | Found a glowing golden altar of the Shining One.
+  2902 | D:3      | Found a faded altar of an unknown god.
+  3378 | D:4      | Noticed a phantom
+  3413 | D:4      | Killed a phantom
+  3413 | D:4      | Reached XP level 6. HP: 36/56 MP: 5/5
+  3569 | D:4      | Gained mutation: You are partially covered in large bone plates. (SH +4) [potion of beneficial mutation]
+  3786 | D:4      | Reached skill level 6 in Maces & Flails
+  3841 | D:4      | Reached skill level 1 in Shields
+  3873 | D:4      | Found a sand-covered staircase.
+  3885 | D:4      | Reached XP level 7. HP: 44/61 MP: 6/6
+  3894 | Ossuary  | Entered an ossuary
+  5042 | D:4      | Gained mutation: You are dopey. (Int -2) [potion of mutation]
+  5042 | D:4      | Gained mutation: Your muscles are strong. (Str +2) [potion of mutation]
+  5042 | D:4      | Gained mutation: Your spells are a little easier to cast, but a little less powerful. [potion of mutation]
+  5434 | D:4      | Noticed Menkaure
+  5457 | D:4      | Killed from afar by an orc wizard
+
+Skill      XL: |  1  2  3  4  5  6  7 |
+---------------+----------------------+-----
+Fighting       |  4           5       |  5.7
+Maces & Flails |     4     5     6    |  6.8
+Dodging        |           4          |  4.7
+Armour         |           2  3     4 |  4.2
+Shields        |                 1  2 |  2.6
+Throwing       |                      |  0.6
+Stealth        |                      |  1.8
+
+Action                   |  1- 3 |  4- 6 |  7- 9 || total
+-------------------------+-------+-------+-------++-------
+Melee: Mace              |    72 |   161 |   117 ||   350
+       Headbutt          |    14 |    33 |    19 ||    66
+Throw: Stone             |       |     8 |       ||     8
+  Use: Scroll            |     4 |     3 |       ||     7
+       Potion            |     1 |     4 |     4 ||     9
+  Eat: Chunk             |     1 |     4 |     2 ||     7
+       Meat ration       |       |     1 |       ||     1
+       Bread ration      |       |       |     1 ||     1
+       Royal jelly       |       |       |     1 ||     1
+Armor: Robe              |    11 |       |       ||    11
+       Scale mail        |    20 |    36 |    41 ||    97
+Dodge: Dodged            |    72 |    67 |    26 ||   165
+Block: Large shield      |       |    37 |   128 ||   165
+

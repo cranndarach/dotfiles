@@ -1,0 +1,191 @@
+ Dungeon Crawl Stone Soup version 0.19.1 (console) character file.
+
+94 Ixuang the Covered (level 4, -6/40 HPs)
+             Began as a Minotaur Fighter on Dec 12, 2016.
+             Mangled by Muih's ghost (11 damage)
+             ... on level 3 of the Dungeon.
+             The game lasted 00:09:57 (2752 turns).
+
+Ixuang the Covered (Minotaur Fighter)               Turns: 2752, Time: 00:09:58
+
+Health: -6/40      AC:  7    Str: 22    XL:     4   Next: 38%
+Magic:  3/3        EV:  8    Int:  5    God:    
+Gold:   53         SH:  9    Dex:  9    Spells: 0 memorised, 3 levels left
+
+rFire  . . .      SeeInvis .    h - +2 dagger (flame)
+rCold  . . .      Gourm    .    b - +0 scale mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: no special abilities
+
+
+You were on level 3 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 3 of its levels.
+
+You collected 53 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 trident
+ h - a +2 dagger of flaming (weapon)
+ i - a +0 mace
+ j - a +0 hand axe
+ k - a +1 dagger of venom
+ p - a cursed -3 hunting sling
+Missiles
+ e - 150 stones (quivered)
+ l - 21 poisoned needles
+ m - 24 sling bullets
+ u - 20 arrows
+ w - 15 bolts
+Armour
+ b - a +0 scale mail (worn)
+ c - a +0 shield (worn)
+ t - a +0 pair of boots
+Scrolls
+ n - 2 scrolls of identify
+ o - a scroll of blinking
+Potions
+ d - a potion of might
+ g - a potion of haste {unknown}
+ r - a potion of ambrosia {unknown}
+ s - a potion of beneficial mutation {unknown}
+Comestibles
+ f - a bread ration
+ q - a chunk of flesh
+ v - 2 meat rations
+
+
+   Skills:
+ + Level 4.1 Fighting
+ + Level 0.7 Short Blades
+ + Level 2.8 Polearms
+ + Level 4.7 Armour
+ + Level 1.2 Dodging
+ + Level 0.1 Stealth
+ + Level 4.4 Shields
+
+
+You had 3 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (3/15)            
+
+Altars:
+
+Annotations:
+D:3 Muih's ghost, amateur MiFi
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Muih's ghost is lightly damaged.
+Muih's ghost hits you!
+* * * LOW HITPOINT WARNING * * *
+You barely miss Muih's ghost.
+Muih's ghost is lightly damaged.
+You block Muih's ghost's attack.
+You hit Muih's ghost but do no damage. Your headbutt misses Muih's ghost.
+Muih's ghost is lightly damaged.
+You block Muih's ghost's attack.
+You barely miss Muih's ghost. Your headbutt misses Muih's ghost.
+Muih's ghost is lightly damaged.
+Muih's ghost hits you.
+* * * LOW HITPOINT WARNING * * *
+You hit Muih's ghost. You burn Muih's ghost.
+Muih's ghost is lightly damaged.
+You block Muih's ghost's attack.
+You closely miss Muih's ghost.
+Muih's ghost is lightly damaged.
+Muih's ghost hits you!
+You die...
+
+             #....<.......
+             ##.###.####.#
+             ##.###.####.#
+             #...........#
+          #  ##.###.####.#
+        ##.  ##.# #.#  #.#
+       ##.## #..###<####.#
+      ##...# #...........#
+      #....# ######.######
+      #..W.#    #...#
+      #..@.#    #.###
+      #...##    #.#
+#######..##     #.#
+........#########.#
+..................#
+###################
+
+
+You could see Muih's ghost.
+
+Vanquished Creatures
+  3 adders (D:2)
+  A worm (D:2)
+  A dart slug (D:1)
+  4 leopard geckos
+  5 giant cockroaches
+  6 hobgoblins
+  7 bats
+  5 frilled lizards
+  8 goblins
+  4 kobolds
+  18 rats
+62 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Ixuang the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   199 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   710 | D:1      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1809 | D:2      | Reached skill level 1 in Dodging
+  1977 | D:2      | Reached XP level 4. HP: 39/40 MP: 3/3
+  2737 | D:3      | Noticed Muih's ghost (amateur MiFi)
+  2752 | D:3      | Mangled by Muih's ghost
+
+Skill      XL: |  1  2  3 |
+---------------+----------+-----
+Armour         |     4    |  4.7
+Shields        |     4    |  4.4
+Fighting       |     4    |  4.1
+Dodging        |        1 |  1.2
+Short Blades   |          |  0.7
+Polearms       |          |  2.8
+Stealth        |          |  0.1
+
+Action                   |  1- 3 |  4- 6 || total
+-------------------------+-------+-------++-------
+Melee: Trident           |    28 |       ||    28
+       Headbutt          |    17 |     6 ||    23
+       Dagger            |    92 |    37 ||   129
+  Use: Scroll            |     8 |       ||     8
+  Eat: Chunk             |     3 |     2 ||     5
+       Bread ration      |       |     1 ||     1
+Armor: Scale mail        |    52 |     6 ||    58
+Dodge: Dodged            |    31 |     6 ||    37
+Block: Shield            |    64 |    13 ||    77
+

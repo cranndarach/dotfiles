@@ -1,0 +1,230 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+576 Godduts the Covered (level 7, -4/60 HPs)
+             Began as a Minotaur Fighter on Dec 4, 2016.
+             Slain by a slave (7 damage)
+             ... led by Pikel
+             ... on level 5 of the Dungeon.
+             The game lasted 00:20:15 (4235 turns).
+
+Godduts the Covered (Minotaur Fighter)              Turns: 4235, Time: 00:20:15
+
+Health: -4/60      AC:  8    Str: 22    XL:     7   Next: 12%
+Magic:  6/6        EV:  9    Int:  5    God:    
+Gold:   89         SH: 10    Dex: 10    Spells: 0 memorised, 6 levels left
+
+rFire  . . .      SeeInvis .    j - +0 dagger (holy)
+rCold  . . .      Gourm    .    b - +1 scale mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: no special abilities
+
+
+You were on level 5 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 5 of its levels.
+
+You collected 89 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +1 long sword
+ j - a +0 dagger of holy wrath (weapon)
+ k - a +0 dagger
+ v - a +3 dagger
+ x - a +0 war axe
+ A - a +0 mace
+ B - a +2 hunting sling of freezing
+Missiles
+ e - 93 stones
+ n - 14 tomahawks (quivered)
+ o - 14 arrows
+ r - 17 poisoned needles
+ y - 53 sling bullets
+Armour
+ b - a +1 scale mail (worn)
+ c - a +0 shield (worn)
+ m - a +0 scale mail
+ t - a +3 leather armour
+ w - a +2 leather armour of cold resistance
+Wands
+ h - a wand of paralysis (9/24)
+ C - a wand of confusion (22/48)
+Scrolls
+ l - a scroll of recharging
+ s - 2 scrolls of teleportation
+ D - a scroll of amnesia
+ E - a scroll of enchant weapon
+Potions
+ d - 3 potions of might
+ i - 4 potions of curing
+ p - a potion of lignification
+ q - 2 potions of flight
+ z - a potion of ambrosia
+Comestibles
+ f - 3 bread rations
+ u - a meat ration
+
+
+   Skills:
+ + Level 4.8 Fighting
+ + Level 0.9(2.9) Short Blades
+ + Level 4.9(5.0) Long Blades
+ + Level 0.4 Throwing
+ + Level 5.9 Armour
+ + Level 2.3 Dodging
+ + Level 0.5 Stealth
+ + Level 5.6 Shields
+
+
+You had 6 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (5/15)            
+Temple: D:4-7       
+
+Altars:
+Trog
+
+Annotations:
+D:5 Pikel
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+The slave closely misses you. Pikel hits you but does no damage. The slave hits you but does no damage. You block the slave's attack. The slave hits you.
+You miss Pikel.
+Pikel is heavily wounded.
+The slave hits you. Pikel hits you with a whip of freezing.
+* * * LOW HITPOINT WARNING * * *
+Pikel freezes you.
+* * * LOW HITPOINT WARNING * * *
+The slave closely misses you. You block the slave's attack. The slave hits you!
+* * * LOW HITPOINT WARNING * * *
+You hit Pikel but do no damage. Your headbutt misses Pikel.
+Pikel is heavily wounded.
+The slave closely misses you. Pikel hits you with a whip of freezing.
+* * * LOW HITPOINT WARNING * * *
+Pikel freezes you.
+* * * LOW HITPOINT WARNING * * *
+You block the slave's attack. The slave closely misses you. You block the slave's attack.
+You hit Pikel. You headbutt Pikel, but do no damage.
+Pikel is heavily wounded.
+The slave hits you!
+You die...
+
+     ..  #....# ....
+     #$. #...)##....
+    ##..##.........$
+    #...?..........#
+    #......^......
+    #............
+     #..##....#
+     #..##..pp###+##
+     #...)..@p..)..#
+     #......pK.....#
+     #..##....##...#
+     #.<##....#  ..#
+.........#.....+  p..
+############...#   ..
+           ##.##    #
+            ###
+
+
+You could see Pikel and 4 slaves.
+
+Vanquished Creatures
+  Grinder (D:4)
+  A scorpion (D:4)
+  A hound (D:4)
+  2 orc wizards (D:3)
+  Ijyb (D:3)
+  A hound skeleton (D:4)
+  11 adders
+  An adder skeleton (D:5)
+  3 worms
+  5 dart slugs
+  2 leopard geckos
+  12 orcs
+  4 bats
+  3 giant cockroaches
+  5 goblins
+  10 hobgoblins
+  7 jackals (D:3)
+  5 frilled lizards
+  5 kobolds
+  9 rats
+89 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Godduts the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   191 | D:1      | Reached XP level 2. HP: 26/27 MP: 1/1
+   647 | D:2      | Reached XP level 3. HP: 29/33 MP: 2/2
+   979 | D:2      | Reached XP level 4. HP: 29/40 MP: 3/3
+  1273 | D:2      | Found a bloodstained altar of Trog.
+  1472 | D:3      | Reached skill level 1 in Dodging
+  1571 | D:3      | Reached XP level 5. HP: 39/47 MP: 4/4
+  1745 | D:3      | Noticed Ijyb
+  1768 | D:3      | Killed Ijyb
+  2495 | D:3      | Reached skill level 5 in Shields
+  2662 | D:4      | Noticed Grinder
+  2667 | D:4      | Paralysed by Grinder for 3 turns
+  2675 | D:4      | Paralysed by Grinder for 2 turns
+  2686 | D:4      | Killed Grinder
+  2686 | D:4      | Reached skill level 5 in Armour
+  2686 | D:4      | Reached XP level 6. HP: 29/53 MP: 5/5
+  3436 | D:4      | Reached XP level 7. HP: 52/60 MP: 6/6
+  4200 | D:5      | Entered Level 5 of the Dungeon
+  4212 | D:5      | Noticed Pikel
+  4234 | D:5      | HP: 3/60 [Pikel/whip of freezing (2)]
+  4235 | D:5      | Slain by a slave
+
+Skill      XL: |  1  2  3  4  5 |
+---------------+----------------+-----
+Armour         |     4        5 |  5.9
+Fighting       |     4          |  4.8
+Shields        |     4        5 |  5.6
+Long Blades    |        3     4 |  4.9
+Dodging        |           1  2 |  2.3
+Short Blades   |                |  0.9
+Throwing       |                |  0.4
+Stealth        |                |  0.5
+
+Action                   |  1- 3 |  4- 6 |  7- 9 || total
+-------------------------+-------+-------+-------++-------
+Melee: Long sword        |    72 |    75 |       ||   147
+       Headbutt          |    15 |    42 |    10 ||    67
+       Dagger            |       |   106 |    48 ||   154
+Throw: Tomahawk          |       |     5 |       ||     5
+  Use: Scroll            |     1 |    12 |     3 ||    16
+       Potion            |       |     3 |     1 ||     4
+  Eat: Chunk             |       |     6 |       ||     6
+       Meat ration       |       |     1 |       ||     1
+Armor: Scale mail        |    32 |    64 |    24 ||   120
+Dodge: Dodged            |    20 |    57 |    28 ||   105
+Block: Shield            |    42 |    85 |    39 ||   166
+Rpst.: Long sword        |     3 |    12 |       ||    15
+

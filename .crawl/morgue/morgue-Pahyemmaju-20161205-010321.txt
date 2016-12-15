@@ -1,0 +1,184 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+64 Pahyemmaju the Shield-Bearer (level 3, -6/33 HPs)
+             Began as a Minotaur Fighter on Dec 4, 2016.
+             Mangled by a gnoll
+             ... wielding a +0 flail
+              (7 damage)
+             ... on level 2 of the Dungeon on Dec 5, 2016.
+             The game lasted 00:07:10 (1233 turns).
+
+Pahyemmaju the Shield-Bearer (Minotaur Fighter)     Turns: 1233, Time: 00:07:11
+
+Health: -6/33      AC:  7    Str: 21    XL:     3   Next: 91%
+Magic:  2/2        EV:  7    Int:  5    God:    
+Gold:   28         SH: 10    Dex:  9    Spells: 0 memorised, 2 levels left
+
+rFire  . . .      SeeInvis .    a - +0 war axe
+rCold  . . .      Gourm    .    b - +0 scale mail
+rNeg   . . .      Faith    .    c - +1 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: no special abilities
+
+
+You were on level 2 of the Dungeon.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 2 of its levels.
+
+You collected 28 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 war axe (weapon)
+ i - a cursed -1 dagger
+ k - a +0 mace
+ r - a +0 dagger
+Missiles
+ e - 47 stones
+ g - 24 sling bullets
+ h - 7 bolts
+ n - 2 javelins (quivered)
+Armour
+ b - a +0 scale mail (worn)
+ c - a +1 shield (worn)
+ j - a +0 chain mail
+ p - a +0 cloak
+Scrolls
+ o - a scroll of immolation
+Potions
+ d - 2 potions of might
+ l - a potion of berserk rage {unknown}
+ q - a potion of curing {unknown}
+Comestibles
+ f - 7 chunks of flesh
+ m - a meat ration
+
+
+   Skills:
+ + Level 3.8 Fighting
+ + Level 3.7 Axes
+ + Level 4.2 Armour
+ + Level 0.4 Dodging
+ + Level 4.3 Shields
+
+
+You had 2 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (2/15)            
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You hit the gnoll but do no damage.
+You headbutt the gnoll, but do no damage.
+The gnoll hits you with a flail. You block the gnoll's attack.
+A gnoll comes into view. It is wielding a club.
+You barely miss the gnoll.
+The gnoll shouts!
+You block the gnoll's attack. The gnoll moves out of view. The gnoll closely misses you. The giant cockroach barely misses you. You furiously retaliate!
+You headbutt the giant cockroach!
+You kill the giant cockroach!
+The gnoll hits you from afar with a halberd.
+You hit the gnoll.
+The gnoll is lightly wounded.
+The gnoll hits you with a flail! You block the gnoll's attack.
+The gnoll hits you from afar with a halberd!
+* * * LOW HITPOINT WARNING * * *
+You block the gnoll's attack.
+You barely miss the gnoll.
+The gnoll is lightly wounded.
+The gnoll hits you with a flail!
+You die...
+
+            ....
+             ...
+.....    ..  ...
+.....   #.......
+.....# ##....##.##
+......##...#.# ..#
+  .ggg...#...###.#
+   #ggg.# #...##)#
+   ##gg.###)..##.#######
+   #...@.###......#.....
+   #.#..........[.......
+     #...[..............
+     ###................
+       #.#).............
+       #....÷...........
+       ###..............
+         #.<............
+         ##.............
+         ........##...
+       ..##.#.####  .#
+
+
+You could see 6 gnolls and 2 hobgoblins.
+
+Vanquished Creatures
+  Jessica (D:2)
+  A worm (D:2)
+  2 ball pythons (D:2)
+  A giant cockroach (D:2)
+  2 goblins (D:1)
+  7 hobgoblins
+  2 jackals (D:2)
+  A quokka (D:2)
+  4 bats (D:1)
+  A frilled lizard (D:1)
+  5 kobolds (D:1)
+  8 rats
+35 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Pahyemmaju the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   193 | D:1      | Reached XP level 2. HP: 26/26 MP: 1/1
+  1140 | D:2      | Noticed Jessica
+  1143 | D:2      | Reached XP level 3. HP: 32/33 MP: 2/2
+  1145 | D:2      | Killed Jessica
+  1232 | D:2      | HP: 1/33 [gnoll/halberd (13)]
+  1233 | D:2      | Mangled by a gnoll
+
+Skill      XL: |  1  2  3 |
+---------------+----------+-----
+Shields        |  4       |  4.3
+Axes           |     3    |  3.7
+Armour         |        4 |  4.2
+Fighting       |          |  3.8
+Dodging        |          |  0.4
+
+Action                   || total
+-------------------------++-------
+Melee: War axe           ||    81
+       Headbutt          ||    16
+  Use: Scroll            ||     4
+  Eat: Bread ration      ||     1
+Armor: Scale mail        ||    44
+Dodge: Dodged            ||    30
+Block: Shield            ||    64
+

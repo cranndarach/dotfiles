@@ -35,7 +35,7 @@ set colorcolumn=80
 set lazyredraw
 set encoding=utf-8
 
-syntax on
+" syntax on
 "colorscheme landscape
 " Alternatives
 " colorscheme VIvid
@@ -83,3 +83,7 @@ let g:gbr_current_branch_top=1
 " Resize-font
 map <C-=> :ResizeFontBigger<CR>
 map <C--> :ResizeFontSmaller<CR>
+
+" Remap window swap
+let g:windowswap_map_keys = 0
+nnoremap <silent> <Leader>yw :call WindowSwap#EasyWindowSwap()<CR>

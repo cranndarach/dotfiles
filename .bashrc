@@ -123,6 +123,7 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=~/.npm-global/bin:$PATH
 export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
 export EDITOR=vim
+export GH=https://github.com/cranndarach/
 
 ###-tns-completion-start-###
 if [ -f /home/rachael/.tnsrc ]; then
@@ -137,4 +138,13 @@ fi
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export NVM_DIR="/home/rachael/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+nvm_start() {
+  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+}
+
+if [[ $TERMINIX_ID ]]; then
+  source /etc/profile.d/vte.sh
+fi
+
+export GOPATH=$HOME/gopath
+export PATH=$GOPATH:$GOPATH/bin:$PATH

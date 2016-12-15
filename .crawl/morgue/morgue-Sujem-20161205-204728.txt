@@ -1,0 +1,198 @@
+ Dungeon Crawl Stone Soup version 0.19.0 (console) character file.
+
+116 Sujem the Covered (level 4, 0/40 HPs)
+             Began as a Minotaur Fighter on Dec 5, 2016.
+             Slain by a troll (4 damage)
+             ... on level 4 of the Dungeon.
+             The game lasted 00:15:06 (3239 turns).
+
+Sujem the Covered (Minotaur Fighter)                Turns: 3239, Time: 00:15:06
+
+Health: 0/40       AC:  7    Str: 26    XL:     4   Next: 70%
+Magic:  3/3        EV:  8    Int:  5    God:    
+Gold:   133        SH: 10    Dex: 10    Spells: 0 memorised, 3 levels left
+
+rFire  . . .      SeeInvis .    a - +1 long sword
+rCold  . . .      Gourm    .    b - +0 scale mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  +.........               (no amulet)
+                                (no ring)
+                                h - ring of stealth
+
+@: mighty
+A: retaliatory headbutt, horns 2
+a: no special abilities
+
+
+You were on level 4 of the Dungeon.
+You were hungry.
+
+You visited 1 branch of the dungeon, and saw 4 of its levels.
+
+You collected 133 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +1 long sword (weapon)
+ e - a +1 hunting sling of flaming
+ l - a +0 short sword
+ m - a +0 spear
+ p - a cursed +0 hand axe
+ q - a +0 dagger
+ r - a cursed -2 short sword
+ t - a +0 hand axe of freezing
+ A - a +0 rapier
+Missiles
+ i - 33 stones
+ n - 9 tomahawks (quivered)
+ o - 22 poisoned needles
+ s - 5 needles of confusion
+ u - 39 bolts
+ v - 4 curare-tipped needles
+ w - 51 sling bullets
+ y - 49 arrows
+Armour
+ b - a +0 scale mail (worn)
+ c - a +0 shield (worn)
+Jewellery
+ h - a ring of stealth (left hand)
+Comestibles
+ f - 2 bread rations
+ g - 2 chunks of flesh
+ j - 3 fruits
+ k - 2 meat rations
+
+
+   Skills:
+ + Level 4.2 Fighting
+ + Level 3.4 Long Blades
+ + Level 0.2 Throwing
+ + Level 4.8 Armour
+ + Level 0.7 Dodging
+ + Level 0.5 Stealth
+ + Level 4.3 Shields
+
+
+You had 3 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (4/15)            
+Temple: D:4-7       
+
+Altars:
+Qazlal
+Vehumet
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Found 8 gold pieces and a scroll of fog.
+A troll comes into view.
+The troll shouts!
+The troll bites you! The troll barely misses you. You block the troll's attack.
+You barely miss the troll. The troll bites you! You block the troll's attack. The troll claws you but does no damage. You block the troll's attack.
+The troll claws you!
+* * * LOW HITPOINT WARNING * * *
+The troll claws you.
+* * * LOW HITPOINT WARNING * * *
+You hit the troll.
+The troll is lightly wounded.
+You block the troll's attack. x3
+You closely miss the troll. Your headbutt misses the troll.
+The troll is lightly wounded.
+You block the troll's attack. The troll claws you.
+* * * LOW HITPOINT WARNING * * *
+The troll barely misses you.
+You feel very mighty all of a sudden.
+The troll closely misses you. You furiously retaliate! You headbutt the troll! The troll barely misses you. The troll claws you.
+You die...
+
+       #####
+       #...
+       ...#
+       #$?#
+       #T.#
+       #@.#
+   #  ##..###
+   +. #.....#
+≈#+#≈.#...#.#
+≈≈.≈≈.....#.#
+...#####..#.#
+       #..#.#
+       #....#####.#
+       #..........#
+       ###<.###....
+         #.#.#   ##
+
+
+You could see a troll.
+
+Vanquished Creatures
+  6 adders
+  A worm (D:3)
+  A leopard gecko (D:1)
+  5 orcs (D:3)
+  A ball python (D:2)
+  5 bats
+  5 giant cockroaches
+  7 goblins
+  6 hobgoblins
+  3 jackals (D:2)
+  5 frilled lizards
+  4 kobolds
+  3 rats
+52 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Sujem the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   246 | D:1      | Reached XP level 2. HP: 24/27 MP: 1/1
+  1203 | D:2      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1718 | D:2      | Found a radiant altar of Vehumet.
+  2399 | D:3      | Found a faded altar of an unknown god.
+  2401 | D:3      | Reached XP level 4. HP: 35/40 MP: 3/3
+  2812 | D:3      | Found a stormy altar of Qazlal.
+  3232 | D:4      | Noticed a troll
+  3239 | D:4      | Slain by a troll
+
+Skill      XL: |  1  2  3  4 |
+---------------+-------------+-----
+Armour         |  4          |  4.8
+Fighting       |     4       |  4.2
+Shields        |        4    |  4.3
+Long Blades    |           3 |  3.4
+Throwing       |             |  0.2
+Dodging        |             |  0.7
+Stealth        |             |  0.5
+
+Action                   |  1- 3 |  4- 6 || total
+-------------------------+-------+-------++-------
+Melee: Long sword        |    94 |    37 ||   131
+       Headbutt          |     9 |     3 ||    12
+Throw: Tomahawk          |     1 |     3 ||     4
+       Stone             |       |     5 ||     5
+  Use: Scroll            |    10 |     2 ||    12
+       Potion            |     4 |     4 ||     8
+  Eat: Chunk             |     4 |     2 ||     6
+       Fruit             |     1 |       ||     1
+Armor: Scale mail        |    45 |    19 ||    64
+Dodge: Dodged            |    38 |    13 ||    51
+Block: Shield            |    61 |    20 ||    81
+Rpst.: Long sword        |     9 |     3 ||    12
+
