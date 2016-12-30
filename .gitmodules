@@ -163,3 +163,15 @@
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule ".vim/bundle/vim-es6"]
+	path = .vim/bundle/vim-es6
+	url = https://github.com/isRuslan/vim-es6.git
+[submodule ".vim/bundle/auto-pairs"]
+	path = .vim/bundle/auto-pairs
+	url = git://github.com/jiangmiao/auto-pairs.git
+[submodule ".vim/bundle/closetag.vim"]
+	path = .vim/bundle/closetag.vim
+	url = https://github.com/vim-scripts/closetag.vim.git
+[submodule ".vim/rainbowparentheses"]
+	path = .vim/rainbowparentheses
+	url = git@github.com:junegunn/rainbow_parentheses.vim.git

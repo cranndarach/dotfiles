@@ -1,0 +1,164 @@
+ Dungeon Crawl Stone Soup version 0.19.1 (console) character file.
+
+Badeul the Skirmisher (Minotaur Fighter)             Turns: 684, Time: 00:05:55
+
+Health: 27/27      AC:  7    Str: 20    XL:     2   Next: 82%
+Magic:  1/1        EV:  7    Int:  5    God:    
+Gold:   70         SH:  9    Dex:  9    Spells: 0 memorised, 1 level left
+
+rFire  . . .      SeeInvis .    a - +0 long sword
+rCold  . . .      Gourm    .    b - +0 scale mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    (no cloak)
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: no special abilities
+
+
+You are on level 1 of the Dungeon.
+You are not hungry.
+
+You have visited 1 branch of the dungeon, and seen 1 of its levels.
+
+You have collected 70 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 long sword (weapon)
+ k - a +0 hand axe
+Missiles
+ j - 8 tomahawks (quivered)
+ n - 23 stones
+Armour
+ b - a +0 scale mail (worn)
+ c - a +0 shield (worn)
+ o - a pair of boots
+Jewellery
+ m - a scratched golden ring
+Scrolls
+ e - a scroll of immolation
+ h - a scroll labeled OCSOHO MIKLI
+Potions
+ d - a potion of might
+ i - a potion of berserk rage
+Comestibles
+ f - 2 bread rations
+ g - 2 chunks of flesh
+ l - a slice of pizza
+
+
+   Skills:
+ + Level 4.1 Fighting
+ + Level 2.8 Long Blades
+ + Level 4.0 Armour
+ + Level 3.9 Shields
+
+
+You have one spell level left.
+You don't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (1/15)            
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You see here a kobold corpse.
+You butcher the kobold corpse.
+You see here 3 inedible chunks of flesh.
+n - 21 stones (gained 1)
+n - 22 stones (gained 1)
+n - 23 stones (gained 1)
+Really walk into that teleport trap? 
+[Y]es or [N]o only, please.
+Really walk into that teleport trap? 
+[Y]es or [N]o only, please.
+Really walk into that teleport trap? 
+Okay, then.
+Really walk into that teleport trap? 
+Okay, then.
+You see here 3 inedible chunks of flesh.
+Some of the chunks of flesh in your inventory have rotted away.
+There is a stone staircase leading down here.
+Some of the chunks of flesh in your inventory have rotted away.
+Done exploring.
+Saving game... please wait.
+
+     #########################
+######.......................#
+.......÷.......#######....##.#
+######........##     #....##.#
+.#   #........#####  #....##.#
+.### #.>......##..#  #....##.#
+...# ###...#####..#  ##...##.####
+##.##  #.#.#  ##@.#   #.#.##.##..
+ #..#  #.#.#  #..##   #.#.##.#..#
+ ##.#  #.#.####..#    #.#......#.
+###÷#  #.#..#....#    #.##..).#..
+#...#  #.##.#.#..#  ###....##.#.#
+#.###  #.##...#.#####...#####...#
+..#  ###.#............#.##......#
+### ##......###.#######....##....
+    #.....#.# #.#    ##..####..#.
+ ####..####.###.######...# #.....
+##.....#  #.##..........## #.##..
+
+
+There are no monsters in sight!
+
+Vanquished Creatures
+  A dart slug (D:1)
+  A ball python (D:1)
+  A bat (D:1)
+  A giant cockroach (D:1)
+  2 hobgoblins (D:1)
+  4 jackals (D:1)
+  A frilled lizard (D:1)
+  5 goblins (D:1)
+  2 kobolds (D:1)
+  2 rats (D:1)
+20 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Badeul the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   111 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+
+Skill      XL: |  1  2 |
+---------------+-------+-----
+Armour         |     4 |  4.0
+Fighting       |     4 |  4.1
+Long Blades    |       |  2.8
+Shields        |       |  3.9
+
+Action                   || total
+-------------------------++-------
+Melee: Long sword        ||    37
+       Headbutt          ||     2
+  Use: Potion            ||     3
+       Scroll            ||     2
+Armor: Scale mail        ||    18
+Dodge: Dodged            ||    20
+Block: Shield            ||    15
+Rpst.: Long sword        ||     8
+

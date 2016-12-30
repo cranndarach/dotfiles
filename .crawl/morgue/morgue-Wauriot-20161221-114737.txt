@@ -1,0 +1,225 @@
+ Dungeon Crawl Stone Soup version 0.19.1 (console) character file.
+
+251 Wauriot the Shield-Bearer (level 5, -9/47 HPs)
+             Began as a Minotaur Fighter on Dec 21, 2016.
+             Was an Initiate of Qazlal.
+             Mangled by an orc warrior
+             ... wielding a cursed -3 hand axe
+              (16 damage)
+             ... on level 3 of the Dungeon.
+             The game lasted 00:12:22 (3146 turns).
+
+Wauriot the Shield-Bearer (Minotaur Fighter)        Turns: 3146, Time: 00:12:23
+
+Health: -9/47      AC: 11    Str: 27    XL:     5   Next: 88%
+Magic:  3/3        EV:  8    Int:  5    God:    Qazlal [......]
+Gold:   97         SH: 10    Dex:  9    Spells: 0 memorised, 4 levels left
+
+rFire  . . .      SeeInvis .    a - +0 long sword
+rCold  + . .      Gourm    .    b - +0 scale mail
+rNeg   . . .      Faith    .    c - +0 shield
+rPois  .          Spirit   .    (helmet restricted)
+rElec  .          Reflect  .    g - +1 cloak
+rCorr  .          Harm     .    (no gloves)
+MR     .....                    (no boots)
+Stlth  ..........               (no amulet)
+                                (no ring)
+                                (no ring)
+
+@: mighty
+A: retaliatory headbutt, horns 2, icy blue scales 1, cold resistance 1, low mp 1
+a: Renounce Religion
+
+
+You were on level 3 of the Dungeon.
+You worshipped Qazlal.
+Qazlal was noncommittal.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 3 of its levels.
+
+You collected 97 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 long sword (weapon)
+ f - a +0 hunting sling
+ h - a +0 hand axe
+ j - a cursed +0 hand axe
+ o - a +0 falchion
+ r - a +3 trident
+Missiles
+ e - 33 stones (quivered)
+ i - 58 bolts
+ n - 46 arrows
+ u - 6 poisoned needles
+Armour
+ b - a +0 scale mail (worn)
+ c - a +0 shield (worn)
+ g - a +1 cloak (worn)
+ w - a +0 plate armour
+Jewellery
+ p - a cursed ring of teleportation {unknown}
+Scrolls
+ l - 2 scrolls of teleportation
+ v - a scroll of identify
+ x - a scroll of magic mapping {unknown}
+Potions
+ k - 2 potions of curing
+ m - a potion of mutation
+ q - a potion of ambrosia
+Comestibles
+ s - a beef jerky
+ t - 3 chunks of flesh
+
+
+   Skills:
+ + Level 4.7 Fighting
+ + Level 4.3 Long Blades
+ + Level 4.8 Armour
+ + Level 0.9 Dodging
+ + Level 5.2 Shields
+
+
+You had 4 spell levels left.
+You didn't know any spells.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (3/15)            
+
+Altars:
+Dithmenos
+Elyvilon
+Gozag
+Qazlal
+Ru
+Vehumet
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You are partially covered in icy blue scales. (AC +2)
+Your flesh is cold resistant. (rC+)
+Your magical capacity is low. (-10% MP)
+
+
+Message History
+
+The orc wizard gestures at you while chanting.
+The puff of frost hits you! You resist.
+* * * LOW HITPOINT WARNING * * *
+You feel very mighty all of a sudden.
+The orc warrior hits you but does no damage.
+You block the orc wizard's attack.
+You hit the orc warrior.
+The orc warrior is lightly wounded.
+The orc warrior hits you with a hand axe.
+* * * LOW HITPOINT WARNING * * *
+The orc wizard hits you but does no damage.
+You slash the orc warrior!
+The orc warrior is heavily wounded.
+The orc warrior hits you with a hand axe.
+* * * LOW HITPOINT WARNING * * *
+You block the orc wizard's attack.
+You closely miss the orc wizard. You headbutt the orc wizard.
+The orc wizard is moderately wounded.
+The orc warrior hits you with a hand axe!
+You die...
+
+.≈≈≈#≈≈≈..)#
+≈≈≈≈≈≈≈≈≈≈...
+≈≈≈...≈≈≈≈≈..
+≈≈≈..≈.≈≈≈≈.#    ..
+≈≈≈≈.≈≈#≈≈≈≈#    ..
+≈≈≈≈.≈≈≈≈≈≈≈≈    .#
+≈≈≈...#≈#≈≈≈≈#   .#  # .
+≈≈≈.<.≈≈≈≈≈≈..###.##.#..
+≈≈#...≈≈≈#≈≈≈...#.......
+≈≈≈≈.≈#≈≈≈≈#≈##†#o......
+≈#≈≈..≈≈##≈≈....@oo....#
+≈≈≈...≈≈≈≈≈.#.#.####.#.#
+≈≈≈≈♣.≈≈≈≈≈...#...#
+≈≈≈≈≈≈≈≈≈≈.....o#...
+.≈≈≈≈≈≈≈.####.#...##.#
+##≈#.≈≈#......##.....[
+####.###..##### ....(
+#  #.###.##     .####
+#  #.....#
+#  ###.###
+     #.#
+
+
+You could see an orc warrior, an orc wizard and 2 orcs.
+
+Vanquished Creatures
+  A sky beast (D:3)
+  3 adders
+  3 gnolls (D:3)
+  2 oozes
+  A worm (D:2)
+  10 dart slugs
+  6 leopard geckos
+  5 giant cockroaches
+  7 goblins
+  8 hobgoblins
+  4 jackals (D:1)
+  5 kobolds
+  2 quokkas (D:2)
+  6 bats
+  8 frilled lizards
+  5 rats
+76 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Wauriot the Minotaur Fighter began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    31 | D:1      | Reached skill level 4 in Shields
+   167 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   806 | D:1      | Reached XP level 3. HP: 32/33 MP: 2/2
+  1528 | D:2      | Reached XP level 4. HP: 40/40 MP: 3/3
+  1729 | D:2      | Found a sacrificial altar of Ru.
+  1743 | D:2      | Found a shadowy altar of Dithmenos.
+  1748 | D:2      | Found a radiant altar of Vehumet.
+  1756 | D:2      | Found a white marble altar of Elyvilon.
+  1757 | D:2      | Found an opulent altar of Gozag.
+  2249 | D:2      | Gained mutation: Your magical capacity is low. (-10% MP) [potion of mutation]
+  2249 | D:2      | Gained mutation: You are partially covered in icy blue scales. (AC +2) [potion of mutation]
+  2249 | D:2      | Gained mutation: Your flesh is cold resistant. (rC+) [potion of mutation]
+  2434 | D:3      | Reached skill level 5 in Shields
+  2439 | D:3      | Reached XP level 5. HP: 13/47 MP: 3/3
+  2698 | D:3      | Found a stormy altar of Qazlal.
+  2703 | D:3      | Became a worshipper of Qazlal Stormbringer
+  2760 | D:3      | Noticed a sky beast
+  2771 | D:3      | Killed a sky beast
+  3134 | D:3      | Noticed an orc warrior
+  3146 | D:3      | Mangled by an orc warrior
+
+Skill      XL: |  1  2  3  4  5 |
+---------------+----------------+-----
+Shields        |  4        5    |  5.2
+Fighting       |        4       |  4.7
+Armour         |        4       |  4.8
+Long Blades    |           3  4 |  4.3
+Dodging        |                |  0.9
+
+Action                   |  1- 3 |  4- 6 || total
+-------------------------+-------+-------++-------
+Melee: Long sword        |   105 |    85 ||   190
+       Headbutt          |    10 |    18 ||    28
+Throw: Stone             |       |    29 ||    29
+  Use: Scroll            |     4 |     2 ||     6
+       Potion            |     2 |     3 ||     5
+  Eat: Chunk             |     2 |     2 ||     4
+       Bread ration      |       |     1 ||     1
+Armor: Scale mail        |    70 |    55 ||   125
+Dodge: Dodged            |    33 |    28 ||    61
+Block: Shield            |    67 |    45 ||   112
+Rpst.: Long sword        |    10 |     4 ||    14
+

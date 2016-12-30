@@ -100,6 +100,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Import functions file.
+if [ -f ~/.bash_functions ]; then
+    . ~/.bash_functions
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -124,6 +129,7 @@ export PATH=~/.npm-global/bin:$PATH
 export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
 export EDITOR=vim
 export GH=https://github.com/cranndarach/
+export GOOGLE_APPLICATION_CREDENTIALS=~/.google-service-credentials.json
 
 ###-tns-completion-start-###
 if [ -f /home/rachael/.tnsrc ]; then

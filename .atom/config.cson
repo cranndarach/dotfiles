@@ -19,6 +19,7 @@
       "language-gfm"
       "autocomplete-clang"
       "terminal-plus"
+      "swackets"
     ]
     packagesWithKeymapsDisabled: []
     projectHome: "/home/rachael/projects"
@@ -42,6 +43,9 @@
     showErrorPanel: false
   "python-tools":
     pythonPath: "/home/rachael/anaconda3/bin/python"
+  swackets:
+    colorParens: true
+    colorSquareBrackets: true
   "terminal-fusion":
     ansiColors:
       normal:
