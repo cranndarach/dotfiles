@@ -46,7 +46,7 @@ alias exercism='/opt/exercism/exercism'
 alias lifetracker='cd ~/projects/lifetracker/electron && npm start'
 alias passbox='cd ~/projects/passbox && npm start'
 alias tarot='python ~/projects/tarot/main.py'
-alias namegen='ipython -i ~/projects/namegen/namegen.py'
+alias namegen='ipython -i ~/projects/namegen/namegen.py --'
 
 # git aliases
 alias gs='git status'
@@ -57,6 +57,7 @@ alias gp='git push'
 alias gpi='git push -u origin master'
 alias gsub='git submodule add'
 alias gco='git checkout'
+alias gcob='git checkout -B'
 
 
 # from original ~/.bashrc

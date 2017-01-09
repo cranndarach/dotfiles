@@ -32,7 +32,14 @@ nnoremap j gj
 nnoremap k gk
 nmap <silent> ,/ :nohlsearch<CR>
 execute rainbow_parentheses#activate(1)
+set splitbelow
+set splitright
 " let g:rainbow_enabled=1
+
+" Enable the list of buffers in airline
+let g:airline#extensions#tabline#enabled = 1
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 " Languages
 " autocmd BuffNewFile,BuffRead *.md set filetype=markdown
@@ -52,8 +59,8 @@ set visualbell
 set hidden
 
 " insert new line from normal mode
-nmap <S-Enter> O<Esc>
-nmap <CR> o<Esc>
+nmap <S-CR> i<CR><Esc>k
+nmap <CR> i<CR><Esc>
 
 " Configure Ultisnips
 let g:UltiSnipsExpandTrigger="<tab>"
@@ -61,6 +68,19 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 let g:vim_json_syntax_conceal=0
+
+" Configure CtrlP
+" Setup some default ignores
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
+  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
+\}
+" Use a leader instead of the actual named binding
+nmap <leader>p :CtrlP<cr>
+" Easy bindings for its various modes
+nmap <leader>bb :CtrlPBuffer<cr>
+nmap <leader>bm :CtrlPMixed<cr>
+nmap <leader>bs :CtrlPMRU<cr>
 
 " Learn what these mean
 " set laststatus=2
