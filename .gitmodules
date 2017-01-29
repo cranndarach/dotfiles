@@ -4,9 +4,6 @@
 [submodule ".vim/bundle/vim-abolish"]
 	path = .vim/bundle/vim-abolish
 	url = git://github.com/tpope/vim-abolish.git
-[submodule ".vim/bundle/ghcmod-vim"]
-	path = .vim/bundle/ghcmod-vim
-	url = https://github.com/eagletmt/ghcmod-vim
 [submodule ".vim/bundle/rainbow_parentheses.vim"]
 	path = .vim/bundle/rainbow_parentheses.vim
 	url = https://github.com/kien/rainbow_parentheses.vim
@@ -178,3 +175,27 @@
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
+[submodule ".vim/bundle/vim-closetag"]
+	path = .vim/bundle/vim-closetag
+	url = git@github.com:alvan/vim-closetag.git
+[submodule ".vim/bundle/vim-easydir"]
+	path = .vim/bundle/vim-easydir
+	url = git@github.com:duggiefresh/vim-easydir.git
+[submodule ".vim/bundle/vim-rails"]
+	path = .vim/bundle/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule ".vim/bundle/vim-rake"]
+	path = .vim/bundle/vim-rake
+	url = git@github.com:tpope/vim-rake.git
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
+[submodule ".vim/bundle/ri.vim"]
+	path = .vim/bundle/ri.vim
+	url = git@github.com:danchoi/ri.vim.git
+[submodule ".vim/bundle/ctrlp_bdelete.vim"]
+	path = .vim/bundle/ctrlp_bdelete.vim
+	url = git@github.com:d11wtq/ctrlp_bdelete.vim.git
+[submodule ".vim/bundle/vim-blockle"]
+	path = .vim/bundle/vim-blockle
+	url = git@github.com:jgdavey/vim-blockle.git

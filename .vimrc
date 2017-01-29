@@ -1,13 +1,28 @@
-" Enable pathogen
-filetype off
-execute pathogen#infect()
-execute pathogen#helptags()
-filetype plugin indent on
+call plug#begin()
+Plug 'jiangmiao/auto-pairs'
+Plug 'vim-scripts/closetag.vim'
+Plug 'alvan/vim-closetag'
+Plug 'flazz/vim-colorschemes'
+Plug 'kien/ctrlp.vim'
+Plug 'd11wtq/ctrlp_bdelete.vim'
+Plug 'ekalinin/dockerfile.vim'
+Plug 'myusuf3/numbers.vim'
+Plug 'klen/python-mode'
+Plug 'junegunn/rainbow_parentheses.vim'
+Plug 'vim-scripts/tComment'
+call plug#end()
 
-" Vimwiki needs these
+" Enable pathogen
+" filetype off
+" execute pathogen#infect()
+" execute pathogen#helptags()
+
 set nocompatible
-filetype plugin on
+filetype plugin indent on
 syntax on
+
+:let mapleader = ","
+set showcmd
 
 " UI/UX
 set number
@@ -23,15 +38,15 @@ set smarttab
 set smartcase
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
-set history=1000         " remember more commands and search history
-set undolevels=1000      " use many muchos levels of undo
+set history=1000  " remember more commands and search history
+set undolevels=1000
 set wildignore=*.swp,*.bak,*.pyc,*.class
 set noerrorbells         " don't beep
 colorscheme Crystallite
 nnoremap j gj
 nnoremap k gk
 nmap <silent> ,/ :nohlsearch<CR>
-execute rainbow_parentheses#activate(1)
+call rainbow_parentheses#activate(1)
 set splitbelow
 set splitright
 " let g:rainbow_enabled=1
@@ -55,7 +70,7 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 " Blink cursor instead of beeping on error
 set visualbell
 
-" allow hidden buffers
+" view hidden buffers
 set hidden
 
 " insert new line from normal mode
@@ -81,9 +96,7 @@ nmap <leader>p :CtrlP<cr>
 nmap <leader>bb :CtrlPBuffer<cr>
 nmap <leader>bm :CtrlPMixed<cr>
 nmap <leader>bs :CtrlPMRU<cr>
-
-" Learn what these mean
-" set laststatus=2
+call ctrlp_bdelete#init()
 
 " Save undo history to a single directory
 if has ("persistent_undo")
@@ -92,15 +105,19 @@ if has ("persistent_undo")
 endif
 
 " Git branch
-let g:gbr_current_branch_top=1
+" let g:gbr_current_branch_top=1
 
 " Resize-font
-map <C-=> :ResizeFontBigger<CR>
-map <C--> :ResizeFontSmaller<CR>
+" nmap <C-=> :ResizeFontBigger<CR>
+" nmap <C--> :ResizeFontSmaller<CR>
 
 " Remap window swap
 let g:windowswap_map_keys = 0
 nnoremap <silent> <Leader>yy :call WindowSwap#EasyWindowSwap()<CR>
 
-" Do not autocomplete on period
+" Do not autocomplete on '.'
 let g:pymode_rope_complete_on_dot = 0
+
+" vim-closetag
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml, *.html.erb"
+noremap <C-A-.> <C-_>
