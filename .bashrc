@@ -127,9 +127,10 @@ export ANDROID_HOME=/home/rachael/Android/Sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=~/.npm-global/bin:$PATH
 export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
-export EDITOR=vim
+export EDITOR=nvim
 export GH=https://github.com/cranndarach/
 export GOOGLE_APPLICATION_CREDENTIALS=~/.google-service-credentials.json
+export GEM_HOME=$HOME/.gem
 
 ###-tns-completion-start-###
 if [ -f /home/rachael/.tnsrc ]; then
@@ -155,4 +156,12 @@ fi
 export GOPATH=$HOME/gopath
 export PATH=$GOPATH:$GOPATH/bin:$PATH
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+eval "$(hub alias -s)"
+if [ -f /home/rachael/.hub/hub.bash_completion ]; then
+    . /home/rachael/.hub/hub.bash_completion
+fi
+
+for dir in $HOME/.gem/ruby/*; do
+  [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
+done
+

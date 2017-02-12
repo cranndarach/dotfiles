@@ -4,10 +4,11 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-abolish'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
-Plug 'kien/ctrlp.vim'
-Plug 'd11wtq/ctrlp_bdelete.vim'
+" Plug 'kien/ctrlp.vim'
+" Plug 'd11wtq/ctrlp_bdelete.vim'
 Plug 'ekalinin/dockerfile.vim'
 Plug 'myusuf3/numbers.vim'
 Plug 'klen/python-mode'
@@ -71,6 +72,7 @@ set copyindent
 " Use 2 spaces instead of 4 in ruby and eruby (and js when appropriate)
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType eruby setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType scss setlocal shiftwidth=2 tabstop=2 expandtab
 " autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 
 " Use shiftwidth when indenting with `>>` and `<<`
@@ -100,7 +102,7 @@ set noerrorbells
 
 " Set colors
 colorscheme Crystallite
-highlight ColorColumn ctermbg=8
+highlight ColorColumn ctermbg=6
 
 " Split windows intuitively
 set splitbelow
@@ -137,9 +139,14 @@ inoremap <Leader><CR> <C-O>A<CR>
 nnoremap j gj
 nnoremap k gk
 
-" Edit init.vim with ',rc'
-nnoremap <Leader>rc :e ~/.config/nvim/init.vim<CR>
-inoremap <Leader>rc <C-O>:e ~/.config/nvim/init.vim<CR>
+" Save file with `,w`
+nnoremap <Leader>w :w<CR>
+inoremap <Leader>w <C-O>:w<CR>
+
+" Edit init.vim in separate tab with ':rc'
+" nnoremap :rc<CR> :e ~/.config/nvim/init.vim<CR>
+nnoremap <Leader>rc :tabe ~/.config/nvim/init.vim<CR>
+inoremap <Leader>rc <C-O>:tabe ~/.config/nvim/init.vim<CR>
 
 " Source init.vim with ',s'
 nnoremap <Leader>s :source ~/.config/nvim/init.vim<CR>
@@ -148,16 +155,19 @@ inoremap <Leader>s <C-O>:source ~/.config/nvim/init.vim<CR>
 " Esc to normal mode with jj
 inoremap jj <esc>
 
+" switch between buffers with `,]` and `,[`
+nnoremap <Leader>] :bn<CR>
+nnoremap <Leader>[ :bN<CR>
+
 " Unbind the cursor keys in insert, normal and visual modes.
 for prefix in ['i', 'n', 'v']
-  for key in ['<Up>', '<Down>', '<Left>', '<Right>', '<LeftMouse>']
+  for key in ['<Up>', '<Down>', '<Left>', '<Right>', '<LeftMouse>', '<PageUp>', '<PageDown>']
     exe prefix . "noremap " . key . " <Nop>"
   endfor
 endfor
 
-
 """""""""""""""""""""
-"""Plugin mappings"""
+"""Plugin settings"""
 """""""""""""""""""""
 
 " Mappings for fugitive
@@ -179,7 +189,14 @@ inoremap <C-X>; <C-X><CR><Esc>k$i<Space>
 " Install plugins with `,l`
 nnoremap <Leader>l :PlugInstall<CR>
 
-" Open NERDTree with `,n`
+let NERDTreeShowHidden=1
+" Open NERDTree by default
+augroup nerdtree
+    au vimenter * NERDTree | wincmd 1
+" Then move cursor to the next window
+" au vimenter * wincmd 1
+
+" Toggle NERDTree with `,n`
 nnoremap <Leader>n :NERDTreeToggle<CR>
 
 " UltiSnips mappings
@@ -195,12 +212,70 @@ nmap <leader>p :CtrlP<cr>
 nmap <leader>bb :CtrlPBuffer<cr>
 nmap <leader>bm :CtrlPMixed<cr>
 nmap <leader>bs :CtrlPMRU<cr>
-call ctrlp_bdelete#init()
+" call ctrlp_bdelete#init()
 " Ignore files when searching:
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
-  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
-\}
+" let g:ctrlp_custom_ignore = {
+"   \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
+"   \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
+" \}
+
+
+"""Vimwiki"""
+
+""Shortcuts""
+" Turn into a list item, or change symbol of item to *
+nmap glo :VimwikiChangeSymbolTo *<CR>
+nmap gLo :VimwikiChangeSymbolInListTo *<CR>
+" Increase or decrease levels with >> / <<
+map >> <Plug>VimwikiIncreaseLvlSingleItem
+map << <Plug>VimwikiDecreaseLvlSingleItem
+" Increase/decrease item and all its children with >>> / <<<
+map >>> <Plug>VimwikiIncreaseLvlWholeItem
+map <<< <Plug>VimwikiDecreaseLvlWholeItem
+
+""UI""
+" Set a different color for each vimwiki header level
+hi VimwikiHeader1 ctermfg=121
+hi VimwikiHeader2 ctermfg=173
+hi VimwikiHeader3 ctermfg=11
+hi VimwikiHeader4 ctermfg=167
+hi VimwikiHeader5 ctermfg=66
+hi VimwikiHeader6 ctermfg=72
+
+" hi VimwikiHeader1 ctermfg=#e4d1d1
+" hi VimwikiHeader2 ctermfg=#b9b0b0
+" hi VimwikiHeader3 ctermfg=#d9ecd0
+" hi VimwikiHeader4 ctermfg=#77c0a0
+" hi VimwikiHeader5 ctermfg=#f0efef
+" hi VimwikiHeader6 ctermfg=#ddeed0
+
+" hi VimwikiHeader1 ctermfg=#f0f0f0
+" hi VimwikiHeader2 ctermfg=#c5d5c5
+" hi VimwikiHeader3 ctermfg=#9fa9a3
+" hi VimwikiHeader4 ctermfg=#e3e0cc
+" hi VimwikiHeader5 ctermfg=#eaece5
+" hi VimwikiHeader6 ctermfg=#b2c2bf
+
+" hi VimwikiHeader1 ctermfg=#5b9aa0
+" hi VimwikiHeader2 ctermfg=#b8a9c9
+" hi VimwikiHeader3 ctermfg=#d6d4e0
+" hi VimwikiHeader4 ctermfg=#5b9aa0
+" hi VimwikiHeader5 ctermfg=#c83349
+" hi VimwikiHeader6 ctermfg=#e06337
+
+" hi VimwikiHeader1 ctermfg=#92a8d1
+" hi VimwikiHeader2 ctermfg=#034f84
+" hi VimwikiHeader3 ctermfg=#f7cac9
+" hi VimwikiHeader4 ctermfg=#f7786b
+" hi VimwikiHeader5 ctermfg=#deeaee
+" hi VimwikiHeader6 ctermfg=#b1cbbb
+
+" hi VimwikiHeader1 ctermfg=#d5f4e6
+" hi VimwikiHeader2 ctermfg=#80ced6
+" hi VimwikiHeader3 ctermfg=#fefbd8
+" hi VimwikiHeader4 ctermfg=#618685
+" hi VimwikiHeader5 ctermfg=#ffef96
+" hi VimwikiHeader6 ctermfg=#50394c
 
 " To swap two windows, enter the first one, hit `,yy`, then enter the second
 " one and hit `,yy` again

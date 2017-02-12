@@ -14,7 +14,17 @@
       _analyticsUserId: "abbe13cf-b151-4b91-95d5-ed0ff386d848"
     latex:
       beautify_on_save: true
+  "atom-material-ui":
+    colors: {}
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
   core:
+    audioBeep: false
     disabledPackages: [
       "language-gfm"
       "autocomplete-clang"
@@ -24,16 +34,18 @@
     packagesWithKeymapsDisabled: []
     projectHome: "/home/rachael/projects"
     themes: [
-      "atom-dark-ui"
-      "github-bright-and-dark-syntax"
+      "atom-material-ui"
+      "atom-dark-syntax"
     ]
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
+    invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+    softWrapAtPreferredLineLength: true
     softWrapHangingIndent: 2
     tabLength: 4
     tabType: "soft"
@@ -85,6 +97,13 @@
   editor:
     softWrapHangingIndent: 2
     tabLength: 4
+".html.ruby.text":
+  editor:
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
+".js.rails.source source.jquery.js":
+  editor:
+    softWrapHangingIndent: 2
 ".latex.log.text":
   editor:
     softWrapHangingIndent: 2
@@ -101,6 +120,15 @@
   editor:
     softWrapHangingIndent: 2
     tabLength: 4
+".rails.rjs.ruby.source":
+  editor:
+    softWrapHangingIndent: 2
+".rails.ruby.source":
+  editor:
+    softWrapHangingIndent: 2
+".ruby.source.sql":
+  editor:
+    softWrapHangingIndent: 2
 ".tex.text":
   editor:
     softWrapHangingIndent: 2
