@@ -9,7 +9,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 " Plug 'kien/ctrlp.vim'
 " Plug 'd11wtq/ctrlp_bdelete.vim'
-Plug 'ekalinin/dockerfile.vim'
+" Plug 'ekalinin/dockerfile.vim'
 Plug 'myusuf3/numbers.vim'
 Plug 'klen/python-mode'
 Plug 'junegunn/rainbow_parentheses.vim'
@@ -18,9 +18,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'duggiefresh/vim-easydir'
 Plug 'ap/vim-css-color'
-Plug 'isRuslan/vim-es6'
+" Plug 'isRuslan/vim-es6'
 Plug 'airblade/vim-gitgutter'
-Plug 'elzr/vim-json'
+" Plug 'elzr/vim-json'
 Plug 'matze/vim-move'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-pandoc/vim-pandoc'
@@ -29,7 +29,12 @@ Plug 'vimwiki/vimwiki'
 Plug 'sickill/vim-pasta'
 Plug 'SirVer/UltiSnips'
 Plug 'honza/vim-snippets'
+Plug 'roxma/nvim-completion-manager', {'do': 'npm install'}
 Plug 'scrooloose/nerdtree'
+Plug 'sheerun/vim-polyglot'
+Plug 'roxma/vim-tmux-clipboard'
+Plug 'tmux-plugins/vim-tmux-focus-events'
+Plug 'roosta/srcery'
 call plug#end()
 
 " Change Leader key from '\' to ','
@@ -101,8 +106,10 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 set noerrorbells
 
 " Set colors
-colorscheme Crystallite
+" colorscheme Crystallite
+colorscheme srcery
 highlight ColorColumn ctermbg=6
+let g:airline_theme='powerlineish'
 
 " Split windows intuitively
 set splitbelow
@@ -192,15 +199,16 @@ nnoremap <Leader>l :PlugInstall<CR>
 let NERDTreeShowHidden=1
 " Open NERDTree by default
 augroup nerdtree
-    au vimenter * NERDTree | wincmd 1
-" Then move cursor to the next window
-" au vimenter * wincmd 1
+    au vimenter * NERDTree | vertical resize -5 " | wincmd 1
+    " Then move cursor to the next window
+    au vimenter * wincmd 2
+augroup end
 
 " Toggle NERDTree with `,n`
 nnoremap <Leader>n :NERDTreeToggle<CR>
 
 " UltiSnips mappings
-let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
@@ -290,3 +298,12 @@ if has ("persistent_undo")
     set undodir=~/.undodir/
     set undofile
 endif
+
+" nvim-completion-manager
+" don't give |ins-completion-menu| messages.  For example,
+" '-- XXX completion (YYY)', 'match 1 of 2', 'The only match',
+set shortmess+=c
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+let g:UltiSnipsExpandTrigger = "<Plug>(ultisnips_expand)"
+inoremap <silent> <c-u> <c-r>=cm#sources#ultisnips#trigger_or_popup("\<Plug>(ultisnips_expand)")<cr>
