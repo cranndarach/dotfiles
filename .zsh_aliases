@@ -30,7 +30,7 @@ alias rc='$EDITOR ~/.zshrc && source ~/.zshrc'
 alias aliases='$EDITOR ~/.zsh_aliases && source ~/.zsh_aliases'
 alias zshfnc='$EDITOR ~/.zsh_functions && source ~/.zsh_functions'
 alias vimrc='$EDITOR ~/.config/nvim/init.vim'
-alias taskrc='$EDITOR ~/.taskrc && source ~/.taskrc'
+alias taskrc='$EDITOR ~/.taskrc'
 alias vim=nvim
 alias vimwiki='$EDITOR ~/vimwiki/index.wiki'
 

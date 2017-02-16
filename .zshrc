@@ -1,33 +1,30 @@
-# Print some stuff when it starts
-USER="Rachael"
+# Set my name
+export USER="Rachael"
+# Greet me when it starts
 echo "Hello, $USER!"
+# Show my to-do list
 echo "Here's your current to-do list:"
+echo
 task
 
 export EDITOR=nvim
-export GH=https://github.com/cranndarach/
+# export GH=https://github.com/cranndarach/
 
 if [[ $TERMINIX_ID ]]; then
   source /etc/profile.d/vte.sh
 fi
 
-eval "$(hub alias -s)"
-if [ -f /home/rachael/.hub/hub.bash_completion ]; then
-    . /home/rachael/.hub/hub.bash_completion
-fi
-
-for dir in $HOME/.gem/ruby/*; do
-  [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
-done
-
+fpath=(~/.zsh/completions $fpath) 
+autoload -U compinit && compinit
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/rachael/.oh-my-zsh
+export ZSH=/home/rachael/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="norm"
+ZSH_THEME="agnosterzak"
+# ZSH_THEME="norm"
 # ZSH_THEME="risto"
 # ZSH_THEME="af-magic"
 # ZSH_THEME="lukerandall"
@@ -74,13 +71,13 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gem, npm, python, rails, rand-quote, ruby, tmux, web-search)
+plugins=(gem, npm, python, rails, ruby, web-search)
 
 # Plugin configuration
 
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOSTART_ONCE=false
-ZSH_TMUX_AUTOQUIT=false
+# ZSH_TMUX_AUTOSTART=true
+# ZSH_TMUX_AUTOSTART_ONCE=false
+# ZSH_TMUX_AUTOQUIT=false
 
 source $ZSH/oh-my-zsh.sh
 
@@ -89,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -102,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -122,6 +119,9 @@ export TERM="xterm-256color"
 source ~/.zsh_aliases
 source ~/.zsh_functions
 
+# Enable powerline
+source /usr/share/powerline/bindings/zsh/powerline.zsh
+
 export NVM_DIR="/home/rachael/.nvm"
 nvm_start() {
   [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -137,6 +137,10 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=~/.npm-global/bin:$PATH
 export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
 export GOOGLE_APPLICATION_CREDENTIALS=~/.google-service-credentials.json
-export GEM_HOME=$HOME/.gem
 export GOPATH=$HOME/gopath
 export PATH=$GOPATH:$GOPATH/bin:$PATH
+
+export GEM_HOME=$HOME/.gem
+for dir in $HOME/.gem/ruby/*; do
+  [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
+done
