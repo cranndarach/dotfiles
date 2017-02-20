@@ -17,6 +17,7 @@ alias wcb='wc -c'  # -c is bytes
 
 alias clr='clear'
 alias cl='clear'
+alias rl='clear && source $RCFILE'
 
 alias edit='$EDITOR'
 
@@ -26,13 +27,14 @@ alias py='python'
 alias br='bin/rails'
 alias rails='bin/rails'
 
-alias rc='$EDITOR ~/.zshrc && source ~/.zshrc'
+alias rc='$EDITOR $RCFILE && source $RCFILE'
 alias aliases='$EDITOR ~/.zsh_aliases && source ~/.zsh_aliases'
 alias zshfnc='$EDITOR ~/.zsh_functions && source ~/.zsh_functions'
 alias vimrc='$EDITOR ~/.config/nvim/init.vim'
 alias taskrc='$EDITOR ~/.taskrc'
+
 alias vim=nvim
-alias vimwiki='$EDITOR ~/vimwiki/index.wiki'
+alias vimwiki='nvim ~/vimwiki/index.wiki --cmd "cd ~/vimwiki"'
 
 alias hyper='Hyper'
 alias ghost='gs'	# I am used to 'gs' as 'git status'

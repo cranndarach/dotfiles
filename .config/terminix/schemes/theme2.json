@@ -1,0 +1,25 @@
+{
+    "background-color": "#000000",
+    "comment": "Author: ",
+    "foreground-color": "#ffffff",
+    "name": "theme2",
+    "palette": [
+        "#191919",
+        "#eb3d51",
+        "#66b61a",
+        "#d98e1d",
+        "#23ffa8",
+        "#ff00da",
+        "#68a783",
+        "#eaeaea",
+        "#484848",
+        "#be6262",
+        "#4b8a10",
+        "#e5d95e",
+        "#23aaff",
+        "#ab005b",
+        "#bbcd81",
+        "#bbbbbb"
+    ],
+    "use-theme-colors": false
+}

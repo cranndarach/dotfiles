@@ -1,0 +1,25 @@
+{
+    "background-color": "#1c2023",
+    "comment": "Author: Chris Kempson",
+    "foreground-color": "#c7ccd1",
+    "name": "Ashes (dark)",
+    "palette": [
+        "#1c2023",
+        "#c7ae95",
+        "#95c7ae",
+        "#aec795",
+        "#ae95c7",
+        "#c795ae",
+        "#95aec7",
+        "#c7ccd1",
+        "#747c84",
+        "#c7ae95",
+        "#95c7ae",
+        "#aec795",
+        "#ae95c7",
+        "#c795ae",
+        "#95aec7",
+        "#f3f4f5"
+    ],
+    "use-theme-colors": false
+}

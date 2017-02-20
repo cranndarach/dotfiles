@@ -1,0 +1,25 @@
+{
+    "background-color": "#f7f3f7",
+    "comment": "Author: Chris Kempson",
+    "foreground-color": "#695d69",
+    "name": "Atelierheath (light)",
+    "palette": [
+        "#1b181b",
+        "#ca402b",
+        "#379a37",
+        "#bb8a35",
+        "#516aec",
+        "#7b59c0",
+        "#159393",
+        "#ab9bab",
+        "#776977",
+        "#ca402b",
+        "#379a37",
+        "#bb8a35",
+        "#516aec",
+        "#7b59c0",
+        "#159393",
+        "#f7f3f7"
+    ],
+    "use-theme-colors": false
+}

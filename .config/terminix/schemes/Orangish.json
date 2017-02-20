@@ -1,0 +1,25 @@
+{
+    "background-color": "#000000",
+    "comment": "Author: ",
+    "foreground-color": "#ffffff",
+    "name": "Orangish",
+    "palette": [
+        "#251f1f",
+        "#eb4509",
+        "#94e76b",
+        "#ffac18",
+        "#46aede",
+        "#e32c57",
+        "#d6dbac",
+        "#efefef",
+        "#5e5e5e",
+        "#eb4509",
+        "#95e76b",
+        "#ffac18",
+        "#46aede",
+        "#e32c57",
+        "#d6dbac",
+        "#efefef"
+    ],
+    "use-theme-colors": false
+}

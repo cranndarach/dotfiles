@@ -1,0 +1,25 @@
+{
+    "background-color": "#000000",
+    "comment": "Author: ",
+    "foreground-color": "#a8a8a8",
+    "name": "Phrak1",
+    "palette": [
+        "#000000",
+        "#a80000",
+        "#00a800",
+        "#a85400",
+        "#0000a8",
+        "#a800a8",
+        "#00a8a8",
+        "#a8a8a8",
+        "#545054",
+        "#f85450",
+        "#50fc50",
+        "#f8fc50",
+        "#5054f8",
+        "#f854f8",
+        "#50fcf8",
+        "#f8fcf8"
+    ],
+    "use-theme-colors": false
+}

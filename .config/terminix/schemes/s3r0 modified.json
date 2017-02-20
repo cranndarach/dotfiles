@@ -1,0 +1,25 @@
+{
+    "background-color": "#1F1F1F",
+    "comment": "Author: earsplit",
+    "foreground-color": "#C0B18B",
+    "name": "s3r0 modified",
+    "palette": [
+        "#4A3637",
+        "#D17B49",
+        "#7B8748",
+        "#AF865A",
+        "#535C5C",
+        "#775759",
+        "#6D715E",
+        "#C0B18B",
+        "#4A3637",
+        "#D17B49",
+        "#7B8748",
+        "#AF865A",
+        "#535C5C",
+        "#775759",
+        "#6D715E",
+        "#C0B18B"
+    ],
+    "use-theme-colors": false
+}

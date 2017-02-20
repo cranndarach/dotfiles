@@ -1,0 +1,25 @@
+{
+    "background-color": "#2d2d2d",
+    "comment": "Author: Chris Kempson",
+    "foreground-color": "#d3d0c8",
+    "name": "Eighties (dark)",
+    "palette": [
+        "#2d2d2d",
+        "#f2777a",
+        "#99cc99",
+        "#ffcc66",
+        "#6699cc",
+        "#cc99cc",
+        "#66cccc",
+        "#d3d0c8",
+        "#747369",
+        "#f2777a",
+        "#99cc99",
+        "#ffcc66",
+        "#6699cc",
+        "#cc99cc",
+        "#66cccc",
+        "#f2f0ec"
+    ],
+    "use-theme-colors": false
+}

@@ -1,5 +1,5 @@
 # Set my name
-export USER="Rachael"
+export USER=$(eval whoami) #"Rachael"
 # Greet me when it starts
 echo "Hello, $USER!"
 # Show my to-do list
@@ -7,8 +7,10 @@ echo "Here's your current to-do list:"
 echo
 task
 
+export RCFILE=~/.zshrc
+
 export EDITOR=nvim
-# export GH=https://github.com/cranndarach/
+export GH=git@github.com/cranndarach/
 
 if [[ $TERMINIX_ID ]]; then
   source /etc/profile.d/vte.sh

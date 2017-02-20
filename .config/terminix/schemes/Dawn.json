@@ -1,0 +1,25 @@
+{
+    "background-color": "#181B20",
+    "comment": "Author: Escapist",
+    "foreground-color": "#9B9081",
+    "name": "Dawn",
+    "palette": [
+        "#353535",
+        "#744B40",
+        "#6D6137",
+        "#765636",
+        "#61564B",
+        "#6B4A49",
+        "#435861",
+        "#B3B3B3",
+        "#5F5F5F",
+        "#785850",
+        "#6F6749",
+        "#776049",
+        "#696057",
+        "#6F5A59",
+        "#525F66",
+        "#CDCDCD"
+    ],
+    "use-theme-colors": false
+}

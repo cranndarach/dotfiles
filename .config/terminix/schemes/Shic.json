@@ -1,0 +1,25 @@
+{
+    "background-color": "#000000",
+    "comment": "Author: ",
+    "foreground-color": "#ffffff",
+    "name": "Shic",
+    "palette": [
+        "#494949",
+        "#b9716e",
+        "#588f7a",
+        "#aaa857",
+        "#a0c3c0",
+        "#735e74",
+        "#695935",
+        "#b1b1b1",
+        "#484848",
+        "#8f5a58",
+        "#326f58",
+        "#c7c575",
+        "#507f7c",
+        "#a387a6",
+        "#927c4b",
+        "#c7c7c7"
+    ],
+    "use-theme-colors": false
+}

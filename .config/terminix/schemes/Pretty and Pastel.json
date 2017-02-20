@@ -1,0 +1,25 @@
+{
+    "background-color": "#151515",
+    "comment": "Author: IWAFU",
+    "foreground-color": "#888888",
+    "name": "Pretty and Pastel",
+    "palette": [
+        "#292929",
+        "#CF6A4C",
+        "#19CB00",
+        "#FAD07A",
+        "#8197BF",
+        "#8787AF",
+        "#668799",
+        "#888888",
+        "#525252",
+        "#FF9D80",
+        "#23FD00",
+        "#FFEFBF",
+        "#ACCAFF",
+        "#C4C4FF",
+        "#80BFAF",
+        "#E8E8D3"
+    ],
+    "use-theme-colors": false
+}

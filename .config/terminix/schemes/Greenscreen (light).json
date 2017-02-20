@@ -1,0 +1,25 @@
+{
+    "background-color": "#00ff00",
+    "comment": "Author: Chris Kempson",
+    "foreground-color": "#005500",
+    "name": "Greenscreen (light)",
+    "palette": [
+        "#001100",
+        "#007700",
+        "#00bb00",
+        "#007700",
+        "#009900",
+        "#00bb00",
+        "#005500",
+        "#00bb00",
+        "#007700",
+        "#007700",
+        "#00bb00",
+        "#007700",
+        "#009900",
+        "#00bb00",
+        "#005500",
+        "#00ff00"
+    ],
+    "use-theme-colors": false
+}

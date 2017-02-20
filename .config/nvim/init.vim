@@ -35,6 +35,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'roxma/vim-tmux-clipboard'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'roosta/srcery'
+Plug 'guns/xterm-color-table.vim'
 call plug#end()
 
 " Change Leader key from '\' to ','
@@ -109,7 +110,8 @@ set noerrorbells
 " colorscheme Crystallite
 colorscheme srcery
 highlight ColorColumn ctermbg=6
-let g:airline_theme='powerlineish'
+" let g:airline_theme='powerlineish'
+let g:airline_theme='wombat'
 
 " Split windows intuitively
 set splitbelow

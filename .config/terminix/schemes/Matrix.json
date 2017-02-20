@@ -1,0 +1,25 @@
+{
+    "background-color": "#000000",
+    "comment": "Author: OK100",
+    "foreground-color": "#00cc00",
+    "name": "Matrix",
+    "palette": [
+        "#000000",
+        "#55ff55",
+        "#00cc00",
+        "#00cc00",
+        "#005500",
+        "#55ff55",
+        "#00cc00",
+        "#00cc00",
+        "#000000",
+        "#55ff55",
+        "#55ff55",
+        "#55ff55",
+        "#005500",
+        "#55ff55",
+        "#55ff55",
+        "#00cc00"
+    ],
+    "use-theme-colors": false
+}

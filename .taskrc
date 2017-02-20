@@ -13,6 +13,8 @@
 # Files
 data.location=~/.task/
 
+regex='on'
+
 # Color theme (uncomment one to use)
 #include /usr/share/doc/task/rc/light-16.theme
 #include /usr/share/doc/task/rc/light-256.theme
@@ -28,4 +30,32 @@ data.location=~/.task/
 #include /usr/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/share/doc/task/rc/solarized-light-256.theme
 #include /usr/share/doc/task/rc/no-color.theme
+
 include ~/.themes/taskwarrior-base16-monokai.theme
+
+color.overdue=bold color6 on color17
+color.due=green
+color.blocked=color5 on color10
+color.blocking=color53 on color159
+color.started=color5 on color1 #color53
+color.due.none=blue
+color.burndown.done=color53 on color159
+color.due.today=bold red
+color.uda.priority.=blue
+color.calendar.due.today=color5 on color10
+color.scheduled=color40 on color65
+
+
+uda.importance.type=string
+uda.importance.label=Importance
+uda.importance.values=critical,important,moderate,normal,low,minimal
+uda.importance.default=normal
+urgency.uda.importance.coefficient=6
+
+uda.size.type=string
+uda.size.label=Size
+uda.size.values=huge,big,normal,smallish,quick,tiny
+uda.size.default=normal
+
+report.next.columns=id,depends,project,importance,size,due.remaining,tags,description,urgency
+report.next.labels=ID,Blocking,Project,Importance,Size,Due,Tags,Description,Urg
