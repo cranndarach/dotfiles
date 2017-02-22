@@ -1,19 +1,3 @@
-# Set my name
-export USER=$(eval whoami) #"Rachael"
-# Greet me when it starts
-echo "Hello, $USER!"
-# Show my to-do list
-echo "Here's your current to-do list:"
-echo
-task
-
-export RCFILE=~/.zshrc
-
-export VIEWER=okular
-export EDITOR=nvim
-
-export GH=git@github.com/cranndarach/
-
 if [[ $TERMINIX_ID ]]; then
   source /etc/profile.d/vte.sh
 fi
@@ -105,30 +89,33 @@ export ARCHFLAGS="-arch x86_64"
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# Don't immediately remove everything
 setopt RM_STAR_WAIT
 
+# Can have comments in interactive session
 setopt interactivecomments
 
+# 
 export TERM="xterm-256color"
 
+# Source my other related dotfiles
 source ~/.zsh_aliases
 source ~/.zsh_functions
 
 # Enable powerline
 source /usr/share/powerline/bindings/zsh/powerline.zsh
 
+# This loads nvm
 export NVM_DIR="/home/rachael/.nvm"
 nvm_start() {
-  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 }
 
 export LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5:LD_LIBRARY_PATH
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-# added by Anaconda3 4.2.0 installer
-export PATH="/home/rachael/anaconda3/bin:$PATH"
-
+export PATH="/home/rachael/anaconda3/bin:$PATH" # added by Anaconda3 4.2.0 installer
 export ANDROID_HOME=/home/rachael/Android/Sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=~/.npm-global/bin:$PATH
@@ -141,3 +128,9 @@ export GEM_HOME=$HOME/.gem
 for dir in $HOME/.gem/ruby/*; do
   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 done
+
+# Greet me and show my to-do list once everything is loaded.
+echo "Hello, $USER!"
+echo "Here's your current to-do list:"
+echo
+task
