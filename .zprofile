@@ -1,4 +1,4 @@
-emulate sh -c '. ~/.profile'
+[[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 
 # Set my name
 export USER=$(eval whoami) #"Rachael"

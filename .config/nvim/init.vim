@@ -54,6 +54,9 @@ set colorcolumn=80
 " Underline the line the cursor is on
 set cursorline
 
+" Turn off mode-sensitive cursor shape
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
+
 " Do not update the screen while inserting non-typed data
 set lazyredraw
 
@@ -152,7 +155,7 @@ nnoremap k gk
 nnoremap <Leader>w :w<CR>
 inoremap <Leader>w <C-O>:w<CR>
 
-" Edit init.vim in separate tab with ':rc'
+" Edit init.vim in separate tab with ',rc'
 " nnoremap :rc<CR> :e ~/.config/nvim/init.vim<CR>
 nnoremap <Leader>rc :tabe ~/.config/nvim/init.vim<CR>
 inoremap <Leader>rc <C-O>:tabe ~/.config/nvim/init.vim<CR>
@@ -161,8 +164,9 @@ inoremap <Leader>rc <C-O>:tabe ~/.config/nvim/init.vim<CR>
 nnoremap <Leader>s :source ~/.config/nvim/init.vim<CR>
 inoremap <Leader>s <C-O>:source ~/.config/nvim/init.vim<CR>
 
-" Esc to normal mode with jj
+" Esc to normal mode with jj or kk
 inoremap jj <esc>
+inoremap kk <esc>
 
 " switch between buffers with `,]` and `,[`
 nnoremap <Leader>] :bn<CR>
@@ -174,6 +178,12 @@ for prefix in ['i', 'n', 'v']
     exe prefix . "noremap " . key . " <Nop>"
   endfor
 endfor
+
+" Insert docstrings more efficiently
+augroup docstring
+    au BufNewFile,BufRead *.py inoremap \"\"\"<CR> \"\"\"<CR><CR>\"\"\"<esc>ki
+augroup end
+
 
 """""""""""""""""""""
 """Plugin settings"""
@@ -217,31 +227,21 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " Don't hide markup characters in JSON
 let g:vim_json_syntax_conceal=0
 
-" CtrlP settings
-nmap <leader>p :CtrlP<cr>
-nmap <leader>bb :CtrlPBuffer<cr>
-nmap <leader>bm :CtrlPMixed<cr>
-nmap <leader>bs :CtrlPMRU<cr>
-" call ctrlp_bdelete#init()
-" Ignore files when searching:
-" let g:ctrlp_custom_ignore = {
-"   \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
-"   \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
-" \}
+" Vimwiki
+au FileType vimwiki call MyVimwikiOptions()
+function MyVimwikiOptions()
+    " Turn into a list item, or change symbol of item to *
+    nmap glo :VimwikiChangeSymbolTo *<CR>
+    nmap gLo :VimwikiChangeSymbolInListTo *<CR>
 
+    " Increase or decrease levels with >> / <<
+    map >> <Plug>VimwikiIncreaseLvlSingleItem
+    map << <Plug>VimwikiDecreaseLvlSingleItem
 
-"""Vimwiki"""
-
-""Shortcuts""
-" Turn into a list item, or change symbol of item to *
-nmap glo :VimwikiChangeSymbolTo *<CR>
-nmap gLo :VimwikiChangeSymbolInListTo *<CR>
-" Increase or decrease levels with >> / <<
-map >> <Plug>VimwikiIncreaseLvlSingleItem
-map << <Plug>VimwikiDecreaseLvlSingleItem
-" Increase/decrease item and all its children with >>> / <<<
-map >>> <Plug>VimwikiIncreaseLvlWholeItem
-map <<< <Plug>VimwikiDecreaseLvlWholeItem
+    " Increase/decrease item and all its children with >>> / <<<
+    map >>> <Plug>VimwikiIncreaseLvlWholeItem
+    map <<< <Plug>VimwikiDecreaseLvlWholeItem
+endfunction
 
 ""UI""
 " Set a different color for each vimwiki header level

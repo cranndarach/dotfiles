@@ -1,0 +1,18 @@
+################################
+# Global excludes file for git #
+################################
+
+# Since I often rework projects
+.old/
+
+# vim-related files
+.rope*
+*.sw[po]
+
+# Generated files
+build/
+*.[oa]
+*.pyc
+__pycache__/
+dist/
+*.egg-info/

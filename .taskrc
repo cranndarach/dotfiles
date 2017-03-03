@@ -35,8 +35,8 @@ include ~/.themes/taskwarrior-base16-monokai.theme
 
 color.overdue=bold color6 on color17
 color.due=green
-color.blocked=color5 on color10
-color.blocking=color53 on color159
+color.blocked=color5 on color23
+color.blocking=color53 on color4
 color.started=color5 on color1 #color53
 color.due.none=blue
 color.burndown.done=color53 on color159
@@ -59,3 +59,10 @@ uda.size.default=normal
 
 report.next.columns=id,depends,project,importance,size,due.remaining,tags,description,urgency
 report.next.labels=ID,Blocking,Project,Importance,Size,Due,Tags,Description,Urg
+
+taskd.certificate=/home/rachael/.ssh/taskwarrior/private.certificate.pem
+taskd.key=/home/rachael/.ssh/taskwarrior/private.key.pem
+taskd.ca=/home/rachael/.ssh/taskwarrior/ca.cert.pem
+taskd.server=taskwarrior.inthe.am:53589
+taskd.credentials=inthe_am/rachael.j.steiner/1f1c21c9-08d4-47fa-8faa-86cc06c0a575
+taskd.trust=ignore hostname

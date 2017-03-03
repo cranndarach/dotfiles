@@ -2,16 +2,44 @@ if [[ $TERMINIX_ID ]]; then
   source /etc/profile.d/vte.sh
 fi
 
+# 
+export TERM="xterm-256color"
+
 fpath=(~/.zsh/completions $fpath) 
 autoload -U compinit && compinit
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/rachael/.oh-my-zsh
 
+# Configuration for powerlevel9k (must be before specifying theme)
+POWERLEVEL9K_MODE='awesome-fontconfig'
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context anaconda dir)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs battery)
+
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="012"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="015"
+POWERLEVEL9K_DIR_HOME_BACKGROUND="033"
+POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="033"
+
+POWERLEVEL9K_ANACONDA_BACKGROUND="53"
+
+POWERLEVEL9K_STATUS_OK_BACKGROUND="17"
+
+POWERLEVEL9K_PROMPT_ADD_NEW_LINE=true
+
+POWERLEVEL9K_VCS_SHOW_SUBMODULE_DIRTY=false
+
+POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND="002"
+POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="015"
+export DEFAULT_USER=$USER
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnosterzak"
+# ZSH_THEME="agnosterzak"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 # ZSH_THEME="norm"
 # ZSH_THEME="risto"
 # ZSH_THEME="af-magic"
@@ -95,9 +123,6 @@ setopt RM_STAR_WAIT
 # Can have comments in interactive session
 setopt interactivecomments
 
-# 
-export TERM="xterm-256color"
-
 # Source my other related dotfiles
 source ~/.zsh_aliases
 source ~/.zsh_functions
@@ -131,6 +156,6 @@ done
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"
-echo "Here's your current to-do list:"
-echo
-task
+# echo "Here's your current to-do list:"
+# echo
+# task
