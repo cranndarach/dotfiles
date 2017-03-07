@@ -32,6 +32,7 @@ alias aliases="$EDITOR ~/.zsh_aliases && source ~/.zsh_aliases"
 alias zshfnc="$EDITOR ~/.zsh_functions && source ~/.zsh_functions"
 alias vimrc="$EDITOR ~/.config/nvim/init.vim"
 alias taskrc="$EDITOR ~/.taskrc"
+alias tmrc="$EDITOR ~/.tmux.conf && tmux source-file ~/.tmux.conf"
 alias omz="$EDITOR ~/.oh-my-zsh && source ~/.oh-my-zsh"
 
 alias t="task"
