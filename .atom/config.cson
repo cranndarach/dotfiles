@@ -14,6 +14,11 @@
       _analyticsUserId: "abbe13cf-b151-4b91-95d5-ed0ff386d848"
     latex:
       beautify_on_save: true
+  "atom-clock":
+    dateFormat: "h:mm A MMM Do, YYYY"
+    locale: "en-us"
+    refreshInterval: 5
+    showClockIcon: true
   "atom-material-ui":
     colors: {}
     tabs:
@@ -26,20 +31,24 @@
   core:
     audioBeep: false
     disabledPackages: [
-      "language-gfm"
       "autocomplete-clang"
       "terminal-plus"
       "swackets"
+      "language-gfm"
+      "vim-mode-plus"
     ]
     packagesWithKeymapsDisabled: []
     projectHome: "/home/rachael/projects"
+    telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "atom-dark-syntax"
+      "github-atom-dark-syntax"
     ]
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
+    fontFamily: "Source Code Pro"
+    fontSize: 19
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -61,22 +70,10 @@
   "terminal-fusion":
     ansiColors:
       normal:
-        green:
-          red: 19
-          green: 131
-          blue: 19
-          alpha: 1
+        green: "#138313"
       zBright:
-        brightBlue:
-          red: 0
-          green: 0
-          blue: 207
-          alpha: 1
-        brightGreen:
-          red: 0
-          green: 203
-          blue: 0
-          alpha: 1
+        brightBlue: "#0000cf"
+        brightGreen: "#00cb00"
     core: {}
     style: {}
   "terminal-plus":
@@ -94,6 +91,10 @@
     softWrapHangingIndent: 2
     tabLength: 4
 ".breakpoints.hydrogen":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
+".gfm.source":
   editor:
     softWrapHangingIndent: 2
     tabLength: 4
@@ -116,6 +117,11 @@
   editor:
     softWrapHangingIndent: 2
     tabLength: 4
+".md.text":
+  editor:
+    softWrap: true
+    softWrapHangingIndent: 2
+    tabLength: 4
 ".plain.text":
   editor:
     softWrapHangingIndent: 2
@@ -129,6 +135,10 @@
 ".ruby.source.sql":
   editor:
     softWrapHangingIndent: 2
+".source.tmux":
+  editor:
+    softWrapHangingIndent: 2
+    tabLength: 4
 ".tex.text":
   editor:
     softWrapHangingIndent: 2

@@ -35,6 +35,7 @@ Plug 'roosta/srcery'
 Plug 'guns/xterm-color-table.vim'
 Plug 'jalvesaq/Nvim-R'
 Plug 'ervandew/screen'
+Plug 'vim-scripts/R.vim'
 call plug#end()
 
 " Change Leader key from '\' to ','
@@ -51,7 +52,7 @@ set number
 " Highlight the 80-character mark
 set colorcolumn=80
 
-" Underline the line the cursor is on
+" Highlight the line the cursor is on
 set cursorline
 
 " Turn off mode-sensitive cursor shape
@@ -349,6 +350,9 @@ let g:vimrplugin_noscreenrc=1
 
 " Integrate vim-r with screen.vim
 let g:vimrplugin_screenplugin=1
+
+" Highlight chunk headers as R code
+let rmd_syn_hl_chunk=1
 
 " View R docs in a vim buffer
 " let R_nvimpager="yes"

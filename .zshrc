@@ -2,7 +2,9 @@ if [[ $TERMINIX_ID ]]; then
   source /etc/profile.d/vte.sh
 fi
 
-export USER="oak"
+if [[ -f /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
+  source /usr/share/powerline/bindings/zsh/powerline.zsh
+fi
 
 # 
 export TERM="xterm-256color"
@@ -31,14 +33,44 @@ POWERLEVEL9K_ANACONDA_BACKGROUND="53"
 
 POWERLEVEL9K_STATUS_OK_BACKGROUND="17"
 
-POWERLEVEL9K_PROMPT_ADD_NEW_LINE=true
+# POWERLEVEL9K_PROMPT_ADD_NEW_LINE=true
 
 POWERLEVEL9K_VCS_SHOW_SUBMODULE_DIRTY=false
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="214"
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="227"
 
 POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND="002"
 POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="black"
 export DEFAULT_USER=$USER
+
+POWERLEVEL9K_BATTERY_LOW_THRESHOLD="15"
+# POWERLEVEL9K_BATTERY_MID_THRESHOLD="50"
+
+export BATT_BG="17"
+POWERLEVEL9K_BATTERY_LOW_BACKGROUND="$BATT_BG"
+# POWERLEVEL9K_BATTERY_MID_BACKGROUND="$BATT_BG"
+POWERLEVEL9K_BATTERY_CHARGING_BACKGROUND="$BATT_BG"
+POWERLEVEL9K_BATTERY_CHARGED_BACKGROUND="$BATT_BG"
+POWERLEVEL9K_BATTERY_DISCONNECTED_BACKGROUND="$BATT_BG"
+
+POWERLEVEL9K_BATTERY_LOW_FOREGROUND="160"
+# POWERLEVEL9K_BATTERY_MID_FOREGROUND="3"
+POWERLEVEL9K_BATTERY_CHARGING_FOREGROUND="6"
+POWERLEVEL9K_BATTERY_CHARGED_FOREGROUND="10"
+POWERLEVEL9K_BATTERY_DISCONNECTED_FOREGROUND="10"
+
+# POWERLEVEL9K_BATTERY_ICON=" "
+# POWERLEVEL9K_BATTERY_LOW_ICON=" "
+# POWERLEVEL9K_BATTERY_MID_ICON=" "
+# POWERLEVEL9K_BATTERY_CHARGING_ICON=" "
+# POWERLEVEL9K_BATTERY_CHARGED_ICON=" "
+# POWERLEVEL9K_BATTERY_DISCONNECTED_ICON=" "
+
+POWERLEVEL9K_BATTERY_VISUAL_IDENTIFIER_COLOR="10"
+POWERLEVEL9K_BATTERY_LOW_VISUAL_IDENTIFIER_COLOR="160"
+# POWERLEVEL9K_BATTERY_MID_VISUAL_IDENTIFIER_COLOR="160"
+POWERLEVEL9K_BATTERY_CHARGING_VISUAL_IDENTIFIER_COLOR="6"
+POWERLEVEL9K_BATTERY_CHARGED_VISUAL_IDENTIFIER_COLOR="10"
+POWERLEVEL9K_BATTERY_DISCONNECTED_VISUAL_IDENTIFIER_COLOR="10"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -92,7 +124,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gem, npm, python, rails, ruby, web-search)
+plugins=(gem, npm, pow, python, rails, ruby, web-search)
 
 # Plugin configuration
 
@@ -161,6 +193,6 @@ done
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"
-# echo "Here's your current to-do list:"
-# echo
-# task
+echo "Here's your current to-do list:"
+echo
+task
