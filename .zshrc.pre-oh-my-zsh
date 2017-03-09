@@ -1,0 +1,8 @@
+
+###-tns-completion-start-###
+if [ -f /home/rachael/.tnsrc ]; then 
+    source /home/rachael/.tnsrc 
+fi
+###-tns-completion-end-###
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
