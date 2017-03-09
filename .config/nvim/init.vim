@@ -184,6 +184,9 @@ inoremap kk <esc>
 nnoremap <Leader>] :bn<CR>
 nnoremap <Leader>[ :bN<CR>
 
+" Reflow paragraph with `;p`
+au BufNewFile,BufRead *.md, *.wiki nnoremap <LocalLeader>p gqip
+
 " Unbind the cursor keys in insert, normal and visual modes.
 for prefix in ['i', 'n', 'v']
   for key in ['<Up>', '<Down>', '<Left>', '<Right>', '<LeftMouse>', '<PageUp>', '<PageDown>']

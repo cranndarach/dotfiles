@@ -2,6 +2,8 @@ if [[ $TERMINIX_ID ]]; then
   source /etc/profile.d/vte.sh
 fi
 
+# export USER="oak"
+
 if [[ -f /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
   source /usr/share/powerline/bindings/zsh/powerline.zsh
 fi
@@ -193,6 +195,9 @@ done
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"
-echo "Here's your current to-do list:"
-echo
-task
+# echo "Here's your current to-do list:"
+# echo
+# task
+
+# OPAM configuration
+. /home/rachael/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

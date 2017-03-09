@@ -26,6 +26,7 @@ alias qmake="/usr/bin/qmake"
 alias py="python"
 alias br="bin/rails"
 alias rails="bin/rails"
+alias railsg="~/.gem/ruby/2.3.0/bin/rails"
 
 alias rc="$EDITOR $RCFILE && source $RCFILE"
 alias aliases="$EDITOR ~/.zsh_aliases && source ~/.zsh_aliases"
