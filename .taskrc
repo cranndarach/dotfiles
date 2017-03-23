@@ -16,35 +16,36 @@ data.location=~/.task/
 regex='on'
 
 # Color theme (uncomment one to use)
-#include /usr/share/doc/task/rc/light-16.theme
-#include /usr/share/doc/task/rc/light-256.theme
-#include /usr/share/doc/task/rc/dark-16.theme
-#include /usr/share/doc/task/rc/dark-256.theme
-#include /usr/share/doc/task/rc/dark-red-256.theme
-#include /usr/share/doc/task/rc/dark-green-256.theme
-#include /usr/share/doc/task/rc/dark-blue-256.theme
-#include /usr/share/doc/task/rc/dark-violets-256.theme
-#include /usr/share/doc/task/rc/dark-yellow-green.theme
-#include /usr/share/doc/task/rc/dark-gray-256.theme
-#include /usr/share/doc/task/rc/dark-gray-blue-256.theme
-#include /usr/share/doc/task/rc/solarized-dark-256.theme
-#include /usr/share/doc/task/rc/solarized-light-256.theme
-#include /usr/share/doc/task/rc/no-color.theme
+#include ~/.config/task/themes/light-16.theme
+#include ~/.config/task/themes/light-256.theme
+#include ~/.config/task/themes/dark-16.theme
+#include ~/.config/task/themes/dark-256.theme
+# include ~/.config/task/themes/dark-red-256.theme
+# include ~/.config/task/themes/dark-green-256.theme
+include ~/.config/task/themes/dark-blue-256.theme
+# include ~/.config/task/themes/dark-violets-256.theme
+#include ~/.config/task/themes/dark-yellow-green.theme
+#include ~/.config/task/themes/dark-gray-256.theme
+# include ~/.config/task/themes/dark-gray-blue-256.theme
+# include ~/.config/task/themes/solarized-dark-256.theme
+#include ~/.config/task/themes/solarized-light-256.theme
+#include ~/.config/task/themes/no-color.theme
 
-include ~/.themes/taskwarrior-base16-monokai.theme
+# include ~/.themes/taskwarrior-base16-monokai.theme
 
-color.overdue=bold color6 on color17
-color.due=green
-color.blocked=color5 on color23
-color.blocking=color53 on color4
-color.started=color5 on color1 #color53
-color.due.none=blue
-color.burndown.done=color53 on color159
-color.due.today=bold red
-color.uda.priority.=blue
-color.calendar.due.today=color5 on color10
-color.scheduled=color40 on color65
+# color.overdue=bold color6 on color17
+# color.due=green
+# color.blocked=color5 on color23
+# color.blocking=color53 on color4
+# color.started=color5 on color1 #color53
+# color.due.none=blue
+# color.burndown.done=color53 on color159
+# color.due.today=bold red
+# color.uda.priority.=blue
+# color.calendar.due.today=color5 on color10
+# color.scheduled=color40 on color65
 
+dateformat=m/d/y
 
 uda.importance.type=string
 uda.importance.label=Importance
@@ -54,11 +55,16 @@ urgency.uda.importance.coefficient=6
 
 uda.size.type=string
 uda.size.label=Size
-uda.size.values=huge,big,normal,smallish,quick,tiny
+uda.size.values=huge,big,biggish,normal,smallish,quick,tiny
 uda.size.default=normal
 
-report.next.columns=id,depends,project,importance,size,due.remaining,tags,description,urgency
-report.next.labels=ID,Blocking,Project,Importance,Size,Due,Tags,Description,Urg
+uda.difficulty.type=string
+uda.difficulty.label=Difficulty
+uda.difficulty.values=scream,overwhelming,v-hard,hard,ehh,normal,not-bad,simple,painless
+uda.difficulty.default=normal
+
+report.next.columns=id,depends,project,importance,difficulty,size,due.formatted,due.remaining,tags,description,urgency
+report.next.labels=ID,Blocking,Project,Importance,Difficulty,Size,Due on,Due in,Tags,Description,Urg
 
 taskd.certificate=/home/rachael/.ssh/taskwarrior/private.certificate.pem
 taskd.key=/home/rachael/.ssh/taskwarrior/private.key.pem
@@ -66,3 +72,9 @@ taskd.ca=/home/rachael/.ssh/taskwarrior/ca.cert.pem
 taskd.server=taskwarrior.inthe.am:53589
 taskd.credentials=inthe_am/rachael.j.steiner/1f1c21c9-08d4-47fa-8faa-86cc06c0a575
 taskd.trust=ignore hostname
+uda.reviewed.type=date
+uda.reviewed.label=Reviewed
+report._reviewed.description=Tasksh review report.  Adjust the filter to your needs.
+report._reviewed.columns=uuid
+report._reviewed.sort=reviewed+,modified+
+report._reviewed.filter=( reviewed.none: or reviewed.before:now-1week ) and ( +PENDING or +WAITING )

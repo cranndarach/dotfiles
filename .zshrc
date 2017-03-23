@@ -11,72 +11,75 @@ fi
 # 
 export TERM="xterm-256color"
 
+export XDG_CONFIG_DIRS=~/.config:$XDG_CONFIG_DIRS
+export XDG_CONFIG_HOME=~/.config
+
 fpath=(~/.zsh/completions $fpath) 
 autoload -U compinit && compinit
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/rachael/.oh-my-zsh
 
-# Configuration for powerlevel9k (must be before specifying theme)
+# source ~/.zsh_colors
+
+################
+# POWERLEVEL9K #
+################
+
+# Using an awesome font
 POWERLEVEL9K_MODE='awesome-fontconfig'
 
+# Prompt sections
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context anaconda dir)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs battery)
 
+# Directory prompt
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
-POWERLEVEL9K_DIR_HOME_BACKGROUND="027"
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="027"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="027"
-# POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="033"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="015"
-POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="015"
+POWERLEVEL9K_DIR_HOME_BACKGROUND="12"
+POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="12"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="12"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="lightgray"
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="lightgray"
 
+# Anaconda env marker
 POWERLEVEL9K_ANACONDA_BACKGROUND="53"
 
-POWERLEVEL9K_STATUS_OK_BACKGROUND="17"
+# Status marker
+POWERLEVEL9K_STATUS_OK_BACKGROUND="black"
 
-# POWERLEVEL9K_PROMPT_ADD_NEW_LINE=true
-
+# Git
 POWERLEVEL9K_VCS_SHOW_SUBMODULE_DIRTY=false
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="227"
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="11"
 
-POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND="002"
+# Username / context
+POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND="02"
 POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="black"
 export DEFAULT_USER=$USER
 
+# Battery
+export BATT_BG="black"
 POWERLEVEL9K_BATTERY_LOW_THRESHOLD="15"
-# POWERLEVEL9K_BATTERY_MID_THRESHOLD="50"
-
-export BATT_BG="17"
 POWERLEVEL9K_BATTERY_LOW_BACKGROUND="$BATT_BG"
-# POWERLEVEL9K_BATTERY_MID_BACKGROUND="$BATT_BG"
 POWERLEVEL9K_BATTERY_CHARGING_BACKGROUND="$BATT_BG"
 POWERLEVEL9K_BATTERY_CHARGED_BACKGROUND="$BATT_BG"
 POWERLEVEL9K_BATTERY_DISCONNECTED_BACKGROUND="$BATT_BG"
-
 POWERLEVEL9K_BATTERY_LOW_FOREGROUND="160"
-# POWERLEVEL9K_BATTERY_MID_FOREGROUND="3"
 POWERLEVEL9K_BATTERY_CHARGING_FOREGROUND="6"
 POWERLEVEL9K_BATTERY_CHARGED_FOREGROUND="10"
 POWERLEVEL9K_BATTERY_DISCONNECTED_FOREGROUND="10"
-
 # POWERLEVEL9K_BATTERY_ICON=" "
-# POWERLEVEL9K_BATTERY_LOW_ICON=" "
-# POWERLEVEL9K_BATTERY_MID_ICON=" "
-# POWERLEVEL9K_BATTERY_CHARGING_ICON=" "
-# POWERLEVEL9K_BATTERY_CHARGED_ICON=" "
-# POWERLEVEL9K_BATTERY_DISCONNECTED_ICON=" "
-
+POWERLEVEL9K_BATTERY_LOW_ICON=" "
+POWERLEVEL9K_BATTERY_CHARGING_ICON=" "
+POWERLEVEL9K_BATTERY_CHARGED_ICON=" "
+POWERLEVEL9K_BATTERY_DISCONNECTED_ICON=" "
 POWERLEVEL9K_BATTERY_VISUAL_IDENTIFIER_COLOR="10"
 POWERLEVEL9K_BATTERY_LOW_VISUAL_IDENTIFIER_COLOR="160"
-# POWERLEVEL9K_BATTERY_MID_VISUAL_IDENTIFIER_COLOR="160"
 POWERLEVEL9K_BATTERY_CHARGING_VISUAL_IDENTIFIER_COLOR="6"
 POWERLEVEL9K_BATTERY_CHARGED_VISUAL_IDENTIFIER_COLOR="10"
 POWERLEVEL9K_BATTERY_DISCONNECTED_VISUAL_IDENTIFIER_COLOR="10"
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# End POWERLEVEL9K configuration
+
 # ZSH_THEME="agnosterzak"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 # ZSH_THEME="norm"
@@ -87,18 +90,8 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 DISABLE_AUTO_TITLE="true"
@@ -176,22 +169,21 @@ nvm_start() {
 }
 
 export LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5:LD_LIBRARY_PATH
-
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="/home/rachael/anaconda3/bin:$PATH" # added by Anaconda3 4.2.0 installer
 export ANDROID_HOME=/home/rachael/Android/Sdk
-export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-export PATH=~/.npm-global/bin:$PATH
 export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
 export GOOGLE_APPLICATION_CREDENTIALS=~/.google-service-credentials.json
 export GOPATH=$HOME/gopath
-export PATH=$GOPATH:$GOPATH/bin:$PATH
-
 export GEM_HOME=$HOME/.gem
+
 for dir in $HOME/.gem/ruby/*; do
   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 done
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/home/rachael/anaconda3/bin:$PATH" # added by Anaconda3 4.2.0 installer
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export PATH=~/.npm-global/bin:$PATH
+export PATH=$GOPATH:$GOPATH/bin:$PATH
+export PATH=~/.scripts:$PATH
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"

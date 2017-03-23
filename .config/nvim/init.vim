@@ -121,7 +121,8 @@ set noerrorbells
 
 " Set colors
 " colorscheme Crystallite
-colorscheme srcery
+" colorscheme srcery
+colorscheme molokai
 " highlight ColorColumn ctermbg=6
 highlight ColorColumn ctermbg=25
 " highlight ColorColumn ctermbg=4
@@ -235,7 +236,7 @@ augroup end
 nnoremap <Leader>n :NERDTreeToggle<CR>
 
 " UltiSnips mappings
-" let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
