@@ -3,17 +3,8 @@
 # For more documentation, see http://taskwarrior.org or try 'man task', 'man task-color',
 # 'man task-sync' or 'man taskrc'
 
-# Here is an example of entries that use the default, override and blank values
-#   variable=foo   -- By specifying a value, this overrides the default
-#   variable=      -- By specifying no value, this means no default
-#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
-
-# Use the command 'task show' to see all defaults and overrides
-
 # Files
 data.location=~/.task/
-
-regex='on'
 
 # Color theme (uncomment one to use)
 #include ~/.config/task/themes/light-16.theme
@@ -33,25 +24,15 @@ include ~/.config/task/themes/dark-blue-256.theme
 
 # include ~/.themes/taskwarrior-base16-monokai.theme
 
-# color.overdue=bold color6 on color17
-# color.due=green
-# color.blocked=color5 on color23
-# color.blocking=color53 on color4
-# color.started=color5 on color1 #color53
-# color.due.none=blue
-# color.burndown.done=color53 on color159
-# color.due.today=bold red
-# color.uda.priority.=blue
-# color.calendar.due.today=color5 on color10
-# color.scheduled=color40 on color65
-
+regex='on'
 dateformat=m/d/y
+
+# User-defined attributes
 
 uda.importance.type=string
 uda.importance.label=Importance
 uda.importance.values=critical,important,moderate,normal,low,minimal
 uda.importance.default=normal
-urgency.uda.importance.coefficient=6
 
 uda.size.type=string
 uda.size.label=Size
@@ -63,18 +44,32 @@ uda.difficulty.label=Difficulty
 uda.difficulty.values=scream,overwhelming,v-hard,hard,ehh,normal,not-bad,simple,painless
 uda.difficulty.default=normal
 
-report.next.columns=id,depends,project,importance,difficulty,size,due.formatted,due.remaining,tags,description,urgency
-report.next.labels=ID,Blocking,Project,Importance,Difficulty,Size,Due on,Due in,Tags,Description,Urg
+# Urgency modifiers
+urgency.user.project.Health.coefficient=10.0
+urgency.uda.importance.coefficient=6.0
+urgency.user.tag.mit.coefficient=15.0
 
+# Headers
+report.next.columns=id,depends,project,importance,difficulty,size,due.formatted,due.remaining,description,urgency,tags
+report.next.labels=ID,Blocked by,Project,Importance,Difficulty,Size,Due on,Due in,Description,Urg,Tags
+
+# Server sync
 taskd.certificate=/home/rachael/.ssh/taskwarrior/private.certificate.pem
 taskd.key=/home/rachael/.ssh/taskwarrior/private.key.pem
 taskd.ca=/home/rachael/.ssh/taskwarrior/ca.cert.pem
 taskd.server=taskwarrior.inthe.am:53589
 taskd.credentials=inthe_am/rachael.j.steiner/1f1c21c9-08d4-47fa-8faa-86cc06c0a575
 taskd.trust=ignore hostname
+
+# tasksh
 uda.reviewed.type=date
 uda.reviewed.label=Reviewed
 report._reviewed.description=Tasksh review report.  Adjust the filter to your needs.
 report._reviewed.columns=uuid
 report._reviewed.sort=reviewed+,modified+
 report._reviewed.filter=( reviewed.none: or reviewed.before:now-1week ) and ( +PENDING or +WAITING )
+
+# Contexts
+context.school=+research or +class or +academic
+context.home=+home or +life or +general
+context.study=+study or +special-interest or +si or +info

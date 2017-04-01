@@ -94,7 +94,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line to disable auto-setting terminal title.
-DISABLE_AUTO_TITLE="true"
+# DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -187,9 +187,9 @@ export PATH=~/.scripts:$PATH
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"
-# echo "Here's your current to-do list:"
-# echo
-# task
+echo "Here's your current to-do list:"
+echo
+task
 
 # OPAM configuration
 . /home/rachael/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

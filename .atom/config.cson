@@ -48,7 +48,7 @@
     autoIndentOnPaste: false
     backUpBeforeSaving: true
     fontFamily: "Source Code Pro"
-    fontSize: 19
+    fontSize: 24
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true

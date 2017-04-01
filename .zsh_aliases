@@ -38,6 +38,8 @@ alias omz="$EDITOR ~/.oh-my-zsh && source ~/.oh-my-zsh"
 
 alias t="task"
 alias trc="$EDITOR ~/.taskrc"
+alias tash="tasksh"
+alias depends="echo 'Other tasks that this task depends on.'"
 
 alias vim=nvim
 alias vimwiki="nvim ~/vimwiki/index.wiki --cmd 'cd ~/vimwiki'"
