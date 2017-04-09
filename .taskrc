@@ -36,7 +36,7 @@ uda.importance.default=normal
 
 uda.size.type=string
 uda.size.label=Size
-uda.size.values=huge,big,biggish,normal,smallish,quick,tiny
+uda.size.values=huge,big,biggish,normal,smallish,small,quick,tiny
 uda.size.default=normal
 
 uda.difficulty.type=string
@@ -48,6 +48,7 @@ uda.difficulty.default=normal
 urgency.user.project.Health.coefficient=10.0
 urgency.uda.importance.coefficient=6.0
 urgency.user.tag.mit.coefficient=15.0
+urgency.uda.size.coefficient=3.0
 
 # Headers
 report.next.columns=id,depends,project,importance,difficulty,size,due.formatted,due.remaining,description,urgency,tags

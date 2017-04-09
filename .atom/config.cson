@@ -48,7 +48,6 @@
     autoIndentOnPaste: false
     backUpBeforeSaving: true
     fontFamily: "Source Code Pro"
-    fontSize: 24
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -60,8 +59,7 @@
     tabType: "soft"
   "exception-reporting":
     userId: "80a7f633-d22b-5763-92fa-a6851ca732af"
-  linter:
-    showErrorPanel: false
+  linter: {}
   "python-tools":
     pythonPath: "/home/rachael/anaconda3/bin/python"
   swackets:

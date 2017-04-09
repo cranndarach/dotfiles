@@ -167,8 +167,8 @@ nnoremap <Leader><CR> A<CR>
 inoremap <Leader><CR> <C-O>A<CR>
 
 " 'j' and 'k' traverse visual lines (inclu soft-wrapped), not literal lines
-nnoremap j gj
-nnoremap k gk
+" nnoremap j gj
+" nnoremap k gk
 
 " Save file with `,w`
 nnoremap <Leader>w :w<CR>
@@ -191,8 +191,9 @@ inoremap kk <esc>
 nnoremap <Leader>] :bn<CR>
 nnoremap <Leader>[ :bN<CR>
 
-" Reflow paragraph or selection with `rf`
-nnoremap rf gqip
+" Reflow paragraph or selection with `rf` (in normal and visual modes
+" for markdown and tex files, and just visual modes for everything else)
+au BufNewFile,BufRead *.md,*.tex nnoremap rf gqip
 vnoremap rf gq
 
 " Unbind the cursor keys in insert, normal and visual modes.
@@ -223,44 +224,13 @@ inoremap <Leader>gs <C-O>:Gstatus<CR>
 inoremap <Leader>gc <C-O>:Gcommit<CR>
 inoremap <Leader>gp <C-O>:Gpush<CR>
 
-" activate rainbow_parentheses
-" augroup rainbow
-"   au vimenter * RainbowParenthesesToggle
-"   au Syntax * RainbowParenthesesLoadRound
-"   au Syntax * RainbowParenthesesLoadSquare
-"   au Syntax * RainbowParenthesesLoadBraces
-" augroup end
-
-" autocmd FileType javascript syntax clear jsFuncBlock jsFuncArgs
-
-" let g:niji_match_all_filetypes=1
-" " Set rainbow_parentheses colors
-" let g:niji_dark_colours = [
-"     \ [2,    'RoyalBlue3'],
-"     \ [45,    'SeaGreen3'],
-"     \ [204,   'DarkOrchid3'],
-"     \ [198,   'firebrick3'],
-"     \ [33,    'RoyalBlue3'],
-"     \ [185,   'SeaGreen3'],
-"     \ [50,    'DarkOrchid3'],
-"     \ [226,   'firebrick3'],
-"     \ [09,    'RoyalBlue3'],
-"     \ [45,    'SeaGreen3'],
-"     \ [204,   'DarkOrchid3'],
-"     \ [198,   'firebrick3'],
-"     \ [33,    'RoyalBlue3'],
-"     \ [185,   'SeaGreen3'],
-"     \ [50,    'DarkOrchid3'],
-"     \ [226,   'firebrick3'],
-"     \ ]
-
 " Activate rainbow
 let g:rainbow_active=1
-"
+
 " Rainbow setup
 let g:rainbow_conf = {
 \  'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
-\  'ctermfgs': [86, 45, 204, 198, 33, 185],
+\  'ctermfgs': [2, 45, 204, 198, 33, 185, 50, 226],
 \  'operators': '_,_',
 \  'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
 \  'separately': {

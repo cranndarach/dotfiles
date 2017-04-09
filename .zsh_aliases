@@ -43,6 +43,7 @@ alias depends="echo 'Other tasks that this task depends on.'"
 
 alias vim=nvim
 alias vimwiki="nvim ~/vimwiki/index.wiki --cmd 'cd ~/vimwiki'"
+# alias vimwiki="oni ~/vimwiki/index.wiki --cmd 'cd ~/vimwiki'"
 
 alias hyper="Hyper"
 alias ghost="gs"	# I am used to "gs" as "git status"
