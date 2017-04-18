@@ -41,7 +41,8 @@ export DEFAULT_USER=$USER
 
 # Anaconda env marker
 POWERLEVEL9K_ANACONDA_BACKGROUND="53"
-POWERLEVEL9K_ANACONDA_ICON=""
+POWERLEVEL9K_ANACONDA_ICON="\ue73c"
+POWERLEVEL9K_ANACONDA_ICON_COLOR="white"
 
 # Directory prompt
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
@@ -128,7 +129,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gem, npm, pow, python, rails, ruby, web-search)
+plugins=(gem, npm, pow, python, rails, ruby, web-search wd)
 
 # Plugin configuration
 
@@ -193,6 +194,8 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=~/.npm-global/bin:$PATH
 export PATH=$GOPATH:$GOPATH/bin:$PATH
 export PATH=~/.scripts:$PATH
+# export PATH=/opt:$PATH
+export PATH=~/.keepass2:$PATH
 
 # OPAM configuration
 . /home/rachael/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
@@ -201,7 +204,7 @@ export PATH=~/.scripts:$PATH
 
 
 # Greet me and show my to-do list once everything is loaded.
-# echo "Hello, $USER!"
-# echo "Here's your current to-do list:"
-# echo
-# task
+echo "Hello, $USER!"
+echo "Here's your current to-do list:"
+echo
+task
