@@ -12,7 +12,8 @@ Plug 'alvan/vim-closetag'
 Plug 'myusuf3/numbers.vim'
 Plug 'klen/python-mode'
 " Plug 'vim-syntastic/syntastic'
-Plug 'pangloss/vim-javascript'
+" Plug 'pangloss/vim-javascript'
+Plug 'jelera/vim-javascript-syntax'
 Plug 'wookiehangover/jshint.vim'
 " Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'luochen1990/rainbow'
@@ -241,7 +242,6 @@ let g:rainbow_conf = {
 \  'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
 \  'separately': {
 \    '*': {},
-\    'javascript': {},
 \    'html': {
 \      'parentheses': ['start=/\v\<((^div)[ >])@!\z(div)(\s+[-_:a-zA-Z0-9]+(\=("[^"]*"|'."'".'[^'."'".']*'."'".'|[^ '."'".'"><=`]*))?)*\>/ end=#</\z1># fold'],
 \    },
