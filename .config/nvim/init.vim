@@ -12,6 +12,7 @@ Plug 'alvan/vim-closetag'
 Plug 'myusuf3/numbers.vim'
 Plug 'klen/python-mode'
 " Plug 'vim-syntastic/syntastic'
+Plug 'pangloss/vim-javascript'
 Plug 'wookiehangover/jshint.vim'
 " Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'luochen1990/rainbow'
@@ -198,7 +199,7 @@ nnoremap <Leader>[ :bN<CR>
 
 " Reflow paragraph or selection with `rf` (in normal and visual modes
 " for markdown and tex files, and just visual modes for everything else)
-au BufNewFile,BufRead *.md,*.tex nnoremap rf gqip
+au BufNewFile,BufRead *.md,*.tex,*.wiki nnoremap rf gqip
 vnoremap rf gq
 
 " Unbind the cursor keys in insert, normal and visual modes.
