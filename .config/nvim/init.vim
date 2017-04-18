@@ -156,6 +156,11 @@ autocmd BufNewFile,BufRead *.pl set filetype=prolog
 set list
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 
+" Disable <F1>; never have I intentionally opened help that way
+nnoremap <F1> <nop>
+inoremap <F1> <nop>
+vnoremap <F1> <nop>
+
 " Press `esc` to clear search highlighting
 nnoremap <esc> :noh<return><esc>
 
