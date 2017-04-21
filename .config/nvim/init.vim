@@ -153,6 +153,8 @@ let g:airline#extensions#tabline#fnamemod=':t'
 
 " Treat `.pl` as Prolog instead of Perl
 autocmd BufNewFile,BufRead *.pl set filetype=prolog
+" Treat *.js as javascript instead of JSX
+autocmd BufNewFile,BufRead *.js set filetype=javascript
 
 " Show whitespace characters
 set list
@@ -366,6 +368,8 @@ vmap <F3> <F2><Plug>RHelp<C-w>k<Plug>RUpdateObjBrowser
 " Send line/selection to R with <Leader><Space>
 nmap <LocalLeader>m <Plug>RDSendLine
 vmap <LocalLeader>m <Plug>RDSendSelection
+
+au BufNewFile,BufRead *.rmd,*.r inoremap <C-CR> <Plug>RDSendLine
 " nmap <LocalLeader><CR> <Plug>RDSendLine
 " vmap <LocalLeader><CR> <Plug>RSendSelection
 

@@ -61,9 +61,10 @@ alias micro="/opt/micro/micro"
 alias firefox-dev="/opt/firefox-developer/firefox"
 alias extraterm="/opt/extraterm/extraterm"
 alias exercism="/opt/exercism/exercism"
+alias marp="/opt/marp/Marp"
 
 # My own programs
-alias lifetracker="~/.scripts/LifeTracker/LifeTracker"
+# alias lifetracker="~/.scripts/LifeTracker/LifeTracker"
 alias passbox="cd ~/projects/passbox && npm start"
 alias tarot="python ~/projects/tarot/main.py"
 alias namegen="ipython -i ~/projects/namegen/namegen.py --"

@@ -205,6 +205,6 @@ export PATH=~/.keepass2:$PATH
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"
-echo "Here's your current to-do list:"
-echo
-task
+# echo "Here's your current to-do list:"
+# echo
+# task
