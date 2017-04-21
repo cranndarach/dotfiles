@@ -2,13 +2,13 @@
 # created by user
 
 # Shorthand & efficiency
-alias ll="ls -alF"
-alias la="ls -a --color=auto"
-alias l="ls -CF"
-alias lal="ls -al --color=auto"
-alias lsl="ls -alF"
-alias lsa="ls -a --color=auto"
-alias lsal="ls -al --color=auto"
+alias ll="ls -alFh"
+alias la="ls -ah --color=auto"
+alias l="ls -CFh"
+alias lal="ls -alh --color=auto"
+alias lsl="ls -alFh"
+alias lsa="ls -ah --color=auto"
+alias lsal="ls -alh --color=auto"
 
 alias wcl="wc -l"
 alias wcw="wc -w"
