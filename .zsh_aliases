@@ -35,6 +35,8 @@ alias vimrc="$EDITOR ~/.config/nvim/init.vim"
 alias taskrc="$EDITOR ~/.taskrc"
 alias tmrc="$EDITOR ~/.tmux.conf && tmux source-file ~/.tmux.conf"
 alias omz="$EDITOR ~/.oh-my-zsh && source ~/.oh-my-zsh"
+alias wmrc="$EDITOR $WMRCFILE"
+alias pwsetup="powerline-config tmux setup && powerline-daemon --replace"
 
 alias t="task"
 alias trc="$EDITOR ~/.taskrc"

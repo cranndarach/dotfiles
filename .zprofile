@@ -12,3 +12,5 @@ export EDITOR=nvim
 
 # Set github SSH URL prefix
 export GH=git@github.com:cranndarach/
+# Alias `hub` as `git`
+eval "$(hub alias -s)"

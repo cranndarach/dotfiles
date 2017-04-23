@@ -10,6 +10,7 @@ fi
 
 # 
 export TERM="xterm-256color"
+export WMRCFILE="~/.config/i3/config"
 
 export XDG_CONFIG_DIRS=~/.config:$XDG_CONFIG_DIRS
 export XDG_CONFIG_HOME=~/.config
@@ -196,6 +197,7 @@ export PATH=$GOPATH:$GOPATH/bin:$PATH
 export PATH=~/.scripts:$PATH
 # export PATH=/opt:$PATH
 export PATH=~/.keepass2:$PATH
+export PATH=/opt/Telegram:$PATH
 
 # OPAM configuration
 . /home/rachael/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
