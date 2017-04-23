@@ -56,7 +56,7 @@ bar {
   position top
   mode dock
   tray_output primary
-  font pango:DejaVu Sans Mono 9, PowerlineSymbols 11
+  font pango:DejaVu Sans Mono for Powerline 9, PowerlineSymbols 11
   colors {
     background $CL_BG
     statusline $CL_GREEN
@@ -103,7 +103,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split (adjusted to match vim's orientations)
-bindsym $mod+minus split v
+bindsym $mod+c split v
 bindsym $mod+v split h
 
 # enter fullscreen mode for the focused container
