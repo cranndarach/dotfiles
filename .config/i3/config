@@ -56,7 +56,7 @@ bar {
   position top
   mode dock
   tray_output primary
-  font pango:DejaVu Sans Mono for Powerline 9, PowerlineSymbols 11
+  font pango:SauceCodePro Nerd Font 10
   colors {
     background $CL_BG
     statusline $CL_GREEN
