@@ -14,7 +14,8 @@ font pango:DejaVu Sans 10
 # exec feh --bg-scale "~/Pictures/Wallpapers/forest.jpg"
 
 # Colors alias
-set $CL_BG #282C34
+# set $CL_BG #282C34
+set $CL_BG #748448
 set $CL_FG #ABB2BF
 set $CL_CUR #528BFF
 set $CL_BLACK #000000
@@ -36,7 +37,7 @@ set $CL_WHITE #FFFFFF
 # class                 border      backgr.     text    indicator   child_border
 client.focused          $CL_GREEN   $CL_GREEN   $CL_BG   $CL_GREEN   $CL_GREEN
 client.focused_inactive $CL_DARKGRAY    $CL_DARKGRAY    $CL_BG   $CL_DARKGRAY    $CL_DARKGRAY
-client.unfocused        $CL_BG      $CL_BG      $CL_CUR  $CL_BG      $CL_BG
+client.unfocused        $CL_BG      $CL_BG      $CL_PALEGREEN  $CL_BG      $CL_BG
 client.urgent           $CL_RED     $CL_RED     $CL_BG   $CL_RED     $CL_RED
 client.placeholder      $CL_BG      $CL_BG      $CL_WHITE $CL_BLACK  $CL_BG
 
