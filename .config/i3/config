@@ -11,7 +11,7 @@ set $mod Mod4
 font pango:DejaVu Sans 10
 
 # Setup wallpaper
-exec feh --bg-scale "~/Pictures/Wallpapers/forest.jpg"
+# exec feh --bg-scale "~/Pictures/Wallpapers/forest.jpg"
 
 # Colors alias
 set $CL_BG #282C34
@@ -20,7 +20,8 @@ set $CL_CUR #528BFF
 set $CL_BLACK #000000
 set $CL_RED #E06C75
 # set $CL_GREEN #98C379
-set $CL_GREEN #aae16b
+# set $CL_GREEN #aae16b
+set $CL_GREEN #afe62f
 set $CL_PALEGREEN #daf2c0
 set $CL_ORANGE #D19A66
 set $CL_BLUE #61AEEE
@@ -58,10 +59,12 @@ bar {
   tray_output primary
   font pango:SauceCodePro Nerd Font 10
   colors {
-    background $CL_BG
+    background #2f361d
+    # background $CL_BG
     statusline $CL_GREEN
     #                  border  backgr   text
-    focused_workspace  #AADB0F #AADB0F #000000
+    focused_workspace  #AFE62F #AFE62F #000000
+    # focused_workspace  #AADB0F #AADB0F #000000
     inactive_workspace #f9f9f9 #f9f9f9 #000000
     urgent_workspace   #272727 #272727 #AADB0F
   }
