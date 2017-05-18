@@ -10,8 +10,9 @@ case $1 in
     xrandr --output VGA1 --left-of LVDS1
     ;;
   *)
-    echo "Please specify a monitor."
+    echo "No external monitor specified."
+    xrandr --auto
     ;;
 esac
 
-feh --bg-scale ~/Pictures/Wallpaper/space-nebula-wallpaper-6.jpg
+feh --bg-scale ~/Pictures/Wallpaper/star-space-wallpaper-5.jpg
