@@ -57,17 +57,27 @@ filetype plugin indent on
 " Show line numbers
 set number
 
-" Highlight the 80-character mark
-set colorcolumn=80
-
-" Highlight the line the cursor is on
-set cursorline
-
 " Turn off mode-sensitive cursor shape
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
 
 " Allow neovim to use true color
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+" colors
+" Highlight the 80-character mark
+set colorcolumn=80
+highlight ColorColumn ctermbg=25
+" Highlight the line the cursor is on
+set cursorline
+" Color scheme options
+" Enable transparency
+let &t_8f="[38;2;%lu%lu%lum"
+let &t_8b="[48;2;%lu%lu%lum"
+set termguicolors
+colorscheme molokai
+let g:airline_theme='powerlineish'
+highlight Normal ctermbg=none guibg=none
+highlight NonText ctermbg=none guibg=none
 
 " Do not update the screen while inserting non-typed data
 set lazyredraw
@@ -92,6 +102,9 @@ set copyindent
 
 " Always show cursor position
 set ruler
+
+" Do not fold unless explicitly asked
+set nofoldenable
 
 " Use 2 spaces instead of 4 in ruby and eruby (and js when appropriate)
 " autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
@@ -127,16 +140,6 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 " Don't beep
 set noerrorbells
 
-" Set colors
-" colorscheme Crystallite
-" colorscheme srcery
-colorscheme molokai
-" highlight ColorColumn ctermbg=6
-highlight ColorColumn ctermbg=25
-" highlight ColorColumn ctermbg=4
-let g:airline_theme='powerlineish'
-" let g:airline_theme='wombat'
-
 " Split windows intuitively
 set splitbelow
 set splitright
@@ -155,6 +158,7 @@ let g:airline#extensions#tabline#fnamemod=':t'
 autocmd BufNewFile,BufRead *.pl set filetype=prolog
 " Treat *.js as javascript instead of JSX
 autocmd BufNewFile,BufRead *.js set filetype=javascript
+autocmd BufNewFile,BufRead *.cson set filetype=coffee
 
 " Show whitespace characters
 set list
