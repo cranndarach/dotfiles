@@ -9,3 +9,9 @@ fi
 if [ -f /home/rachael/.profile ]; then
     source /home/rachael/.profile
 fi
+
+###-tns-completion-start-###
+if [ -f /home/rachael/.tnsrc ]; then 
+    source /home/rachael/.tnsrc 
+fi
+###-tns-completion-end-###

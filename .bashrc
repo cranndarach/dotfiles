@@ -165,3 +165,9 @@ for dir in $HOME/.gem/ruby/*; do
   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 done
 
+
+###-tns-completion-start-###
+if [ -f /home/rachael/.tnsrc ]; then 
+    source /home/rachael/.tnsrc 
+fi
+###-tns-completion-end-###

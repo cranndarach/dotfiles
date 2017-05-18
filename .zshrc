@@ -175,9 +175,38 @@ source /usr/share/powerline/bindings/zsh/powerline.zsh
 
 # This loads nvm
 export NVM_DIR="/home/rachael/.nvm"
-nvm_start() {
-  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+# nvm_start() {
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+# }
+###-nativescript-completion-start-###
+if [ -f /home/rachael/.tnsrc ]; then 
+    source /home/rachael/.tnsrc 
+fi
+###-nativescript-completion-end-###
+autoload -U add-zsh-hook
+load-nvmrc() {
+  local node_version="$(nvm version)"
+  local nvmrc_path="$(nvm_find_nvmrc)"
+
+  if [ -n "$nvmrc_path" ]; then
+    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+
+    if [ "$nvmrc_node_version" = "N/A" ]; then
+      nvm install
+    elif [ "$nvmrc_node_version" != "$node_version" ]; then
+      nvm use
+    fi
+  elif [ "$node_version" != "$(nvm version default)" ]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
 }
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
+
+# OPAM configuration
+. /home/rachael/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+. /home/rachael/torch/install/bin/torch-activate
 
 export LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5:LD_LIBRARY_PATH
 export ANDROID_HOME=/home/rachael/Android/Sdk
@@ -190,20 +219,20 @@ for dir in $HOME/.gem/ruby/*; do
   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 done
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$NVM_DIR/*/bin:$PATH
 export PATH="/home/rachael/anaconda3/bin:$PATH" # added by Anaconda3 4.2.0 installer
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=~/.npm-global/bin:$PATH
 export PATH=$GOPATH:$GOPATH/bin:$PATH
 export PATH=~/.scripts:$PATH
 # export PATH=/opt:$PATH
+for dir in $HOME/.nvm/versions/node/*; do
+  # echo $dir
+  [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
+done
 export PATH=~/.keepass2:$PATH
-export PATH=/opt/Telegram:$PATH
-
-# OPAM configuration
-. /home/rachael/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-
-. /home/rachael/torch/install/bin/torch-activate
-
+# export PATH=/opt/Telegram:$PATH
+# export PATH=/home/rachael/.nvm/*/bin:$PATH
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"
