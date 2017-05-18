@@ -59,6 +59,7 @@ alias firefix-dev="/opt/firefox-developer/firefox"
 alias nom="npm"
 
 # Programs stored in /opt
+alias telegram="/opt/Telegram/Telegram"
 alias micro="/opt/micro/micro"
 alias firefox-dev="/opt/firefox-developer/firefox"
 alias extraterm="/opt/extraterm/extraterm"
