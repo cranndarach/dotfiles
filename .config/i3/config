@@ -1,87 +1,60 @@
 # i3 config file (v4)
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
-
-# Should you change your keyboard layout some time, delete
-# this file and re-run i3-config-wizard(1).
 
 set $mod Mod4
+font pango:SauceCodePro Nerd Font 10
 
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
-font pango:DejaVu Sans 10
+###################
+# Workspace names #
+###################
 
-# Setup wallpaper
-# exec feh --bg-scale "~/Pictures/Wallpapers/forest.jpg"
+# Have some symbols:
+# ✨
+set $w1 "1: "
+set $w2 "2: "
+set $w3 "3: "
+set $w4 "4: "
+set $w5 "5: "
+set $w6 "6: "
+set $w7 "7: "
+set $w8 "8: "
+set $w9 "9: "
+set $w10 "10: "
 
-# Colors alias
-# set $CL_BG #282C34
-set $CL_BG #748448
-set $CL_FG #ABB2BF
-set $CL_CUR #528BFF
-set $CL_BLACK #000000
-set $CL_RED #E06C75
-# set $CL_GREEN #98C379
-# set $CL_GREEN #aae16b
-set $CL_GREEN #afe62f
-set $CL_PALEGREEN #daf2c0
-set $CL_ORANGE #D19A66
-set $CL_BLUE #61AEEE
-set $CL_MAGENTA #C678DD
-# set $CL_CYAN #56B6C2
-set $CL_CYAN #46c6ec
-set $CL_LIGHTGRAY #ABB2BF
-set $CL_DARKGRAY #5C6370
-set $CL_WHITE #FFFFFF
+# switch to workspace
+bindsym $mod+1 workspace $w1
+bindsym $mod+2 workspace $w2
+bindsym $mod+3 workspace $w3
+bindsym $mod+4 workspace $w4
+bindsym $mod+5 workspace $w5
+bindsym $mod+6 workspace $w6
+bindsym $mod+7 workspace $w7
+bindsym $mod+8 workspace $w8
+bindsym $mod+9 workspace $w9
+bindsym $mod+0 workspace $w10
 
-# Decotations colors
-# class                 border      backgr.     text    indicator   child_border
-client.focused          $CL_GREEN   $CL_GREEN   $CL_BG   $CL_GREEN   $CL_GREEN
-client.focused_inactive $CL_DARKGRAY    $CL_DARKGRAY    $CL_BG   $CL_DARKGRAY    $CL_DARKGRAY
-client.unfocused        $CL_BG      $CL_BG      $CL_PALEGREEN  $CL_BG      $CL_BG
-client.urgent           $CL_RED     $CL_RED     $CL_BG   $CL_RED     $CL_RED
-client.placeholder      $CL_BG      $CL_BG      $CL_WHITE $CL_BLACK  $CL_BG
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $w1
+bindsym $mod+Shift+2 move container to workspace $w2
+bindsym $mod+Shift+3 move container to workspace $w3
+bindsym $mod+Shift+4 move container to workspace $w4
+bindsym $mod+Shift+5 move container to workspace $w5
+bindsym $mod+Shift+6 move container to workspace $w6
+bindsym $mod+Shift+7 move container to workspace $w7
+bindsym $mod+Shift+8 move container to workspace $w8
+bindsym $mod+Shift+9 move container to workspace $w9
+bindsym $mod+Shift+0 move container to workspace $w10
 
-# Borders
-# smart_borders on
-# hide_edge_borders on
-for_window [class="^.*"] border pixel 3
-new_window pixel 3
-new_float pixel 3
-
-gaps inner 7
-gaps outer 5
-smart_gaps on
-
-# set $SCRIPT_DIR i3blocks/scripts
-bar {
-  status_command i3blocks -c ~/.config/i3/i3blocks.conf
-  position top
-  mode dock
-  tray_output primary
-  font pango:SauceCodePro Nerd Font 10
-  colors {
-    background #2f361d
-    # background $CL_BG
-    statusline $CL_GREEN
-    #                  border  backgr   text
-    focused_workspace  #AFE62F #AFE62F #000000
-    # focused_workspace  #AADB0F #AADB0F #000000
-    inactive_workspace #f9f9f9 #f9f9f9 #000000
-    urgent_workspace   #272727 #272727 #AADB0F
-  }
-}
-
-# Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
+###############
+# Keybindings #
+###############
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
-
-# kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+x exec i3-sensible-terminal
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec rofi -show run
 bindsym $mod+Shift+d exec j4-dmenu-desktop
 
 # change focus
@@ -89,87 +62,68 @@ bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
-
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
+
+# focus next/previous workspace
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+b workspace back_and_forth
+bindsym $mod+Shift+b move container to workspace back_and_forth
+
+# rename workspace
+bindsym $mod+comma exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
+
+# focus the parent container
+bindsym $mod+a focus parent
+# focus the child container
+#bindsym $mod+d focus child
 
 # move focused window
 bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
-
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+# kill focused window
+bindsym $mod+Shift+q kill
+
 # split (adjusted to match vim's orientations)
 bindsym $mod+c split v
 bindsym $mod+v split h
 
-# enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
-
-# change container layout (stacked, tabbed, toggle split)
+# change container layout (stack, tabbed, toggle split, full, toggle floating)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
-
-# toggle tiling / floating
+bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
-# bindsym $mod+space focus mode_toggle
-
-# focus the parent container
-bindsym $mod+a focus parent
-
-# focus the child container
-#bindsym $mod+d focus child
-
-# switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
-
-# move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+# Use Mouse+$mod to drag floating windows
+floating_modifier $mod
 
 # Mover ventana al scratchpad
 bindsym $mod+Shift+minus move scratchpad
-# Mostrar scratchpad
+# Mostrar/ocultar scratchpad
 bindsym $mod+equal scratchpad show
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
-# edit config
-bindsym $mod+Shift+e exec "$EDITOR ~/.config/i3/config"; reload
+# edit config (doesn't seem to work)
+bindsym $mod+Shift+e exec "i3-sensible-terminal -c $EDITOR ~/.config/i3/config"; reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+Escape exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
-# Lock the screen
-bindsym $mod+Control+l exec i3lock
+# Lock the screen (consider: would adding `&& systemctl suspend` work?)
+bindsym $mod+Control+l exec "i3lock && systemctl suspend"
 
 # change volume or toggle mute
 bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 5%+ && pkill -RTMIN+1 i3blocks 
@@ -202,13 +156,90 @@ mode "resize" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-
 bindsym $mod+r mode "resize"
+
+mode "workspaces" {
+  bindsym $mod+Shift+h move workspace to output left
+  bindsym $mod+Shift+j move workspace to output down
+  bindsym $mod+Shift+k move workspace to output up
+  bindsym $mod+Shift+l move workspace to output right
+  bindsym $mod+Shift+Left move workspace to output left
+  bindsym $mod+Shift+Down move workspace to output down
+  bindsym $mod+Shift+Up move workspace to output up
+  bindsym $mod+Shift+Right move workspace to output right
+
+  # back to normal: Enter or Escape
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
+}
+bindsym $mod+m mode "workspaces"
+
+###############
+# Look & Feel #
+###############
+
+# Colors aliases
+# (Is there a non-cluttered way to pass these to i3blocks for bg colors?)
+set $CL_BG #748448
+set $CL_FG #ABB2BF
+set $CL_CUR #528BFF
+set $CL_BLACK #000000
+set $CL_RED #E06C75
+set $CL_GREEN #afe62f
+set $CL_LTGREEN #daf2c0
+set $CL_ORANGE #D19A66
+set $CL_BLUE #61AEEE
+set $CL_MAGENTA #C678DD
+set $CL_CYAN #46c6ec
+set $CL_LTGRAY #ABB2BF
+set $CL_DRKGRAY #5C6370
+set $CL_WHITE #FFFFFF
+
+# Decoration colors
+# class                 border      backgr.     text        indicator   child_border
+client.focused          $CL_GREEN   $CL_GREEN   $CL_BG      $CL_GREEN   $CL_GREEN
+client.focused_inactive $CL_DRKGRAY $CL_DRKGRAY $CL_BG      $CL_DRKGRAY $CL_DRKGRAY
+client.unfocused        $CL_BG      $CL_BG      $CL_LTGREEN $CL_BG      $CL_BG
+client.urgent           $CL_RED     $CL_RED     $CL_BG      $CL_RED     $CL_RED
+client.placeholder      $CL_BG      $CL_BG      $CL_WHITE   $CL_BLACK   $CL_BG
+
+# Borders and gaps (i3-gaps config)
+for_window [class="^.*"] border pixel 3
+new_window pixel 3
+new_float pixel 3
+# smart_gaps on
+gaps inner 7
+gaps outer 3
+
+bar {
+  status_command i3blocks -c ~/.config/i3/i3blocks.conf
+  position top
+  mode dock
+  tray_output primary
+  colors {
+    background #2f361d
+    statusline $CL_GREEN
+                       #border #backgr  #text
+    focused_workspace  #AFE62F #AFE62F #000000
+    inactive_workspace #f9f9f9 #f9f9f9 #000000
+    urgent_workspace   #272727 #272727 #AADB0F
+  }
+}
+
+###########
+# Startup #
+###########
 
 # exec --no-startup-id wicd-gtk -t
 exec --no-startup-id wicd
 
 # load opacity options
-exec --no-startup-id compton --config ~/.compton.conf
+exec --no-startup-id "compton --config ~/.compton.conf"
 
-# bindsym Control+Mod1+Delete exec "$SCRIPT_DIR/shutdown_menu -c; echo Quit"
+# setup monitors
+exec --no-startup-id "monitor-setup.sh"
+
+# Start some programs
+# exec --no-startup-id i3-sensible-terminal $w1
+# exec --no-startup-id brave $w2
+# exec --no-startup-id thunderbird $w3
