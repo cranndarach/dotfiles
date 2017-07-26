@@ -242,7 +242,7 @@ let g:rainbow_active=1
 
 " Rainbow setup
 let g:rainbow_conf = {
-\  'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
+\  'guifgs': ['#6AB017', '#00dfff', '#ff5f87', '#ff0087', '#0087ff', '#dfdf5f', '#00ffdf', '#ffff00'],
 \  'ctermfgs': [2, 45, 204, 198, 33, 185, 50, 226],
 \  'operators': '_,_',
 \  'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
@@ -330,12 +330,26 @@ hi VimwikiHeader4 ctermfg=198
 hi VimwikiHeader5 ctermfg=33
 hi VimwikiHeader6 ctermfg=185
 
+hi VimwikiHeader1 guifg=#5fffdf
+hi VimwikiHeader2 guifg=#00dfff
+hi VimwikiHeader3 guifg=#ff5f87
+hi VimwikiHeader4 guifg=#ff0087
+hi VimwikiHeader5 guifg=#0087ff
+hi VimwikiHeader6 guifg=#dfdf5f
+
 " hi VimwikiHeader1 ctermfg=121
 " hi VimwikiHeader2 ctermfg=173
 " hi VimwikiHeader3 ctermfg=11
 " hi VimwikiHeader4 ctermfg=167
 " hi VimwikiHeader5 ctermfg=66
 " hi VimwikiHeader6 ctermfg=72
+
+" hi VimwikiHeader1 guifg=#87ffaf
+" hi VimwikiHeader2 guifg=#df875f
+" hi VimwikiHeader3 guifg=#ffff5f
+" hi VimwikiHeader4 guifg=#df5f5f
+" hi VimwikiHeader5 guifg=#5f8787
+" hi VimwikiHeader6 guifg=#5faf87
 
 """"""""""""""""""""""
 " Vim-R & screen.vim "
@@ -378,22 +392,22 @@ au BufNewFile,BufRead *.rmd,*.r inoremap <C-CR> <Plug>RDSendLine
 " vmap <LocalLeader><CR> <Plug>RSendSelection
 
 " Pretty up the colors
-" if has("gui_running") || $NVIM_TUI_ENABLE_TRUE_COLOR == 1
-"   let rout_color_input    = 'guifg=#9e9e9e'
-"   let rout_color_normal   = 'guifg=#ff5f00'
-"   let rout_color_number   = 'guifg=#ffaf00'
-"   let rout_color_integer  = 'guifg=#feaf00'
-"   let rout_color_float    = 'guifg=#fdaf00'
-"   let rout_color_complex  = 'guifg=#fcaf00'
-"   let rout_color_negnum   = 'guifg=#d7afff'
-"   let rout_color_negfloat = 'guifg=#d6afff'
-"   let rout_color_date     = 'guifg=#00d7af'
-"   let rout_color_true     = 'guifg=#5dd685'
-"   let rout_color_false    = 'guifg=#ff5d5e'
-"   let rout_color_inf      = 'guifg=#10aed7'
-"   let rout_color_constant = 'guifg=#5fafcf'
-"   let rout_color_string   = 'guifg=#5fd7af'
-"   let rout_color_error    = 'guifg=#ffffff guibg=#c40000'
-"   let rout_color_warn     = 'guifg=#d00000'
-"   let rout_color_index    = 'guifg=#d0d080'
-" endif
+if has("gui_running") || $NVIM_TUI_ENABLE_TRUE_COLOR == 1
+  let rout_color_input    = 'guifg=#9e9e9e'
+  let rout_color_normal   = 'guifg=#ff5f00'
+  let rout_color_number   = 'guifg=#ffaf00'
+  let rout_color_integer  = 'guifg=#feaf00'
+  let rout_color_float    = 'guifg=#fdaf00'
+  let rout_color_complex  = 'guifg=#fcaf00'
+  let rout_color_negnum   = 'guifg=#d7afff'
+  let rout_color_negfloat = 'guifg=#d6afff'
+  let rout_color_date     = 'guifg=#00d7af'
+  let rout_color_true     = 'guifg=#5dd685'
+  let rout_color_false    = 'guifg=#ff5d5e'
+  let rout_color_inf      = 'guifg=#10aed7'
+  let rout_color_constant = 'guifg=#5fafcf'
+  let rout_color_string   = 'guifg=#5fd7af'
+  let rout_color_error    = 'guifg=#ffffff guibg=#c40000'
+  let rout_color_warn     = 'guifg=#d00000'
+  let rout_color_index    = 'guifg=#d0d080'
+endif

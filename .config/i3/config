@@ -8,17 +8,28 @@ font pango:SauceCodePro Nerd Font 10
 ###################
 
 # Have some symbols:
-# ✨
+# ✨                              
+#                             
 set $w1 "1: "
 set $w2 "2: "
 set $w3 "3: "
 set $w4 "4: "
 set $w5 "5: "
-set $w6 "6: "
+set $w6 "6: "
 set $w7 "7: "
 set $w8 "8: "
 set $w9 "9: "
 set $w10 "10: "
+set $w11 "11: "
+set $w12 "12: "
+set $w13 "13: "
+set $w14 "14: "
+set $w15 "15: "
+set $w16 "16: "
+set $w17 "17: "
+set $w18 "18: "
+set $w19 "19: "
+set $w20 "20: "
 
 # switch to workspace
 bindsym $mod+1 workspace $w1
@@ -31,6 +42,16 @@ bindsym $mod+7 workspace $w7
 bindsym $mod+8 workspace $w8
 bindsym $mod+9 workspace $w9
 bindsym $mod+0 workspace $w10
+bindsym $mod+F1 workspace $w11
+bindsym $mod+F2 workspace $w12
+bindsym $mod+F3 workspace $w13
+bindsym $mod+F4 workspace $w14
+bindsym $mod+F5 workspace $w15
+bindsym $mod+F6 workspace $w16
+bindsym $mod+F7 workspace $w17
+bindsym $mod+F8 workspace $w18
+bindsym $mod+F9 workspace $w19
+bindsym $mod+F10 workspace $w20
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $w1
@@ -43,14 +64,32 @@ bindsym $mod+Shift+7 move container to workspace $w7
 bindsym $mod+Shift+8 move container to workspace $w8
 bindsym $mod+Shift+9 move container to workspace $w9
 bindsym $mod+Shift+0 move container to workspace $w10
+bindsym $mod+Shift+F1 move container to workspace $w11
+bindsym $mod+Shift+F2 move container to workspace $w12
+bindsym $mod+Shift+F3 move container to workspace $w13
+bindsym $mod+Shift+F4 move container to workspace $w14
+bindsym $mod+Shift+F5 move container to workspace $w15
+bindsym $mod+Shift+F6 move container to workspace $w16
+bindsym $mod+Shift+F7 move container to workspace $w17
+bindsym $mod+Shift+F8 move container to workspace $w18
+bindsym $mod+Shift+F9 move container to workspace $w19
+bindsym $mod+Shift+F0 move container to workspace $w20
 
 ###############
 # Keybindings #
 ###############
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+x exec i3-sensible-terminal
+bindsym $mod+Return exec tilix -a app-new-window
+bindsym $mod+x exec tilix -a app-new-window
+# bindsym $mod+Return exec tilix -a app-new-window -e "cd $(eval xcwd)"
+# bindsym $mod+x exec tilix -a app-new-window -e "cd $(eval xcwd)"
+# bindsym $mod+Return exec x-terminal-emulator
+# bindsym $mod+x exec x-terminal-emulator
+# bindsym $mod+Return exec i3-sensible-terminal -e "cd `xcwd`"
+# bindsym $mod+x exec i3-sensible-terminal -e "cd `xcwd`"
+# bindsym $mod+Shift+Return exec i3-sensible-terminal
+# bindsym $mod+Shift+x exec i3-sensible-terminal
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
@@ -131,8 +170,8 @@ bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 5%- && pkill -R
 bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle && pkill -RTMIN+1
 
 # Change backlight
-bindsym XF86MonBrightnessUp exec xbacklight +2 && pkill -RTMIN+12 i3blocks
-bindsym XF86MonBrightnessDown exec xbacklight -2 && pkill -RTMIN+12 i3blocks
+bindsym XF86MonBrightnessUp exec xbacklight +5 && pkill -RTMIN+12 i3blocks
+bindsym XF86MonBrightnessDown exec xbacklight -5 && pkill -RTMIN+12 i3blocks
 
 # Screenshot
 bindsym --release $mod+Insert exec "scrot -u '%Y-%m-%d_%I%M%s.png' -e 'mv $f ~/Pictures/Screenshots/'"
@@ -231,15 +270,18 @@ bar {
 ###########
 
 # exec --no-startup-id wicd-gtk -t
-exec --no-startup-id wicd
+# exec --no-startup-id wicd
+exec --no-startup-id nm-applet
 
 # load opacity options
 exec --no-startup-id "compton --config ~/.compton.conf"
 
 # setup monitors
-exec --no-startup-id "monitor-setup.sh"
+exec --no-startup-id "/home/rachael/.scripts/monitor-setup.sh"
 
 # Start some programs
-# exec --no-startup-id i3-sensible-terminal $w1
-# exec --no-startup-id brave $w2
-# exec --no-startup-id thunderbird $w3
+exec --no-startup-id i3-msg "workspace $w1; exec tilix"
+exec --no-startup-id i3-msg "workspace $w2; exec firefox"
+exec --no-startup-id i3-msg "workspace $w4; exec /opt/Telegram/Telegram Desktop"
+exec --no-startup-id i3-msg "workspace $w4; exec slack"
+exec --no-startup-id i3-msg "workspace $w1"

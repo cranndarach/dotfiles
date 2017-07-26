@@ -1,6 +1,10 @@
-if [[ $TERMINIX_ID ]]; then
-  source /etc/profile.d/vte.sh
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
 fi
+
+# if [[ $TERMINIX_ID ]]; then
+#   source /etc/profile.d/vte.sh
+# fi
 
 # export USER="oak"
 
@@ -31,7 +35,7 @@ export ZSH=/home/rachael/.oh-my-zsh
 POWERLEVEL9K_MODE='awesome-fontconfig'
 
 # Prompt sections
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status anaconda context dir)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context anaconda virtualenv dir)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs time battery)
 
 # Username / context
@@ -44,6 +48,11 @@ export DEFAULT_USER=$USER
 POWERLEVEL9K_ANACONDA_BACKGROUND="53"
 POWERLEVEL9K_ANACONDA_ICON="\ue73c"
 POWERLEVEL9K_ANACONDA_ICON_COLOR="white"
+
+POWERLEVEL9K_VIRTUALENV_BACKGROUND="53"
+# POWERLEVEL9K_VIRTUALENV_ICON="\ue73c"
+POWERLEVEL9K_VIRTUALENV_ICON_COLOR="white"
+POWERLEVEL9K_VIRTUALENV_FOREGROUND="white"
 
 # Directory prompt
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2

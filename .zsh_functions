@@ -30,3 +30,8 @@ doc() {
 dow() {
     cd ~/Downloads/$1
 }
+
+# Activate a virtualenv (which should be stored in ~/.envs)
+venv() {
+  source ~/.envs/$1/bin/activate
+}
