@@ -174,8 +174,9 @@ nnoremap <esc> :noh<return><esc>
 
 " More intuitive enter keys:
 nmap <CR> i<CR><Esc>
-" `,enter` to jump to the end of the line, add a new line below it, and return
-" to insert mode.
+
+" `<Leader>enter` to jump to the end of the line, add a new line below it, and
+" return to insert mode.
 nnoremap <Leader><CR> A<CR>
 inoremap <Leader><CR> <C-O>A<CR>
 
@@ -221,6 +222,7 @@ augroup docstring
     au BufNewFile,BufRead *.py inoremap \"\"\"<CR> \"\"\"<CR><CR>\"\"\"<esc>ki
 augroup end
 
+au BufNewFile,BufRead *.js nnoremap ;; :s/\(function\)\ \([a-zA-Z]\+\)/exports.\2 = \1<CR>
 
 """""""""""""""""""""
 """Plugin settings"""
