@@ -1,0 +1,21 @@
+{
+	"groups": {
+    "background":           { "fg": "white",     "bg": "gray1",     "attrs": [] },
+    "background:divider":   { "fg": "gray70",    "bg": "gray1",     "attrs": [] },
+		"active_window_status": {"fg": "lightblue",  "bg": "gray1",     "attrs": []},
+		"window_status":        {"fg": "gray10",     "bg": "gray1",     "attrs": []},
+		"activity_status":      {"fg": "yellow",     "bg": "gray1",     "attrs": []},
+		"bell_status":          {"fg": "red",        "bg": "gray1",     "attrs": []},
+		"window":               {"fg": "gray10",     "bg": "gray1",     "attrs": []},
+		"window:divider":       {"fg": "gray9",      "bg": "gray1",     "attrs": []},
+		"window:current":       {"fg": "mediumcyan", "bg": "lightblue", "attrs": []},
+		"window_name":          {"fg": "white",      "bg": "lightblue", "attrs": ["bold"]},
+		"session":              {"fg": "black",      "bg": "gray90",    "attrs": ["bold"]},
+		"session:prefix":       {"fg": "gray90",     "bg": "lightblue", "attrs": ["bold"]},
+    "time":                 { "fg": "gray90",    "bg": "gray6",     "attrs": ["bold"] },
+    "time:divider":         { "fg": "gray5",     "bg": "gray6",     "attrs": [] },
+    "date":                 { "fg": "gray10",     "bg": "gray3",     "attrs": [] },
+    "system_load":          { "fg": "gray8",     "bg": "gray1",     "attrs": [] },
+    "system_load_gradient": { "fg": "green_yellow_orange_red", "bg": "gray1", "attrs": [] }
+	}
+}

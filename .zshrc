@@ -9,12 +9,16 @@ fi
 # export USER="oak"
 
 if [[ -f /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
+  # Mint (outdated?)
   source /usr/share/powerline/bindings/zsh/powerline.zsh
+elif [[ -f /usr/lib/python3.6/site-packages/powerline/bindings ]]; then
+  # Manjaro
+  source /usr/lib/python3.6/site-packages/powerline/bindings
 fi
 
 # 
 export TERM="xterm-256color"
-export WMRCFILE="~/.config/i3/config"
+export WMRCFILE="~/.i3/config"
 
 export XDG_CONFIG_DIRS=~/.config:$XDG_CONFIG_DIRS
 export XDG_CONFIG_HOME=~/.config
@@ -32,7 +36,7 @@ export ZSH=/home/rachael/.oh-my-zsh
 ################
 
 # Using an awesome font
-POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_MODE='nerd-font-complete'
 
 # Prompt sections
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context anaconda virtualenv dir)
@@ -180,18 +184,19 @@ source ~/.zsh_aliases
 source ~/.zsh_functions
 
 # Enable powerline
-source /usr/share/powerline/bindings/zsh/powerline.zsh
+source /usr/lib/python3.6/site-packages/powerline/bindings
+
+###-nativescript-completion-start-###
+if [ -f /home/rachael/.tnsrc ]; then 
+    source /home/rachael/.tnsrc 
+fi
+###-nativescript-completion-end-###
 
 # This loads nvm
 export NVM_DIR="/home/rachael/.nvm"
 # nvm_start() {
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 # }
-###-nativescript-completion-start-###
-if [ -f /home/rachael/.tnsrc ]; then 
-    source /home/rachael/.tnsrc 
-fi
-###-nativescript-completion-end-###
 autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"
@@ -212,36 +217,24 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# OPAM configuration
-. /home/rachael/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-. /home/rachael/torch/install/bin/torch-activate
-
-export LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5:LD_LIBRARY_PATH
-export ANDROID_HOME=/home/rachael/Android/Sdk
-export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
-export GOOGLE_APPLICATION_CREDENTIALS=~/.google-service-credentials.json
-export GOPATH=$HOME/gopath
-export GEM_HOME=$HOME/.gem
-
-for dir in $HOME/.gem/ruby/*; do
-  [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
-done
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-# export PATH=$NVM_DIR/*/bin:$PATH
-export PATH="/home/rachael/anaconda3/bin:$PATH" # added by Anaconda3 4.2.0 installer
-export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+# export GOOGLE_APPLICATION_CREDENTIALS=~/.google-service-credentials.json
+# export GEM_HOME=$HOME/.gem
+# for dir in $HOME/.gem/ruby/*; do
+#   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
+# done
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$NVM_DIR/*/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
-export PATH=$GOPATH:$GOPATH/bin:$PATH
 export PATH=~/.scripts:$PATH
 # export PATH=/opt:$PATH
 for dir in $HOME/.nvm/versions/node/*; do
-  # echo $dir
+  echo $dir
   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 done
-export PATH=~/.keepass2:$PATH
 # export PATH=/opt/Telegram:$PATH
-# export PATH=/home/rachael/.nvm/*/bin:$PATH
+export PATH=/home/rachael/.nvm/*/bin:$PATH
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"

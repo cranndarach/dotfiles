@@ -1,0 +1,30 @@
+{
+	"segments": {
+		"right": [
+      {
+        "function": "powerline.segments.common.wthr.weather",
+        "args": {
+          "unit": "F",
+          "temp_hottest": "150"
+        }
+      },
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "time",
+				"args": {
+					"format": "⌚ %-I:%M %p",
+					"istime": true
+				}
+			},
+      {
+        "function": "powerline.segments.common.time.date",
+        "args": {
+          "format": "%b %-d, %Y"
+        }
+      },
+      {
+        "function": "powerline.segments.common.sys.system_load"
+      }
+		]
+	}
+}

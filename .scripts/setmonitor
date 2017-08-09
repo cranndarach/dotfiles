@@ -1,0 +1,31 @@
+#!/bin/bash
+
+STATUS=$(xrandr)
+
+# Check if there's a monitor connected to VGA
+CONNECTED=$(echo $STATUS | awk '$1=="VGA1" { print $2 }')
+case $CONNECTED in
+  "disconnected")
+    # If there's no VGA monitor connected, then you're good.
+    xrandr --auto
+    exit 0
+    ;;
+
+  "connected")
+    SIZE=$(echo $STATUS | awk '$1=="VGA1" { print "$12 x $14" }')
+    case $SIZE in
+      "410mm x 260mm")
+        # Home monitor
+        xrandr --output VGA1 --mode 1440x900
+        xrandr --output VGA1 --left-of LVDS1
+        exit 0
+        ;;
+      *)
+        # School monitor -- learn the size and make it a real option.
+        xrandr --output VGA1 --mode 1920x1080
+        xrandr --output VGA1 --above LVDS1
+        notify-send "Don't forget to specify the big monitor's size!"
+        exit 0
+        ;;
+    esac
+esac

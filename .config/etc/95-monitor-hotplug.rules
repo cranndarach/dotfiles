@@ -1,0 +1,4 @@
+# Copy to /etc/udev/rules/95-monitor-hotplug.rules
+# Runs the monitor setup script when it detects a new VGA monitor
+
+KERNEL=="card0", SUBSYSTEM=="drm", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/rachael/.Xauthority", RUN+="/home/rachael/.scripts/setmonitor"

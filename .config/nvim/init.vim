@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'flazz/vim-colorschemes'
 Plug 'cranndarach/vim-ragtag'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
@@ -34,7 +35,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'sickill/vim-pasta'
 Plug 'SirVer/UltiSnips'
 Plug 'honza/vim-snippets'
-Plug 'roxma/nvim-completion-manager', {'do': 'npm install'}
+" Plug 'roxma/nvim-completion-manager', {'do': 'npm install'}
 Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'roxma/vim-tmux-clipboard'

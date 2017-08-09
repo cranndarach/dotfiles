@@ -1,0 +1,15 @@
+#!/bin/bash
+
+CURRENT=$(setxkbmap -query | awk '$1=="layout:" { print $2 }')
+
+case $CURRENT in
+  "us")
+    NEW="he"
+    ;;
+  *)
+    NEW="us"
+    ;;
+esac
+
+setxkbmap $NEW
+notify-send "Keyboard layout set to $NEW."
