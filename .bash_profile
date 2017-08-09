@@ -1,17 +1,7 @@
-###-tns-completion-start-###
-if [ -f /home/rachael/.tnsrc ]; then 
-    source /home/rachael/.tnsrc 
-fi
-###-tns-completion-end-###
+#
+# ~/.bash_profile
+#
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+[[ -f ~/.extend.bash_profile ]] && . ~/.extend.bash_profile
+[[ -f ~/.bashrc ]] && . ~/.bashrc
 
-if [ -f /home/rachael/.profile ]; then
-    source /home/rachael/.profile
-fi
-
-###-tns-completion-start-###
-if [ -f /home/rachael/.tnsrc ]; then 
-    source /home/rachael/.tnsrc 
-fi
-###-tns-completion-end-###
