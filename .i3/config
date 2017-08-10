@@ -410,31 +410,32 @@ set $i3_color17         #0c0c0c
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
+  # i3bar_command lemonbar
+	# status_command python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "Source Code Pro 10"
 	# status_command i3status
-	# position bottom
-	status_command ~/.i3/lemonbar/i3_lemonbar.sh
+	# position top
 
-## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
-#	tray_output primary
-#	tray_output eDP1
+# please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+	# tray_output primary
+	# tray_output eDP1
+  #
+	# bindsym button4 nop
+	# bindsym button5 nop
+	# font xft:Noto Sans 10.5
+	# strip_workspace_numbers yes
 
-	bindsym button4 nop
-	bindsym button5 nop
-	font xft:Noto Sans 10.5
-	strip_workspace_numbers yes
-
-	colors {
-#       background $transparent
-        background $i3_background
-        statusline $i3_text
-        separator  $i3_separator
-
-#                                  border  backgr. text
-        focused_workspace   $i3_color1  $i3_color4  $i3_text
-        active_workspace    $i3_color2  $i3_color3  $i3_color5
-        inactive_workspace  $i3_color2  $i3_color3  $i3_color6
-        urgent_workspace    $i3_color4  $i3_color5  $i3_color7
-    }
+# 	colors {
+# #       background $transparent
+#         background $i3_background
+#         statusline $i3_text
+#         separator  $i3_separator
+#
+# #                                  border  backgr. text
+#         focused_workspace   $i3_color1  $i3_color4  $i3_text
+#         active_workspace    $i3_color2  $i3_color3  $i3_color5
+#         inactive_workspace  $i3_color2  $i3_color3  $i3_color6
+#         urgent_workspace    $i3_color4  $i3_color5  $i3_color7
+#     }
 }
 
 # hide/unhide i3status bar
@@ -510,4 +511,7 @@ mode "$mode_gaps_outer" {
 }
 
 # For the time being, set VGA monitor appropriately.
-exec --no-startup-id xrandr --output VGA1 --left-of LVDS1
+# exec --no-startup-id xrandr --output VGA1 --left-of LVDS1
+exec --no-startup-id xrandr --output VGA1 --mode 1440x900 --left-of LVDS1
+
+exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "Source Code Pro 10"

@@ -10,27 +10,25 @@
     ],
     "right": [
       {
+        "function": "powerline.segments.common.players.mpd",
+        "name": "player"
+      },
+      {
         "function": "segments.common.brightness.brightness"
       },
       {
         "function": "powerline.segments.common.bat.battery",
-        "args": {
-          "gamify": true,
-          "steps": 5
-        }
+        "gamify": true,
+        "steps": 5
+      }
+      {
+        "function": "powerline.segments.common.time",
+        "format": "%l:%M%P",
+        "istime": true
       },
       {
-        "function": "powerline.segments.common.time.date",
-        "args": {
-          "format": "%l:%M%P",
-          "istime": true
-        }
-      },
-      {
-        "function": "powerline.segments.common.time.date",
-        "args": {
-          "format": "%A, %b %e, %Y"
-        }
+        "function": "powerline.segments.common.time",
+        "format": "%A, %b %e, %Y"
       }
     ]
   }

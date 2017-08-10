@@ -1,6 +1,7 @@
 {
 	"common": {
-		"term_truecolor": true
+		"term_truecolor": true,
+		"paths": ["~/.config/powerline"]
 	},
 	"ext": {
 		"ipython": {
@@ -12,6 +13,10 @@
 				"in2": "in2"
 			}
 		},
+    "lemonbar": {
+      "colorscheme": "default",
+      "theme": "default"
+    },
 		"pdb": {
 			"colorscheme": "default",
 			"theme": "default"
@@ -47,10 +52,6 @@
 		"wm": {
 			"colorscheme": "default",
 			"theme": "default"
-		},
-    "lemonbar": {
-      "colorscheme": "default",
-      "theme": "default"
-    }
+		}
 	}
 }

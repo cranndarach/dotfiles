@@ -1,0 +1,6 @@
+{
+  "groups": {
+    "w_visible": {"fg": "gray10",     "bg": "gray1",     "attrs": []},
+    "workspace": {"fg": "white",      "bg": "lightblue", "attrs": ["bold"]}
+  }
+}
