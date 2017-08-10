@@ -9,7 +9,7 @@ AllowMenuAccelerators=true
 ShowMenuBarByDefault=false
 
 [MainWindow]
-Height 768=705
+Height 768=682
 Height 900=838
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAABUAAAALQAAAABAAAAAQAAAAIAAAACPwAAAAA
