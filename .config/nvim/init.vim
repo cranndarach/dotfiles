@@ -35,7 +35,9 @@ Plug 'vimwiki/vimwiki'
 Plug 'sickill/vim-pasta'
 Plug 'SirVer/UltiSnips'
 Plug 'honza/vim-snippets'
-" Plug 'roxma/nvim-completion-manager', {'do': 'npm install'}
+Plug 'roxma/nvim-completion-manager'
+" JS completion for nvim-completion-manager:
+Plug 'roxma/nvim-cm-tern', {'do': 'npm install'}
 Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'roxma/vim-tmux-clipboard'
@@ -297,6 +299,9 @@ if has ("persistent_undo")
 " nvim-completion-manager
 " don't give |ins-completion-menu| messages.
 set shortmess+=c
+" When menu is visible, <CR> hides the menu *and* inserts new line.
+" inoremap <expr> <CR> pumvisible() ? "\<c-y>\<cr>" : "\<CR>"
+" Use <Tab> to select popup menu
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 let g:UltiSnipsExpandTrigger = "<Plug>(ultisnips_expand)"
