@@ -197,7 +197,7 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-mode "workspaces" {
+mode "move workspaces" {
   bindsym $mod+Shift+h move workspace to output left
   bindsym $mod+Shift+j move workspace to output down
   bindsym $mod+Shift+k move workspace to output up
