@@ -29,6 +29,18 @@
 		"mediumpurple": 98,
 		"brightpurple": 189,
 
+		"warm_purple0": [53, "2c002c"],
+		"warm_purple1": [55, "6e016e"],
+		"warm_purple2": [92, "ae00ae"],
+		"warm_purple4": [129, "cc2ecc"],
+		"warm_purple5": [135, "ed68ed"],
+
+    "purple0": [53, "390150"],
+    "purple1": [55, "65038c"],
+    "purple2": [92, "9a08d3"],
+    "purple4": [129, "ad4bd4"],
+    "purple5": [135, "d0a0e3"],
+
 		"darkorange": 94,
 		"mediumorange": 166,
 		"brightorange": 208,

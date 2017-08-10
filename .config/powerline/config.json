@@ -1,7 +1,8 @@
 {
 	"common": {
 		"term_truecolor": true,
-		"paths": ["~/.config/powerline"]
+		"paths": ["~/.config/powerline"],
+		"default_top_theme": "powerline"
 	},
 	"ext": {
 		"ipython": {

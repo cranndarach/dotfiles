@@ -1,6 +1,16 @@
 {
+  "name": "Default",
   "groups": {
-    "w_visible": {"fg": "gray10",     "bg": "gray1",     "attrs": []},
-    "workspace": {"fg": "white",      "bg": "lightblue", "attrs": ["bold"]}
+    "background":                { "fg": "white", "bg": "purple0", "attrs": [] },
+    "background:divider":        { "fg": "gray5", "bg": "purple0", "attrs": [] },
+    "date":                      { "fg": "gray10", "bg": "purple1", "attrs": [] },
+    "time":                      { "fg": "gray10", "bg": "purple1", "attrs": ["bold"] },
+    "time:divider":              { "fg": "gray5", "bg": "purple1", "attrs": [] },
+    "battery":                   { "fg": "gray8", "bg": "purple2", "attrs": [] },
+    "brightness":                { "fg": "gray8", "bg": "purple3", "attrs": [] },
+    "w_visible":                 { "fg": "gray10", "bg": "purple1","attrs": []},
+    "workspace":                 { "fg": "white",  "bg": "lightblue", "attrs": ["bold"]},
+    "w_focused":                 { "fg": "white",  "bg": "purple5", "attrs": []},
+    "w_urgent":                  { "fg": "white", "bg": "purple3", "attrs": [] }
   }
 }
