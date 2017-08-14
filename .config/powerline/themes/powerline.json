@@ -20,6 +20,10 @@
 			}
 		},
 
+    "segments.common.brightness.brightness": {
+      "before": " "
+    },
+
 		"line_current_symbol": {
 			"contents": " "
 		},
@@ -129,10 +133,6 @@
 			"args": {
 				"text": "+"
 			}
-		},
-
-    "segments.wm.brightness.brightness": {
-      "before": " "
-    }
+		}
 	}
 }
