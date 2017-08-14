@@ -1,5 +1,4 @@
 {
-  "name": "Default",
   "groups": {
     "background":                { "fg": "white", "bg": "purple0", "attrs": [] },
     "background:divider":        { "fg": "gray5", "bg": "purple0", "attrs": [] },
@@ -7,10 +6,13 @@
     "time":                      { "fg": "gray10", "bg": "purple1", "attrs": ["bold"] },
     "time:divider":              { "fg": "gray5", "bg": "purple1", "attrs": [] },
     "battery":                   { "fg": "gray8", "bg": "purple2", "attrs": [] },
-    "brightness":                { "fg": "gray8", "bg": "purple3", "attrs": [] },
-    "w_visible":                 { "fg": "gray10", "bg": "purple1","attrs": []},
-    "workspace":                 { "fg": "white",  "bg": "lightblue", "attrs": ["bold"]},
-    "w_focused":                 { "fg": "white",  "bg": "purple5", "attrs": []},
-    "w_urgent":                  { "fg": "white", "bg": "purple3", "attrs": [] }
+    "battery_gradient":          { "fg": "white_red", "bg": "purple2", "attrs": [] },
+    "battery_full":              { "fg": "red", "bg": "purple2", "attrs": [] },
+    "battery_empty":             { "fg": "white", "bg": "purple2", "attrs": [] },
+    "brightness":                { "fg": "white", "bg": "purple3", "attrs": [] },
+    "workspace":                 { "fg": "gray0", "bg": "purple4","attrs": []},
+    "w_visible":                 { "fg": "gray0", "bg": "purple4","attrs": []},
+    "w_focused":                 { "fg": "white",  "bg": "purple1", "attrs": []},
+    "w_urgent":                  { "fg": "white", "bg": "purple2", "attrs": [] }
   }
 }

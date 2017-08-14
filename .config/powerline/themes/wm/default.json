@@ -2,7 +2,13 @@
   "segments": {
     "left": [
       {
-        "function": "powerline.segments.i3wm.workspaces"
+        "type": "segment_list",
+        "function": "powerline.listers.i3wm.workspace_lister",
+        "segments": [
+          {
+            "function": "powerline.segments.i3wm.workspace"
+          }
+        ]
       },
       {
         "function": "powerline.segments.i3wm.mode"
