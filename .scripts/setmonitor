@@ -32,7 +32,10 @@ case $CONNECTED in
         ;;
       *)
         notify-send "Unrecognized external monitor."
-        exit 1
+        xrandr --auto
+        xrandr --output VGA1 --left-of LVDS1
+        exit 0
+        # exit 1
         ;;
     esac
     ;;
