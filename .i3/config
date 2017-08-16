@@ -453,7 +453,7 @@ bar {
 
 	colors {
 #       background $transparent
-        background $i3_background
+        background #2d2d2d
         statusline $i3_text
         separator  $i3_separator
 
