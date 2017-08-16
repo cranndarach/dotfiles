@@ -224,7 +224,7 @@ load-nvmrc
 # for dir in $HOME/.gem/ruby/*; do
 #   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 # done
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 export PATH=$NVM_DIR/*/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH=~/.scripts:$PATH
