@@ -38,7 +38,9 @@ bindsym $mod+Return exec konsole
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_recency
+# bindsym $mod+d exec --no-startup-id dmenu_recency
+bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+Shift+d exec --no-startup-id rofi -show drun
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -155,6 +157,9 @@ bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# open the rofi power menu
+bindsym $mod+Escape exec ~/.scripts/rofi-power "i3-msg exit"
 
 #navigate workspaces next / previous
 # (leaving these in, but see above with Tab)
@@ -456,7 +461,7 @@ bar {
         focused_workspace   $i3_color6  $i3_color4  $i3_text
         active_workspace    $i3_color6  $i3_color3  $i3_color6
         inactive_workspace  $i3_color6  $i3_color9  $i3_color6
-        urgent_workspace    $i3_color4  $i3_color5  $i3_color7
+        urgent_workspace    $i3_color4  $i3_color13  $i3_color4
     }
 }
 
