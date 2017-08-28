@@ -19,6 +19,9 @@ fi
 # 
 export TERM="xterm-256color"
 export WMRCFILE="~/.i3/config"
+# Yes, there is a separate file for most aliases, but this belongs here.
+# alias lemon="python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f 'Source Code Pro-11' -f 'fontawesome-regular-12' -B '#390150'"
+export LEMON_CMD="python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f 'Source Code Pro-11' -f 'fontawesome-regular-12' -B '#390150'"
 
 export XDG_CONFIG_DIRS=~/.config:$XDG_CONFIG_DIRS
 export XDG_CONFIG_HOME=~/.config
