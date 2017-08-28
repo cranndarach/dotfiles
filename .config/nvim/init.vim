@@ -9,6 +9,8 @@ Plug 'tpope/vim-abolish'
 Plug 'vim-scripts/tComment'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'jiangmiao/auto-pairs'
+Plug 'junegunn/seoul256.vim'
+Plug 'jonathanfilip/vim-lucius'
 Plug 'alvan/vim-closetag'
 Plug 'myusuf3/numbers.vim'
 Plug 'klen/python-mode'
@@ -78,6 +80,9 @@ let &t_8f="[38;2;%lu%lu%lum"
 let &t_8b="[48;2;%lu%lu%lum"
 set termguicolors
 colorscheme molokai
+" let g:seoul256_background=235
+" let g:seoul256_srgb=1
+" colorscheme seoul256
 let g:airline_theme='powerlineish'
 highlight Normal ctermbg=none guibg=none
 highlight NonText ctermbg=none guibg=none
