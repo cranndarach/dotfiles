@@ -5,42 +5,45 @@
 # Check if there's a monitor connected to VGA
 CONNECTED=$(xrandr | awk '$1=="VGA1" { print $2 }')
 # echo $CONNECTED
-case $CONNECTED in
-  "disconnected")
-    # If there's no VGA monitor connected, then you're good.
-    xrandr --auto
-    notify-send "No external monitor connected."
-    exit 0
-    ;;
+setres () {
+  case $CONNECTED in
+    "disconnected")
+      # If there's no VGA monitor connected, then you're good.
+      xrandr --auto
+      notify-send "No external monitor connected."
+      # exit 0
+      ;;
 
-  "connected")
-    SIZE=$(xrandr | awk '$1=="VGA1" { print $12" x "$14 }')
-    case $SIZE in
-      "410mm x 260mm")
-        # Home monitor
-        xrandr --output VGA1 --mode 1440x900
-        xrandr --output VGA1 --left-of LVDS1
-        notify-send "Detected home monitor."
-        exit 0
-        ;;
-      "600mm x 340mm")
-        # School monitor
-        xrandr --output VGA1 --mode 1920x1080
-        xrandr --output VGA1 --above LVDS1
-        notify-send "Detected big monitor."
-        exit 0
-        ;;
-      *)
-        notify-send "Unrecognized external monitor."
-        xrandr --auto
-        xrandr --output VGA1 --left-of LVDS1
-        exit 0
-        # exit 1
-        ;;
-    esac
-    ;;
-  *)
-    notify-send "Unsure if there's an external monitor..."
-    exit 1
-    ;;
-esac
+    "connected")
+      SIZE=$(xrandr | awk '$1=="VGA1" { print $12" x "$14 }')
+      case $SIZE in
+        "410mm x 260mm")
+          # Home monitor
+          xrandr --output VGA1 --mode 1440x900
+          xrandr --output VGA1 --left-of LVDS1
+          notify-send "Detected home monitor."
+          # exit 0
+          ;;
+        "600mm x 340mm")
+          # School monitor
+          xrandr --output VGA1 --mode 1920x1080
+          xrandr --output VGA1 --above LVDS1
+          notify-send "Detected big monitor."
+          # exit 0
+          ;;
+        *)
+          notify-send "Unrecognized external monitor."
+          xrandr --auto
+          xrandr --output VGA1 --left-of LVDS1
+          # exit 0
+          ;;
+      esac
+      ;;
+    *)
+      notify-send "Unsure if there's an external monitor..."
+      # exit 1
+      ;;
+  esac
+}
+
+setres && killall lemonbar && $(eval $LEMON_CMD) &
