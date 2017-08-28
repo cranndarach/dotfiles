@@ -73,7 +73,9 @@ bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Insert --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym $mod+Shift+Insert --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+slash exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
@@ -541,6 +543,7 @@ mode "$mode_gaps_outer" {
 # exec --no-startup-id xrandr --output VGA1 --left-of LVDS1
 # exec --no-startup-id xrandr --output VGA1 --mode 1440x900 --left-of LVDS1
 
+exec --no-startup-id iris
 exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "Source Code Pro-11" -f "fontawesome-regular-12" -B "#390150"
 # exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "-misc-spacemono nerd font-medium-i-normal--0-0-0-0-p-0-iso10646-1"
 
