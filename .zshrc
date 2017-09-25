@@ -228,6 +228,7 @@ load-nvmrc
 #   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 # done
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
+export PATH=/opt/anaconda/bin:$PATH
 export PATH=$NVM_DIR/*/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH=~/.scripts:$PATH

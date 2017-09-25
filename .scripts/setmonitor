@@ -10,7 +10,9 @@ setres () {
     "disconnected")
       # If there's no VGA monitor connected, then you're good.
       xrandr --auto
+      eval $($LEMON_CMD) &
       notify-send "No external monitor connected."
+      # restart_bar=0
       # exit 0
       ;;
 
@@ -22,6 +24,7 @@ setres () {
           xrandr --output VGA1 --mode 1440x900
           xrandr --output VGA1 --left-of LVDS1
           notify-send "Detected home monitor."
+          # restart_bar=1
           # exit 0
           ;;
         "600mm x 340mm")
@@ -29,12 +32,14 @@ setres () {
           xrandr --output VGA1 --mode 1920x1080
           xrandr --output VGA1 --above LVDS1
           notify-send "Detected big monitor."
+          # restart_bar=1
           # exit 0
           ;;
         *)
           notify-send "Unrecognized external monitor."
           xrandr --auto
           xrandr --output VGA1 --left-of LVDS1
+          # restart_bar=1
           # exit 0
           ;;
       esac
@@ -46,4 +51,4 @@ setres () {
   esac
 }
 
-setres && killall lemonbar && $(eval $LEMON_CMD) &
+setres && killall lemonbar ; eval $LEMON_CMD &

@@ -27,6 +27,7 @@ alias py="python"
 alias br="bin/rails"
 # alias rails="bin/rails"
 alias railsg="~/.gem/ruby/2.3.0/bin/rails"
+alias gaepub="gcloud app deploy"
 
 alias rc="$EDITOR $RCFILE && source $RCFILE"
 alias aliases="$EDITOR ~/.zsh_aliases && source ~/.zsh_aliases"
@@ -47,24 +48,14 @@ alias vim=nvim
 alias vimwiki="nvim ~/vimwiki/index.wiki --cmd 'cd ~/vimwiki'"
 # alias vimwiki="oni ~/vimwiki/index.wiki --cmd 'cd ~/vimwiki'"
 
-alias hyper="Hyper"
 alias ghost="gs"	# I am used to "gs" as "git status"
 alias view="$VIEWER"
 alias ipy="ipython"
 alias jupy="jupyter notebook"
+alias psychopy="/usr/bin/psychopyApp.py -b &"
 
 # Common typos
-alias firefix="/usr/bin/firefox"
-alias firefix-dev="/opt/firefox-developer/firefox"
 alias nom="npm"
-
-# Programs stored in /opt
-alias telegram="/opt/Telegram/Telegram"
-alias micro="/opt/micro/micro"
-alias firefox-dev="/opt/firefox-developer/firefox"
-alias extraterm="/opt/extraterm/extraterm"
-alias exercism="/opt/exercism/exercism"
-alias marp="/opt/marp/Marp"
 
 # My own programs
 # alias lifetracker="~/.scripts/LifeTracker/LifeTracker"

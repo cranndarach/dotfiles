@@ -39,8 +39,8 @@ bindsym $mod+Shift+q kill
 
 # start program launcher
 # bindsym $mod+d exec --no-startup-id dmenu_recency
-bindsym $mod+d exec --no-startup-id rofi -show run
-bindsym $mod+Shift+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec --no-startup-id zsh -c "rofi -show run"
+bindsym $mod+Shift+d exec --no-startup-id zsh -c "rofi -show drun"
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -70,14 +70,13 @@ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 # bindsym $mod+F5 exec terminal -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
-bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
+bindsym $mod+Mod1+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Insert --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+Insert --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+slash exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
-bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
 # Trying this -- might turn off
 focus_follows_mouse no
@@ -260,12 +259,16 @@ bindsym $mod+Ctrl+F9 move container to workspace $ws19; workspace $ws19
 bindsym $mod+Ctrl+F10 move container to workspace $ws20; workspace $ws20
 
 # Open applications on specific workspaces
-# assign [class="Thunderbird"] $ws1
-# assign [class="Pale moon"] $ws2
-# assign [class="Pcmanfm"] $ws3
-# assign [class="Skype"] $ws5
-assign [title="LifeTracker"] $w8
+# Browsers on w2
+assign [class="Pale moon"] $w2
+assign [class="Google-chrome"] $w2
 assign [class="Firefox"] $w2
+# Messaging apps on w4
+assign [class="Slack"] $w4
+assign [class="Telegram"] $w4
+# Life management programs on w8
+assign [title="LifeTracker"] $w8
+assign [title="Toggl Desktop"] $w8
 assign [title="GitKraken"] $w6
 
 # Open specific applications in floating mode
@@ -539,12 +542,6 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
-# For the time being, set VGA monitor appropriately.
-# exec --no-startup-id xrandr --output VGA1 --left-of LVDS1
-# exec --no-startup-id xrandr --output VGA1 --mode 1440x900 --left-of LVDS1
-
 exec --no-startup-id iris
-exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "Source Code Pro-11" -f "fontawesome-regular-12" -B "#390150"
-# exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "-misc-spacemono nerd font-medium-i-normal--0-0-0-0-p-0-iso10646-1"
-
-# exec --no-startup-id setmonitor
+exec --no-startup-id eval $LEMON_CMD
+# exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "Source Code Pro-11" -f "fontawesome-regular-12" -B "#390150"

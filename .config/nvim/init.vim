@@ -62,6 +62,9 @@ filetype plugin indent on
 " Show line numbers
 set number
 
+" Search the top five lines for a filetype definition
+set modelines=5
+
 " Turn off mode-sensitive cursor shape
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
 
@@ -111,6 +114,11 @@ set copyindent
 " Always show cursor position
 set ruler
 
+" fold according to syntax
+set foldmethod=syntax
+" if it doesn't work in things other than js, try indent:
+" set foldmethod=indent
+" nnoremap za zA
 " Do not fold unless explicitly asked
 set nofoldenable
 
