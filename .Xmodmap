@@ -250,3 +250,4 @@ keycode 255 =
 keycode 66 = Control_L
 clear Lock
 add Control = Control_L
+keycode 135 = Multi_key
