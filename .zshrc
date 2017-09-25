@@ -28,6 +28,7 @@ autoload -U compinit && compinit
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/rachael/.oh-my-zsh
+# export ZSH=/usr/share/oh-my-zsh
 
 # source ~/.zsh_colors
 
@@ -36,7 +37,8 @@ export ZSH=/home/rachael/.oh-my-zsh
 ################
 
 # Using an awesome font
-POWERLEVEL9K_MODE='nerd-font-complete'
+# POWERLEVEL9K_MODE='nerd-font-complete'
+POWERLEVEL9K_MODE='awesome-fontconfig'
 
 # Prompt sections
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context anaconda virtualenv dir)
