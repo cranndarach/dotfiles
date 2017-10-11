@@ -34,3 +34,6 @@
 ! white
 *.color7:       #ccccc6
 *.color15:      #f8f8f2
+
+! Set cursor size
+Xcursor.size: 16

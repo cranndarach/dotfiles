@@ -3,7 +3,7 @@
 # STATUS=$(xrandr)
 
 # Check if there's a monitor connected to VGA
-CONNECTED=$(xrandr | awk '$1=="VGA1" { print $2 }')
+CONNECTED=$(xrandr | awk '$1=="HDMI2" { print $2 }')
 # echo $CONNECTED
 setres () {
   case $CONNECTED in
@@ -17,20 +17,21 @@ setres () {
       ;;
 
     "connected")
-      SIZE=$(xrandr | awk '$1=="VGA1" { print $12" x "$14 }')
+      SIZE=$(xrandr | awk '$1=="HDMI2" { print $12" x "$14 }')
       case $SIZE in
         "410mm x 260mm")
           # Home monitor
-          xrandr --output VGA1 --mode 1440x900
-          xrandr --output VGA1 --left-of LVDS1
-          notify-send "Detected home monitor."
+          xrandr --output HDMI2 --mode 1440x900
+          xrandr --output HDMI2 --left-of eDP1
+          notify-send "Detected small monitor."
           # restart_bar=1
           # exit 0
           ;;
         "600mm x 340mm")
           # School monitor
-          xrandr --output VGA1 --mode 1920x1080
-          xrandr --output VGA1 --above LVDS1
+          # xrandr --output HDMI2 --mode 1920x1080
+          xrandr --output HDMI2 --mode 2560x1440
+          xrandr --output HDMI2 --above eDP1
           notify-send "Detected big monitor."
           # restart_bar=1
           # exit 0
@@ -38,7 +39,7 @@ setres () {
         *)
           notify-send "Unrecognized external monitor."
           xrandr --auto
-          xrandr --output VGA1 --left-of LVDS1
+          xrandr --output HDMI2 --left-of eDP1
           # restart_bar=1
           # exit 0
           ;;

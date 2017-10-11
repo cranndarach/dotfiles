@@ -14,3 +14,8 @@ export EDITOR=nvim
 export GH=git@github.com:cranndarach/
 # Alias `hub` as `git`
 eval "$(hub alias -s)"
+
+# Allow command completion for gcloud
+source ~/.local/lib/google-cloud-sdk/completion.zsh.inc
+# Add gcloud SDK command line tools to $PATH
+source ~/.local/lib/google-cloud-sdk/path.zsh.inc

@@ -8,6 +8,12 @@ fi
 
 # export USER="oak"
 
+export FONTAWESOME=/usr/share/fonts/awesome-terminal-fonts
+source $FONTAWESOME/devicons-regular.sh
+source $FONTAWESOME/fontawesome-regular.sh
+source $FONTAWESOME/octicons-regular.sh
+source $FONTAWESOME/pomicons-regular.sh
+
 if [[ -f /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
   # Mint (outdated?)
   source /usr/share/powerline/bindings/zsh/powerline.zsh
@@ -21,7 +27,7 @@ export TERM="xterm-256color"
 export WMRCFILE="~/.i3/config"
 # Yes, there is a separate file for most aliases, but this belongs here.
 # alias lemon="python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f 'Source Code Pro-11' -f 'fontawesome-regular-12' -B '#390150'"
-export LEMON_CMD="python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f 'Source Code Pro-11' -f 'fontawesome-regular-12' -B '#390150'"
+export LEMON_CMD="/usr/bin/python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f 'SauceCodePro Nerd Font Mono-11' -f 'fontawesome-regular-12' -B '#390150'"
 
 export XDG_CONFIG_DIRS=~/.config:$XDG_CONFIG_DIRS
 export XDG_CONFIG_HOME=~/.config
@@ -230,7 +236,7 @@ load-nvmrc
 #   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 # done
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
-export PATH=/opt/anaconda/bin:$PATH
+export PATH=$HOME/anaconda3/bin:$PATH
 export PATH=$NVM_DIR/*/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH=~/.scripts:$PATH

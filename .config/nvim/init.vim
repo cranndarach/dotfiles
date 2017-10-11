@@ -37,6 +37,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'sickill/vim-pasta'
 Plug 'SirVer/UltiSnips'
 Plug 'honza/vim-snippets'
+Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
 Plug 'roxma/nvim-completion-manager'
 " JS completion for nvim-completion-manager:
 Plug 'roxma/nvim-cm-tern', {'do': 'npm install'}
@@ -118,9 +119,9 @@ set ruler
 set foldmethod=syntax
 " if it doesn't work in things other than js, try indent:
 " set foldmethod=indent
-" nnoremap za zA
+nnoremap za zA
 " Do not fold unless explicitly asked
-set nofoldenable
+" set nofoldenable
 
 " Use 2 spaces instead of 4 in ruby and eruby (and js when appropriate)
 " autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
@@ -130,6 +131,9 @@ set nofoldenable
 
 " Use 4 spaces instead of 2 in python and maybe others
 au FileType python setlocal shiftwidth=4 tabstop=4 expandtab
+
+" in some cases, move the color column and line width
+au FileType markdown setlocal colorcolumn=160  textwidth=159
 
 " Use shiftwidth when indenting with `>>` and `<<`
 set shiftround
@@ -223,7 +227,7 @@ nnoremap <Leader>[ :bN<CR>
 
 " Reflow paragraph or selection with `rf` (in normal and visual modes
 " for markdown and tex files, and just visual modes for everything else)
-au BufNewFile,BufRead *.md,*.tex,*.wiki nnoremap rf gqip
+au BufNewFile,BufRead *.md,*.tex,*.wiki,*.html nnoremap rf gqip
 vnoremap rf gq
 
 " Unbind the cursor keys in insert, normal and visual modes.
@@ -302,6 +306,9 @@ let g:vim_json_syntax_conceal=0
 
 " Do not autocomplete on `.`
 let g:pymode_rope_complete_on_dot = 0
+
+" Use python3 syntax for linting
+let g:pymode_python="python3"
 
 " Save undo history to a single directory
 if has ("persistent_undo")

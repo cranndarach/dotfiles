@@ -17,12 +17,12 @@
         "function": "segments.common.brightness.brightness"
       },
       {
+        "function": "powerline.segments.common.bat.battery"
+      },
+      {
         "function": "powerline.segments.common.bat.battery",
         "gamify": true,
         "steps": 5
-      },
-      {
-        "function": "powerline.segments.common.bat.battery"
       },
       {
         "function": "powerline.segments.common.time",
