@@ -33,17 +33,19 @@ floating_modifier $mod
 # bindsym $mod+Return exec terminal
 # bindsym $mod+Return exec tilix -a app-new-window
 bindsym $mod+Return exec konsole
+bindsym $mod+x exec konsole
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start program launcher
 # bindsym $mod+d exec --no-startup-id dmenu_recency
-bindsym $mod+Shift+d exec --no-startup-id zsh -c "rofi -show run"
+# bindsym $mod+Shift+d exec --no-startup-id zsh -c "rofi -show run"
 bindsym $mod+d exec --no-startup-id zsh -c "rofi -show drun"
 
 # launch categorized menu
-bindsym $mod+z exec --no-startup-id morc_menu
+# bindsym $mod+z exec --no-startup-id morc_menu
+bindsym $mod+Shift+d exec --no-startup-id morc_menu
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
