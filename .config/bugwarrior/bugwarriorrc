@@ -1,0 +1,23 @@
+# vim: set ft=config:
+
+[general]
+targets = github
+shorten = True
+
+[github]
+service = github
+
+# username is the repos to look for
+github.username = cranndarach
+
+# login is for authentication
+github.login = cranndarach
+github.token = @oracle:eval:cat ~/.bugwarrior_github_access
+
+# Don't pull from anything by default
+# github.include_user_repos = False
+github.include_repos = kiloperf
+
+# tag all entries at "github"
+github.add_tags = github
+github.import_labels_as_tags = True

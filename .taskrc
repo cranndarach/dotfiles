@@ -13,13 +13,14 @@ data.location=~/.task/
 #include ~/.config/task/themes/dark-256.theme
 # include ~/.config/task/themes/dark-red-256.theme
 # include ~/.config/task/themes/dark-green-256.theme
-include ~/.config/task/themes/dark-blue-256.theme
+# include ~/.config/task/themes/dark-blue-256.theme
 # include ~/.config/task/themes/dark-violets-256.theme
 #include ~/.config/task/themes/dark-yellow-green.theme
 #include ~/.config/task/themes/dark-gray-256.theme
 # include ~/.config/task/themes/dark-gray-blue-256.theme
 # include ~/.config/task/themes/solarized-dark-256.theme
 #include ~/.config/task/themes/solarized-light-256.theme
+include ~/.config/task/themes/solarized-16.theme
 #include ~/.config/task/themes/no-color.theme
 
 # include ~/.themes/taskwarrior-base16-monokai.theme
@@ -31,7 +32,7 @@ dateformat=m/d/y
 
 uda.importance.type=string
 uda.importance.label=Importance
-uda.importance.values=critical,important,moderate,normal,low,minimal
+uda.importance.values=critical,important,moderate,normal,low,negligible
 uda.importance.default=normal
 
 uda.size.type=string
@@ -41,14 +42,32 @@ uda.size.default=normal
 
 uda.difficulty.type=string
 uda.difficulty.label=Difficulty
-uda.difficulty.values=scream,overwhelming,v-hard,hard,ehh,normal,not-bad,simple,painless
+uda.difficulty.values=scream,overwhelming,v-hard,hard,tricky,moderate,normal,not-bad,simple,painless
 uda.difficulty.default=normal
 
 # Urgency modifiers
 urgency.user.project.Health.coefficient=10.0
-urgency.uda.importance.coefficient=6.0
+
 urgency.user.tag.mit.coefficient=15.0
-urgency.uda.size.coefficient=3.0
+urgency.user.tag.today.coefficient=15.0
+
+urgency.uda.importance.critical.coefficient=9.0
+urgency.uda.importance.important.coefficient=5.0
+urgency.uda.importance.moderate.coefficient=2.5
+urgency.uda.importance.normal.coefficient=1.0
+urgency.uda.importance.low.coefficient=0.75
+urgency.uda.importance.minimal.coefficient=0.25
+
+urgency.uda.size.biggish.coefficient=1.25
+urgency.uda.size.big.coefficient=1.5
+urgency.uda.size.huge.coefficient=2
+urgency.uda.size.small.coefficient=1.25
+urgency.uda.size.quick.coefficient=1.5
+urgency.uda.size.tiny.coefficient=2
+
+urgency.uda.difficulty.simple.coefficient=1.25
+urgency.uda.difficulty.painless.coefficient=1.5
+
 
 # Headers
 report.next.columns=id,depends,project,importance,difficulty,size,due.formatted,due.remaining,description,urgency,tags
@@ -74,3 +93,6 @@ report._reviewed.filter=( reviewed.none: or reviewed.before:now-1week ) and ( +P
 context.school=+research or +class or +academic
 context.home=+home or +life or +general
 context.study=+study or +special-interest or +si or +info
+urgency.uda.priority.L.coefficient=-2.5
+context.it=project:IT
+context=it
