@@ -174,12 +174,14 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $w1 "1: "
+# set $w1 "1: "
+set $w1 "1: "
 set $w2 "2: "
-set $w3 "3: "
+set $w3 "3: "
+# set $w3 "3: "
 set $w4 "4: "
 set $w5 "5: "
-set $w6 "6: "
+set $w6 "6: "
 set $w7 "7: "
 set $w8 "8: "
 set $w9 "9: "
