@@ -4,7 +4,7 @@ CURRENT=$(setxkbmap -query | awk '$1=="layout:" { print $2 }')
 
 case $CURRENT in
   "us")
-    NEW="he"
+    NEW="il"
     ;;
   *)
     NEW="us"
@@ -12,4 +12,4 @@ case $CURRENT in
 esac
 
 setxkbmap $NEW
-notify-send "Keyboard layout set to $NEW."
+notify-send "Keyboard layout switched from $CURRENT to $NEW."

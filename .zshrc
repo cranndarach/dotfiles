@@ -230,6 +230,7 @@ load-nvmrc
 # done
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 export PATH=$HOME/anaconda3/bin:$PATH
+# export PATH=$PATH:$HOME/anaconda3/bin
 export PATH=$NVM_DIR/*/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH=~/.scripts:$PATH
@@ -243,6 +244,6 @@ export PATH=/home/rachael/.nvm/*/bin:$PATH
 
 # Greet me and show my to-do list once everything is loaded.
 echo "Hello, $USER!"
-# echo "Here's your current to-do list:"
-# echo
-# task
+echo "Here's your current to-do list:"
+echo
+task

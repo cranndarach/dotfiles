@@ -16,7 +16,17 @@
     ],
     "right": [
       {
+        "function": "powerline.segments.common.players.spotify",
+        "name": "player",
+        "args": {
+          "format": "{state_symbol} {title} - {artist} ({elapsed}/{total})"
+        }
+      },
+      {
         "function": "segments.common.brightness.brightness"
+      },
+      {
+        "function": "powerline.segments.common.bat.battery"
       },
       {
         "function": "powerline.segments.common.bat.battery",
