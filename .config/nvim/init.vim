@@ -133,7 +133,7 @@ nnoremap za zA
 au FileType python setlocal shiftwidth=4 tabstop=4 expandtab
 
 " in some cases, move the color column and line width
-au FileType markdown,vimwiki setlocal colorcolumn=160  textwidth=159
+au FileType markdown,vimwiki,tex setlocal colorcolumn=160  textwidth=159
 
 " Use shiftwidth when indenting with `>>` and `<<`
 set shiftround
