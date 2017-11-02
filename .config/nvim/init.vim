@@ -14,6 +14,7 @@ Plug 'jonathanfilip/vim-lucius'
 Plug 'alvan/vim-closetag'
 Plug 'myusuf3/numbers.vim'
 Plug 'klen/python-mode'
+Plug 'Yggdroot/indentLine'
 " Plug 'vim-syntastic/syntastic'
 " Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
@@ -25,7 +26,11 @@ Plug 'luochen1990/rainbow'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'duggiefresh/vim-easydir'
-Plug 'ap/vim-css-color'
+" Plug 'ap/vim-css-color'
+Plug 'lepture/vim-css'
+Plug 'gorodinskiy/vim-coloresque'
+" Plug 'chrisyip/Better-CSS-Syntax-for-Vim'
+" Plug 'hail2u/vim-css3-syntax'
 " Plug 'isRuslan/vim-es6'
 Plug 'airblade/vim-gitgutter'
 " Plug 'elzr/vim-json'
@@ -297,9 +302,11 @@ augroup end
 nnoremap <Leader>n :NERDTreeToggle<CR>
 
 " UltiSnips mappings
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsExpandTrigger="<CR>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
+" let g:UltiSnipsJumpForwardTrigger="<c-b>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Don't hide markup characters in JSON
 let g:vim_json_syntax_conceal=0
@@ -320,11 +327,9 @@ if has ("persistent_undo")
 " don't give |ins-completion-menu| messages.
 set shortmess+=c
 " When menu is visible, <CR> hides the menu *and* inserts new line.
-" inoremap <expr> <CR> pumvisible() ? "\<c-y>\<cr>" : "\<CR>"
 " Use <Tab> to select popup menu
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-let g:UltiSnipsExpandTrigger = "<Plug>(ultisnips_expand)"
 inoremap <silent> <c-u> <c-r>=cm#sources#ultisnips#trigger_or_popup("\<Plug>(ultisnips_expand)")<cr>
 
 """""""""""
