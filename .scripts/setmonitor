@@ -31,7 +31,8 @@ setres () {
           # School monitor
           # xrandr --output HDMI2 --mode 1920x1080
           xrandr --output HDMI2 --mode 2560x1440
-          xrandr --output HDMI2 --above eDP1
+          xrandr --output eDP1 --below HDMI2
+          # xrandr --output HDMI2 --above eDP1
           notify-send "Detected big monitor."
           # restart_bar=1
           # exit 0
@@ -39,7 +40,8 @@ setres () {
         *)
           notify-send "Unrecognized external monitor."
           xrandr --auto
-          xrandr --output HDMI2 --left-of eDP1
+          xrandr --output eDP1 --below HDMI2
+          # xrandr --output HDMI2 --left-of eDP1
           # restart_bar=1
           # exit 0
           ;;

@@ -16,7 +16,7 @@
     ],
     "right": [
       {
-        "function": "powerline.segments.common.players.spotify",
+        "function": "powerline.segments.common.players.spotify_dbus",
         "name": "player",
         "args": {
           "format": "{state_symbol} {title} - {artist} ({elapsed}/{total})"
@@ -27,13 +27,6 @@
       },
       {
         "function": "powerline.segments.common.bat.battery"
-      },
-      {
-        "function": "powerline.segments.common.bat.battery",
-        "args": {
-          "gamify": true,
-          "steps": 5
-        }
       },
       {
         "function": "powerline.segments.common.time.date",

@@ -93,5 +93,5 @@ report._reviewed.filter=( reviewed.none: or reviewed.before:now-1week ) and ( +P
 context.school=+research or +class or +academic
 context.home=+home or +life or +general
 context.study=+study or +special-interest or +si or +info
-urgency.uda.priority.L.coefficient=-2.5
+urgency.uda.priority.L.coefficient=-1.5
 context.it=project:IT
