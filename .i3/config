@@ -274,7 +274,7 @@ assign [class="Telegram"] $w4
 # Life management programs on w8
 assign [title="LifeTracker"] $w8
 assign [title="Toggl Desktop"] $w8
-assign [title="GitKraken"] $w6
+assign [title="GitKraken"] $w3
 # Iris in the scratchpad
 for_window [class="Iris"] move scratchpad
 
@@ -552,8 +552,10 @@ mode "$mode_gaps_outer" {
 # exec --no-startup-id ~/.local/bin/iris
 exec --no-startup-id pa-applet
 exec --no-startup-id start-pulseaudio-x11
-exec --no-startup-id ~/.scripts/setmonitor
+# exec --no-startup-id ~/.scripts/setmonitor
 exec --no-startup-id nitrogen --restore
+# exec --no-startup-id konsole -e "~/.scripts/setmonitor"
+exec --no-startup-id konsole -e /bin/zsh -c "~/.scripts/setmonitor && tmux"
 # exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper/mine_21344038601_d94a0bb13e_k.jpg
-exec --no-startup-id eval $LEMON_CMD
+# exec --no-startup-id eval $LEMON_CMD
 # exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "Source Code Pro-11" -f "fontawesome-regular-12" -B "#390150"
