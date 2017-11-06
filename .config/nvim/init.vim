@@ -43,9 +43,9 @@ Plug 'sickill/vim-pasta'
 Plug 'SirVer/UltiSnips'
 Plug 'honza/vim-snippets'
 Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
-Plug 'roxma/nvim-completion-manager'
+" Plug 'roxma/nvim-completion-manager'
 " JS completion for nvim-completion-manager:
-Plug 'roxma/nvim-cm-tern', {'do': 'npm install'}
+" Plug 'roxma/nvim-cm-tern', {'do': 'npm install'}
 Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'roxma/vim-tmux-clipboard'
@@ -302,11 +302,19 @@ augroup end
 nnoremap <Leader>n :NERDTreeToggle<CR>
 
 " UltiSnips mappings
-let g:UltiSnipsExpandTrigger="<CR>"
+let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
+" let g:UltiSnipsJumpForwardTrigger="<c-n>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-p>"
 " let g:UltiSnipsJumpForwardTrigger="<c-b>"
 " let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" Tell UltiSnips to look in nvim config folders for snippets
+let g:UltiSnipsSnippetDirectories = ["~/.config/nvim/UltiSnips", "UltiSnips"]
+
+" Enable deoplete by default
+let g:deoplete#enable_at_startup = 1
 
 " Don't hide markup characters in JSON
 let g:vim_json_syntax_conceal=0
@@ -325,12 +333,12 @@ if has ("persistent_undo")
 
 " nvim-completion-manager
 " don't give |ins-completion-menu| messages.
-set shortmess+=c
+" set shortmess+=c
 " When menu is visible, <CR> hides the menu *and* inserts new line.
 " Use <Tab> to select popup menu
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-inoremap <silent> <c-u> <c-r>=cm#sources#ultisnips#trigger_or_popup("\<Plug>(ultisnips_expand)")<cr>
+" inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" inoremap <silent> <c-u> <c-r>=cm#sources#ultisnips#trigger_or_popup("\<Plug>(ultisnips_expand)")<cr>
 
 """""""""""
 " Vimwiki "
