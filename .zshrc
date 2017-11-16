@@ -225,9 +225,9 @@ load-nvmrc
 
 # export GOOGLE_APPLICATION_CREDENTIALS=~/.google-service-credentials.json
 # export GEM_HOME=$HOME/.gem
-# for dir in $HOME/.gem/ruby/*; do
-#   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
-# done
+for dir in $HOME/.gem/ruby/*; do
+  [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
+done
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 export PATH=$HOME/anaconda3/bin:$PATH
 # export PATH=$PATH:$HOME/anaconda3/bin
