@@ -76,6 +76,18 @@
 		"skyblue1": 117,
 		"khaki1": 228,
 
+		"monokai:bg": [0, "272822"],
+		"monokai:fg": [0, "f8f8f2"],
+    "monokai:gray": [0, "75715e"],
+    "monokai:red": [0, "f92672"],
+    "monokai:green": [0, "a6e22e"],
+    "monokai:yellow": [0, "f4bf75"],
+    "monokai:blue": [0, "66d9ef"],
+    "monokai:purple": [0, "ae81ff"],
+    "monokai:cyan": [0, "a1efe4"],
+    "monokai:white": [0, "f9f8f5"],
+
+
 		"solarized:base03": [8, "002b36"],
 		"solarized:base02": [0, "073642"],
 		"solarized:base01": [10, "586e75"],

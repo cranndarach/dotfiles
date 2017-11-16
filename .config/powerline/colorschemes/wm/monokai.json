@@ -1,0 +1,22 @@
+{
+  "groups": {
+    "background":                { "fg": "monokai:bg", "bg": "monokai:bg", "attrs": [] },
+    "background:divider":        { "fg": "monokai:gray", "bg": "monokai:bg", "attrs": [] },
+    "date":                      { "fg": "monokai:fg", "bg": "monokai:purple", "attrs": [] },
+    "time":                      { "fg": "monokai:fg", "bg": "monokai:purple", "attrs": ["bold"] },
+    "time:divider":              { "fg": "monokai:gray", "bg": "monokai:purple", "attrs": [] },
+    "battery":                   { "fg": "monokai:bg", "bg": "monokai:blue", "attrs": [] },
+    "brightness":                { "fg": "monokai:bg", "bg": "monokai:green", "attrs": [] },
+    "mode":                      { "fg": "monokai:bg", "bg": "monokai:cyan", "attrs": [] },
+    "player":                    { "fg": "monokai:bg", "bg": "monokai:cyan", "attrs": [] },
+    "player_play":               { "fg": "monokai:bg", "bg": "monokai:cyan", "attrs": [] },
+    "player_pause":              { "fg": "monokai:bg", "bg": "monokai:cyan", "attrs": [] },
+    "player_stop":               { "fg": "monokai:bg", "bg": "monokai:cyan", "attrs": [] },
+    "player_fallback":           { "fg": "monokai:bg", "bg": "monokai:cyan", "attrs": [] },
+    "workspace":                 { "fg": "monokai:bg", "bg": "monokai:gray","attrs": []},
+    "w_visible":                 { "fg": "monokai:fg", "bg": "monokai:gray","attrs": []},
+    "w_focused":                 { "fg": "monokai:fg",  "bg": "monokai:purple", "attrs": []},
+    "w_urgent":                  { "fg": "monokai:fg", "bg": "monokai:red", "attrs": [] }
+  }
+}
+

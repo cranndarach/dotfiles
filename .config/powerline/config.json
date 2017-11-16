@@ -51,7 +51,7 @@
 			}
 		},
 		"wm": {
-			"colorscheme": "default",
+			"colorscheme": "monokai",
 			"theme": "default"
 		}
 	}
