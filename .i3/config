@@ -370,7 +370,7 @@ mode "move workspaces" {
 bindsym $mod+m mode "move workspaces"
 
 # Lock screen
-bindsym $mod+Shift+End exec --no-startup-id blurlock
+bindsym $mod+Shift+End exec --no-startup-id runi3lock
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -553,7 +553,7 @@ mode "$mode_gaps_outer" {
 exec --no-startup-id pa-applet
 exec --no-startup-id start-pulseaudio-x11
 # exec --no-startup-id ~/.scripts/setmonitor
-exec --no-startup-id nitrogen --restore
+# exec --no-startup-id nitrogen --restore
 # exec --no-startup-id konsole -e "~/.scripts/setmonitor"
 exec --no-startup-id konsole -e /bin/zsh -c "~/.scripts/setmonitor && tmux"
 # exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper/mine_21344038601_d94a0bb13e_k.jpg
