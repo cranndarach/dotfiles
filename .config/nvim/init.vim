@@ -360,7 +360,7 @@ function! MyVimwikiOptions()
 endfunction
 
 let g:vimwiki_list=[{},
-      \ {"path": "~/projects/tutorials/git-tutorial"}]
+      \ {"path": "~/projects/tutorials/git-tutorial", "auto_tags": 1}]
 
 ""UI""
 " Set a different color for each vimwiki header level
