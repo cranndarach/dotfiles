@@ -223,8 +223,7 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# export GOOGLE_APPLICATION_CREDENTIALS=~/.google-service-credentials.json
-# export GEM_HOME=$HOME/.gem
+export GEM_HOME=$HOME/.gem
 for dir in $HOME/.gem/ruby/*; do
   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 done
