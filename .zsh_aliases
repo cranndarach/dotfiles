@@ -40,7 +40,8 @@ alias wmrc="$EDITOR $WMRCFILE"
 alias pwsetup="powerline-config tmux setup && powerline-daemon --replace"
 
 alias t="task"
-alias trc="$EDITOR ~/.taskrc"
+alias trc="$EDITOR ~/.taskrc && task"
+alias ttheme="$EDITOR ~/.config/task/themes/custom.theme && task"
 alias tash="tasksh"
 alias depends="echo 'Other tasks that this task depends on.'"
 
