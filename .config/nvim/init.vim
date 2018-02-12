@@ -347,6 +347,14 @@ if has ("persistent_undo")
 " Vimwiki "
 """""""""""
 
+" don't conceal characters on current line
+let g:conceallevel=0
+" Specifically, prevent indentLine from starting, because it sets conceallevel
+autocmd FileType markdown,vimwiki let g:indentLine_enabled=0
+
+" Don't conceal/shorten links.
+" let g:vimwiki_url_maxsave=0
+
 au FileType vimwiki call MyVimwikiOptions()
 function! MyVimwikiOptions()
     " Turn into a list item, or change symbol of item to *
@@ -360,6 +368,8 @@ function! MyVimwikiOptions()
     " Increase/decrease item and all its children with >>> / <<<
     map >>> <Plug>VimwikiIncreaseLvlWholeItem
     map <<< <Plug>VimwikiDecreaseLvlWholeItem
+
+    " let g:vimwiki_conceallevel=0
 endfunction
 
 let g:vimwiki_list=[{},
