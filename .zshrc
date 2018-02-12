@@ -232,6 +232,9 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Make pandoc available to RStudio
+export RSTUDIO_PANDOC=$HOME/anaconda3/bin
+
 export GEM_HOME=$HOME/.gem
 for dir in $HOME/.gem/ruby/*; do
   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
@@ -249,9 +252,11 @@ for dir in $HOME/.nvm/versions/node/*; do
 done
 # export PATH=/opt/Telegram:$PATH
 export PATH=/home/rachael/.nvm/*/bin:$PATH
+export PATH=/home/rachael/.local/misc/pycharm/bin:$PATH
 
 # Greet me and show my to-do list once everything is loaded.
-echo "Hello, $USER!"
-echo "Here's your current to-do list:"
 echo
-task
+echo "Hello, $USER!"
+# echo "Here's your current to-do list:"
+# echo
+# task
