@@ -10,10 +10,12 @@ Plug 'vim-scripts/tComment'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/seoul256.vim'
+Plug 'kien/ctrlp.vim'
+" Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
 Plug 'jonathanfilip/vim-lucius'
 Plug 'alvan/vim-closetag'
 Plug 'myusuf3/numbers.vim'
-Plug 'klen/python-mode'
+Plug 'python-mode/python-mode', {'branch': 'develop'}
 Plug 'Yggdroot/indentLine'
 " Plug 'vim-syntastic/syntastic'
 " Plug 'pangloss/vim-javascript'
@@ -248,6 +250,7 @@ augroup docstring
 augroup end
 
 au BufNewFile,BufRead *.js nnoremap ;; :s/\(function\)\ \([a-zA-Z]\+\)/exports.\2 = \1<CR>
+
 
 """""""""""""""""""""
 """Plugin settings"""
