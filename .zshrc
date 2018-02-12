@@ -190,6 +190,15 @@ source ~/.zsh_functions
 # Enable powerline
 source /usr/lib/python3.6/site-packages/powerline/bindings
 
+# Source fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Source autoenv
+[ -f /usr/share/autoenv/activate.sh ] && source /usr/share/autoenv/activate.sh
+
+# Activate direnv
+# eval "$(direnv hook zsh)"
+
 ###-nativescript-completion-start-###
 if [ -f /home/rachael/.tnsrc ]; then 
     source /home/rachael/.tnsrc 
