@@ -10,7 +10,7 @@ setres () {
     "disconnected")
       # If there's no VGA monitor connected, then you're good.
       xrandr --auto
-      eval $($LEMON_CMD) &
+      # eval $($LEMON_CMD) &
       notify-send "No external monitor connected."
       # restart_bar=0
       # exit 0
@@ -54,4 +54,5 @@ setres () {
   esac
 }
 
-setres && killall lemonbar ; eval $LEMON_CMD &
+# setres && killall lemonbar ; eval $LEMON_CMD &
+setres

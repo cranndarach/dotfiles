@@ -42,6 +42,7 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec --no-startup-id dmenu_recency
 # bindsym $mod+Shift+d exec --no-startup-id zsh -c "rofi -show run"
 bindsym $mod+d exec --no-startup-id zsh -c "rofi -show drun"
+bindsym $mod+z exec --no-startup-id zsh -c "rofi -show window"
 
 # launch categorized menu
 # bindsym $mod+z exec --no-startup-id morc_menu
@@ -66,8 +67,10 @@ bindsym $mod+Ctrl+m exec pavucontrol
 ################################################################################################
 
 # Screen brightness controls
-bindsym XF85MonBrightnessUp exec "xbacklight -inc 5; notify-send 'brightness up'"
-bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; notify-send 'brightness down'"
+bindsym $mod+Mod1+F5 exec xbacklight -dec 5 && notify-send "brightness: $(xbacklight | awk -F . '{print $1}')"
+bindsym $mod+Mod1+F6 exec xbacklight -inc 5 && notify-send "brightness: $(xbacklight | awk -F . '{print $1}')"
+# bindsym XF85MonBrightnessUp exec "xbacklight -inc 5; notify-send 'brightness up'"
+# bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; notify-send 'brightness down'"
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
@@ -117,6 +120,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 bindsym $mod+n workspace prev
+bindsym $mod+p workspace next
 workspace_auto_back_and_forth yes
 bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
@@ -144,10 +148,10 @@ bindsym $mod+Shift+space floating toggle
 # bindsym $mod+space focus mode_toggle
 
 # Change keyboard layout
-bindsym $mod+space exec keyswitch
+# bindsym $mod+space exec keyswitch
 
 # toggle sticky
-bindsym $mod+Shift+s sticky toggle
+bindsym $mod+period sticky toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -180,6 +184,8 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
+#  🎜  🐕 
+# 🕮 📋🗂🗁🗃🗊🗐🗲  
 # set $w1 "1: "
 set $w1 "1: "
 set $w2 "2: "
@@ -187,12 +193,12 @@ set $w3 "3: "
 # set $w3 "3: "
 set $w4 "4: "
 set $w5 "5: "
-set $w6 "6: "
+set $w6 "6: "
 set $w7 "7: "
 set $w8 "8: "
 set $w9 "9: "
-set $w10 "10: ⚔"
-set $w11 "11: "
+set $w10 "10: "
+set $w11 "11: "
 set $w12 "12: "
 set $w13 "13: "
 set $w14 "14: "
@@ -200,7 +206,7 @@ set $w15 "15: "
 set $w16 "16: "
 set $w17 "17: "
 set $w18 "18: "
-set $w19 "19: "
+set $w19 "19: 🗒"
 set $w20 "20: "
 
 # switch to workspace
@@ -270,22 +276,34 @@ bindsym $mod+Ctrl+F9 move container to workspace $w19; workspace $w19
 bindsym $mod+Ctrl+F10 move container to workspace $w20; workspace $w20
 
 # Open applications on specific workspaces
+
 # Browsers on w2
 assign [class="Pale moon"] $w2
 assign [class="Google-chrome"] $w2
 assign [class="Firefox"] $w2
+
 # Messaging apps on w4
 assign [class="Slack"] $w4
 assign [class="Telegram"] $w4
+
 # Office on 7
 assign [class="libreoffice"] $w7
+
 # Life management programs on w8
 assign [title="LifeTracker"] $w8
 assign [title="Toggl Desktop"] $w8
+
+# GitKraken gets its own workspace
 assign [title="GitKraken"] $w3
+
+# Reading programs on w9
+assign [class="okular"] $w9
+
+# Music on 10
+assign [class="spotify"] $w10
+
 # RStudio on F1
 assign [class="RStudio"] $w11
-
 
 # Iris in the scratchpad
 for_window [class="Iris"] move scratchpad
@@ -360,6 +378,8 @@ mode "resize" {
         bindsym Up resize shrink height 2 px or 2 ppt
         bindsym Right resize grow width 2 px or 2 ppt
 
+        bindsym $mod+Shift+space floating enable, resize set 1600 1400, move position center
+
         # exit resize mode: Enter or Escape
         bindsym Return mode "default"
         bindsym Escape mode "default"
@@ -395,9 +415,10 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec --no-startup-id blueman
 # exec_always --no-startup-id sbxkb
-exec --no-startup-id start_conky_maia
+# Move to after monitor is set up.
+# exec --no-startup-id ~/.local/bin/start_conky
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 15 -locker ~/.scripts/runi3lock
+exec --no-startup-id xautolock -time 25 -locker ~/.scripts/runi3lock -notify 300 -notifier notify-send
 exec --no-startup-id dropbox
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
@@ -563,13 +584,17 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+
 exec --no-startup-id ~/.local/bin/iris
 # exec --no-startup-id pa-applet
 exec --no-startup-id start-pulseaudio-x11
 # exec --no-startup-id ~/.scripts/setmonitor
 # exec --no-startup-id nitrogen --restore
 # exec --no-startup-id konsole -e "~/.scripts/setmonitor"
-exec --no-startup-id konsole -e /bin/zsh -c "~/.scripts/setmonitor && tmux"
+# exec --no-startup-id konsole -e /bin/zsh -c "~/.scripts/setmonitor" && exit 0
+exec --no-startup-id "~/.scripts/setmonitor"
+exec_always --no-startup-id ~/.config/polybar/start_polybar
+exec --no-startup-id ~/.config/conky/start_conky
 # exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper/mine_21344038601_d94a0bb13e_k.jpg
 # exec --no-startup-id eval $LEMON_CMD
 # exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "Source Code Pro-11" -f "fontawesome-regular-12" -B "#390150"
