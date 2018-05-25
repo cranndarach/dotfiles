@@ -54,9 +54,9 @@ Plug 'roxma/vim-tmux-clipboard'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'roosta/srcery'
 Plug 'guns/xterm-color-table.vim'
-Plug 'jalvesaq/Nvim-R'
-Plug 'ervandew/screen'
-Plug 'vim-scripts/R.vim'
+" Plug 'jalvesaq/Nvim-R'
+" Plug 'ervandew/screen'
+" Plug 'vim-scripts/R.vim'
 call plug#end()
 
 " Change Leader key from '\' to ','
@@ -126,6 +126,7 @@ set ruler
 set foldmethod=syntax
 " if it doesn't work in things other than js, try indent:
 " set foldmethod=indent
+au FileType python setlocal foldmethod=indent
 nnoremap za zA
 " Do not fold unless explicitly asked
 " set nofoldenable
@@ -207,6 +208,9 @@ nmap <CR> i<CR><Esc>
 nnoremap <Leader><CR> A<CR>
 inoremap <Leader><CR> <C-O>A<CR>
 
+" Increase numbers with <C-S> (Decrease with <C-X>, the default)
+nnoremap <C-S> <C-A>
+
 " 'j' and 'k' traverse visual lines (inclu soft-wrapped), not literal lines
 " nnoremap j gj
 " nnoremap k gk
@@ -236,6 +240,7 @@ nnoremap <Leader>[ :bN<CR>
 " for markdown and tex files, and just visual modes for everything else)
 au BufNewFile,BufRead *.md,*.tex,*.wiki,*.html nnoremap rf gqip
 vnoremap rf gq
+vnoremap rg :set textwidth=72<CR>gq:set textwidth=79<CR>
 
 " Unbind the cursor keys in insert, normal and visual modes.
 for prefix in ['i', 'n', 'v']

@@ -194,7 +194,7 @@ source /usr/lib/python3.6/site-packages/powerline/bindings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Source autoenv
-[ -f /usr/share/autoenv/activate.sh ] && source /usr/share/autoenv/activate.sh
+# [ -f /usr/share/autoenv/activate.sh ] && source /usr/share/autoenv/activate.sh
 
 # Activate direnv
 # eval "$(direnv hook zsh)"
@@ -228,7 +228,7 @@ load-nvmrc() {
     nvm use default
   fi
 }
-add-zsh-hook chpwd load-nvmrc
+# add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
@@ -257,6 +257,6 @@ export PATH=/home/rachael/.local/misc/pycharm/bin:$PATH
 # Greet me and show my to-do list once everything is loaded.
 echo
 echo "Hello, $USER!"
-# echo "Here's your current to-do list:"
-# echo
-# task
+echo "Here's your current to-do list:"
+echo
+task
