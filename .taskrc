@@ -27,7 +27,7 @@ include ~/.config/task/themes/custom.theme
 # include ~/.themes/taskwarrior-base16-monokai.theme
 
 regex='on'
-dateformat=m/d/y
+dateformat=m/d/y@H:N
 
 # User-defined attributes
 
@@ -49,30 +49,39 @@ uda.difficulty.default=normal
 # Urgency modifiers
 urgency.user.project.Health.coefficient=8.0
 
-urgency.user.tag.mit.coefficient=15.0
-urgency.user.tag.today.coefficient=15.0
+urgency.blocked.coefficient=-8.0
 
-urgency.uda.importance.critical.coefficient=7.0
-urgency.uda.importance.important.coefficient=5.0
-urgency.uda.importance.moderate.coefficient=2.5
+urgency.active.coefficient=2.0
+
+urgency.user.tag.mit.coefficient=8.0
+urgency.user.tag.today.coefficient=15.0
+# Blocking something important (like an MIT):
+urgency.user.tag.obstruction.coefficient=8.0
+# For things without a specific due date, but that should be done soon.
+urgency.user.tag.asap.coefficient=4.0
+
+urgency.uda.importance.critical.coefficient=6.0
+urgency.uda.importance.important.coefficient=2.5
+urgency.uda.importance.moderate.coefficient=1.5
 urgency.uda.importance.normal.coefficient=1.0
-urgency.uda.importance.low.coefficient=0.75
-urgency.uda.importance.minimal.coefficient=0.25
+urgency.uda.importance.low.coefficient=-0.25
+urgency.uda.importance.minimal.coefficient=-1
 
 # urgency.uda.size.biggish.coefficient=1.25
 # urgency.uda.size.big.coefficient=1.5
 # urgency.uda.size.huge.coefficient=2
-urgency.uda.size.small.coefficient=1.25
-urgency.uda.size.quick.coefficient=1.5
-urgency.uda.size.tiny.coefficient=2
+urgency.uda.size.small.coefficient=0.1
+urgency.uda.size.quick.coefficient=0.1
+urgency.uda.size.tiny.coefficient=0.1
 
-urgency.uda.difficulty.simple.coefficient=1.25
-urgency.uda.difficulty.painless.coefficient=1.5
-
+urgency.uda.difficulty.simple.coefficient=0.1
+urgency.uda.difficulty.painless.coefficient=0.1
 
 # Headers
 report.next.columns=id,depends,project,importance,difficulty,size,due.formatted,due.remaining,description,urgency,tags
 report.next.labels=ID,Blocked by,Project,Importance,Difficulty,Size,Due on,Due in,Description,Urg,Tags
+
+report.next.dateformat=a m/d/y
 
 # Server sync
 taskd.certificate=/home/rachael/.ssh/taskwarrior/private.certificate.pem
