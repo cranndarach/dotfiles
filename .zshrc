@@ -23,7 +23,7 @@ elif [[ -f /usr/lib/python3.6/site-packages/powerline/bindings ]]; then
 fi
 
 # 
-export TERM="xterm-256color"
+# export TERM="xterm-256color"
 
 fpath=(~/.zsh/completions $fpath) 
 autoload -U compinit && compinit

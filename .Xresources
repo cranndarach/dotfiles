@@ -3,6 +3,8 @@
 
 #include "/home/rachael/.config/xres/urxvt"
 
+xterm*termName: xterm-256color
+
 ! special
 *.foreground:   #f1ebeb
 *.background:   #272822
