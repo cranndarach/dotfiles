@@ -1,3 +1,8 @@
+#define bg #272822
+#define fg #f1ebeb
+
+#include "/home/rachael/.config/xres/urxvt"
+
 ! special
 *.foreground:   #f1ebeb
 *.background:   #272822

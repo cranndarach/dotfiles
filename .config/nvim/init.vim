@@ -300,11 +300,11 @@ inoremap <C-X>; <C-X><CR><Esc>k$i<Space>
 
 let NERDTreeShowHidden=1
 " Open NERDTree by default
-augroup nerdtree
-    au vimenter * NERDTree | vertical resize -5 | wincmd l
-    " Then move cursor to the next window
-    " au vimenter * wincmd l
-augroup end
+" augroup nerdtree
+"     au vimenter * NERDTree | vertical resize -5 | wincmd l
+"     " Then move cursor to the next window
+"     " au vimenter * wincmd l
+" augroup end
 
 " Toggle NERDTree with `,n`
 nnoremap <Leader>n :NERDTreeToggle<CR>

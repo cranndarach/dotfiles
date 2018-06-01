@@ -22,3 +22,6 @@ masters:~/Documents/School/masters
 lx:~/projects/lexlib
 cor:~/Documents/School/Corpora
 mas:~/Documents/School/masters
+kpd:~/projects/kiloperf-data-repo
+poly:~/.config/polybar
+dots:~/dotfiles

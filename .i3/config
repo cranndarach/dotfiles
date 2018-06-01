@@ -8,18 +8,22 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-# new_window pixel 1
+new_window pixel 1
+new_float pixel 1
 # new_float normal
-for_window [class="^.*"] border pixel 2
-new_window pixel 2
-new_float pixel 2
+# for_window [class="^.*"] border none
+for_window [class="^.*"] border pixel 1
+# new_window none
+# new_float none
+# new_window pixel 2
+# new_float pixel 2
 
 # Hide borders
 hide_edge_borders none
 
 # change borders
 bindsym $mod+u border none
-bindsym $mod+y border pixel 2
+bindsym $mod+y border pixel 1
 # bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -32,8 +36,8 @@ floating_modifier $mod
 # start a terminal
 # bindsym $mod+Return exec terminal
 # bindsym $mod+Return exec tilix -a app-new-window
-bindsym $mod+Return exec konsole
-bindsym $mod+x exec konsole
+bindsym $mod+Return exec urxvtc
+bindsym $mod+x exec urxvtc
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -481,43 +485,43 @@ set $i3_color16         #ffffff
 set $i3_color17         #0c0c0c
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
-bar {
-	status_command i3status
-	position bottom
-
-	# Only show the bar when pressing $mod.
-	# This way, I can rely primarily on lemonbar, but keep the nice clickable i3bar.
-	mode hide
-
-# please set your primary output first. Example: 'xrandr --output eDP1 --primary'
-	# tray_output primary
-	# tray_output eDP1
-  #
-	bindsym button4 nop
-	bindsym button5 nop
-	font xft:Noto Sans 10.5
-	# strip_workspace_numbers yes
-
-	colors {
-#       background $transparent
-        background #2d2d2d
-        statusline $i3_text
-        separator  $i3_separator
-
-#                                  border  backgr. text
-        focused_workspace   $i3_color6  $i3_color4  $i3_text
-        active_workspace    $i3_color6  $i3_color3  $i3_color6
-        inactive_workspace  $i3_color6  $i3_color9  $i3_color6
-        urgent_workspace    $i3_color4  $i3_color13  $i3_color4
-    }
-}
+# bar {
+# 	status_command i3status
+# 	position bottom
+#
+# 	# Only show the bar when pressing $mod.
+# 	# This way, I can rely primarily on lemonbar, but keep the nice clickable i3bar.
+# 	mode hide
+#
+#   # please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+# 	# tray_output primary
+# 	# tray_output eDP1
+#   #
+# 	bindsym button4 nop
+# 	bindsym button5 nop
+# 	font xft:Noto Sans 10.5
+# 	# strip_workspace_numbers yes
+#
+# 	colors {
+# #       background $transparent
+#         background #2d2d2d
+#         statusline $i3_text
+#         separator  $i3_separator
+#
+# #                                  border  backgr. text
+#         focused_workspace   $i3_color6  $i3_color4  $i3_text
+#         active_workspace    $i3_color6  $i3_color3  $i3_color6
+#         inactive_workspace  $i3_color6  $i3_color9  $i3_color6
+#         urgent_workspace    $i3_color4  $i3_color13  $i3_color4
+#     }
+# }
 
 # hide/unhide i3status bar
 # bindsym $mod+m bar mode toggle
 
 # Theme colors
 # class                 border      backgr.     text        indic.      child_border
-client.focused          $i3_color8  $i3_color8  $i3_text    $i3_color12
+client.focused          $term_color12 $term_color12 $i3_text $i3_color12
 client.focused_inactive $i3_color9  $i3_color9  $i3_color4  $i3_color10
 client.unfocused        $i3_color9  $i3_color9  $i3_color4  $i3_color10
 client.urgent           $i3_color13 $i3_color13 $i3_color4  $i3_color14
@@ -532,8 +536,8 @@ client.background       $i3_background
 # Set inner/outer gaps
 # gaps inner 10
 # gaps outer -4
-gaps inner 7
-gaps outer 3
+gaps inner 6
+gaps outer 6
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
@@ -592,9 +596,10 @@ exec --no-startup-id start-pulseaudio-x11
 # exec --no-startup-id nitrogen --restore
 # exec --no-startup-id konsole -e "~/.scripts/setmonitor"
 # exec --no-startup-id konsole -e /bin/zsh -c "~/.scripts/setmonitor" && exit 0
+exec --no-startup-id urxvtd
 exec --no-startup-id "~/.scripts/setmonitor"
-exec_always --no-startup-id ~/.config/polybar/start_polybar
 exec --no-startup-id ~/.config/conky/start_conky
+exec_always --no-startup-id ~/.config/polybar/start_polybar
 # exec --no-startup-id feh --bg-scale ~/Pictures/Wallpaper/mine_21344038601_d94a0bb13e_k.jpg
 # exec --no-startup-id eval $LEMON_CMD
 # exec --no-startup-id python ~/.config/powerline/bindings/lemonbar/powerline-lemonbar.py --i3 -- -f "Source Code Pro-11" -f "fontawesome-regular-12" -B "#390150"
