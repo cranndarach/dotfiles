@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'dylanaraps/wal.vim'
 Plug 'flazz/vim-colorschemes'
 Plug 'cranndarach/vim-ragtag'
 Plug 'tpope/vim-surround'
@@ -91,6 +92,7 @@ let &t_8f="[38;2;%lu%lu%lum"
 let &t_8b="[48;2;%lu%lu%lum"
 set termguicolors
 colorscheme molokai
+" colorscheme wal
 " let g:seoul256_background=235
 " let g:seoul256_srgb=1
 " colorscheme seoul256
@@ -129,7 +131,10 @@ set foldmethod=syntax
 au FileType python setlocal foldmethod=indent
 nnoremap za zA
 " Do not fold unless explicitly asked
-" set nofoldenable
+set nofoldenable
+
+" Pandoc in vim-polyglot makes weird errors.
+let g:polyglot_disabled = ['pandoc', 'markdown']
 
 " Use 2 spaces instead of 4 in ruby and eruby (and js when appropriate)
 " autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
@@ -141,7 +146,7 @@ nnoremap za zA
 au FileType python setlocal shiftwidth=4 tabstop=4 expandtab
 
 " in some cases, move the color column and line width
-au FileType markdown,vimwiki,tex setlocal colorcolumn=160  textwidth=159
+au FileType pandoc,markdown,vimwiki,tex setlocal colorcolumn=160  textwidth=159
 
 " Use shiftwidth when indenting with `>>` and `<<`
 set shiftround
@@ -187,6 +192,7 @@ autocmd BufNewFile,BufRead *.pl set filetype=prolog
 " Treat *.js as javascript instead of JSX
 autocmd BufNewFile,BufRead *.js set filetype=javascript
 autocmd BufNewFile,BufRead *.cson set filetype=coffee
+autocmd BufNewFile,BufRead *.md set filetype=markdown.pandoc
 
 " Show whitespace characters
 set list

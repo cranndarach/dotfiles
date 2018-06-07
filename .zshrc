@@ -6,7 +6,7 @@ fi
 #   source /etc/profile.d/vte.sh
 # fi
 
-# export USER="oak"
+# (cat ~/.cache/wal/sequences &)
 
 export FONTAWESOME=/usr/share/fonts/awesome-terminal-fonts
 source $FONTAWESOME/devicons-regular.sh
@@ -14,16 +14,16 @@ source $FONTAWESOME/fontawesome-regular.sh
 source $FONTAWESOME/octicons-regular.sh
 source $FONTAWESOME/pomicons-regular.sh
 
-if [[ -f /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
-  # Mint (outdated?)
-  source /usr/share/powerline/bindings/zsh/powerline.zsh
-elif [[ -f /usr/lib/python3.6/site-packages/powerline/bindings ]]; then
+# if [[ -f /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
+#   # Mint (outdated?)
+#   source /usr/share/powerline/bindings/zsh/powerline.zsh
+if [[ -f /usr/lib/python3.6/site-packages/powerline/bindings ]]; then
   # Manjaro
   source /usr/lib/python3.6/site-packages/powerline/bindings
 fi
 
 # 
-# export TERM="xterm-256color"
+export TERM="xterm-256color"
 
 fpath=(~/.zsh/completions $fpath) 
 autoload -U compinit && compinit
@@ -260,3 +260,6 @@ echo "Hello, $USER!"
 echo "Here's your current to-do list:"
 echo
 task
+
+
+. /home/rachael/.local/lib/torch/install/bin/torch-activate

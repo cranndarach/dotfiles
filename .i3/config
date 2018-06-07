@@ -35,9 +35,10 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec terminal
-# bindsym $mod+Return exec tilix -a app-new-window
-bindsym $mod+Return exec urxvtc
-bindsym $mod+x exec urxvtc
+bindsym $mod+Return exec tilix -a app-new-window
+bindsym $mod+x exec tilix -a app-new-window
+# bindsym $mod+Return exec urxvtc
+# bindsym $mod+x exec urxvtc
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -282,32 +283,32 @@ bindsym $mod+Ctrl+F10 move container to workspace $w20; workspace $w20
 # Open applications on specific workspaces
 
 # Browsers on w2
-assign [class="Pale moon"] $w2
-assign [class="Google-chrome"] $w2
-assign [class="Firefox"] $w2
+# assign [class="Pale moon"] $w2
+# assign [class="Google-chrome"] $w2
+# assign [class="Firefox"] $w2
 
 # Messaging apps on w4
-assign [class="Slack"] $w4
-assign [class="Telegram"] $w4
+# assign [class="Slack"] $w4
+# assign [class="Telegram"] $w4
 
 # Office on 7
-assign [class="libreoffice"] $w7
+# assign [class="libreoffice"] $w7
 
 # Life management programs on w8
-assign [title="LifeTracker"] $w8
-assign [title="Toggl Desktop"] $w8
+# assign [title="LifeTracker"] $w8
+# assign [title="Toggl Desktop"] $w8
 
 # GitKraken gets its own workspace
-assign [title="GitKraken"] $w3
+# assign [title="GitKraken"] $w3
 
 # Reading programs on w9
-assign [class="okular"] $w9
+# assign [class="okular"] $w9
 
 # Music on 10
-assign [class="spotify"] $w10
+# assign [class="spotify"] $w10
 
 # RStudio on F1
-assign [class="RStudio"] $w11
+# assign [class="RStudio"] $w11
 
 # Iris in the scratchpad
 for_window [class="Iris"] move scratchpad
@@ -412,6 +413,7 @@ bindsym $mod+Shift+End exec --no-startup-id runi3lock
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+# exec --no-startup-id compton
 #exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
@@ -422,7 +424,7 @@ exec --no-startup-id clipit
 # Move to after monitor is set up.
 # exec --no-startup-id ~/.local/bin/start_conky
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 25 -locker ~/.scripts/runi3lock -notify 300 -notifier notify-send
+exec --no-startup-id xautolock -time 35 -locker ~/.scripts/runi3lock -notify 300 -notifier notify-send
 exec --no-startup-id dropbox
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
@@ -520,14 +522,23 @@ set $i3_color17         #0c0c0c
 # bindsym $mod+m bar mode toggle
 
 # Theme colors
-# class                 border      backgr.     text        indic.      child_border
-client.focused          $term_color12 $term_color12 $i3_text $i3_color12
-client.focused_inactive $i3_color9  $i3_color9  $i3_color4  $i3_color10
-client.unfocused        $i3_color9  $i3_color9  $i3_color4  $i3_color10
-client.urgent           $i3_color13 $i3_color13 $i3_color4  $i3_color14
-client.placeholder      $i3_color15 $i3_color17 $i3_color16 $i3_color15 $i3_color17
+set_from_resource $fg i3wm.color7
+set_from_resource $bg i3wm.color2
+client.focused          $bg $bg $fg $bg $bg
+client.focused_inactive $bg $bg $fg $bg $bg
+client.unfocused        $bg $bg $fg $bg $bg
+client.urgent           $bg $bg $fg $bg $bg
+client.placeholder      $bg $bg $fg $bg $bg
 
-client.background       $i3_background
+client.background       $bg
+# class                 border      backgr.     text        indic.      child_border
+# client.focused          $term_color12 $term_color12 $i3_text $i3_color12
+# client.focused_inactive $i3_color9  $i3_color9  $i3_color4  $i3_color10
+# client.unfocused        $i3_color9  $i3_color9  $i3_color4  $i3_color10
+# client.urgent           $i3_color13 $i3_color13 $i3_color4  $i3_color14
+# client.placeholder      $i3_color15 $i3_color17 $i3_color16 $i3_color15 $i3_color17
+#
+# client.background       $i3_background
 
 #############################
 ### settings for i3-gaps: ###
@@ -596,7 +607,7 @@ exec --no-startup-id start-pulseaudio-x11
 # exec --no-startup-id nitrogen --restore
 # exec --no-startup-id konsole -e "~/.scripts/setmonitor"
 # exec --no-startup-id konsole -e /bin/zsh -c "~/.scripts/setmonitor" && exit 0
-exec --no-startup-id urxvtd
+# exec --no-startup-id urxvtd
 exec --no-startup-id "~/.scripts/setmonitor"
 exec --no-startup-id ~/.config/conky/start_conky
 exec_always --no-startup-id ~/.config/polybar/start_polybar

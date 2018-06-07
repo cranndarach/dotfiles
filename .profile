@@ -33,3 +33,6 @@ fi
 
 
 # . /home/rachael/torch/install/bin/torch-activate
+
+
+. /home/rachael/.local/lib/torch/install/bin/torch-activate
