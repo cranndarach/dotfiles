@@ -193,6 +193,7 @@ autocmd BufNewFile,BufRead *.pl set filetype=prolog
 autocmd BufNewFile,BufRead *.js set filetype=javascript
 autocmd BufNewFile,BufRead *.cson set filetype=coffee
 autocmd BufNewFile,BufRead *.md set filetype=markdown.pandoc
+autocmd BufNewFile,BufRead *.Xresources set filetype=xdefaults
 
 " Show whitespace characters
 set list

@@ -221,7 +221,7 @@ load-nvmrc() {
     if [ "$nvmrc_node_version" = "N/A" ]; then
       nvm install
     elif [ "$nvmrc_node_version" != "$node_version" ]; then
-      nvm use
+      nvm use --silent
     fi
   elif [ "$node_version" != "$(nvm version default)" ]; then
     echo "Reverting to nvm default version"
@@ -257,9 +257,9 @@ export PATH=/home/rachael/.local/misc/pycharm/bin:$PATH
 # Greet me and show my to-do list once everything is loaded.
 echo
 echo "Hello, $USER!"
-echo "Here's your current to-do list:"
-echo
-task
+# echo "Here's your current to-do list:"
+# echo
+# task
 
 
 . /home/rachael/.local/lib/torch/install/bin/torch-activate
