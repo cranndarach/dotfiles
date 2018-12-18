@@ -142,8 +142,13 @@ let g:polyglot_disabled = ['pandoc', 'markdown']
 " autocmd FileType scss setlocal shiftwidth=2 tabstop=2 expandtab
 " autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 
+au FileType coffee setlocal ts=2 sts=2 noet
+
 " Use 4 spaces instead of 2 in python and maybe others
 au FileType python setlocal shiftwidth=4 tabstop=4 expandtab
+
+" Highlight columns 73 and 80 in Python.
+au FileType python setlocal colorcolumn=73,80
 
 " in some cases, move the color column and line width
 au FileType pandoc,markdown,vimwiki,tex setlocal colorcolumn=160  textwidth=159
@@ -218,9 +223,12 @@ inoremap <Leader><CR> <C-O>A<CR>
 " Increase numbers with <C-S> (Decrease with <C-X>, the default)
 nnoremap <C-S> <C-A>
 
+" Insert \(\)
+cmap <Leader>/ \(\)<Left><Left>
+
 " 'j' and 'k' traverse visual lines (inclu soft-wrapped), not literal lines
-" nnoremap j gj
-" nnoremap k gk
+nnoremap j gj
+nnoremap k gk
 
 " Save file with `,w`
 nnoremap <Leader>w :w<CR>
@@ -247,7 +255,7 @@ nnoremap <Leader>[ :bN<CR>
 " for markdown and tex files, and just visual modes for everything else)
 au BufNewFile,BufRead *.md,*.tex,*.wiki,*.html nnoremap rf gqip
 vnoremap rf gq
-vnoremap rg :set textwidth=72<CR>gq:set textwidth=79<CR>
+" vnoremap rt :set textwidth=72<CR>gq set textwidth=79<CR>
 
 " Unbind the cursor keys in insert, normal and visual modes.
 for prefix in ['i', 'n', 'v']
@@ -262,6 +270,7 @@ augroup docstring
 augroup end
 
 au BufNewFile,BufRead *.js nnoremap ;; :s/\(function\)\ \([a-zA-Z]\+\)/exports.\2 = \1<CR>
+au BufNewFile,BufRead *.js nnoremap <leader><leader> :s/exports\.\([a-zA-Z]\+\)\ =\ \(function\)/\2 \1<CR>
 
 
 """""""""""""""""""""
@@ -284,7 +293,7 @@ let g:rainbow_active=1
 
 " Rainbow setup
 let g:rainbow_conf = {
-\  'guifgs': ['#6AB017', '#00dfff', '#ff5f87', '#ff0087', '#0087ff', '#dfdf5f', '#00ffdf', '#ffff00'],
+\  'guifgs': ['#ec407a', '#ffa726', '#ffee58', '#acec55', '#00b0ff', '#9575cd', '#00e5ff', '#ea80fc'],
 \  'ctermfgs': [2, 45, 204, 198, 33, 185, 50, 226],
 \  'operators': '_,_',
 \  'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
