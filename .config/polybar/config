@@ -70,8 +70,8 @@ font-3 = SauceCodeProNerdFont:pixelsize=11;1
 font-4 = Weather Icons:size=12;1
 
 modules-left = i3 xwindow
-modules-center = mpd datetime
-modules-right = battery openweathermap-simple xbacklight memory cpu wlan eth xkeyboard powermenu tray
+modules-center = datetime
+modules-right = openweathermap-simple memory cpu battery xbacklight powermenu tray
 
 tray-position = right
 tray-padding = 2
@@ -214,7 +214,7 @@ label-urgent-padding = ${module/bspwm.label-urgent-padding}
 
 [module/mpd]
 type = internal/mpd
-format-online = <label-song>  <icon-prjv> <icon-stop> <toggle> <icon-next>
+format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
 
 icon-prev = 
 icon-stop = 
@@ -230,13 +230,14 @@ type = internal/xbacklight
 output = eDP1
 enable-scroll = true
 
-format = " <ramp><label>"
+format = "<ramp><label>"
 ; label = " "
-label = "%percentage%% "
-format-foreground = ${colors.fg}
-format-background = ${colors.blue2}
-format-underline = ${colors.blue1}
-format-overline = ${self.format-underline}
+label = "%percentage%%"
+; format-foreground = ${colors.fg}
+; format-background = ${colors.blue2}
+format-foreground = ${colors.blue2}
+; format-underline = ${colors.blue1}
+; format-overline = ${self.format-underline}
 
 ramp-0 = "  "
 ramp-1 = "  "
@@ -245,7 +246,7 @@ ramp-3 = "  "
 
 bar-width = 6
 bar-indicator = |
-bar-indicator-foreground = ${colors.fg}
+bar-indicator-foreground = ${colors.blue2}
 bar-indicator-font = 2
 bar-fill = ─
 bar-fill-font = 2
@@ -256,14 +257,14 @@ bar-empty-font = 2
 bar-empty-foreground = ${colors.fg}
 ; bar-empty = ${vars.slider-empty}
 
-bar-fill-foreground-0 = #333
-bar-fill-foreground-1 = #555
-bar-fill-foreground-2 = #777
-bar-fill-foreground-3 = #999
-bar-fill-foreground-4 = #bbb
-bar-fill-foreground-5 = #ddd
-bar-fill-foreground-6 = #fff
-bar-fill-foreground-7 = #fff
+; bar-fill-foreground-0 = #333
+; bar-fill-foreground-1 = #555
+; bar-fill-foreground-2 = #777
+; bar-fill-foreground-3 = #999
+; bar-fill-foreground-4 = #bbb
+; bar-fill-foreground-5 = #ddd
+; bar-fill-foreground-6 = #fff
+; bar-fill-foreground-7 = #fff
 
 [module/backlight-acpi]
 inherit = module/xbacklight
@@ -275,28 +276,29 @@ enable-scroll = true
 type = internal/cpu
 interval = 2
 ; format-prefix = " CPU"
-format-prefix = " "
+format-prefix = ""
 ; format-prefix-foreground = ${colors.foreground-alt}
-format-foreground = ${colors.fg}
-format-background = ${colors.yellow2}
+; format-foreground = ${colors.fg}
+; format-background = ${colors.yellow2}
+format-foreground = ${colors.yellow2}
 ; format-underline = #FFD666
-format-underline = ${colors.yellow1}
-format-overline = ${self.format-underline}
-label = "%percentage:2%% "
+; format-underline = ${colors.yellow1}
+; format-overline = ${self.format-underline}
+label = "%percentage:2%%"
 
 [module/memory]
 type = internal/memory
 interval = 2
 ; format-prefix = " RAM "
 ; format-prefix = " 🐕"
-format-prefix = "  "
-format-foreground = ${colors.fg}
-format-background = ${colors.green2}
-format-underline = ${colors.green1}
-format-overline = ${self.format-underline}
+format-prefix = ""
+; format-foreground = ${colors.fg}
+format-foreground = ${colors.green2}
+; format-underline = ${colors.green1}
+; format-overline = ${self.format-underline}
 ; format-underline = #C866EF
 ; label = "%percentage_used%% "
-label = "%gb_used% "
+label = "%gb_used%"
 
 [module/wlan]
 type = internal/network
@@ -349,21 +351,21 @@ format-disconnected =
 type = internal/date
 interval = 5
 time = %I:%M%P %A, %B %d, %Y
-time-alt = %I:%M:%S%P %A, %B %d, %Y
-format-prefix = "  "
-format-foreground = ${colors.fg}
+; time-alt = %I:%M:%S%P %A, %B %d, %Y
+; format-prefix = "  "
+format-foreground = ${colors.xrfg}
 ; format-label-font = 3
 ; format-foreground = ${colors.xrbg}: 
-format-background = ${colors.green2}
+; format-foreground = ${colors.green2}
 ; border-size = 4
 ; border-color = ${colors.avocado2}
-format-underline = ${colors.green1}
-format-overline = ${self.format-underline}
-padding = 2
+; format-underline = ${colors.green1}
+; format-overline = ${self.format-underline}
+; padding = 2
 ; label-font = weight=bold
 ; format-underline = #0a6cf5
 ; label = " %{F#weight=bold}%time%%{F-} "
-label = "%time% "
+label = "%time%"
 
 [module/volume]
 type = internal/volume
@@ -424,35 +426,35 @@ full-at = 100
 ; label = %percentage%%
 time-format = %H:%M
 
-format-charging = " <animation-charging> <label-charging> "
+format-charging = "<animation-charging><label-charging>"
 format-charging-foreground = ${colors.fg-alt}
 ; format-charging-background = ${colors.blue1}
 ; format-charging-underline = ${colors.blue2}
 ; format-charging-overline = ${self.format-charging-underline}
 label-charging = %percentage%% (%time%)
 
-format-discharging = " <ramp-capacity> <label-discharging> "
+format-discharging = "<ramp-capacity><label-discharging>"
 label-discharging = %percentage%% (%time%)
 
 ;
 ; format-full-prefix = "  "
-format-full = " <ramp-capacity> "
+format-full = "<ramp-capacity>"
 ; format-full = <label-full>
 ; label-full = " %percentage%% "
-format-full-foreground = ${colors.fg}
+; format-full-foreground = ${colors.fg}
 ; format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-background = ${colors.green1}
-format-full-underline = ${colors.green2}
-format-full-overline = ${self.format-full-underline}
+; format-full-background = ${colors.green1}
+; format-full-underline = ${colors.green2}
+; format-full-overline = ${self.format-full-underline}
 
 ; 
-ramp-capacity-0 = " "
+ramp-capacity-0 = ""
 ; ramp-capacity-1 = " "
 ; ramp-capacity-0 = "  "
-ramp-capacity-1 = "  "
+ramp-capacity-1 = " "
 ; ramp-capacity-2 = "  "
-ramp-capacity-2 = "  "
-ramp-capacity-3 = "  "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
 ; ramp-capacity-2 = " "
 ; ramp-capacity-3 = " "
 ; ramp-capacity-4 = " "
@@ -469,8 +471,8 @@ ramp-capacity-3 = "  "
 ; ramp-capacity-3 = "  "
 ; ramp-capacity-foreground = ${colors.foreground-alt}
 ; 
-animation-charging-0 = " "
-animation-charging-1 = " "
+animation-charging-0 = ""
+animation-charging-1 = ""
 
 ; animation-charging-0 = "  "
 ; animation-charging-1 = "  "
@@ -504,12 +506,12 @@ type = custom/menu
 
 expand-right = true
 
-format-spacing = 1
+; format-spacing = 1
 
-label-open = 
-label-open-foreground = ${colors.secondary}
+label-open = 
+; label-open-foreground = ${colors.foreground-alt}
 label-close =  cancel
-label-close-foreground = ${colors.secondary}
+; label-close-foreground = ${colors.foreground-alt}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
