@@ -85,12 +85,12 @@ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 # # bindsym $mod+F3 exec ranger
 # bindsym $mod+Shift+F3 exec gksu pcmanfm
 # bindsym $mod+F5 exec terminal -e 'mocp'
-bindsym $mod+t exec --no-startup-id pkill compton
+bindsym $mod+Mod1+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 bindsym $mod+Mod1+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 # bindsym Print exec --no-startup-id i3-scrot
-bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
-bindsym $mod+Insert --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Print --release exec --no-startup-id i3-scrot -u
+bindsym $mod+Insert --release exec --no-startup-id i3-scrot -u
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+Insert --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+slash exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
@@ -191,15 +191,16 @@ bindsym $mod+Ctrl+Left workspace prev
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
 #  🎜  🐕 
-# 🕮 📋🗂🗁🗃🗊🗐🗲  
+# 🕮 📋🗂   
+#   
 # set $w1 "1: "
 set $w1 "1: "
-set $w2 "2: "
+set $w2 "2: "
 set $w3 "3: "
 # set $w3 "3: "
 set $w4 "4: "
-set $w5 "5: "
-set $w6 "6: "
+set $w5 "5: "
+set $w6 "6: "
 set $w7 "7: "
 set $w8 "8: "
 set $w9 "9: "
@@ -601,7 +602,7 @@ mode "$mode_gaps_outer" {
 }
 
 
-exec --no-startup-id ~/.local/bin/iris
+# exec --no-startup-id ~/.local/bin/iris
 # exec --no-startup-id pa-applet
 # exec --no-startup-id start-pulseaudio-x11
 # exec --no-startup-id ~/.scripts/setmonitor

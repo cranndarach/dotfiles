@@ -7,7 +7,7 @@ xterm*termName: xterm-256color
 
 ! special
 *.foreground:   #c4deed
-*.background:   #34617c
+*.background:   #24516c
 *.cursorColor:  #c4deed
 
 ! black
@@ -15,31 +15,31 @@ xterm*termName: xterm-256color
 *.color8:       #b3a4c1
 
 ! red
-*.color1:       #f66f77
-*.color9:       #f89ba0
+*.color1:       #e64f77
+*.color9:       #ffa5b7
 
 ! green
 *.color2:       #4ba28b
-*.color10:      #9cfae3
+*.color10:      #8cfac3
 
 ! yellow
-*.color3:       #d46c38
-*.color11:      #fcc1a3
+*.color3:       #c18143
+*.color11:      #f5e193
 
 ! blue
 *.color4:       #198abe
-*.color12:      #88d6fa
+*.color12:      #68e6fa
 
 ! magenta
 *.color5:       #9563bf
-*.color13:      #cbb4df
+*.color13:      #ebc4ff
 
 ! cyan
-*.color6:       #1f9fb3
-*.color14:      #8dedf7
+*.color6:       #1dad97
+*.color14:      #7dfde7
 
 ! white
-*.color7:       #c0dabe
+*.color7:       #a0ba9e
 *.color15:      #d6ecd5
 
 ! special
