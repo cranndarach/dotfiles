@@ -1,3 +1,9 @@
+[vars]
+slider-filled = -
+slider-empty = -
+; slider-filled = ▪
+; slider-empty = ▫
+
 [colors]
 primary = #ffb52a
 secondary = #fc0086

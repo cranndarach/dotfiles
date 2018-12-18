@@ -19,13 +19,7 @@
 ;=====================================================
 
 [section/base]
-include-file = /home/rachael/.config/polybar/colors
-
-[vars]
-slider-filled = -
-slider-empty = -
-; slider-filled = ▪
-; slider-empty = ▫
+include-file = /home/rachael/.config/polybar/variables
 
 [bar/main]
 monitor = ${env:MONITOR:HDMI2}
@@ -48,8 +42,8 @@ foreground = ${colors.xrfg}
 line-size = 4
 line-color = #00
 
-border-size = 24
-border-top-size = 13
+border-size = 10
+border-top-size = 10
 border-bottom-size = 0
 ; padding-top-size = 5
 ; border-top-size = 5
@@ -58,8 +52,8 @@ border-bottom-size = 0
 ; underline-size = 3
 ; overline-size = 3
 border-color = #00000000
-overline-color = #00000000
-underline-color = #00000000
+; overline-color = #00000000
+; underline-color = #00000000
 
 padding-left = 1
 padding-right = 1
@@ -72,26 +66,19 @@ font-0 = SourceCodePro:pixelsize=11;1
 ; font-1 = SauceCodeProNerdFont:pixelsize=11;1
 font-1 = FontAwesome:pixelsize=11;1
 font-2 = icomoon:pixelsize=11;1
+font-3 = SauceCodeProNerdFont:pixelsize=11;1
+font-4 = Weather Icons:size=12;1
 
 modules-left = i3 xwindow
 modules-center = mpd datetime
-modules-right = battery xbacklight volume memory cpu wlan eth xkeyboard powermenu tray
+modules-right = battery openweathermap-simple xbacklight memory cpu wlan eth xkeyboard powermenu tray
 
 tray-position = right
 tray-padding = 2
 ; tray-transparent = true
-; tray-background = #0063ff
 
 cursor-click = pointer
 cursor-scroll = ns-resize
-
-; [bar/under]
-; height = 24
-; border-size = 12
-; border-top-size = 10
-; radius = 3.0
-; background = #55272822
-; modules-center = datetime
 
 [bar/secondary]
 inherit = bar/main
@@ -102,6 +89,12 @@ font-0 = SourceCodePro:pixelsize=12;1
 font-1 = SauceCodeProNerdFont:pixelsize=12;1
 font-2 = FontAwesome:pixelsize=12;1
 font-3 = icomoon:pixelsize=12;1
+
+[module/openweathermap-simple]
+type = custom/script
+exec = ~/.config/polybar/scripts/openweathermap-simple.sh
+interval = 600
+label-font = 5
 
 [module/xwindow]
 type = internal/xwindow
