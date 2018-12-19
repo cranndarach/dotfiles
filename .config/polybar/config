@@ -27,46 +27,37 @@ enable-ipc = true
 ; override-redirect = true
 ; width = 90%
 width = 100%
-height = 32
+height = 27
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 6.0
-; module-radius = 5.0
+radius = 2.0
+border-size = 4
+border-bottom-size = 0
+border-color = #00000000
+padding-left = 1
+padding-right = 1
 fixed-center = true
+
+module-margin = 1
+separator = |
+; module-margin-left = 1
+; module-border-top = 3
+; module-border-color = #ff000000
 
 ; background = ${colors.xrbg}
 ; background = #aa272822
 background = ${colors.xrbg}
 foreground = ${colors.xrfg}
 
-line-size = 4
-line-color = #00
+; line-size = 4
+; line-color = #00
 
-border-size = 10
-border-top-size = 10
-border-bottom-size = 0
-; padding-top-size = 5
-; border-top-size = 5
-; border-color = ${colors.
-; background-alt}
-; underline-size = 3
-; overline-size = 3
-border-color = #00000000
-; overline-color = #00000000
-; underline-color = #00000000
 
-padding-left = 1
-padding-right = 1
-
-; module-margin-left = 1
-; module-border-top = 3
-; module-border-color = #ff000000
-
-font-0 = SourceCodePro:pixelsize=11;1
+font-0 = SourceCodePro:size=10;1
 ; font-1 = SauceCodeProNerdFont:pixelsize=11;1
-font-1 = FontAwesome:pixelsize=11;1
-font-2 = icomoon:pixelsize=11;1
-font-3 = SauceCodeProNerdFont:pixelsize=11;1
+font-1 = FontAwesome:size=10;1
+font-2 = icomoon:size=10;1
+font-3 = SauceCodeProNerdFont:size=10;1
 font-4 = Weather Icons:size=12;1
 
 modules-left = i3 xwindow
@@ -83,12 +74,18 @@ cursor-scroll = ns-resize
 [bar/secondary]
 inherit = bar/main
 monitor = eDP1
-height = 31
-border-top-size = 8
-font-0 = SourceCodePro:pixelsize=12;1
-font-1 = SauceCodeProNerdFont:pixelsize=12;1
-font-2 = FontAwesome:pixelsize=12;1
-font-3 = icomoon:pixelsize=12;1
+; height = 31
+; border-top-size = 8
+font-0 = SourceCodePro:size=10;1
+; font-1 = SauceCodeProNerdFont:pixelsize=11;1
+font-1 = FontAwesome:size=10;1
+font-2 = icomoon:size=10;1
+font-3 = SauceCodeProNerdFont:size=10;1
+font-4 = Weather Icons:size=12;1
+; font-0 = SourceCodePro:pixelsize=12;1
+; font-1 = SauceCodeProNerdFont:pixelsize=12;1
+; font-2 = FontAwesome:pixelsize=12;1
+; font-3 = icomoon:pixelsize=12;1
 
 [module/openweathermap-simple]
 type = custom/script
