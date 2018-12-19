@@ -90,6 +90,7 @@ font-4 = Weather Icons:size=12;1
 [module/openweathermap-simple]
 type = custom/script
 exec = ~/.config/polybar/scripts/openweathermap-simple.sh
+format-foreground = ${colors.blue2}
 interval = 600
 label-font = 5
 
@@ -236,7 +237,7 @@ format = "<ramp><label>"
 label = "%percentage%%"
 ; format-foreground = ${colors.fg}
 ; format-background = ${colors.blue2}
-format-foreground = ${colors.blue2}
+format-foreground = ${colors.yellow2}
 ; format-underline = ${colors.blue1}
 ; format-overline = ${self.format-underline}
 
@@ -281,7 +282,7 @@ format-prefix = ""
 ; format-prefix-foreground = ${colors.foreground-alt}
 ; format-foreground = ${colors.fg}
 ; format-background = ${colors.yellow2}
-format-foreground = ${colors.yellow2}
+format-foreground = ${colors.magenta2}
 ; format-underline = #FFD666
 ; format-underline = ${colors.yellow1}
 ; format-overline = ${self.format-underline}
@@ -452,10 +453,10 @@ format-full = "<ramp-capacity>"
 ramp-capacity-0 = ""
 ; ramp-capacity-1 = " "
 ; ramp-capacity-0 = "  "
-ramp-capacity-1 = " "
+ramp-capacity-1 = ""
 ; ramp-capacity-2 = "  "
-ramp-capacity-2 = " "
-ramp-capacity-3 = " "
+ramp-capacity-2 = ""
+ramp-capacity-3 = ""
 ; ramp-capacity-2 = " "
 ; ramp-capacity-3 = " "
 ; ramp-capacity-4 = " "
