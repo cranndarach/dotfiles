@@ -224,7 +224,7 @@ inoremap <Leader><CR> <C-O>A<CR>
 nnoremap <C-S> <C-A>
 
 " Insert \(\)
-cmap <Leader>/ \(\)<Left><Left>
+cmap <Leader>\ \(\)<Left><Left>
 
 " 'j' and 'k' traverse visual lines (inclu soft-wrapped), not literal lines
 nnoremap j gj
