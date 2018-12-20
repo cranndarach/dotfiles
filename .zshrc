@@ -7,6 +7,7 @@ fi
 # fi
 
 # (cat ~/.cache/wal/sequences &)
+# exec $(wal -R)
 
 export FONTAWESOME=/usr/share/fonts/awesome-terminal-fonts
 source $FONTAWESOME/devicons-regular.sh
